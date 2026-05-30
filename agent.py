@@ -12,7 +12,7 @@ from connection_manager import SocketClient
 from llm_client import LLMClient
 from graph import build_graph
 from nodes import log_colored, load_kb
-from reflector import _load_experiences
+from nodes.reflector import _load_experiences
 
 
 def main():
@@ -58,7 +58,10 @@ def main():
         "completed_phases": [],
         "environment_type": "unknown",
         "analysis": "",
+        "action_type": "wait",
         "payload": "",
+        "expected_result": "",
+        "last_client_payload": "",
         "should_reconnect": False,
         "should_stop": False,
         "should_exit": False,
@@ -82,7 +85,10 @@ def main():
             current_state["should_reconnect"] = False
             current_state["should_stop"] = False
             current_state["should_exit"] = False
+            current_state["action_type"] = "wait"
             current_state["payload"] = ""
+            current_state["expected_result"] = ""
+            current_state["last_client_payload"] = ""
             current_state["kb_update_future"] = None
 
             # 从磁盘重新加载当前阶段知识库（防止断连丢失）

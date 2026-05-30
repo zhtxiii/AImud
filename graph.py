@@ -17,8 +17,8 @@ from state import AgentState
 from nodes import (
     observe, analyze, act,
     start_knowledge_update_bg, sync_knowledge_update,
+    planner
 )
-from planner import planner
 
 
 def _route_after_planner(state: AgentState) -> str:
@@ -44,6 +44,19 @@ def _route_after_act(state: AgentState) -> str:
     if state.get("should_reconnect", False):
         return "end"
     return "sync_kb"
+
+
+def _route_after_analyze(state: AgentState) -> str:
+    """
+    analyze 之后的路由：
+    - 当前任务已完成/陷入僵局 → 不再执行动作，直接同步知识库后回 planner
+    - 否则 → act 执行模型选择的动作
+    """
+    if state.get("task_completed", False):
+        return "sync_kb"
+    if state.get("task_stuck", False):
+        return "sync_kb"
+    return "act"
 
 
 def _route_after_sync_kb(state: AgentState) -> str:
@@ -116,8 +129,15 @@ def build_graph():
     # start_kb_bg → analyze（后台知识管理已启动，立即进入分析）
     graph.add_edge("start_kb_bg", "analyze")
 
-    # analyze → act
-    graph.add_edge("analyze", "act")
+    # analyze → act 或 sync_kb
+    graph.add_conditional_edges(
+        "analyze",
+        _route_after_analyze,
+        {
+            "act": "act",
+            "sync_kb": "sync_kb",
+        },
+    )
 
     # act → sync_kb 或 END
     graph.add_conditional_edges(

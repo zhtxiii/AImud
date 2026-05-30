@@ -34,7 +34,10 @@ class AgentState(TypedDict, total=False):
 
     # --- LLM 决策结果 ---
     analysis: str            # LLM 分析文本
+    action_type: str         # 动作类型：send / enter / wait
     payload: str             # 要发送的 Payload
+    expected_result: str     # 预期服务器响应
+    last_client_payload: str # 上一次实际发送给服务器的内容
 
     # --- 控制流 ---
     should_reconnect: bool   # 需要重连（连接断开）

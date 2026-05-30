@@ -20,6 +20,11 @@ def _load_api_key():
 TARGET_IP = os.environ.get("AGENT_TARGET_IP", "127.0.0.1")
 TARGET_PORT = int(os.environ.get("AGENT_TARGET_PORT", 4000))
 
+# --- DeepSeek 配置 ---
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY") or _load_api_key()
+DEEPSEEK_MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-v4-flash")
+DEEPSEEK_BASE_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+
 # --- 智能体运行配置 ---
 MAX_HISTORY_ROUNDS = 50
 LOG_DIR = os.path.join(_SCRIPT_DIR, "logs")
@@ -35,12 +40,6 @@ KB_FILE = os.path.join(DATA_DIR, "knowledge_base.json")  # 保留兼容
 KB_DIR = os.path.join(DATA_DIR, "knowledge_bases")  # 阶段化知识库目录
 KB_CONSOLIDATION_INTERVAL = 20  # 每隔 N 轮整理一次知识库
 MAX_TASK_ATTEMPTS = 50           # 单个任务最大尝试轮数，超过则判定为僵局
-
-# --- LLM 配置 ---
-API_KEY = os.environ.get("DEEPSEEK_API_KEY", _load_api_key())
-BASE_URL = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
-MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
-REASONER_MODEL = os.environ.get("DEEPSEEK_REASONER_MODEL", "deepseek-reasoner")
 
 # --- 颜色配置 ---
 class Colors:

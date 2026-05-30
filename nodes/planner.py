@@ -12,8 +12,8 @@ from state import AgentState
 
 import datetime
 
-from nodes import log_colored, get_aggregated_kb
-from reflector import reflect_on_task
+from nodes.helpers import log_colored, get_aggregated_kb
+from nodes.reflector import reflect_on_task
 
 
 def _log(tag: str, message: str, color: str = None):
@@ -28,7 +28,7 @@ def _log_planner_event(event_type: str, message: str):
     """
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_line = f"[{timestamp}] [{event_type}] {message}\n"
-    
+
     try:
         with open(config.PLANNER_LOG_FILE, "a", encoding="utf-8") as f:
             f.write(log_line)
@@ -67,12 +67,12 @@ PHASE1_TASKS = [
 def planner(state: AgentState) -> dict:
     """
     规划者节点：独立于执行循环之外的调度中心。
-    
+
     只负责：
     1. 制定当前阶段的任务列表
     2. 从任务列表选取下一个待执行任务并制定计划
     3. 在阶段任务全部完成时推进到下一阶段
-    
+
     不参与观察、分析、行动、知识管理的循环。
     """
     llm = state["llm"]
@@ -113,19 +113,19 @@ def planner(state: AgentState) -> dict:
         if last_task and last_task.get("id"):
             # 获取全量知识用于反思
             full_kb = get_aggregated_kb(phase, knowledge_base)
-            
+
             # 调用反思者
             reflections = reflect_on_task(llm, last_task, full_kb, phase)
-            
+
             # 更新状态中的经验和技能
             new_experiences = reflections.get("new_experiences", [])
             new_skills = reflections.get("new_skills", [])
-            
+
             if new_experiences:
                 state.setdefault("experiences", []).extend(new_experiences)
             if new_skills:
                 state.setdefault("skills", []).extend(new_skills)
-                
+
             # 重置 task_completed 标志 (task_stuck 会在后面处理)
             if state.get("task_completed", False):
                  state["task_completed"] = False
@@ -142,10 +142,10 @@ def planner(state: AgentState) -> dict:
 
         # 获取全量知识用于决策
         full_kb = get_aggregated_kb(phase, knowledge_base)
-        
+
         # LLM 决策如何处理
         action_updates = _handle_stuck_task(llm, current_task, stuck_reason, full_kb, phase)
-        
+
         # 更新任务列表
         for t in tasks:
             if t["id"] == task_id:
@@ -157,12 +157,12 @@ def planner(state: AgentState) -> dict:
                      # 不，_handle_stuck_task 返回的 status 可能是 'pending' (重试)
                      pass
                 break
-        
+
         # 更新本地变量，以便流程继续
         task_stuck = False
         state["task_stuck"] = False
         current_task = {}  # 重置当前任务，让后续逻辑重新分配
-        
+
         _log("规划者", "僵局任务处理完毕，继续检查后续任务...", Colors.CYAN)
         _log_planner_event("TASK_STUCK_HANDLED", f"[{task_id}] 状态更新为: {action_updates.get('status')} | 原因: {stuck_reason}")
 
@@ -199,7 +199,7 @@ def planner(state: AgentState) -> dict:
         new_phase = phase + 1
         # 获取全量知识用于新阶段规划（当前阶段知识库尚未清空，加上之前的所有）
         full_kb_for_planning = get_aggregated_kb(phase, knowledge_base)
-        
+
         new_phase_name = _determine_phase_name(llm, new_phase, completed_phases, full_kb_for_planning, environment_type)
         new_tasks = _generate_phase_tasks(llm, new_phase, completed_phases, full_kb_for_planning, environment_type)
 
@@ -263,7 +263,7 @@ def planner(state: AgentState) -> dict:
 
     _log("规划者", f"分配任务 [{next_task['id']}]: {next_task['description'][:60]}...", Colors.BLUE)
     _log("规划者", f"执行计划: {plan[:100]}...", Colors.CYAN)
-    
+
     _log_planner_event("TASK_ASSIGNED", f"分配任务 [{next_task['id']}]")
 
     return {
@@ -305,7 +305,8 @@ def _generate_phase_tasks(llm, phase, completed_phases, knowledge_base, environm
 3. 基于以上分析，推断第 {phase} 阶段应该执行的进阶任务。
 
 任务要求：
-- 进阶性：不要重复已完成的任务，要在已有基础上深入。
+- 进阶性：不要重复已完成或已跳过的任务，要在已有基础上深入。
+- 失败约束：如果历史任务结果包含“跳过”“僵局”“失败”“不足”等信息，后续任务必须绕开同一失败路径，或先设计验证/补足前置条件的任务。
 - 具体性：任务应该是具体的、可执行的、可验证的。
 - 数量：每个阶段 2-5 个任务为宜。
 
@@ -327,7 +328,7 @@ def _generate_phase_tasks(llm, phase, completed_phases, knowledge_base, environm
 
     result = llm.call_with_retry(
         system_prompt, f"请为第 {phase} 阶段制定任务。",
-        json_mode=True, validator=validator, model=config.REASONER_MODEL,
+        json_mode=True, validator=validator, think=True,
         caller_id=f"Planner-GenerateTasks[Phase{phase}]"
     )
 
@@ -356,7 +357,7 @@ def _determine_phase_name(llm, phase, completed_phases, knowledge_base, environm
 """
     result = llm.call_with_retry(
         system_prompt, f"请为第 {phase} 阶段命名。",
-        json_mode=True, model=config.REASONER_MODEL,
+        json_mode=True, think=True,
         caller_id=f"Planner-NamePhase[Phase{phase}]"
     )
     return result.get("phase_name", f"阶段{phase}")
@@ -366,7 +367,7 @@ def _create_execution_plan(llm, task, history, knowledge_base, phase, phase_name
     """为具体任务制定执行计划（不依赖服务器输出，由规划者提前制定）"""
     task_id = task.get("id", "?")
     task_desc = task.get("description", "")
-    
+
     skill_str = ""
     if skills:
         skill_str = "可用技能:\n"
@@ -374,7 +375,7 @@ def _create_execution_plan(llm, task, history, knowledge_base, phase, phase_name
             skill_str += f"- {s.get('name')}: {s.get('description')} (触发条件: {s.get('trigger')})\n"
     else:
         skill_str = "暂无可用技能。"
-    
+
     system_prompt = f"""
 你是一个 MUD 游戏智能体的规划模块。
 
@@ -394,7 +395,7 @@ def _create_execution_plan(llm, task, history, knowledge_base, phase, phase_name
 """
     result = llm.call_with_retry(
         system_prompt, f"请为任务 {task['id']} 制定执行计划。",
-        json_mode=False, model=config.REASONER_MODEL,
+        json_mode=False, think=True,
         caller_id=f"Planner-Plan[Task{task.get('id', '?')}]"
     )
     return result
@@ -426,12 +427,11 @@ def _handle_stuck_task(llm, task, stuck_reason, knowledge_base, phase):
     """
     处理陷入僵局的任务。
     由 LLM 决定：
-    1. skip: 跳过（非关键任务）
-    2. partial: 部分完成（已取得部分成果）
-    3. retry: 修改描述后重试（改变方法）
+    1. skip: 跳过（非关键任务，或只能记录部分成果）
+    2. retry: 修改描述后重试（改变方法）
     """
     kb_str = _format_kb(knowledge_base, limit=20)
-    
+
     system_prompt = f"""
 你是一个项目经理。当前阶段（{phase}）的一个任务陷入了僵局，分析节点经过多次尝试仍无法完成。
 请根据情况决定如何处理该任务。
@@ -448,38 +448,36 @@ ID: {task.get('id')}
 {kb_str}
 
 决策选项:
-1. "skip": 如果该任务对当前阶段目标不是非做不可，或者环境显然不支持，选择跳过。
-2. "completed": 如果虽然报错但核心目标其实已经达成（部分完成），或者僵局原因显示其实已经拿到了想要的信息，标记为完成。
-3. "pending": 如果该任务非常关键，必须完成。你需要修改任务描述（简化或换个角度），将其状态重置为 pending，以便稍后重新尝试。
+1. "skip": 如果该任务对当前阶段目标不是非做不可、环境显然不支持，或只能记录部分成果，选择跳过并在 result_summary 中写清楚已知信息和缺口。
+2. "pending": 如果该任务非常关键，必须完成。你需要修改任务描述（简化或换个角度），将其状态重置为 pending，以便稍后重新尝试。
+
+注意：陷入僵局的任务不能直接标记为 completed。只有 analyze 节点在观察到明确服务器证据时才能完成任务。
 
 严格以 JSON 格式输出：
 {{
-    "action": "skip" | "completed" | "pending",
+    "action": "skip" | "pending",
     "reasoning": "决策理由...",
     "new_description": "如果选择 pending，请提供修改后的任务描述；否则同原描述",
-    "result_summary": "如果选择 skip 或 completed，请提供任务结果摘要（基于僵局原因）"
+    "result_summary": "如果选择 skip，请提供任务结果摘要（基于僵局原因）"
 }}
 """
     result = llm.call_with_retry(
         system_prompt, "请决策如何处理僵局任务。",
-        json_mode=True, model=config.REASONER_MODEL,
+        json_mode=True, think=True,
         caller_id=f"Planner-Stuck[Task{task.get('id', '?')}]"
     )
-    
+
     action = result.get("action", "skip")
     new_desc = result.get("new_description", task.get("description"))
     res_summary = result.get("result_summary", stuck_reason)
-    
+
     updates = {}
     if action == "skip":
         updates = {"status": "skipped", "result": f"(跳过) {res_summary}"}
-    elif action == "completed":
-        updates = {"status": "completed", "result": f"(部分完成) {res_summary}"}
     elif action == "pending":
         updates = {"status": "pending", "description": new_desc, "result": None}
     else:
         # Fallback
         updates = {"status": "skipped", "result": f"(异常跳过) {stuck_reason}"}
-        
-    return updates
 
+    return updates

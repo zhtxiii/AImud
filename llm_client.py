@@ -11,28 +11,30 @@ import config
 class LLMClient:
     """DeepSeek LLM 客户端，基于 OpenAI SDK"""
 
-    def __init__(self, api_key=None, base_url=None, model=None):
-        self.api_key = api_key or config.API_KEY
-        self.base_url = base_url or config.BASE_URL
-        self.model = model or config.MODEL
+    def __init__(self):
+        if not config.DEEPSEEK_API_KEY:
+            raise RuntimeError("DeepSeek API Key 未配置，请设置 DEEPSEEK_API_KEY 或在 apikey.txt 中填写。")
 
         self.client = OpenAI(
-            api_key=self.api_key,
-            base_url=self.base_url,
+            api_key=config.DEEPSEEK_API_KEY,
+            base_url=config.DEEPSEEK_BASE_URL,
             timeout=600.0,  # 10 minutes timeout for reasoner models
         )
 
-    def query(self, system_prompt: str, user_content: str, json_mode: bool = True, model: str = None):
+    def query(self, system_prompt: str, user_content: str, json_mode: bool = True, think: bool = False):
         """
         单次调用 LLM，成功返回解析后的结果，失败抛出异常。
         """
         kwargs = {
-            "model": model or self.model,
+            "model": config.DEEPSEEK_MODEL,
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content},
             ],
             "stream": False,
+            "extra_body": {
+                'thinking': {'type': 'enabled' if think else 'disabled'}
+            }
         }
 
         if json_mode:
@@ -51,7 +53,7 @@ class LLMClient:
 
     def call_with_retry(self, system_prompt: str, user_content: str,
                         json_mode: bool = True, validator=None,
-                        retry_delay: float = 2.0, model: str = None,
+                        retry_delay: float = 2.0, think: bool = False,
                         caller_id: str = "Unknown"):
         """
         循环调用 LLM 直到成功（通过 validator 校验）。
@@ -62,7 +64,7 @@ class LLMClient:
             json_mode: 是否启用 JSON 模式
             validator: 可选的验证函数，接受 LLM 返回值，通过返回 True
             retry_delay: 重试间隔（秒）
-            model: 可选的模型名称覆盖默认值
+            think: 是否启用思考模式
             caller_id: 调用者标识，用于日志追踪
         
         Returns:
@@ -70,7 +72,7 @@ class LLMClient:
         """
         while True:
             try:
-                result = self.query(system_prompt, user_content, json_mode=json_mode, model=model)
+                result = self.query(system_prompt, user_content, json_mode=json_mode, think=think)
 
                 if validator:
                     if validator(result):
@@ -97,6 +99,7 @@ if __name__ == "__main__":
             "你是一个乐于助人的助手。请输出 JSON。",
             '用 JSON 格式说你好，使用 "message" 键。',
             json_mode=True,
+            validator=lambda x: 'message' in x,
         )
         print(f"测试成功: {resp}")
     except Exception as e:

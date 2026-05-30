@@ -9,9 +9,5 @@ rm -rf logs 2>/dev/null
 
 # 删除知识库文件和目录
 rm -rf data 2>/dev/null
-# rm -f knowledge_base.json 2>/dev/null  <- No longer needed as they are in data/
-# rm -rf knowledge_bases 2>/dev/null
-# rm -rf reflections 2>/dev/null
-# rm -rf test_env/reflections 2>/dev/null
 
 echo "[+] 清理完成。"
