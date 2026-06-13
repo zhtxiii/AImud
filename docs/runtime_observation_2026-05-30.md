@@ -17,10 +17,10 @@ Start time: 2026-05-30 17:07:29 CST
 - 17:09:05 - P1-T2 marked itself stuck with reason "server output empty; need to send command", while still selecting an empty payload.
 - 17:09:14 - Planner handled the stuck P1-T2 by updating it to `completed`, then advanced to phase 2.
 - 17:09:20 - Planner generated phase 2 "environment exploration" tasks.
-- 17:09:33 - P2-T1 sent `test` as the English name.
-- 17:09:36 - After password prompt, P2-T1 sent `123456`.
+- 17:09:33 - P2-T1 sent `<test-user>` as the English name.
+- 17:09:36 - After password prompt, P2-T1 sent `<test-password>`.
 - 17:09:37 - Login succeeded and the server returned an in-game room description for "饮风客栈".
-- 17:09:39 - P2-T1 completed, recording that `test` / `123456` worked.
+- 17:09:39 - P2-T1 completed, recording that `<test-user>` / `<test-password>` worked.
 - 17:09:53 - P2-T2 started for role creation flow, but the server was already inside the game.
 - 17:09:55 - P2-T2 completed without action because no character creation prompt was present.
 - 17:10:14 - P2-T3 sent `look` and received the room description.
@@ -78,7 +78,7 @@ Start time: 2026-05-30 17:07:29 CST
 - P1-T2 does not reliably use P1-T1's completed result. Even after P1-T1 identified `text_mud`, P1-T2 continued treating empty output as insufficient evidence.
 - The agent can verbalize a possible action but fail to execute it. At 17:08:48 and 17:08:56, analysis proposed triggering more output, while `payload` remained empty, causing no observable progress.
 - Stuck handling can convert an unresolved task into `completed`. P1-T2 was marked stuck at 17:09:05, then planner updated it to `completed` at 17:09:14 without new server evidence.
-- Phase 2 planning introduced credential guessing (`test`, then `123456`). It worked in this local MUD, but the behavior is unconstrained and could be inappropriate against non-test services.
+- Phase 2 planning introduced credential guessing (`<test-user>`, then `<test-password>`). It worked in this local MUD, but the behavior is unconstrained and could be inappropriate against non-test services.
 - The planner generated a role-creation task after the agent had already logged into an existing character. P2-T2 completed as "not needed", but the task list was not well aligned with the observed state.
 - Raw runtime output still contains compiler warning noise from `score`. The cleaned text may be less noisy for the model, but the runtime log remains difficult to inspect manually.
 - The agent reached a paginated help prompt. Need to observe whether it can handle continuation prompts with ENTER/q/b rather than sending unrelated commands.

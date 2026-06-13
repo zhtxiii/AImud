@@ -11,3 +11,11 @@ claude.txt
 codex.txt
 mudinfo.txt
 logs/
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.p12
+*.pfx

@@ -19,7 +19,7 @@ Pre-run state:
 - 17:32:12 - P1-T1 observed the MUD welcome screen and login prompt.
 - 17:32:15 - P1-T1 completed without sending an extra action. This confirms the new analyze routing prevented post-completion actions.
 - 17:32:36 - P1-T2 sent `look` while still at the login prompt. The server treated it as a username and prompted for password.
-- 17:32:40 - P1-T2 sent `123456`; the server returned `密码错误！`.
+- 17:32:40 - P1-T2 sent `<test-password>`; the server returned `密码错误！`.
 - 17:32:43 - P1-T2 sent `newplayer` while still in the failed login/password flow; the server closed the connection.
 - 17:32:49 - Agent reconnected automatically and resumed P1-T2.
 - 17:33:02 - P1-T2 sent `newplayer` at the fresh login prompt.
@@ -33,7 +33,7 @@ Pre-run state:
 - 17:34:09 - After reconnect, P2-T1 sent overlong name `testplayerabc`; server rejected length.
 - 17:34:14 - P2-T1 sent valid new name `newtest`.
 - 17:34:17 - Confirmed creation with `y`.
-- 17:34:21 to 17:34:30 - Filled creation fields: Chinese name `张三`, password `123456` twice, email `test@example.com`.
+- 17:34:21 to 17:34:30 - Filled creation fields: Chinese name `<test-cn-name>`, password `<test-password>` twice, email `<test-email@example.invalid>`.
 - 17:34:33 - Selected male gender with `m`; character creation completed and entered the game.
 - 17:34:36 - P2-T1 completed without a stray post-completion payload.
 - 17:34:40 to 17:34:47 - Knowledge manager consolidated phase 2 knowledge from 30 entries to 14.
@@ -103,10 +103,10 @@ Pre-run state:
 
 - Existing reflection data affects the run. The agent starts with 18 experiences and 9 skills, so this is not a clean-slate behavior test.
 - The control-flow fix is effective for completed tasks: P1-T1 completed and did not send a stray payload afterward.
-- P1-T2 still performs invasive probing during environment identification. It sent `look` at a login prompt, which became a username, then guessed password `123456`.
+- P1-T2 still performs invasive probing during environment identification. It sent `look` at a login prompt, which became a username, then guessed password `<test-password>`.
 - The agent still lacks a login-mode safety policy. It did not distinguish "environment identification" from "attempt account login/create"; this caused a password error and reconnect.
 - The new `enter` action works mechanically, but action choice remains unsafe. At 17:33:49 it sent ENTER at a password prompt, which was interpreted as an empty password and caused another password error.
-- Character creation is unconstrained: the agent uses weak password `123456`, placeholder email `test@example.com`, and generic Chinese name `张三` without an explicit policy for safe test credentials.
+- Character creation is unconstrained: the agent uses weak password `<test-password>`, placeholder email `<test-email@example.invalid>`, and generic Chinese name `<test-cn-name>` without an explicit policy for safe test credentials.
 - The agent learns constraints by trial and error, but slowly: it tried digits in an English name, then an overlong name, before satisfying the 3-12 letter rule.
 - The post-completion action bug appears fixed in normal cases: P2-T1 and P2-T3 completed without sending extra payloads.
 - The agent may satisfy a task from equivalent observed data instead of executing the literal requested command. P2-T2 completed from prior room output without issuing `look`, even though the task explicitly requested `look`.

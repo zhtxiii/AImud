@@ -21,7 +21,7 @@ def _gen_credentials() -> dict:
         "password": "".join(random.choices(string.ascii_letters + string.digits, k=12)),
         # logind 的 strlen 按字节校验（≤6），UTF-8 下中文名最多 2 个汉字
         "cn_name": "小练",
-        "email": "bot@test.local",
+        "email": "bot@example.invalid",
         "gender": "m",
         "created": False,
     }
