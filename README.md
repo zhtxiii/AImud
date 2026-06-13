@@ -1,4 +1,10 @@
-# MUD Autonomous Agent
+# MUD Autonomous Agent — AImud
+
+> **与 [MUD-ES2](https://github.com/zhtxiii/MUD-ES2) 紧密配合**  
+> 本智能体专为 [MUD-ES2](https://github.com/zhtxiii/MUD-ES2) 项目所运行的 MUD 服务端定制开发。
+> 智能体可以直接读取 MUD 服务端的 **全部源码**（combatd.c、skilld.c、任务系统等），
+> 从而对战斗机制、经验结算、NPC 行为、寻路等做出精确判断，实现有针对性的优化和修改，
+> 而非基于猜测或经验推导行事。
 
 基于 LangGraph 开发的自主智能体。本项目采用**规划者驱动 + 阶段化任务**架构，通过高效的并行执行流，实现对远程 Socket 服务的自主探索与交互。
 
