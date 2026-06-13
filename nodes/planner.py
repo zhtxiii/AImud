@@ -2,10 +2,15 @@
 规划者节点模块
 独立于执行循环之外，只负责：制定阶段任务、分配当前任务、推进阶段。
 不参与 observe/analyze/act/manage_knowledge 循环。
+
+grind 模式：里程碑驱动（mud/milestones.py 静态策略骨架），
+LLM 只处理例程升级上来的异常（修复任务）。
 """
 import json
 import os
+import time
 import config
+import persistence
 from config import Colors
 from state import AgentState
 
@@ -34,6 +39,123 @@ def _log_planner_event(event_type: str, message: str):
             f.write(log_line)
     except Exception as e:
         _log("PlannerLog", f"写入日志失败: {e}", Colors.RED)
+
+
+# ============================================================
+#  grind 模式规划者（里程碑驱动）
+# ============================================================
+
+def _build_repair_task(escalation: dict) -> dict:
+    """根据升级上下文生成 LLM 修复任务。"""
+    desc = (
+        f"例程 [{escalation.get('routine')}] 遇到异常需要你修复。\n"
+        f"异常原因: {escalation.get('reason')} - {escalation.get('detail')}\n"
+        f"当前位置(推测): {escalation.get('room_label')} ({escalation.get('room')})\n"
+        f"角色状态: {json.dumps(escalation.get('char_status', {}), ensure_ascii=False)}\n"
+        f"最近服务器输出片段:\n{escalation.get('recent_output', '')[-800:]}\n\n"
+        f"你的目标：把角色恢复到安全、稳定、可继续的状态——"
+        f"具体包括：(1) 不在战斗中且没有持续掉血；(2) 用 look 确认身处一个正常房间；"
+        f"(3) 若迷路，向已知方向移动回到雪亭镇或云镇的可识别地点；"
+        f"(4) 若有异常提示符（分页/问答），用合适输入清除它。"
+        f"达成后将 task_completed 设为 true 并在 task_result 里描述当前位置与状态。"
+        f"注意：绝不要输入 quit/suicide 等危险命令，绝不要攻击任何 NPC。"
+        f"若看到登录界面提示（您的英文名字/请输入密码），不要输入任何名字或密码——"
+        f"立即设置 task_stuck=true 并说明'连接处于登录界面'，登录由系统例程负责。"
+    )
+    return {
+        "id": f"R-{int(time.time()) % 100000}",
+        "description": desc,
+        "status": "in_progress",
+        "result": None,
+        "executor": "llm",
+        "max_attempts": config.MAX_REPAIR_ATTEMPTS,
+        "params": {},
+        "plan": "评估现状→清除异常状态→回到安全已知位置→确认稳定",
+    }
+
+
+def _grind_planner(state: AgentState) -> dict:
+    """里程碑驱动规划。每次进入先存 checkpoint。"""
+    from mud import milestones
+
+    persistence.save_checkpoint(state)
+    char = state.get("char_status", {})
+    counters = state.setdefault("counters", {})
+    task = state.get("current_task") or {}
+    updates = {"task_completed": False, "task_stuck": False}
+
+    # ---- 修复任务（LLM）结束：反思 + 清除升级上下文 ----
+    if task.get("executor") == "llm" and task.get("id", "").startswith("R-"):
+        if state.get("task_completed") or state.get("task_stuck"):
+            status = "完成" if state.get("task_completed") else "僵局"
+            _log("规划者", f"修复任务 [{task.get('id')}] {status}: {str(task.get('result'))[:100]}", Colors.YELLOW)
+            _log_planner_event("REPAIR_DONE", f"[{task.get('id')}] {status}")
+            try:
+                full_kb = get_aggregated_kb(state.get("phase", 1), state.get("knowledge_base", []))
+                reflections = reflect_on_task(state["llm"], task, full_kb, state.get("phase", 1))
+                new_exp = reflections.get("new_experiences", [])
+                if new_exp:
+                    state.setdefault("experiences", []).extend(new_exp)
+            except Exception as e:
+                _log("规划者", f"修复任务反思失败（忽略）: {e}", Colors.YELLOW)
+            updates["escalation"] = {}
+            if state.get("task_stuck"):
+                counters["repair_failures"] = counters.get("repair_failures", 0) + 1
+                if counters["repair_failures"] >= 3:
+                    _log("规划者", "修复任务连续失败 3 次，置 fatal 交 watchdog。", Colors.RED)
+                    persistence.save_checkpoint(state)
+                    return {**updates, "exit_reason": "fatal", "escalation": {}}
+            else:
+                counters["repair_failures"] = 0
+
+    # ---- 例程升级 → 生成修复任务 ----
+    esc = state.get("escalation") or {}
+    if esc and not esc.get("repair_dispatched"):
+        key = f"esc_{esc.get('routine')}:{esc.get('reason')}"
+        cnt = counters.get(key, 0) + 1
+        counters[key] = cnt
+        if cnt > 3:
+            _log("规划者", f"同一升级原因 {key} 已出现 {cnt} 次，置 fatal。", Colors.RED)
+            persistence.save_checkpoint(state)
+            return {**updates, "exit_reason": "fatal"}
+        repair = _build_repair_task(esc)
+        esc = dict(esc)
+        esc["repair_dispatched"] = True
+        _log("规划者", f"派发修复任务 [{repair['id']}]（{esc.get('routine')}/{esc.get('reason')} 第 {cnt} 次）", Colors.BLUE)
+        _log_planner_event("REPAIR_DISPATCH", f"[{repair['id']}] {esc.get('reason')}")
+        return {**updates, "current_task": repair, "tasks": [repair], "escalation": esc}
+
+    # ---- 例程任务正常完成：清零该例程的升级计数 ----
+    if task.get("executor", "").startswith("routine:") and task.get("status") == "completed":
+        rname = task["executor"].split(":", 1)[1]
+        for k in list(counters.keys()):
+            if k.startswith(f"esc_{rname}:"):
+                counters[k] = 0
+
+    # ---- 最终验收完成 → goal_reached ----
+    if task.get("executor") == "routine:verify" and task.get("status") == "completed":
+        _log("规划者", f"🎉 验收通过：{task.get('result')}", Colors.GREEN)
+        _log_planner_event("GOAL_REACHED", str(task.get("result")))
+        persistence.save_checkpoint(state)
+        return {**updates, "exit_reason": "goal_reached"}
+
+    # ---- 硬停滞检测（exp>0 且超过 STALL_HARD_MIN 无增长） ----
+    hist = state.get("exp_history") or []
+    if hist and hist[-1][1] > 0:
+        idle_min = (time.time() - hist[-1][0]) / 60
+        if idle_min > config.STALL_HARD_MIN:
+            _log("规划者", f"经验已 {idle_min:.0f} 分钟无增长（硬停滞），置 fatal。", Colors.RED)
+            persistence.save_checkpoint(state)
+            return {**updates, "exit_reason": "fatal"}
+
+    # ---- 里程碑推进 ----
+    nt = milestones.next_task(state)
+    ms_id = state.get("milestone", {}).get("id", "?")
+    _log("规划者", f"=== 里程碑 {ms_id} | 经验 {char.get('exp', 0)}/{config.GOAL_EXP} ===", Colors.BLUE)
+    _log("规划者", f"分配任务 [{nt['id']}] {nt['executor']}: {nt['description'][:70]}", Colors.BLUE)
+    _log_planner_event("TASK_ASSIGNED", f"[{nt['id']}] {nt['executor']} {nt['description'][:80]}")
+    return {**updates, "current_task": nt, "tasks": [nt],
+            "milestone": state.get("milestone", {})}
 
 
 # ============================================================
@@ -68,13 +190,15 @@ def planner(state: AgentState) -> dict:
     """
     规划者节点：独立于执行循环之外的调度中心。
 
-    只负责：
+    grind 模式 → 里程碑驱动（_grind_planner）。
+    explore 模式 → 原有 LLM 开放式规划：
     1. 制定当前阶段的任务列表
     2. 从任务列表选取下一个待执行任务并制定计划
     3. 在阶段任务全部完成时推进到下一阶段
-
-    不参与观察、分析、行动、知识管理的循环。
     """
+    if config.AGENT_MODE == "grind":
+        return _grind_planner(state)
+
     llm = state["llm"]
     phase = state.get("phase", 1)
     phase_name = state.get("phase_name", "环境识别")

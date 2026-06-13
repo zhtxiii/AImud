@@ -1,0 +1,7906 @@
+{
+ "nodes": {
+  "d/oldpine/lake": {
+   "label": "水潭"
+  },
+  "d/oldpine/npath1": {
+   "label": "林间小路3"
+  },
+  "d/oldpine/stone": {
+   "label": "大青石上"
+  },
+  "d/oldpine/epath3": {
+   "label": "林间小路"
+  },
+  "d/oldpine/secrectpath1": {
+   "label": "秘密通道"
+  },
+  "d/oldpine/pine6": {
+   "label": "松树林5"
+  },
+  "d/oldpine/cliff2": {
+   "label": "山壁上的窄穴"
+  },
+  "d/oldpine/keep3": {
+   "label": "老松寨"
+  },
+  "d/oldpine/keep1": {
+   "label": "老松寨秘密入口"
+  },
+  "d/oldpine/pine3": {
+   "label": "松树林2"
+  },
+  "d/oldpine/pine1": {
+   "label": "松树林6"
+  },
+  "d/oldpine/cave3": {
+   "label": "山洞6"
+  },
+  "d/oldpine/npath3": {
+   "label": "林间小路6"
+  },
+  "d/oldpine/keep2": {
+   "label": "老松寨2"
+  },
+  "d/oldpine/pine7": {
+   "label": "松树林3"
+  },
+  "d/oldpine/path3": {
+   "label": "秘密通道2"
+  },
+  "d/oldpine/epath2": {
+   "label": "小石桥"
+  },
+  "d/oldpine/cave4": {
+   "label": "山洞5"
+  },
+  "d/oldpine/tree2": {
+   "label": "大松树上"
+  },
+  "d/oldpine/pine2": {
+   "label": "松树林4"
+  },
+  "d/oldpine/spath4": {
+   "label": "下坡道2"
+  },
+  "d/oldpine/riverbank2": {
+   "label": "山涧之中"
+  },
+  "d/oldpine/pine5": {
+   "label": "松树林7"
+  },
+  "d/oldpine/cliffside": {
+   "label": "林间....不....悬崖边2"
+  },
+  "d/oldpine/waterfall": {
+   "label": "瀑布前"
+  },
+  "d/oldpine/cave5": {
+   "label": "山洞4"
+  },
+  "d/oldpine/cliffdown": {
+   "label": "林间....不....悬崖边"
+  },
+  "d/oldpine/npath2": {
+   "label": "林间小路2"
+  },
+  "d/oldpine/clearing": {
+   "label": "林间空地"
+  },
+  "d/oldpine/cave1": {
+   "label": "山洞3"
+  },
+  "d/oldpine/cave2": {
+   "label": "山洞2"
+  },
+  "d/oldpine/passage": {
+   "label": "秘密通道入口"
+  },
+  "d/oldpine/cliff1": {
+   "label": "山壁上的窄穴2"
+  },
+  "d/oldpine/spath3": {
+   "label": "下坡道"
+  },
+  "d/oldpine/riverbank1": {
+   "label": "山涧之中2"
+  },
+  "d/oldpine/spath1": {
+   "label": "林间小路5"
+  },
+  "d/oldpine/tree1": {
+   "label": "大松树上2"
+  },
+  "d/oldpine/epath1": {
+   "label": "林间小路4"
+  },
+  "d/oldpine/pine4": {
+   "label": "松树林"
+  },
+  "d/oldpine/tree3": {
+   "label": "大松树顶"
+  },
+  "d/oldpine/spath2": {
+   "label": "下坡道3"
+  },
+  "d/canyon/camp8": {
+   "label": "将军营帐"
+  },
+  "d/canyon/blackmarket": {
+   "label": "兵器库"
+  },
+  "d/canyon/road": {
+   "label": "碎石小路"
+  },
+  "d/canyon/stone_forest2": {
+   "label": "黄石穿林路"
+  },
+  "d/canyon/camp5": {
+   "label": "小队长营帐"
+  },
+  "d/canyon/camp2": {
+   "label": "营火区"
+  },
+  "d/canyon/canyon7": {
+   "label": "天驼关谷地2"
+  },
+  "d/canyon/canyon4": {
+   "label": "隘口中道"
+  },
+  "d/canyon/stone_forest1": {
+   "label": "黄石穿林路路口"
+  },
+  "d/canyon/canyon1": {
+   "label": "黄石隘口尾"
+  },
+  "d/canyon/canyon2": {
+   "label": "隘口小路"
+  },
+  "d/canyon/stone_forest3": {
+   "label": "梦幻迷境入口"
+  },
+  "d/canyon/canyon5": {
+   "label": "关外小路"
+  },
+  "d/canyon/canyon3": {
+   "label": "隘口小路2"
+  },
+  "d/canyon/camp7": {
+   "label": "副将营帐"
+  },
+  "d/canyon/camp1": {
+   "label": "军营入口"
+  },
+  "d/canyon/camp6": {
+   "label": "小队长营帐2"
+  },
+  "d/canyon/canyon6": {
+   "label": "天驼关谷地"
+  },
+  "d/canyon/fantasy1": {
+   "label": "梦幻迷境通道"
+  },
+  "d/canyon/camp3": {
+   "label": "小兵营帐"
+  },
+  "d/canyon/camp4": {
+   "label": "小兵营帐2"
+  },
+  "d/canyon/bamboo/bamboo1": {
+   "label": "竹林道入口"
+  },
+  "d/canyon/bamboo/bamboo3": {
+   "label": "竹林道"
+  },
+  "d/canyon/bamboo/bamboo2": {
+   "label": "竹林道2"
+  },
+  "d/canyon/bamboo/train": {
+   "label": "洞内石室"
+  },
+  "d/canyon/dream/tmp": {
+   "label": "幻影道入口"
+  },
+  "d/canyon/evil/tmp": {
+   "label": "妖魔道入口"
+  },
+  "d/city/street9": {
+   "label": "京师街道2"
+  },
+  "d/city/northdoor": {
+   "label": "京师北门"
+  },
+  "d/city/street13": {
+   "label": "京师街道5"
+  },
+  "d/city/feiyuan": {
+   "label": "废园"
+  },
+  "d/city/shenwumen": {
+   "label": "神武门"
+  },
+  "d/city/jiaowu": {
+   "label": "校武场"
+  },
+  "d/city/jiulou": {
+   "label": "太白酒楼"
+  },
+  "d/city/eastdoor2": {
+   "label": "京师东二门"
+  },
+  "d/city/wumen": {
+   "label": "午门"
+  },
+  "d/city/street8": {
+   "label": "京师街道8"
+  },
+  "d/city/street15": {
+   "label": "京师街道3"
+  },
+  "d/city/street3": {
+   "label": "京师东街"
+  },
+  "d/city/street6": {
+   "label": "京师西街3"
+  },
+  "d/city/street7": {
+   "label": "十字路口2"
+  },
+  "d/city/street5": {
+   "label": "京师西街2"
+  },
+  "d/city/nroad2": {
+   "label": "北驿道2"
+  },
+  "d/city/jiulou_2": {
+   "label": "太白酒楼二楼"
+  },
+  "d/city/street17": {
+   "label": "京师街道6"
+  },
+  "d/city/southdoor": {
+   "label": "京师南门"
+  },
+  "d/city/street12": {
+   "label": "京师街道4"
+  },
+  "d/city/bridge": {
+   "label": "天桥"
+  },
+  "d/city/biaoju": {
+   "label": "振远总局"
+  },
+  "d/city/westdoor2": {
+   "label": "京师西二门"
+  },
+  "d/city/street14": {
+   "label": "京师街道9"
+  },
+  "d/city/wall": {
+   "label": "院墙"
+  },
+  "d/city/street16": {
+   "label": "大栅栏"
+  },
+  "d/city/eastdoor1": {
+   "label": "京师东一门"
+  },
+  "d/city/jitan": {
+   "label": "祭坛"
+  },
+  "d/city/boots": {
+   "label": "李记鞋店"
+  },
+  "d/city/weapon": {
+   "label": "京师武器店"
+  },
+  "d/city/cloth": {
+   "label": "四喜绸缎庄"
+  },
+  "d/city/midao1": {
+   "label": "地下密室"
+  },
+  "d/city/street10": {
+   "label": "京师街道7"
+  },
+  "d/city/house1": {
+   "label": "空房间2"
+  },
+  "d/city/westdoor1": {
+   "label": "京师西一门"
+  },
+  "d/city/street11": {
+   "label": "京师街道"
+  },
+  "d/city/street4": {
+   "label": "京师西街"
+  },
+  "d/city/nroad1": {
+   "label": "北驿道"
+  },
+  "d/city/street2": {
+   "label": "京师东街3"
+  },
+  "d/city/street1": {
+   "label": "京师东街2"
+  },
+  "d/city/shangshu/feiwu": {
+   "label": "废屋"
+  },
+  "d/city/shangshu/huayuan": {
+   "label": "花园"
+  },
+  "d/city/shangshu/road1": {
+   "label": "小径2"
+  },
+  "d/city/shangshu/yuan": {
+   "label": "尚书府庭院"
+  },
+  "d/city/shangshu/road2": {
+   "label": "小径"
+  },
+  "d/city/shangshu/neizhai": {
+   "label": "内宅"
+  },
+  "d/city/shangshu/road3": {
+   "label": "花园小径"
+  },
+  "d/city/shangshu/xiaowu": {
+   "label": "小屋"
+  },
+  "d/city/shangshu/keting": {
+   "label": "尚书府客厅"
+  },
+  "d/city/shangshu/road4": {
+   "label": "小路3"
+  },
+  "d/city/shangshu/kefang": {
+   "label": "客房"
+  },
+  "d/city/shangshu/gate": {
+   "label": "尚书府大门"
+  },
+  "d/city/shangshu/chufang": {
+   "label": "厨房"
+  },
+  "d/city/xiangguo/gate": {
+   "label": "相国府大门"
+  },
+  "d/latemoon/sroad3": {
+   "label": "小径3"
+  },
+  "d/latemoon/front_yard": {
+   "label": "晚月庄前庭"
+  },
+  "d/latemoon/latemoonc": {
+   "label": "大厅后院"
+  },
+  "d/latemoon/entrance": {
+   "label": "碎石小径"
+  },
+  "d/latemoon/bamboo1": {
+   "label": "竹林5"
+  },
+  "d/latemoon/bamboo3": {
+   "label": "竹林2"
+  },
+  "d/latemoon/sroad5": {
+   "label": "小径4"
+  },
+  "d/latemoon/bamboo": {
+   "label": "竹林3"
+  },
+  "d/latemoon/sroad1": {
+   "label": "山路12"
+  },
+  "d/latemoon/sroad4": {
+   "label": "蜿蜒小径"
+  },
+  "d/latemoon/latemoon3": {
+   "label": "傍厅"
+  },
+  "d/latemoon/latebook": {
+   "label": "后院书房"
+  },
+  "d/latemoon/miroom2": {
+   "label": "内厅3"
+  },
+  "d/latemoon/latemoon2": {
+   "label": "内厅2"
+  },
+  "d/latemoon/latemoon6": {
+   "label": "禁闭房"
+  },
+  "d/latemoon/latemoon5": {
+   "label": "后院走道2"
+  },
+  "d/latemoon/latemoon1": {
+   "label": "晚月庄大厅"
+  },
+  "d/latemoon/bamboo2": {
+   "label": "竹林6"
+  },
+  "d/latemoon/latemoon8": {
+   "label": "密室"
+  },
+  "d/latemoon/latemoon7": {
+   "label": "后院走道"
+  },
+  "d/latemoon/gate": {
+   "label": "晚月庄大门"
+  },
+  "d/latemoon/latemoon4": {
+   "label": "内厅穿堂"
+  },
+  "d/latemoon/sroad2": {
+   "label": "蜿蜒小径2"
+  },
+  "d/latemoon/bamboo4": {
+   "label": "竹林4"
+  },
+  "d/latemoon/room/westroom": {
+   "label": "西厢房"
+  },
+  "d/latemoon/room/bathroom1": {
+   "label": "沐浴更衣室"
+  },
+  "d/latemoon/room/eroad2": {
+   "label": "东厢房走道"
+  },
+  "d/latemoon/room/flower1": {
+   "label": "内厅穿堂2"
+  },
+  "d/latemoon/room/wroad1": {
+   "label": "西厢房走道"
+  },
+  "d/latemoon/room/corridor7": {
+   "label": "内厅4"
+  },
+  "d/latemoon/room/wroad2": {
+   "label": "西厢房走道2"
+  },
+  "d/latemoon/room/lstudio": {
+   "label": "内书房"
+  },
+  "d/latemoon/room/eastroom": {
+   "label": "东厢房"
+  },
+  "d/latemoon/room/lcenter": {
+   "label": "后厅"
+  },
+  "d/latemoon/room/room4": {
+   "label": "内书房2"
+  },
+  "d/latemoon/room/kitchen": {
+   "label": "厨房5"
+  },
+  "d/latemoon/room/guest1": {
+   "label": "客房6"
+  },
+  "d/latemoon/room/lroad1": {
+   "label": "后厅走道"
+  },
+  "d/latemoon/room/two2": {
+   "label": "夹道3"
+  },
+  "d/latemoon/room/eroad1": {
+   "label": "东厢房走道2"
+  },
+  "d/latemoon/room/eat2": {
+   "label": "膳房2"
+  },
+  "d/latemoon/room/twoc": {
+   "label": "仪门"
+  },
+  "d/latemoon/room/lroad3": {
+   "label": "后厅走道2"
+  },
+  "d/latemoon/room/eat1": {
+   "label": "大饭厅"
+  },
+  "d/latemoon/room/guest2": {
+   "label": "上等厢房"
+  },
+  "d/latemoon/room/two1": {
+   "label": "夹道2"
+  },
+  "d/latemoon/room/bathroom": {
+   "label": "小花池"
+  },
+  "d/latemoon/park/moon3": {
+   "label": "甬路"
+  },
+  "d/latemoon/park/moon5": {
+   "label": "桂花园"
+  },
+  "d/latemoon/park/moroom": {
+   "label": "紫翎小轩"
+  },
+  "d/latemoon/park/moon1": {
+   "label": "长廊曲洞"
+  },
+  "d/latemoon/park/paroad1": {
+   "label": "甬路2"
+  },
+  "d/latemoon/park/bridge3": {
+   "label": "朱栏板桥"
+  },
+  "d/latemoon/park/bridge1": {
+   "label": "沁芳桥"
+  },
+  "d/latemoon/park/flower2": {
+   "label": "月洞门"
+  },
+  "d/latemoon/park/bridge2": {
+   "label": "翠嫣桥"
+  },
+  "d/latemoon/park/pavilion1": {
+   "label": "沁芳亭"
+  },
+  "d/latemoon/park/moondoor": {
+   "label": "晚月庄后门"
+  },
+  "d/latemoon/park/moon2": {
+   "label": "湘园小径"
+  },
+  "d/latemoon/park/moonc": {
+   "label": "翠嶂"
+  },
+  "d/latemoon/park/yard1": {
+   "label": "前院"
+  },
+  "d/latemoon/park/moon4": {
+   "label": "暖香榭"
+  },
+  "d/latemoon/park/paroad2": {
+   "label": "□香榭"
+  },
+  "d/latemoon/upstar/upstarc": {
+   "label": "前堂楼"
+  },
+  "d/latemoon/upstar/upstar4": {
+   "label": "二楼走廊3"
+  },
+  "d/latemoon/upstar/upstar1": {
+   "label": "二楼走廊2"
+  },
+  "d/latemoon/upstar/uproom": {
+   "label": "佛堂"
+  },
+  "d/latemoon/upstar/upstar2": {
+   "label": "二楼走廊"
+  },
+  "d/latemoon/upstar/uproom2": {
+   "label": "翠湘阁"
+  },
+  "d/latemoon/upstar/upcenter": {
+   "label": "佛堂门前"
+  },
+  "d/latemoon/upstar/uproom3": {
+   "label": "缀芳阁"
+  },
+  "d/latemoon/upstar/uplook": {
+   "label": "观景台"
+  },
+  "d/latemoon/upstar/upstar3": {
+   "label": "二楼走廊4"
+  },
+  "d/goathill/mroad2": {
+   "label": "山路10"
+  },
+  "d/goathill/mroad4": {
+   "label": "山路转角"
+  },
+  "d/goathill/mroad6": {
+   "label": "山路9"
+  },
+  "d/goathill/mroad3": {
+   "label": "山路6"
+  },
+  "d/goathill/slope1": {
+   "label": "岩石坡"
+  },
+  "d/goathill/cavern1": {
+   "label": "岩洞"
+  },
+  "d/goathill/canyon1": {
+   "label": "峡谷"
+  },
+  "d/goathill/canyon2": {
+   "label": "峡谷2"
+  },
+  "d/goathill/cavern4": {
+   "label": "岩洞3"
+  },
+  "d/goathill/temple1": {
+   "label": "小土地庙"
+  },
+  "d/goathill/canyon3": {
+   "label": "峡谷3"
+  },
+  "d/goathill/mroad1": {
+   "label": "山路8"
+  },
+  "d/goathill/cavern3": {
+   "label": "岩穴"
+  },
+  "d/goathill/mroad5": {
+   "label": "山路7"
+  },
+  "d/goathill/cavern2": {
+   "label": "岩洞2"
+  },
+  "d/green/cavehall": {
+   "label": "石室大厅"
+  },
+  "d/green/field0": {
+   "label": "小广场"
+  },
+  "d/green/outdoor": {
+   "label": "石室2"
+  },
+  "d/green/temple0": {
+   "label": "土地庙"
+  },
+  "d/green/path2": {
+   "label": "三叉路口"
+  },
+  "d/green/path1": {
+   "label": "小路"
+  },
+  "d/green/station1": {
+   "label": "工作站"
+  },
+  "d/green/house4": {
+   "label": "村长的家"
+  },
+  "d/green/station0": {
+   "label": "工作站2"
+  },
+  "d/green/eight0": {
+   "label": "迷阵7"
+  },
+  "d/green/entrance": {
+   "label": "山路尽头"
+  },
+  "d/green/path6": {
+   "label": "石板路2"
+  },
+  "d/green/shop0": {
+   "label": "沈记商行"
+  },
+  "d/green/eight7": {
+   "label": "迷阵6"
+  },
+  "d/green/closed": {
+   "label": "绝地"
+  },
+  "d/green/path3": {
+   "label": "三叉路口2"
+  },
+  "d/green/mpath2": {
+   "label": "山路2"
+  },
+  "d/green/field1": {
+   "label": "采石场的空地"
+  },
+  "d/green/path5": {
+   "label": "石板路"
+  },
+  "d/green/eight6": {
+   "label": "迷阵4"
+  },
+  "d/green/path8": {
+   "label": "小巷子"
+  },
+  "d/green/eight3": {
+   "label": "迷阵5"
+  },
+  "d/green/house0": {
+   "label": "民宅2"
+  },
+  "d/green/cave1": {
+   "label": "黑暗山洞2"
+  },
+  "d/green/house3": {
+   "label": "民宅"
+  },
+  "d/green/house2": {
+   "label": "民宅3"
+  },
+  "d/green/eight1": {
+   "label": "迷阵"
+  },
+  "d/green/cave2": {
+   "label": "黑暗山洞"
+  },
+  "d/green/eight5": {
+   "label": "迷阵2"
+  },
+  "d/green/mpath1": {
+   "label": "山路3"
+  },
+  "d/green/stoneroom": {
+   "label": "石室"
+  },
+  "d/green/path4": {
+   "label": "小路2"
+  },
+  "d/green/house1": {
+   "label": "工匠的家"
+  },
+  "d/green/path0": {
+   "label": "小路的尽头"
+  },
+  "d/green/mpath0": {
+   "label": "山路"
+  },
+  "d/green/eight4": {
+   "label": "迷阵8"
+  },
+  "d/green/cave0": {
+   "label": "洞口"
+  },
+  "d/green/eight2": {
+   "label": "迷阵3"
+  },
+  "d/green/water": {
+   "label": "溪水边"
+  },
+  "d/snow/eroad2": {
+   "label": "黄土小径2"
+  },
+  "d/snow/mstreet4": {
+   "label": "雪亭镇街道3"
+  },
+  "d/snow/sroad3": {
+   "label": "青石官道2"
+  },
+  "d/snow/square": {
+   "label": "广场"
+  },
+  "d/snow/school2": {
+   "label": "淳风武馆教练场"
+  },
+  "d/snow/herbshop1": {
+   "label": "药铺密室"
+  },
+  "d/snow/schoolhall": {
+   "label": "淳风武馆大厅"
+  },
+  "d/snow/e_room": {
+   "label": "客房5"
+  },
+  "d/snow/innerhall": {
+   "label": "武馆内院"
+  },
+  "d/snow/eroad3": {
+   "label": "山路11"
+  },
+  "d/snow/hockshop2": {
+   "label": "储藏室2"
+  },
+  "d/snow/sroad5": {
+   "label": "青石官道3"
+  },
+  "d/snow/w_room": {
+   "label": "客房4"
+  },
+  "d/snow/nyard": {
+   "label": "书房"
+  },
+  "d/snow/sroad1": {
+   "label": "雪亭镇街道6"
+  },
+  "d/snow/sroad4": {
+   "label": "青石官道"
+  },
+  "d/snow/postoffice": {
+   "label": "雪亭驿"
+  },
+  "d/snow/secret_storage": {
+   "label": "地下密室2"
+  },
+  "d/snow/eroad1": {
+   "label": "黄土小径3"
+  },
+  "d/snow/crossroad": {
+   "label": "山坳"
+  },
+  "d/snow/inneryard": {
+   "label": "天井"
+  },
+  "d/snow/mstreet3": {
+   "label": "雪亭镇街道5"
+  },
+  "d/snow/inn": {
+   "label": "饮风客栈"
+  },
+  "d/snow/guestroom": {
+   "label": "客房3"
+  },
+  "d/snow/n_room": {
+   "label": "客房2"
+  },
+  "d/snow/mstreet2": {
+   "label": "雪亭镇街道"
+  },
+  "d/snow/temple": {
+   "label": "城隍庙"
+  },
+  "d/snow/school1": {
+   "label": "淳风武馆大门"
+  },
+  "d/snow/smithy": {
+   "label": "打铁铺子"
+  },
+  "d/snow/mstreet1": {
+   "label": "雪亭镇街道2"
+  },
+  "d/snow/school": {
+   "label": "书院"
+  },
+  "d/snow/sroad2": {
+   "label": "雪亭镇街道4"
+  },
+  "d/snow/inn_2f": {
+   "label": "饮风客栈二楼"
+  },
+  "d/snow/weapon_storage": {
+   "label": "兵器储藏室"
+  },
+  "d/snow/herbshop": {
+   "label": "桑邻药铺"
+  },
+  "d/choyin/hotel1": {
+   "label": "福林酒楼"
+  },
+  "d/choyin/e_gate": {
+   "label": "东城门"
+  },
+  "d/choyin/fence": {
+   "label": "竹林"
+  },
+  "d/choyin/s_street1": {
+   "label": "南门广场"
+  },
+  "d/choyin/s_street4": {
+   "label": "承安街"
+  },
+  "d/choyin/s_gate": {
+   "label": "乔阴县城南门"
+  },
+  "d/choyin/w_street3": {
+   "label": "西大街3"
+  },
+  "d/choyin/guyehill": {
+   "label": "绝壁"
+  },
+  "d/choyin/w_street2": {
+   "label": "西大街2"
+  },
+  "d/choyin/rockyu": {
+   "label": "青石峪"
+  },
+  "d/choyin/platform": {
+   "label": "云台"
+  },
+  "d/choyin/entrance": {
+   "label": "曼雩台2"
+  },
+  "d/choyin/yamen_yard": {
+   "label": "县衙内院"
+  },
+  "d/choyin/lionroom": {
+   "label": "神秘洞穴"
+  },
+  "d/choyin/hollow1": {
+   "label": "寒谷3"
+  },
+  "d/choyin/yamen_iner": {
+   "label": "内厅"
+  },
+  "d/choyin/tree_tomb": {
+   "label": "树王坟2"
+  },
+  "d/choyin/e_street1": {
+   "label": "东大街"
+  },
+  "d/choyin/taolin": {
+   "label": "桃林2"
+  },
+  "d/choyin/bridge3": {
+   "label": "曲桥"
+  },
+  "d/choyin/bridge1": {
+   "label": "曲桥3"
+  },
+  "d/choyin/hollow3": {
+   "label": "寒谷尽头"
+  },
+  "d/choyin/n_street1": {
+   "label": "福林大街"
+  },
+  "d/choyin/yamen": {
+   "label": "大堂"
+  },
+  "d/choyin/n_gate": {
+   "label": "乔阴县城北门"
+  },
+  "d/choyin/bridge4": {
+   "label": "曲桥2"
+  },
+  "d/choyin/craneroom": {
+   "label": "树冠"
+  },
+  "d/choyin/bridge2": {
+   "label": "曲桥5"
+  },
+  "d/choyin/hollow2": {
+   "label": "寒谷2"
+  },
+  "d/choyin/s_street2": {
+   "label": "福林大街4"
+  },
+  "d/choyin/nw_street": {
+   "label": "石板空地"
+  },
+  "d/choyin/rockroad": {
+   "label": "砾石路"
+  },
+  "d/choyin/crossroad": {
+   "label": "十字路口3"
+  },
+  "d/choyin/s_street5": {
+   "label": "承安街2"
+  },
+  "d/choyin/club": {
+   "label": "草堂"
+  },
+  "d/choyin/rockpath2": {
+   "label": "青石小路10"
+  },
+  "d/choyin/stonehole": {
+   "label": "石室3"
+  },
+  "d/choyin/hotel3": {
+   "label": "福林酒楼3"
+  },
+  "d/choyin/hotel2": {
+   "label": "福林酒楼2"
+  },
+  "d/choyin/halfhole": {
+   "label": "山洞"
+  },
+  "d/choyin/n_street3": {
+   "label": "福林大街5"
+  },
+  "d/choyin/solidpath2": {
+   "label": "荒野小径"
+  },
+  "d/choyin/n_street2": {
+   "label": "福林大街3"
+  },
+  "d/choyin/cloudpool": {
+   "label": "云梦大泽"
+  },
+  "d/choyin/solidpath1": {
+   "label": "土路2"
+  },
+  "d/choyin/dragon_temple": {
+   "label": "火龙将军庙"
+  },
+  "d/choyin/court1": {
+   "label": "县府衙门"
+  },
+  "d/choyin/tomb2": {
+   "label": "树王坟内部"
+  },
+  "d/choyin/tomb1": {
+   "label": "树王坟"
+  },
+  "d/choyin/s_street3": {
+   "label": "福林大街2"
+  },
+  "d/choyin/yard": {
+   "label": "庭院"
+  },
+  "d/choyin/bridge5": {
+   "label": "曲桥4"
+  },
+  "d/choyin/w_street4": {
+   "label": "西大街4"
+  },
+  "d/choyin/altar": {
+   "label": "火龙将军庙2"
+  },
+  "d/choyin/hollow": {
+   "label": "寒谷"
+  },
+  "d/choyin/rockpath1": {
+   "label": "青石小路9"
+  },
+  "d/choyin/stove": {
+   "label": "丹炉"
+  },
+  "d/choyin/spath": {
+   "label": "土路"
+  },
+  "d/choyin/tongbhill": {
+   "label": "桐柏山"
+  },
+  "d/choyin/tomb3": {
+   "label": "树王坟内部2"
+  },
+  "d/choyin/w_street1": {
+   "label": "西大街"
+  },
+  "d/choyin/sw_road1": {
+   "label": "街道"
+  },
+  "d/village/lake": {
+   "label": "玉螺湖"
+  },
+  "d/village/road6": {
+   "label": "青石小路2"
+  },
+  "d/village/road8": {
+   "label": "青石小路3"
+  },
+  "d/village/road1": {
+   "label": "黄土大道2"
+  },
+  "d/village/road2": {
+   "label": "三叉路口3"
+  },
+  "d/village/melonguard": {
+   "label": "瓜棚"
+  },
+  "d/village/road5": {
+   "label": "青石小路4"
+  },
+  "d/village/road3": {
+   "label": "青石小路7"
+  },
+  "d/village/road9": {
+   "label": "青石小路8"
+  },
+  "d/village/lakebottom1": {
+   "label": "水下岩洞2"
+  },
+  "d/village/littlegarden": {
+   "label": "花园3"
+  },
+  "d/village/lordhouse2": {
+   "label": "财主家东房"
+  },
+  "d/village/field": {
+   "label": "稻田"
+  },
+  "d/village/lakeside": {
+   "label": "玉螺湖畔"
+  },
+  "d/village/fmhousback": {
+   "label": "农舍后院"
+  },
+  "d/village/lakebottom2": {
+   "label": "水下岩洞"
+  },
+  "d/village/road4": {
+   "label": "青石小路5"
+  },
+  "d/village/lordhouse1": {
+   "label": "财主家前院"
+  },
+  "d/village/farmhouse1": {
+   "label": "农舍"
+  },
+  "d/village/valley1": {
+   "label": "忘情谷外"
+  },
+  "d/village/valley2": {
+   "label": "忘情谷外2"
+  },
+  "d/village/melonfarm": {
+   "label": "瓜地"
+  },
+  "d/village/lordhouse3": {
+   "label": "财主家南房"
+  },
+  "d/village/home": {
+   "label": "刘家小房2"
+  },
+  "d/village/road7": {
+   "label": "青石小路6"
+  },
+  "d/village/smallstorage": {
+   "label": "厨房3"
+  },
+  "d/wiz/courthouse": {
+   "label": "法院"
+  },
+  "d/wiz/entrance": {
+   "label": "巫师会客室"
+  },
+  "d/wiz/hall1": {
+   "label": "巫师交谊厅"
+  },
+  "d/wiz/jobroom": {
+   "label": "工作进度简报室"
+  },
+  "d/waterfog/sroad3": {
+   "label": "青石官道5"
+  },
+  "d/waterfog/stair4": {
+   "label": "白石阶梯3"
+  },
+  "d/waterfog/stair3": {
+   "label": "白石阶梯"
+  },
+  "d/waterfog/servroom": {
+   "label": "仆役卧室"
+  },
+  "d/waterfog/westhall": {
+   "label": "水烟阁西侧花厅"
+  },
+  "d/waterfog/east_2f": {
+   "label": "东侧厅2"
+  },
+  "d/waterfog/weststair": {
+   "label": "西侧厅2"
+  },
+  "d/waterfog/entrance": {
+   "label": "水烟阁正门"
+  },
+  "d/waterfog/kitchen": {
+   "label": "厨房4"
+  },
+  "d/waterfog/stair5": {
+   "label": "白石阶梯6"
+  },
+  "d/waterfog/sroad1": {
+   "label": "青石官道7"
+  },
+  "d/waterfog/eaststair": {
+   "label": "东侧厅"
+  },
+  "d/waterfog/stair2": {
+   "label": "白石阶梯7"
+  },
+  "d/waterfog/west_2f": {
+   "label": "西侧厅"
+  },
+  "d/waterfog/storage": {
+   "label": "柴房"
+  },
+  "d/waterfog/wpath1": {
+   "label": "山坡小径2"
+  },
+  "d/waterfog/easthall": {
+   "label": "水烟阁东侧花厅"
+  },
+  "d/waterfog/swordtomb": {
+   "label": "葬剑亭"
+  },
+  "d/waterfog/clifftop": {
+   "label": "水烟阁半山亭"
+  },
+  "d/waterfog/wpath2": {
+   "label": "山坡小径"
+  },
+  "d/waterfog/stair1": {
+   "label": "白石阶梯5"
+  },
+  "d/waterfog/wpath5": {
+   "label": "白石阶梯8"
+  },
+  "d/waterfog/wpath4": {
+   "label": "白石阶梯2"
+  },
+  "d/waterfog/wpath3": {
+   "label": "白石阶梯4"
+  },
+  "d/waterfog/sroad2": {
+   "label": "青石官道6"
+  },
+  "d/waterfog/frontyard": {
+   "label": "水烟阁前"
+  },
+  "d/waterfog/forehall": {
+   "label": "聆啸厅"
+  },
+  "d/sanyen/back_temple": {
+   "label": "后殿"
+  },
+  "d/sanyen/tunnel": {
+   "label": "隧道"
+  },
+  "d/sanyen/corridor1": {
+   "label": "走廊"
+  },
+  "d/sanyen/front_yard": {
+   "label": "山烟寺前广场"
+  },
+  "d/sanyen/road1": {
+   "label": "石板大道"
+  },
+  "d/sanyen/road2": {
+   "label": "石板小径"
+  },
+  "d/sanyen/kitchen": {
+   "label": "香积厨"
+  },
+  "d/sanyen/sroad1": {
+   "label": "山路5"
+  },
+  "d/sanyen/door": {
+   "label": "山烟寺寺门"
+  },
+  "d/sanyen/inner_yard": {
+   "label": "庭园"
+  },
+  "d/sanyen/temple": {
+   "label": "大雄宝殿"
+  },
+  "d/sanyen/tunnele": {
+   "label": "隧道口"
+  },
+  "d/sanyen/tower": {
+   "label": "塔林"
+  },
+  "d/sanyen/heal_room": {
+   "label": "流云轩"
+  },
+  "d/sanyen/gate": {
+   "label": "山烟寺山门"
+  },
+  "d/sanyen/drug_field": {
+   "label": "药圃"
+  },
+  "d/sanyen/sroad2": {
+   "label": "山路4"
+  },
+  "d/sanyen/corridor": {
+   "label": "走廊2"
+  },
+  "d/chuenyu/tunnel5": {
+   "label": "地牢3"
+  },
+  "d/chuenyu/tunnel3": {
+   "label": "地牢"
+  },
+  "d/chuenyu/tunnel1": {
+   "label": "地牢4"
+  },
+  "d/chuenyu/gate_castle": {
+   "label": "黑松淳于"
+  },
+  "d/chuenyu/east_blackge": {
+   "label": "黑松阁东厅"
+  },
+  "d/chuenyu/east_garden": {
+   "label": "东花园"
+  },
+  "d/chuenyu/west_garden": {
+   "label": "西花园"
+  },
+  "d/chuenyu/bedroom": {
+   "label": "卧室"
+  },
+  "d/chuenyu/tunnel6": {
+   "label": "地牢5"
+  },
+  "d/chuenyu/kitchen": {
+   "label": "膳房"
+  },
+  "d/chuenyu/croad1": {
+   "label": "黄土大道"
+  },
+  "d/chuenyu/foot_b_mtn": {
+   "label": "黑松山腰"
+  },
+  "d/chuenyu/high_b_mtn2": {
+   "label": "花岗石街2"
+  },
+  "d/chuenyu/north_garden": {
+   "label": "北花园"
+  },
+  "d/chuenyu/smallyard": {
+   "label": "翠绿的小草坪"
+  },
+  "d/chuenyu/littlegarden": {
+   "label": "花园2"
+  },
+  "d/chuenyu/west_castle": {
+   "label": "黑松城堡的西侧"
+  },
+  "d/chuenyu/sunnyroad": {
+   "label": "山脚乡田"
+  },
+  "d/chuenyu/east_castle": {
+   "label": "黑松城堡的东侧"
+  },
+  "d/chuenyu/storage": {
+   "label": "储藏室"
+  },
+  "d/chuenyu/high_b_mtn": {
+   "label": "花岗石街"
+  },
+  "d/chuenyu/dungeon": {
+   "label": "刑房3"
+  },
+  "d/chuenyu/croad2": {
+   "label": "路口"
+  },
+  "d/chuenyu/center": {
+   "label": "黑松阁正厅"
+  },
+  "d/chuenyu/rope_bridge": {
+   "label": "铁索桥"
+  },
+  "d/chuenyu/south_garden": {
+   "label": "南花园"
+  },
+  "d/chuenyu/tortureroom": {
+   "label": "刑房"
+  },
+  "d/chuenyu/tunnel4": {
+   "label": "地牢2"
+  },
+  "d/chuenyu/tortureroom2": {
+   "label": "刑房2"
+  },
+  "d/chuenyu/west_blackge": {
+   "label": "黑松阁西厅"
+  },
+  "d/chuenyu/trap_castle": {
+   "label": "夹道"
+  },
+  "d/chuenyu/tunnel2": {
+   "label": "地牢6"
+  },
+  "d/chuenyu/base_b_m": {
+   "label": "黑松山脚"
+  },
+  "d/chuenyu/home": {
+   "label": "刘家小房"
+  },
+  "d/chuenyu/yiantai": {
+   "label": "阳台"
+  },
+  "d/chuenyu/dustyroad3": {
+   "label": "青石小路"
+  },
+  "d/chuenyu/smallstorage": {
+   "label": "厨房2"
+  },
+  "d/death/inn1": {
+   "label": "小店"
+  },
+  "d/death/road1": {
+   "label": "鬼门大道2"
+  },
+  "d/death/gateway": {
+   "label": "酆都城门"
+  },
+  "d/death/road2": {
+   "label": "鬼门大道"
+  },
+  "d/death/bridge1": {
+   "label": "奈何桥"
+  },
+  "d/death/road3": {
+   "label": "路的尽头"
+  },
+  "d/death/bridge": {
+   "label": "奈何桥2"
+  },
+  "d/death/inn2": {
+   "label": "黑店"
+  },
+  "d/death/block": {
+   "label": "空房间3"
+  },
+  "d/death/gate": {
+   "label": "\u001b[1;37m鬼门关\u001b[2;37;0m"
+  },
+  "d/death/spath1": {
+   "label": "墙边小路"
+  },
+  "d/death/jail": {
+   "label": "绿岛"
+  },
+  "d/temple/trainroom": {
+   "label": "练功\\房"
+  },
+  "d/temple/ladder4": {
+   "label": "石英岩石阶5"
+  },
+  "d/temple/square": {
+   "label": "灵心观广场"
+  },
+  "d/temple/corridor7": {
+   "label": "回廊3"
+  },
+  "d/temple/corridor1": {
+   "label": "回廊6"
+  },
+  "d/temple/broom2": {
+   "label": "书库"
+  },
+  "d/temple/ladder1": {
+   "label": "石英岩石阶2"
+  },
+  "d/temple/corridor3": {
+   "label": "回廊2"
+  },
+  "d/temple/entrance": {
+   "label": "灵心观前"
+  },
+  "d/temple/road1": {
+   "label": "青石小径2"
+  },
+  "d/temple/road2": {
+   "label": "青石小径"
+  },
+  "d/temple/ladder2": {
+   "label": "石英岩石阶3"
+  },
+  "d/temple/corridor4": {
+   "label": "回廊"
+  },
+  "d/temple/restroom2": {
+   "label": "厢房2"
+  },
+  "d/temple/temple2": {
+   "label": "后殿2"
+  },
+  "d/temple/corridor2": {
+   "label": "回廊4"
+  },
+  "d/temple/book_room2": {
+   "label": "经楼3"
+  },
+  "d/temple/ladder5": {
+   "label": "石英岩石阶"
+  },
+  "d/temple/inneryard": {
+   "label": "天井2"
+  },
+  "d/temple/broom1": {
+   "label": "经楼"
+  },
+  "d/temple/temple1": {
+   "label": "灵心观大殿"
+  },
+  "d/temple/corridor6": {
+   "label": "回廊5"
+  },
+  "d/temple/corridor5": {
+   "label": "回廊7"
+  },
+  "d/temple/book_room1": {
+   "label": "经楼2"
+  },
+  "d/temple/ladder3": {
+   "label": "石英岩石阶4"
+  },
+  "d/temple/restroom1": {
+   "label": "厢房"
+  },
+  "d/temple/sroad": {
+   "label": "青石官道4"
+  },
+  "d/graveyard/road1": {
+   "label": "黄土小径"
+  },
+  "d/graveyard/grave1": {
+   "label": "乱葬岗"
+  },
+  "u/cloud/woodboxy": {
+   "label": "棺材铺"
+  },
+  "u/cloud/eroad2": {
+   "label": "绮云镇街道4"
+  },
+  "u/cloud/wroad1": {
+   "label": "绮云镇街道3"
+  },
+  "u/cloud/rich": {
+   "label": "张百万家2"
+  },
+  "u/cloud/nwroad3": {
+   "label": "中市场"
+  },
+  "u/cloud/wroad0": {
+   "label": "绮云镇街道"
+  },
+  "u/cloud/tearoom": {
+   "label": "香茗坊"
+  },
+  "u/cloud/park": {
+   "label": "张家花园"
+  },
+  "u/cloud/marry_room": {
+   "label": "红娘庄"
+  },
+  "u/cloud/wroad2": {
+   "label": "绮云镇街道5"
+  },
+  "u/cloud/bookstore": {
+   "label": "书局"
+  },
+  "u/cloud/monky": {
+   "label": "斋院"
+  },
+  "u/cloud/dukou": {
+   "label": "江北渡口"
+  },
+  "u/cloud/entrance": {
+   "label": "绮云镇"
+  },
+  "u/cloud/eroad3": {
+   "label": "绮云镇街道2"
+  },
+  "u/cloud/god1": {
+   "label": "场院"
+  },
+  "u/cloud/nroad2": {
+   "label": "南市场"
+  },
+  "u/cloud/duchang2": {
+   "label": "赌场"
+  },
+  "u/cloud/sroad1": {
+   "label": "绮云镇街道7"
+  },
+  "u/cloud/zaihuoy": {
+   "label": "杂货铺"
+  },
+  "u/cloud/m_house": {
+   "label": "张百万家"
+  },
+  "u/cloud/drugstore": {
+   "label": "药店"
+  },
+  "u/cloud/tailory": {
+   "label": "布庄"
+  },
+  "u/cloud/eroad1": {
+   "label": "绮云镇街道6"
+  },
+  "u/cloud/cross": {
+   "label": "十字路口"
+  },
+  "u/cloud/biaoju": {
+   "label": "镖局"
+  },
+  "u/cloud/tea_corridor": {
+   "label": "香茗坊茶窖"
+  },
+  "u/cloud/jiyuan2": {
+   "label": "怡红院二楼"
+  },
+  "u/cloud/weapony": {
+   "label": "兵器屋"
+  },
+  "u/cloud/butchery": {
+   "label": "镇北肉铺"
+  },
+  "u/cloud/nwroad1": {
+   "label": "北市场"
+  },
+  "u/cloud/nwroad2": {
+   "label": "西市场"
+  },
+  "u/cloud/duchang": {
+   "label": "赌场2"
+  },
+  "u/cloud/jiyuan": {
+   "label": "怡红院"
+  },
+  "u/cloud/eroad4": {
+   "label": "茶场"
+  },
+  "u/cloud/nroad1": {
+   "label": "东市场"
+  },
+  "u/cloud/god2": {
+   "label": "场院前厅"
+  },
+  "u/cloud/tearoom2": {
+   "label": "香茗坊二楼"
+  },
+  "u/cloud/sunhill/dukou": {
+   "label": "江南渡口"
+  },
+  "u/cloud/sunhill/road1": {
+   "label": "山脚小路"
+  },
+  "u/cloud/sunhill/road2": {
+   "label": "盘山小径"
+  },
+  "u/cloud/sunhill/southriver": {
+   "label": "泓水南侧"
+  },
+  "u/cloud/sunhill/midriver": {
+   "label": "江心"
+  },
+  "u/cloud/sunhill/northriver": {
+   "label": "泓水北侧"
+  },
+  "u/cloud/sunhill/road3": {
+   "label": "盘山小径3"
+  },
+  "u/cloud/sunhill/road4": {
+   "label": "盘山小径2"
+  },
+  "u/cloud/dragonhill/shillfoot": {
+   "label": "卧龙岗南坡"
+  },
+  "u/cloud/dragonhill/nroad": {
+   "label": "黄土路2"
+  },
+  "u/cloud/dragonhill/nhillfoot": {
+   "label": "卧龙岗北坡"
+  },
+  "u/cloud/dragonhill/hummock": {
+   "label": "卧龙岗"
+  },
+  "u/cloud/dragonhill/sroad": {
+   "label": "黄土路"
+  }
+ },
+ "edges": [
+  {
+   "from": "d/oldpine/lake",
+   "to": "d/oldpine/riverbank1",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/npath1",
+   "to": "d/oldpine/npath2",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/npath1",
+   "to": "d/snow/eroad3",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/epath3",
+   "to": "d/oldpine/epath2",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/secrectpath1",
+   "to": "d/oldpine/path3",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/secrectpath1",
+   "to": "d/oldpine/passage",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/pine6",
+   "to": "d/oldpine/pine7",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/keep3",
+   "to": "d/oldpine/keep2",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/keep1",
+   "to": "d/oldpine/pine2",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/keep1",
+   "to": "d/oldpine/keep2",
+   "dir": "east"
+  },
+  {
+   "from": "d/oldpine/pine1",
+   "to": "d/oldpine/pine4",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/npath3",
+   "to": "d/oldpine/clearing",
+   "dir": "east"
+  },
+  {
+   "from": "d/oldpine/npath3",
+   "to": "d/oldpine/npath2",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/oldpine/keep2",
+   "to": "d/oldpine/keep1",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/keep2",
+   "to": "d/oldpine/keep3",
+   "dir": "east"
+  },
+  {
+   "from": "d/oldpine/pine7",
+   "to": "d/oldpine/cliffdown",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/oldpine/path3",
+   "to": "d/oldpine/secrectpath1",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/epath2",
+   "to": "d/oldpine/epath1",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/epath2",
+   "to": "d/oldpine/epath3",
+   "dir": "east"
+  },
+  {
+   "from": "d/oldpine/cave4",
+   "to": "d/oldpine/cave5",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/tree2",
+   "to": "d/oldpine/tree3",
+   "dir": "up"
+  },
+  {
+   "from": "d/oldpine/tree2",
+   "to": "d/oldpine/tree1",
+   "dir": "down"
+  },
+  {
+   "from": "d/oldpine/pine2",
+   "to": "d/oldpine/keep1",
+   "dir": "east"
+  },
+  {
+   "from": "d/oldpine/spath4",
+   "to": "d/oldpine/spath3",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/riverbank2",
+   "to": "d/oldpine/waterfall",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/riverbank2",
+   "to": "d/oldpine/riverbank1",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/pine5",
+   "to": "d/oldpine/pine6",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/cliffside",
+   "to": "d/oldpine/pine1",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/waterfall",
+   "to": "d/oldpine/riverbank2",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/cave5",
+   "to": "d/oldpine/waterfall",
+   "dir": "eastdown"
+  },
+  {
+   "from": "d/oldpine/cliffdown",
+   "to": "d/oldpine/pine7",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/oldpine/npath2",
+   "to": "d/oldpine/npath3",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/oldpine/npath2",
+   "to": "d/oldpine/npath1",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/clearing",
+   "to": "d/oldpine/npath3",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/clearing",
+   "to": "d/oldpine/spath1",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/clearing",
+   "to": "d/oldpine/epath1",
+   "dir": "east"
+  },
+  {
+   "from": "d/oldpine/cave1",
+   "to": "d/oldpine/cave2",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/cave2",
+   "to": "d/oldpine/cave4",
+   "dir": "east"
+  },
+  {
+   "from": "d/oldpine/passage",
+   "to": "d/oldpine/secrectpath1",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/passage",
+   "to": "d/oldpine/waterfall",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/spath3",
+   "to": "d/oldpine/spath4",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/spath3",
+   "to": "d/oldpine/spath2",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/riverbank1",
+   "to": "d/oldpine/riverbank2",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/riverbank1",
+   "to": "d/oldpine/lake",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/spath1",
+   "to": "d/oldpine/clearing",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/spath1",
+   "to": "d/oldpine/spath2",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/tree1",
+   "to": "d/oldpine/tree2",
+   "dir": "up"
+  },
+  {
+   "from": "d/oldpine/tree1",
+   "to": "d/oldpine/clearing",
+   "dir": "down"
+  },
+  {
+   "from": "d/oldpine/epath1",
+   "to": "d/oldpine/clearing",
+   "dir": "west"
+  },
+  {
+   "from": "d/oldpine/epath1",
+   "to": "d/oldpine/epath2",
+   "dir": "east"
+  },
+  {
+   "from": "d/oldpine/pine4",
+   "to": "d/oldpine/pine5",
+   "dir": "north"
+  },
+  {
+   "from": "d/oldpine/tree3",
+   "to": "d/oldpine/tree2",
+   "dir": "down"
+  },
+  {
+   "from": "d/oldpine/spath2",
+   "to": "d/oldpine/spath1",
+   "dir": "south"
+  },
+  {
+   "from": "d/oldpine/spath2",
+   "to": "d/oldpine/spath3",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/camp8",
+   "to": "d/canyon/camp7",
+   "dir": "west"
+  },
+  {
+   "from": "d/canyon/blackmarket",
+   "to": "d/canyon/canyon4",
+   "dir": "east"
+  },
+  {
+   "from": "d/canyon/road",
+   "to": "d/snow/sroad4",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/canyon/stone_forest2",
+   "to": "d/canyon/stone_forest3",
+   "dir": "west"
+  },
+  {
+   "from": "d/canyon/stone_forest2",
+   "to": "d/canyon/stone_forest1",
+   "dir": "east"
+  },
+  {
+   "from": "d/canyon/camp5",
+   "to": "d/canyon/camp2",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/camp2",
+   "to": "d/canyon/camp5",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/camp2",
+   "to": "d/canyon/camp6",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/camp2",
+   "to": "d/canyon/camp7",
+   "dir": "east"
+  },
+  {
+   "from": "d/canyon/camp2",
+   "to": "d/canyon/camp1",
+   "dir": "west"
+  },
+  {
+   "from": "d/canyon/canyon7",
+   "to": "d/village/road1",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/canyon7",
+   "to": "d/canyon/canyon6",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/canyon4",
+   "to": "d/canyon/canyon3",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/canyon4",
+   "to": "d/canyon/canyon5",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/canyon4",
+   "to": "d/canyon/camp1",
+   "dir": "east"
+  },
+  {
+   "from": "d/canyon/stone_forest1",
+   "to": "d/canyon/canyon2",
+   "dir": "east"
+  },
+  {
+   "from": "d/canyon/stone_forest1",
+   "to": "d/canyon/stone_forest2",
+   "dir": "west"
+  },
+  {
+   "from": "d/canyon/canyon1",
+   "to": "d/canyon/canyon2",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/canyon/canyon2",
+   "to": "d/canyon/canyon1",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/canyon/canyon2",
+   "to": "d/canyon/canyon3",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/stone_forest3",
+   "to": "d/canyon/fantasy1",
+   "dir": "mirror"
+  },
+  {
+   "from": "d/canyon/stone_forest3",
+   "to": "d/canyon/stone_forest2",
+   "dir": "east"
+  },
+  {
+   "from": "d/canyon/canyon5",
+   "to": "d/canyon/canyon6",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/canyon5",
+   "to": "d/canyon/canyon4",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/canyon3",
+   "to": "d/canyon/canyon2",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/canyon3",
+   "to": "d/canyon/canyon4",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/camp7",
+   "to": "d/canyon/camp8",
+   "dir": "east"
+  },
+  {
+   "from": "d/canyon/camp7",
+   "to": "d/canyon/camp2",
+   "dir": "west"
+  },
+  {
+   "from": "d/canyon/camp1",
+   "to": "d/canyon/canyon4",
+   "dir": "west"
+  },
+  {
+   "from": "d/canyon/camp1",
+   "to": "d/canyon/camp3",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/camp1",
+   "to": "d/canyon/camp4",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/camp1",
+   "to": "d/canyon/camp2",
+   "dir": "east"
+  },
+  {
+   "from": "d/canyon/camp6",
+   "to": "d/canyon/camp2",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/canyon6",
+   "to": "d/canyon/canyon7",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/canyon6",
+   "to": "d/canyon/canyon5",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/fantasy1",
+   "to": "d/canyon/dream/tmp",
+   "dir": "up"
+  },
+  {
+   "from": "d/canyon/fantasy1",
+   "to": "d/canyon/evil/tmp",
+   "dir": "down"
+  },
+  {
+   "from": "d/canyon/fantasy1",
+   "to": "d/canyon/stone_forest3",
+   "dir": "back"
+  },
+  {
+   "from": "d/canyon/fantasy1",
+   "to": "d/canyon/bamboo/bamboo1",
+   "dir": "center"
+  },
+  {
+   "from": "d/canyon/camp3",
+   "to": "d/canyon/camp1",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/camp4",
+   "to": "d/canyon/camp1",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/bamboo/bamboo1",
+   "to": "d/canyon/bamboo/bamboo2",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/bamboo/bamboo1",
+   "to": "d/canyon/fantasy1",
+   "dir": "back"
+  },
+  {
+   "from": "d/canyon/bamboo/bamboo3",
+   "to": "d/canyon/bamboo/bamboo2",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/bamboo/bamboo2",
+   "to": "d/canyon/bamboo/bamboo3",
+   "dir": "north"
+  },
+  {
+   "from": "d/canyon/bamboo/bamboo2",
+   "to": "d/canyon/bamboo/bamboo1",
+   "dir": "south"
+  },
+  {
+   "from": "d/canyon/bamboo/train",
+   "to": "d/canyon/bamboo/bamboo3",
+   "dir": "out"
+  },
+  {
+   "from": "d/canyon/dream/tmp",
+   "to": "d/canyon/fantasy1",
+   "dir": "down"
+  },
+  {
+   "from": "d/canyon/evil/tmp",
+   "to": "d/canyon/fantasy1",
+   "dir": "up"
+  },
+  {
+   "from": "d/city/street9",
+   "to": "d/city/eastdoor1",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street9",
+   "to": "d/city/weapon",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street9",
+   "to": "d/city/street8",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/northdoor",
+   "to": "d/city/nroad1",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/northdoor",
+   "to": "d/city/street16",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street13",
+   "to": "d/city/westdoor2",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street13",
+   "to": "d/city/street12",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/feiyuan",
+   "to": "d/city/street6",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/shenwumen",
+   "to": "d/city/jitan",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/shenwumen",
+   "to": "d/city/street1",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shenwumen",
+   "to": "d/city/street6",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/jiaowu",
+   "to": "d/city/bridge",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/jiaowu",
+   "to": "d/city/wumen",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/jiulou",
+   "to": "d/city/street5",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/jiulou",
+   "to": "d/city/jiulou_2",
+   "dir": "up"
+  },
+  {
+   "from": "d/city/eastdoor2",
+   "to": "d/city/street10",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/wumen",
+   "to": "d/city/street3",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/wumen",
+   "to": "d/city/street4",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/wumen",
+   "to": "d/city/jiaowu",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street8",
+   "to": "d/city/street9",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street8",
+   "to": "d/city/street7",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street15",
+   "to": "d/city/street14",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street15",
+   "to": "d/city/street7",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street3",
+   "to": "d/city/shangshu/gate",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street3",
+   "to": "d/city/wumen",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street3",
+   "to": "d/city/street2",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street6",
+   "to": "d/city/shenwumen",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street6",
+   "to": "d/city/street5",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street6",
+   "to": "d/city/cloth",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street6",
+   "to": "d/city/feiyuan",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street7",
+   "to": "d/city/street8",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street7",
+   "to": "d/city/street15",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street7",
+   "to": "d/city/street16",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street7",
+   "to": "d/city/jitan",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street5",
+   "to": "d/city/jiulou",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street5",
+   "to": "d/city/street4",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street5",
+   "to": "d/city/street6",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/nroad2",
+   "to": "d/city/nroad1",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/nroad2",
+   "to": "d/village/road2",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/jiulou_2",
+   "to": "d/city/jiulou",
+   "dir": "down"
+  },
+  {
+   "from": "d/city/street17",
+   "to": "d/city/bridge",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street17",
+   "to": "d/city/southdoor",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/southdoor",
+   "to": "d/city/street17",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street12",
+   "to": "d/city/bridge",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street12",
+   "to": "d/city/street13",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/bridge",
+   "to": "d/city/street17",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/bridge",
+   "to": "d/city/street12",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/bridge",
+   "to": "d/city/street11",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/bridge",
+   "to": "d/city/jiaowu",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/biaoju",
+   "to": "d/city/street1",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/westdoor2",
+   "to": "d/city/street13",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street14",
+   "to": "d/city/westdoor1",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street14",
+   "to": "d/city/street15",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street16",
+   "to": "d/city/northdoor",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street16",
+   "to": "d/city/street7",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/eastdoor1",
+   "to": "d/city/street9",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/jitan",
+   "to": "d/city/shenwumen",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/jitan",
+   "to": "d/city/street7",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/boots",
+   "to": "d/city/street11",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/weapon",
+   "to": "d/city/street9",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/cloth",
+   "to": "d/city/street6",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street10",
+   "to": "d/city/eastdoor2",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street10",
+   "to": "d/city/street11",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/house1",
+   "to": "d/city/street11",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/westdoor1",
+   "to": "d/city/street14",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street11",
+   "to": "d/city/bridge",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street11",
+   "to": "d/city/boots",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street11",
+   "to": "d/city/street10",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street11",
+   "to": "d/city/house1",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street4",
+   "to": "d/city/wumen",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/street4",
+   "to": "d/city/xiangguo/gate",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/street4",
+   "to": "d/city/street5",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/nroad1",
+   "to": "d/city/nroad2",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/nroad1",
+   "to": "d/city/northdoor",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street2",
+   "to": "d/city/street1",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street2",
+   "to": "d/city/street3",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street1",
+   "to": "d/city/biaoju",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/street1",
+   "to": "d/city/street2",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/street1",
+   "to": "d/city/shenwumen",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/feiwu",
+   "to": "d/city/shangshu/road4",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shangshu/huayuan",
+   "to": "d/city/shangshu/road3",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/shangshu/huayuan",
+   "to": "d/city/shangshu/neizhai",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shangshu/huayuan",
+   "to": "d/city/shangshu/road4",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/road1",
+   "to": "d/city/shangshu/xiaowu",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shangshu/road1",
+   "to": "d/city/shangshu/road2",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/shangshu/yuan",
+   "to": "d/city/shangshu/gate",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/yuan",
+   "to": "d/city/shangshu/keting",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shangshu/yuan",
+   "to": "d/city/shangshu/road3",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/shangshu/yuan",
+   "to": "d/city/shangshu/road2",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/shangshu/road2",
+   "to": "d/city/shangshu/road1",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/shangshu/road2",
+   "to": "d/city/shangshu/kefang",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shangshu/road2",
+   "to": "d/city/shangshu/yuan",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/shangshu/neizhai",
+   "to": "d/city/shangshu/huayuan",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/road3",
+   "to": "d/city/shangshu/yuan",
+   "dir": "north"
+  },
+  {
+   "from": "d/city/shangshu/road3",
+   "to": "d/city/shangshu/huayuan",
+   "dir": "south"
+  },
+  {
+   "from": "d/city/shangshu/road3",
+   "to": "d/city/shangshu/chufang",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shangshu/xiaowu",
+   "to": "d/city/shangshu/road1",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/keting",
+   "to": "d/city/shangshu/yuan",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/road4",
+   "to": "d/city/shangshu/feiwu",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/road4",
+   "to": "d/city/shangshu/huayuan",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shangshu/kefang",
+   "to": "d/city/shangshu/road2",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/gate",
+   "to": "d/city/street3",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/shangshu/gate",
+   "to": "d/city/shangshu/yuan",
+   "dir": "east"
+  },
+  {
+   "from": "d/city/shangshu/chufang",
+   "to": "d/city/shangshu/road3",
+   "dir": "west"
+  },
+  {
+   "from": "d/city/xiangguo/gate",
+   "to": "d/city/street4",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/sroad3",
+   "to": "d/latemoon/sroad2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/sroad3",
+   "to": "d/latemoon/sroad4",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/front_yard",
+   "to": "d/latemoon/gate",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/front_yard",
+   "to": "d/latemoon/latemoon1",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/front_yard",
+   "to": "d/latemoon/park/yard1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/latemoonc",
+   "to": "d/latemoon/latemoon5",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/latemoonc",
+   "to": "d/latemoon/latemoon7",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/latemoonc",
+   "to": "d/latemoon/latemoon1",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/latemoonc",
+   "to": "d/latemoon/latemoon4",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/entrance",
+   "to": "d/latemoon/gate",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/entrance",
+   "to": "u/cloud/wroad0",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/bamboo1",
+   "to": "d/latemoon/bamboo",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/bamboo1",
+   "to": "d/latemoon/bamboo4",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/bamboo3",
+   "to": "d/latemoon/bamboo",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/bamboo3",
+   "to": "d/latemoon/bamboo2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/sroad5",
+   "to": "d/latemoon/sroad4",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/sroad5",
+   "to": "d/latemoon/bamboo3",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/sroad5",
+   "to": "d/sanyen/tunnel",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/bamboo",
+   "to": "d/latemoon/bamboo1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/bamboo",
+   "to": "d/latemoon/bamboo3",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/bamboo",
+   "to": "d/latemoon/bamboo4",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/bamboo",
+   "to": "d/latemoon/bamboo2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/sroad1",
+   "to": "d/latemoon/park/moondoor",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/sroad1",
+   "to": "d/latemoon/sroad2",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/latemoon/sroad4",
+   "to": "d/latemoon/sroad3",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/sroad4",
+   "to": "d/latemoon/sroad5",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/latemoon3",
+   "to": "d/latemoon/latemoon1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/latebook",
+   "to": "d/latemoon/latemoon7",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/latemoon2",
+   "to": "d/latemoon/latemoon4",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/latemoon6",
+   "to": "d/latemoon/latemoon5",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/latemoon5",
+   "to": "d/latemoon/latemoon6",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/latemoon5",
+   "to": "d/latemoon/latemoonc",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/latemoon1",
+   "to": "d/latemoon/front_yard",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/latemoon1",
+   "to": "d/latemoon/latemoon3",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/latemoon1",
+   "to": "d/latemoon/latemoonc",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/bamboo2",
+   "to": "d/latemoon/bamboo",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/bamboo2",
+   "to": "d/latemoon/bamboo3",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/latemoon8",
+   "to": "d/latemoon/latemoon7",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/latemoon7",
+   "to": "d/latemoon/latemoon8",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/latemoon7",
+   "to": "d/latemoon/latemoonc",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/latemoon7",
+   "to": "d/latemoon/latebook",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/gate",
+   "to": "d/latemoon/entrance",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/gate",
+   "to": "d/latemoon/front_yard",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/latemoon4",
+   "to": "d/latemoon/latemoonc",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/latemoon4",
+   "to": "d/latemoon/room/twoc",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/latemoon4",
+   "to": "d/latemoon/latemoon2",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/sroad2",
+   "to": "d/latemoon/sroad1",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/latemoon/sroad2",
+   "to": "d/latemoon/sroad3",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/bamboo4",
+   "to": "d/latemoon/bamboo",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/bamboo4",
+   "to": "d/latemoon/bamboo1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/bamboo4",
+   "to": "d/latemoon/bamboo3",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/westroom",
+   "to": "d/latemoon/room/wroad2",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/bathroom1",
+   "to": "d/latemoon/room/flower1",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/bathroom1",
+   "to": "d/latemoon/room/bathroom",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/eroad2",
+   "to": "d/latemoon/room/lroad1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/eroad2",
+   "to": "d/latemoon/room/eroad1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/flower1",
+   "to": "d/latemoon/room/corridor7",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/flower1",
+   "to": "d/latemoon/room/bathroom1",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/flower1",
+   "to": "d/latemoon/miroom2",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/wroad1",
+   "to": "d/latemoon/room/lroad3",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/wroad1",
+   "to": "d/latemoon/room/wroad2",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/corridor7",
+   "to": "d/latemoon/room/flower1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/corridor7",
+   "to": "d/latemoon/room/eroad1",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/corridor7",
+   "to": "d/latemoon/room/wroad2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/wroad2",
+   "to": "d/latemoon/room/wroad1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/wroad2",
+   "to": "d/latemoon/room/corridor7",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/wroad2",
+   "to": "d/latemoon/room/westroom",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/wroad2",
+   "to": "d/latemoon/upstar/upstar2",
+   "dir": "southup"
+  },
+  {
+   "from": "d/latemoon/room/lstudio",
+   "to": "d/latemoon/room/lcenter",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/eastroom",
+   "to": "d/latemoon/room/eroad1",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/lcenter",
+   "to": "d/latemoon/room/lroad1",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/lcenter",
+   "to": "d/latemoon/room/twoc",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/lcenter",
+   "to": "d/latemoon/room/lroad3",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/lcenter",
+   "to": "d/latemoon/room/lstudio",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/room4",
+   "to": "d/latemoon/room/lroad3",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/kitchen",
+   "to": "d/latemoon/room/eat2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/guest1",
+   "to": "d/latemoon/room/two1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/lroad1",
+   "to": "d/latemoon/room/eroad2",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/lroad1",
+   "to": "d/latemoon/room/lcenter",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/two2",
+   "to": "d/latemoon/room/guest2",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/two2",
+   "to": "d/latemoon/room/two1",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/eroad1",
+   "to": "d/latemoon/room/eastroom",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/eroad1",
+   "to": "d/latemoon/room/corridor7",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/eroad1",
+   "to": "d/latemoon/room/eroad2",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/eat2",
+   "to": "d/latemoon/room/kitchen",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/eat2",
+   "to": "d/latemoon/room/eat1",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/twoc",
+   "to": "d/latemoon/latemoon4",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/twoc",
+   "to": "d/latemoon/room/lcenter",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/twoc",
+   "to": "d/latemoon/room/eat1",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/twoc",
+   "to": "d/latemoon/room/two1",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/lroad3",
+   "to": "d/latemoon/room/lcenter",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/lroad3",
+   "to": "d/latemoon/room/room4",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/lroad3",
+   "to": "d/latemoon/room/wroad1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/lroad3",
+   "to": "d/latemoon/upstar/upstar1",
+   "dir": "northup"
+  },
+  {
+   "from": "d/latemoon/room/eat1",
+   "to": "d/latemoon/room/eat2",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/eat1",
+   "to": "d/latemoon/room/twoc",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/guest2",
+   "to": "d/latemoon/room/two2",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/room/two1",
+   "to": "d/latemoon/room/guest1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/room/two1",
+   "to": "d/latemoon/room/twoc",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/room/two1",
+   "to": "d/latemoon/room/two2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/room/bathroom",
+   "to": "d/latemoon/room/bathroom1",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/park/moon3",
+   "to": "d/latemoon/park/paroad2",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/latemoon/park/moon3",
+   "to": "d/latemoon/park/moon5",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/moon3",
+   "to": "d/latemoon/park/moroom",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/park/moon5",
+   "to": "d/latemoon/park/moon3",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/moon5",
+   "to": "d/latemoon/park/moon2",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/moroom",
+   "to": "d/latemoon/park/moon3",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/park/moon1",
+   "to": "d/latemoon/park/moonc",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/park/moon1",
+   "to": "d/latemoon/park/bridge3",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/latemoon/park/paroad1",
+   "to": "d/latemoon/park/bridge2",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/latemoon/park/paroad1",
+   "to": "d/latemoon/park/moon4",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/latemoon/park/paroad1",
+   "to": "d/latemoon/park/moondoor",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/bridge3",
+   "to": "d/latemoon/park/moon4",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/bridge3",
+   "to": "d/latemoon/park/moon1",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/latemoon/park/bridge1",
+   "to": "d/latemoon/park/moonc",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/bridge1",
+   "to": "d/latemoon/park/pavilion1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/flower2",
+   "to": "d/latemoon/park/yard1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/flower2",
+   "to": "d/latemoon/park/moonc",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/bridge2",
+   "to": "d/latemoon/park/pavilion1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/bridge2",
+   "to": "d/latemoon/park/paroad1",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/latemoon/park/bridge2",
+   "to": "d/latemoon/park/paroad2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/park/pavilion1",
+   "to": "d/latemoon/park/bridge1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/pavilion1",
+   "to": "d/latemoon/park/bridge2",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/moondoor",
+   "to": "d/latemoon/park/paroad1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/moondoor",
+   "to": "d/latemoon/sroad1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/moon2",
+   "to": "d/latemoon/park/moon5",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/moon2",
+   "to": "d/latemoon/park/moonc",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/park/moonc",
+   "to": "d/latemoon/park/flower2",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/moonc",
+   "to": "d/latemoon/park/bridge1",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/moonc",
+   "to": "d/latemoon/park/moon2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/park/moonc",
+   "to": "d/latemoon/park/moon1",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/park/yard1",
+   "to": "d/latemoon/front_yard",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/yard1",
+   "to": "d/latemoon/park/flower2",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/park/moon4",
+   "to": "d/latemoon/park/paroad1",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/latemoon/park/moon4",
+   "to": "d/latemoon/park/bridge3",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/park/paroad2",
+   "to": "d/latemoon/park/bridge2",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/park/paroad2",
+   "to": "d/latemoon/park/moon3",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/latemoon/upstar/upstarc",
+   "to": "d/latemoon/upstar/uplook",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/upstar/upstarc",
+   "to": "d/latemoon/upstar/upstar4",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/upstar/upstarc",
+   "to": "d/latemoon/upstar/upstar3",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar4",
+   "to": "d/latemoon/upstar/upstar1",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar4",
+   "to": "d/latemoon/upstar/upstarc",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar4",
+   "to": "d/latemoon/upstar/uproom2",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar1",
+   "to": "d/latemoon/upstar/upstar4",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar1",
+   "to": "d/latemoon/upstar/upcenter",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar1",
+   "to": "d/latemoon/room/lroad3",
+   "dir": "northdown"
+  },
+  {
+   "from": "d/latemoon/upstar/uproom",
+   "to": "d/latemoon/upstar/upcenter",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar2",
+   "to": "d/latemoon/upstar/upstar3",
+   "dir": "east"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar2",
+   "to": "d/latemoon/upstar/upcenter",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar2",
+   "to": "d/latemoon/room/wroad2",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/latemoon/upstar/uproom2",
+   "to": "d/latemoon/upstar/upstar4",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/upstar/upcenter",
+   "to": "d/latemoon/upstar/uproom",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/upstar/upcenter",
+   "to": "d/latemoon/upstar/upstar1",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/upstar/upcenter",
+   "to": "d/latemoon/upstar/upstar2",
+   "dir": "south"
+  },
+  {
+   "from": "d/latemoon/upstar/uproom3",
+   "to": "d/latemoon/upstar/upstar3",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/upstar/uplook",
+   "to": "d/latemoon/upstar/upstarc",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/upstar/uplook",
+   "to": "d/latemoon/park/yard1",
+   "dir": "jump"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar3",
+   "to": "d/latemoon/upstar/upstar2",
+   "dir": "west"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar3",
+   "to": "d/latemoon/upstar/upstarc",
+   "dir": "north"
+  },
+  {
+   "from": "d/latemoon/upstar/upstar3",
+   "to": "d/latemoon/upstar/uproom3",
+   "dir": "south"
+  },
+  {
+   "from": "d/goathill/mroad2",
+   "to": "d/goathill/mroad3",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/goathill/mroad2",
+   "to": "d/goathill/mroad1",
+   "dir": "south"
+  },
+  {
+   "from": "d/goathill/mroad4",
+   "to": "d/goathill/mroad5",
+   "dir": "east"
+  },
+  {
+   "from": "d/goathill/mroad4",
+   "to": "d/goathill/mroad3",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/goathill/mroad6",
+   "to": "d/goathill/canyon1",
+   "dir": "north"
+  },
+  {
+   "from": "d/goathill/mroad6",
+   "to": "d/goathill/mroad5",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/goathill/mroad6",
+   "to": "d/goathill/slope1",
+   "dir": "south"
+  },
+  {
+   "from": "d/goathill/mroad3",
+   "to": "d/goathill/mroad4",
+   "dir": "northup"
+  },
+  {
+   "from": "d/goathill/mroad3",
+   "to": "d/goathill/temple1",
+   "dir": "east"
+  },
+  {
+   "from": "d/goathill/mroad3",
+   "to": "d/goathill/mroad2",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/goathill/slope1",
+   "to": "d/goathill/mroad6",
+   "dir": "north"
+  },
+  {
+   "from": "d/goathill/slope1",
+   "to": "d/goathill/mroad5",
+   "dir": "west"
+  },
+  {
+   "from": "d/goathill/cavern1",
+   "to": "d/goathill/cavern4",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/goathill/cavern1",
+   "to": "d/goathill/cavern2",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/goathill/cavern1",
+   "to": "d/goathill/canyon3",
+   "dir": "west"
+  },
+  {
+   "from": "d/goathill/canyon1",
+   "to": "d/goathill/canyon2",
+   "dir": "northdown"
+  },
+  {
+   "from": "d/goathill/canyon1",
+   "to": "d/goathill/mroad6",
+   "dir": "south"
+  },
+  {
+   "from": "d/goathill/canyon2",
+   "to": "d/goathill/canyon3",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/goathill/canyon2",
+   "to": "d/goathill/canyon1",
+   "dir": "southup"
+  },
+  {
+   "from": "d/goathill/cavern4",
+   "to": "d/goathill/cavern1",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/goathill/temple1",
+   "to": "d/goathill/mroad3",
+   "dir": "west"
+  },
+  {
+   "from": "d/goathill/canyon3",
+   "to": "d/goathill/cavern1",
+   "dir": "east"
+  },
+  {
+   "from": "d/goathill/canyon3",
+   "to": "d/goathill/canyon2",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/goathill/mroad1",
+   "to": "d/goathill/mroad2",
+   "dir": "north"
+  },
+  {
+   "from": "d/goathill/mroad1",
+   "to": "d/snow/crossroad",
+   "dir": "south"
+  },
+  {
+   "from": "d/goathill/cavern3",
+   "to": "d/goathill/cavern2",
+   "dir": "west"
+  },
+  {
+   "from": "d/goathill/mroad5",
+   "to": "d/goathill/mroad6",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/goathill/mroad5",
+   "to": "d/goathill/slope1",
+   "dir": "east"
+  },
+  {
+   "from": "d/goathill/mroad5",
+   "to": "d/goathill/mroad4",
+   "dir": "west"
+  },
+  {
+   "from": "d/goathill/cavern2",
+   "to": "d/goathill/cavern3",
+   "dir": "east"
+  },
+  {
+   "from": "d/goathill/cavern2",
+   "to": "d/goathill/cavern1",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/green/cavehall",
+   "to": "d/green/outdoor",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/field0",
+   "to": "d/green/path8",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/field0",
+   "to": "d/green/house4",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/field0",
+   "to": "d/green/house2",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/field0",
+   "to": "d/green/field1",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/outdoor",
+   "to": "d/green/cavehall",
+   "dir": "enter"
+  },
+  {
+   "from": "d/green/outdoor",
+   "to": "d/green/entrance",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/temple0",
+   "to": "d/green/path2",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/path2",
+   "to": "d/green/path3",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/path2",
+   "to": "d/green/path1",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/path2",
+   "to": "d/green/temple0",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/path1",
+   "to": "d/green/path0",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/path1",
+   "to": "d/green/path2",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/station1",
+   "to": "d/green/field1",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/station1",
+   "to": "d/green/station0",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/green/house4",
+   "to": "d/green/field0",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/station0",
+   "to": "d/green/station1",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/green/station0",
+   "to": "d/green/path5",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight0",
+   "to": "d/green/entrance",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight0",
+   "to": "d/green/closed",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight0",
+   "to": "d/green/eight0",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight0",
+   "to": "d/green/eight1",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/entrance",
+   "to": "d/green/outdoor",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/entrance",
+   "to": "d/green/eight0",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/entrance",
+   "to": "d/green/mpath2",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/path6",
+   "to": "d/snow/crossroad",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/path6",
+   "to": "d/green/path5",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/shop0",
+   "to": "d/green/path4",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight7",
+   "to": "d/green/stoneroom",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight7",
+   "to": "d/green/eight7",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight7",
+   "to": "d/green/eight6",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight7",
+   "to": "d/green/closed",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/path3",
+   "to": "d/green/path2",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/path3",
+   "to": "d/green/path4",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/path3",
+   "to": "d/green/house0",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/path3",
+   "to": "d/green/path8",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/mpath2",
+   "to": "d/green/mpath1",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/mpath2",
+   "to": "d/green/entrance",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/field1",
+   "to": "d/green/field0",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/field1",
+   "to": "d/green/station1",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/field1",
+   "to": "d/green/house3",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/path5",
+   "to": "d/green/path6",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/path5",
+   "to": "d/green/path4",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/path5",
+   "to": "d/green/station0",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/eight6",
+   "to": "d/green/eight5",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight6",
+   "to": "d/green/eight7",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight6",
+   "to": "d/green/closed",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight6",
+   "to": "d/green/eight6",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/path8",
+   "to": "d/green/path3",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/path8",
+   "to": "d/green/house1",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/path8",
+   "to": "d/green/field0",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/eight3",
+   "to": "d/green/eight3",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight3",
+   "to": "d/green/closed",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight3",
+   "to": "d/green/eight2",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight3",
+   "to": "d/green/eight4",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/house0",
+   "to": "d/green/path3",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/cave1",
+   "to": "d/green/cave0",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/cave1",
+   "to": "d/green/cave2",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/house3",
+   "to": "d/green/field1",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/house2",
+   "to": "d/green/field0",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight1",
+   "to": "d/green/eight1",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight1",
+   "to": "d/green/eight2",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight1",
+   "to": "d/green/closed",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight1",
+   "to": "d/green/eight0",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/cave2",
+   "to": "d/green/cave1",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/cave2",
+   "to": "d/green/mpath0",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight5",
+   "to": "d/green/eight5",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight5",
+   "to": "d/green/eight4",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight5",
+   "to": "d/green/eight6",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight5",
+   "to": "d/green/closed",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/mpath1",
+   "to": "d/green/mpath0",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/mpath1",
+   "to": "d/green/mpath2",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/stoneroom",
+   "to": "d/green/cavehall",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/stoneroom",
+   "to": "d/green/water",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/path4",
+   "to": "d/green/path5",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/path4",
+   "to": "d/green/path3",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/path4",
+   "to": "d/green/shop0",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/house1",
+   "to": "d/green/path8",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/path0",
+   "to": "d/green/cave0",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/path0",
+   "to": "d/green/path1",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/mpath0",
+   "to": "d/green/cave2",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/mpath0",
+   "to": "d/green/mpath1",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight4",
+   "to": "d/green/closed",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight4",
+   "to": "d/green/eight5",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight4",
+   "to": "d/green/eight4",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight4",
+   "to": "d/green/eight3",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/cave0",
+   "to": "d/green/path0",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/cave0",
+   "to": "d/green/cave1",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight2",
+   "to": "d/green/eight2",
+   "dir": "south"
+  },
+  {
+   "from": "d/green/eight2",
+   "to": "d/green/eight1",
+   "dir": "north"
+  },
+  {
+   "from": "d/green/eight2",
+   "to": "d/green/eight3",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/eight2",
+   "to": "d/green/closed",
+   "dir": "east"
+  },
+  {
+   "from": "d/green/water",
+   "to": "d/green/outdoor",
+   "dir": "west"
+  },
+  {
+   "from": "d/green/water",
+   "to": "d/green/stoneroom",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/eroad2",
+   "to": "d/snow/eroad3",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/eroad2",
+   "to": "d/snow/eroad1",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/mstreet4",
+   "to": "d/snow/crossroad",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/mstreet4",
+   "to": "d/snow/mstreet3",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/mstreet4",
+   "to": "d/snow/postoffice",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/sroad3",
+   "to": "d/snow/sroad4",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/sroad3",
+   "to": "d/snow/sroad2",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/square",
+   "to": "d/snow/mstreet1",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/square",
+   "to": "d/snow/inn",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/square",
+   "to": "d/snow/sroad1",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/square",
+   "to": "d/snow/temple",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/school2",
+   "to": "d/snow/weapon_storage",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/school2",
+   "to": "d/snow/school1",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/school2",
+   "to": "d/snow/schoolhall",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/schoolhall",
+   "to": "d/snow/school2",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/schoolhall",
+   "to": "d/snow/inneryard",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/e_room",
+   "to": "d/snow/inn_2f",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/innerhall",
+   "to": "d/snow/inneryard",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/eroad3",
+   "to": "d/oldpine/npath1",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/eroad3",
+   "to": "d/temple/sroad",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/eroad3",
+   "to": "d/snow/eroad2",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/sroad5",
+   "to": "d/waterfog/sroad1",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/sroad5",
+   "to": "d/snow/sroad4",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/w_room",
+   "to": "d/snow/inn_2f",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/nyard",
+   "to": "d/snow/inneryard",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/sroad1",
+   "to": "d/snow/sroad2",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/sroad1",
+   "to": "d/snow/square",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/sroad1",
+   "to": "u/cloud/dragonhill/nroad",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/sroad1",
+   "to": "d/snow/eroad1",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/sroad4",
+   "to": "d/snow/sroad5",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/sroad4",
+   "to": "d/snow/sroad3",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/sroad4",
+   "to": "d/canyon/road",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/snow/postoffice",
+   "to": "d/snow/mstreet4",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/eroad1",
+   "to": "d/snow/eroad2",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/eroad1",
+   "to": "d/snow/temple",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/eroad1",
+   "to": "d/snow/sroad1",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/crossroad",
+   "to": "d/goathill/mroad1",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/crossroad",
+   "to": "d/green/path6",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/crossroad",
+   "to": "d/snow/mstreet4",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/inneryard",
+   "to": "d/snow/guestroom",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/inneryard",
+   "to": "d/snow/nyard",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/inneryard",
+   "to": "d/snow/schoolhall",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/inneryard",
+   "to": "d/snow/innerhall",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/mstreet3",
+   "to": "d/snow/mstreet2",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/mstreet3",
+   "to": "d/snow/mstreet4",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/mstreet3",
+   "to": "d/snow/herbshop",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/inn",
+   "to": "d/snow/square",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/inn",
+   "to": "d/snow/inn_2f",
+   "dir": "up"
+  },
+  {
+   "from": "d/snow/inn",
+   "to": "d/wiz/entrance",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/snow/guestroom",
+   "to": "d/snow/inneryard",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/n_room",
+   "to": "d/snow/inn_2f",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/mstreet2",
+   "to": "d/snow/mstreet3",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/mstreet2",
+   "to": "d/snow/mstreet1",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/mstreet2",
+   "to": "d/snow/smithy",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/temple",
+   "to": "d/snow/eroad1",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/temple",
+   "to": "d/snow/square",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/school1",
+   "to": "d/snow/mstreet1",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/school1",
+   "to": "d/snow/school2",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/smithy",
+   "to": "d/snow/mstreet2",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/mstreet1",
+   "to": "d/snow/square",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/mstreet1",
+   "to": "d/snow/mstreet2",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/mstreet1",
+   "to": "d/snow/school1",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/school",
+   "to": "d/snow/sroad2",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/sroad2",
+   "to": "d/snow/sroad3",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/sroad2",
+   "to": "d/snow/school",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/sroad2",
+   "to": "d/snow/sroad1",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/inn_2f",
+   "to": "d/snow/w_room",
+   "dir": "west"
+  },
+  {
+   "from": "d/snow/inn_2f",
+   "to": "d/snow/n_room",
+   "dir": "north"
+  },
+  {
+   "from": "d/snow/inn_2f",
+   "to": "d/snow/inn",
+   "dir": "down"
+  },
+  {
+   "from": "d/snow/inn_2f",
+   "to": "d/snow/e_room",
+   "dir": "east"
+  },
+  {
+   "from": "d/snow/weapon_storage",
+   "to": "d/snow/school2",
+   "dir": "south"
+  },
+  {
+   "from": "d/snow/herbshop",
+   "to": "d/snow/mstreet3",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/hotel1",
+   "to": "d/choyin/hotel2",
+   "dir": "up"
+  },
+  {
+   "from": "d/choyin/hotel1",
+   "to": "d/choyin/s_street2",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/e_gate",
+   "to": "d/choyin/e_street1",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/e_gate",
+   "to": "d/choyin/solidpath1",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/fence",
+   "to": "d/choyin/club",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/fence",
+   "to": "d/choyin/rockyu",
+   "dir": "eastup"
+  },
+  {
+   "from": "d/choyin/s_street1",
+   "to": "d/choyin/bridge1",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/s_street1",
+   "to": "d/choyin/s_street2",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/s_street1",
+   "to": "d/choyin/s_street4",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/s_street1",
+   "to": "d/choyin/sw_road1",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/choyin/s_street4",
+   "to": "d/choyin/s_street5",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/s_street4",
+   "to": "d/choyin/s_street1",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/s_gate",
+   "to": "d/choyin/crossroad",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/s_gate",
+   "to": "d/choyin/dragon_temple",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/s_gate",
+   "to": "d/choyin/spath",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/w_street3",
+   "to": "d/choyin/nw_street",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/w_street3",
+   "to": "d/choyin/w_street2",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/w_street3",
+   "to": "d/choyin/tree_tomb",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/guyehill",
+   "to": "d/choyin/rockroad",
+   "dir": "northdown"
+  },
+  {
+   "from": "d/choyin/w_street2",
+   "to": "d/choyin/w_street4",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/w_street2",
+   "to": "d/choyin/w_street3",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/rockyu",
+   "to": "d/choyin/rockpath1",
+   "dir": "northdown"
+  },
+  {
+   "from": "d/choyin/rockyu",
+   "to": "d/choyin/fence",
+   "dir": "westdown"
+  },
+  {
+   "from": "d/choyin/rockyu",
+   "to": "d/choyin/tongbhill",
+   "dir": "southup"
+  },
+  {
+   "from": "d/choyin/entrance",
+   "to": "d/choyin/bridge5",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/entrance",
+   "to": "d/choyin/taolin",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/yamen_yard",
+   "to": "d/choyin/court1",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/yamen_yard",
+   "to": "d/choyin/yamen",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/hollow1",
+   "to": "d/choyin/hollow2",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/hollow1",
+   "to": "d/choyin/hollow1",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/hollow1",
+   "to": "d/choyin/hollow",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/yamen_iner",
+   "to": "d/choyin/yamen",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/tree_tomb",
+   "to": "d/choyin/n_street3",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/tree_tomb",
+   "to": "d/choyin/w_street3",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/tree_tomb",
+   "to": "d/choyin/s_street3",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/tree_tomb",
+   "to": "d/choyin/e_street1",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/e_street1",
+   "to": "d/choyin/tree_tomb",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/e_street1",
+   "to": "d/choyin/e_gate",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/taolin",
+   "to": "d/choyin/taolin",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/taolin",
+   "to": "d/choyin/taolin",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/taolin",
+   "to": "d/choyin/taolin",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/taolin",
+   "to": "d/choyin/taolin",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/taolin",
+   "to": "d/choyin/taolin",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/choyin/taolin",
+   "to": "d/choyin/taolin",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/choyin/bridge3",
+   "to": "d/choyin/bridge2",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/bridge3",
+   "to": "d/choyin/bridge4",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/bridge1",
+   "to": "d/choyin/s_street1",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/bridge1",
+   "to": "d/choyin/bridge2",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/hollow3",
+   "to": "d/choyin/hollow1",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/n_street1",
+   "to": "d/choyin/n_street2",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/n_street1",
+   "to": "d/choyin/n_gate",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/yamen",
+   "to": "d/choyin/yamen_iner",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/yamen",
+   "to": "d/choyin/yamen_yard",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/n_gate",
+   "to": "u/cloud/sunhill/road1",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/n_gate",
+   "to": "d/choyin/n_street1",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/bridge4",
+   "to": "d/choyin/bridge5",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/bridge4",
+   "to": "d/choyin/bridge3",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/craneroom",
+   "to": "d/choyin/guyehill",
+   "dir": "down"
+  },
+  {
+   "from": "d/choyin/bridge2",
+   "to": "d/choyin/bridge1",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/bridge2",
+   "to": "d/choyin/bridge3",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/hollow2",
+   "to": "d/choyin/hollow3",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/hollow2",
+   "to": "d/choyin/hollow1",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/s_street2",
+   "to": "d/choyin/s_street3",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/s_street2",
+   "to": "d/choyin/s_street1",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/s_street2",
+   "to": "d/choyin/hotel1",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/nw_street",
+   "to": "d/choyin/w_street4",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/nw_street",
+   "to": "d/choyin/w_street4",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/nw_street",
+   "to": "d/choyin/n_street3",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/rockroad",
+   "to": "d/choyin/spath",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/rockroad",
+   "to": "d/choyin/guyehill",
+   "dir": "southup"
+  },
+  {
+   "from": "d/choyin/crossroad",
+   "to": "d/choyin/s_gate",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/crossroad",
+   "to": "d/choyin/court1",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/crossroad",
+   "to": "d/choyin/s_street5",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/s_street5",
+   "to": "d/choyin/crossroad",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/s_street5",
+   "to": "d/choyin/s_street4",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/club",
+   "to": "d/choyin/yard",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/club",
+   "to": "d/choyin/fence",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/rockpath2",
+   "to": "d/choyin/solidpath1",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/rockpath2",
+   "to": "d/choyin/rockpath1",
+   "dir": "southup"
+  },
+  {
+   "from": "d/choyin/hotel3",
+   "to": "d/choyin/hotel2",
+   "dir": "down"
+  },
+  {
+   "from": "d/choyin/hotel2",
+   "to": "d/choyin/hotel3",
+   "dir": "up"
+  },
+  {
+   "from": "d/choyin/hotel2",
+   "to": "d/choyin/hotel1",
+   "dir": "down"
+  },
+  {
+   "from": "d/choyin/halfhole",
+   "to": "d/choyin/guyehill",
+   "dir": "down"
+  },
+  {
+   "from": "d/choyin/n_street3",
+   "to": "d/choyin/nw_street",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/n_street3",
+   "to": "d/choyin/n_street2",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/n_street3",
+   "to": "d/choyin/tree_tomb",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/solidpath2",
+   "to": "d/choyin/cloudpool",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/choyin/solidpath2",
+   "to": "d/choyin/solidpath1",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/n_street2",
+   "to": "d/choyin/n_street3",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/n_street2",
+   "to": "d/choyin/n_street1",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/cloudpool",
+   "to": "d/choyin/solidpath2",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/choyin/solidpath1",
+   "to": "d/choyin/e_gate",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/solidpath1",
+   "to": "d/choyin/rockpath2",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/solidpath1",
+   "to": "d/choyin/solidpath2",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/dragon_temple",
+   "to": "d/choyin/altar",
+   "dir": "up"
+  },
+  {
+   "from": "d/choyin/dragon_temple",
+   "to": "d/choyin/s_gate",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/dragon_temple",
+   "to": "d/choyin/sw_road1",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/court1",
+   "to": "d/choyin/crossroad",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/tomb2",
+   "to": "d/choyin/tomb1",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/tomb1",
+   "to": "d/choyin/tomb3",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/tomb1",
+   "to": "d/choyin/tomb2",
+   "dir": "west"
+  },
+  {
+   "from": "d/choyin/tomb1",
+   "to": "d/choyin/tree_tomb",
+   "dir": "up"
+  },
+  {
+   "from": "d/choyin/s_street3",
+   "to": "d/choyin/s_street2",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/s_street3",
+   "to": "d/choyin/tree_tomb",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/yard",
+   "to": "d/choyin/club",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/bridge5",
+   "to": "d/choyin/bridge4",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/bridge5",
+   "to": "d/choyin/entrance",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/w_street4",
+   "to": "d/choyin/w_street2",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/w_street4",
+   "to": "d/choyin/nw_street",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/altar",
+   "to": "d/choyin/dragon_temple",
+   "dir": "down"
+  },
+  {
+   "from": "d/choyin/hollow",
+   "to": "d/choyin/hollow1",
+   "dir": "east"
+  },
+  {
+   "from": "d/choyin/rockpath1",
+   "to": "d/choyin/rockpath2",
+   "dir": "northdown"
+  },
+  {
+   "from": "d/choyin/rockpath1",
+   "to": "d/choyin/rockyu",
+   "dir": "southup"
+  },
+  {
+   "from": "d/choyin/stove",
+   "to": "d/choyin/tongbhill",
+   "dir": "out"
+  },
+  {
+   "from": "d/choyin/spath",
+   "to": "d/choyin/s_gate",
+   "dir": "north"
+  },
+  {
+   "from": "d/choyin/spath",
+   "to": "d/choyin/rockroad",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/tongbhill",
+   "to": "d/choyin/rockyu",
+   "dir": "northdown"
+  },
+  {
+   "from": "d/choyin/tomb3",
+   "to": "d/choyin/tomb1",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/w_street1",
+   "to": "d/choyin/w_street3",
+   "dir": "south"
+  },
+  {
+   "from": "d/choyin/sw_road1",
+   "to": "d/choyin/s_street1",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/choyin/sw_road1",
+   "to": "d/choyin/dragon_temple",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/lake",
+   "to": "d/village/lakeside",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/road6",
+   "to": "d/village/road5",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/road8",
+   "to": "d/village/road9",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/road8",
+   "to": "d/village/road7",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/road1",
+   "to": "d/village/road2",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/road1",
+   "to": "d/canyon/canyon7",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/road2",
+   "to": "d/city/nroad2",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/road2",
+   "to": "d/village/road1",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/road2",
+   "to": "d/village/road3",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/melonguard",
+   "to": "d/village/melonfarm",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/melonguard",
+   "to": "d/village/road7",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/village/road5",
+   "to": "d/village/road6",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/road5",
+   "to": "d/village/littlegarden",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/road5",
+   "to": "d/village/road7",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/village/road5",
+   "to": "d/village/road4",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/road3",
+   "to": "d/village/road4",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/road3",
+   "to": "d/village/road2",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/road9",
+   "to": "d/village/road8",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/road9",
+   "to": "d/village/field",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/road9",
+   "to": "d/village/lordhouse1",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/lakebottom1",
+   "to": "d/village/lakebottom2",
+   "dir": "westup"
+  },
+  {
+   "from": "d/village/littlegarden",
+   "to": "d/village/road5",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/littlegarden",
+   "to": "d/village/home",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/lordhouse2",
+   "to": "d/village/lordhouse1",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/field",
+   "to": "d/village/road9",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/lakeside",
+   "to": "d/village/lake",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/lakeside",
+   "to": "d/village/road7",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/fmhousback",
+   "to": "d/village/farmhouse1",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/lakebottom2",
+   "to": "d/village/valley1",
+   "dir": "westup"
+  },
+  {
+   "from": "d/village/lakebottom2",
+   "to": "d/village/lakebottom1",
+   "dir": "eastdown"
+  },
+  {
+   "from": "d/village/road4",
+   "to": "d/village/farmhouse1",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/road4",
+   "to": "d/village/road5",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/road4",
+   "to": "d/village/melonfarm",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/village/road4",
+   "to": "d/village/road3",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/lordhouse1",
+   "to": "d/village/lordhouse3",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/lordhouse1",
+   "to": "d/village/road9",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/lordhouse1",
+   "to": "d/village/lordhouse2",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/farmhouse1",
+   "to": "d/village/fmhousback",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/farmhouse1",
+   "to": "d/village/road4",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/valley1",
+   "to": "d/village/valley2",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/valley1",
+   "to": "d/village/lakebottom2",
+   "dir": "eastdown"
+  },
+  {
+   "from": "d/village/valley2",
+   "to": "d/village/valley1",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/valley2",
+   "to": "d/village/road6",
+   "dir": "east"
+  },
+  {
+   "from": "d/village/melonfarm",
+   "to": "d/village/melonguard",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/melonfarm",
+   "to": "d/village/road4",
+   "dir": "northup"
+  },
+  {
+   "from": "d/village/lordhouse3",
+   "to": "d/village/lordhouse1",
+   "dir": "north"
+  },
+  {
+   "from": "d/village/home",
+   "to": "d/village/smallstorage",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/village/home",
+   "to": "d/village/littlegarden",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/road7",
+   "to": "d/village/melonguard",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/village/road7",
+   "to": "d/village/road8",
+   "dir": "south"
+  },
+  {
+   "from": "d/village/road7",
+   "to": "d/village/lakeside",
+   "dir": "west"
+  },
+  {
+   "from": "d/village/road7",
+   "to": "d/village/road5",
+   "dir": "northup"
+  },
+  {
+   "from": "d/village/smallstorage",
+   "to": "d/village/home",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/wiz/entrance",
+   "to": "d/wiz/hall1",
+   "dir": "west"
+  },
+  {
+   "from": "d/wiz/entrance",
+   "to": "d/snow/inn",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/wiz/hall1",
+   "to": "d/wiz/jobroom",
+   "dir": "north"
+  },
+  {
+   "from": "d/wiz/hall1",
+   "to": "d/wiz/entrance",
+   "dir": "east"
+  },
+  {
+   "from": "d/wiz/jobroom",
+   "to": "d/wiz/hall1",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/sroad3",
+   "to": "d/waterfog/stair1",
+   "dir": "northup"
+  },
+  {
+   "from": "d/waterfog/sroad3",
+   "to": "d/waterfog/sroad2",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/stair4",
+   "to": "d/waterfog/clifftop",
+   "dir": "northup"
+  },
+  {
+   "from": "d/waterfog/stair4",
+   "to": "d/waterfog/stair3",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/waterfog/stair3",
+   "to": "d/waterfog/stair4",
+   "dir": "northup"
+  },
+  {
+   "from": "d/waterfog/stair3",
+   "to": "d/waterfog/stair2",
+   "dir": "westdown"
+  },
+  {
+   "from": "d/waterfog/servroom",
+   "to": "d/waterfog/storage",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/westhall",
+   "to": "d/waterfog/weststair",
+   "dir": "north"
+  },
+  {
+   "from": "d/waterfog/westhall",
+   "to": "d/waterfog/entrance",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/east_2f",
+   "to": "d/waterfog/forehall",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/east_2f",
+   "to": "d/waterfog/eaststair",
+   "dir": "down"
+  },
+  {
+   "from": "d/waterfog/weststair",
+   "to": "d/waterfog/west_2f",
+   "dir": "up"
+  },
+  {
+   "from": "d/waterfog/weststair",
+   "to": "d/waterfog/storage",
+   "dir": "north"
+  },
+  {
+   "from": "d/waterfog/weststair",
+   "to": "d/waterfog/westhall",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/entrance",
+   "to": "d/waterfog/frontyard",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/entrance",
+   "to": "d/waterfog/westhall",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/entrance",
+   "to": "d/waterfog/easthall",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/kitchen",
+   "to": "d/waterfog/eaststair",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/stair5",
+   "to": "d/waterfog/frontyard",
+   "dir": "northup"
+  },
+  {
+   "from": "d/waterfog/stair5",
+   "to": "d/waterfog/clifftop",
+   "dir": "eastdown"
+  },
+  {
+   "from": "d/waterfog/sroad1",
+   "to": "d/snow/sroad5",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/sroad1",
+   "to": "d/waterfog/sroad2",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/waterfog/eaststair",
+   "to": "d/waterfog/east_2f",
+   "dir": "up"
+  },
+  {
+   "from": "d/waterfog/eaststair",
+   "to": "d/waterfog/easthall",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/eaststair",
+   "to": "d/waterfog/kitchen",
+   "dir": "north"
+  },
+  {
+   "from": "d/waterfog/stair2",
+   "to": "d/waterfog/stair1",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/waterfog/stair2",
+   "to": "d/waterfog/stair3",
+   "dir": "eastup"
+  },
+  {
+   "from": "d/waterfog/west_2f",
+   "to": "d/waterfog/weststair",
+   "dir": "down"
+  },
+  {
+   "from": "d/waterfog/west_2f",
+   "to": "d/waterfog/forehall",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/storage",
+   "to": "d/waterfog/weststair",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/storage",
+   "to": "d/waterfog/servroom",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/wpath1",
+   "to": "d/waterfog/wpath2",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/wpath1",
+   "to": "d/waterfog/frontyard",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/easthall",
+   "to": "d/waterfog/eaststair",
+   "dir": "north"
+  },
+  {
+   "from": "d/waterfog/easthall",
+   "to": "d/waterfog/entrance",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/swordtomb",
+   "to": "d/waterfog/wpath5",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/clifftop",
+   "to": "d/waterfog/stair5",
+   "dir": "westup"
+  },
+  {
+   "from": "d/waterfog/clifftop",
+   "to": "d/waterfog/stair4",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/waterfog/wpath2",
+   "to": "d/waterfog/wpath3",
+   "dir": "north"
+  },
+  {
+   "from": "d/waterfog/wpath2",
+   "to": "d/waterfog/wpath1",
+   "dir": "east"
+  },
+  {
+   "from": "d/waterfog/stair1",
+   "to": "d/waterfog/stair2",
+   "dir": "northup"
+  },
+  {
+   "from": "d/waterfog/stair1",
+   "to": "d/waterfog/sroad3",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/waterfog/wpath5",
+   "to": "d/waterfog/wpath4",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/wpath5",
+   "to": "d/waterfog/swordtomb",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/wpath4",
+   "to": "d/waterfog/wpath3",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/wpath4",
+   "to": "d/waterfog/wpath5",
+   "dir": "north"
+  },
+  {
+   "from": "d/waterfog/wpath3",
+   "to": "d/waterfog/wpath4",
+   "dir": "north"
+  },
+  {
+   "from": "d/waterfog/wpath3",
+   "to": "d/waterfog/wpath2",
+   "dir": "south"
+  },
+  {
+   "from": "d/waterfog/sroad2",
+   "to": "d/waterfog/sroad1",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/waterfog/sroad2",
+   "to": "d/waterfog/sroad3",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/frontyard",
+   "to": "d/waterfog/wpath1",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/frontyard",
+   "to": "d/waterfog/entrance",
+   "dir": "north"
+  },
+  {
+   "from": "d/waterfog/frontyard",
+   "to": "d/waterfog/stair5",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/waterfog/forehall",
+   "to": "d/waterfog/west_2f",
+   "dir": "west"
+  },
+  {
+   "from": "d/waterfog/forehall",
+   "to": "d/waterfog/east_2f",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/back_temple",
+   "to": "d/sanyen/corridor",
+   "dir": "south"
+  },
+  {
+   "from": "d/sanyen/back_temple",
+   "to": "d/sanyen/tower",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/tunnel",
+   "to": "d/latemoon/sroad5",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/tunnel",
+   "to": "d/sanyen/tunnele",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/corridor1",
+   "to": "d/sanyen/kitchen",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/corridor1",
+   "to": "d/sanyen/corridor",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/front_yard",
+   "to": "d/sanyen/door",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/front_yard",
+   "to": "d/sanyen/gate",
+   "dir": "south"
+  },
+  {
+   "from": "d/sanyen/road1",
+   "to": "d/sanyen/temple",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/road1",
+   "to": "d/sanyen/door",
+   "dir": "south"
+  },
+  {
+   "from": "d/sanyen/road1",
+   "to": "d/sanyen/road2",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/road2",
+   "to": "d/sanyen/road1",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/road2",
+   "to": "d/sanyen/drug_field",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/kitchen",
+   "to": "d/sanyen/corridor1",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/sroad1",
+   "to": "d/sanyen/sroad2",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/sroad1",
+   "to": "u/cloud/sunhill/road4",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/sanyen/door",
+   "to": "d/sanyen/road1",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/door",
+   "to": "d/sanyen/front_yard",
+   "dir": "south"
+  },
+  {
+   "from": "d/sanyen/inner_yard",
+   "to": "d/sanyen/heal_room",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/inner_yard",
+   "to": "d/sanyen/temple",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/temple",
+   "to": "d/sanyen/road1",
+   "dir": "south"
+  },
+  {
+   "from": "d/sanyen/temple",
+   "to": "d/sanyen/inner_yard",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/temple",
+   "to": "d/sanyen/corridor",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/tunnele",
+   "to": "d/sanyen/tunnel",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/tunnele",
+   "to": "d/sanyen/gate",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/tower",
+   "to": "d/sanyen/back_temple",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/heal_room",
+   "to": "d/sanyen/inner_yard",
+   "dir": "south"
+  },
+  {
+   "from": "d/sanyen/gate",
+   "to": "d/sanyen/sroad2",
+   "dir": "south"
+  },
+  {
+   "from": "d/sanyen/gate",
+   "to": "d/sanyen/front_yard",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/gate",
+   "to": "d/sanyen/tunnele",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/drug_field",
+   "to": "d/sanyen/road2",
+   "dir": "south"
+  },
+  {
+   "from": "d/sanyen/sroad2",
+   "to": "d/sanyen/sroad1",
+   "dir": "east"
+  },
+  {
+   "from": "d/sanyen/sroad2",
+   "to": "d/sanyen/gate",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/corridor",
+   "to": "d/sanyen/corridor1",
+   "dir": "west"
+  },
+  {
+   "from": "d/sanyen/corridor",
+   "to": "d/sanyen/back_temple",
+   "dir": "north"
+  },
+  {
+   "from": "d/sanyen/corridor",
+   "to": "d/sanyen/temple",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/tunnel5",
+   "to": "d/chuenyu/tunnel1",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/tunnel5",
+   "to": "d/chuenyu/tunnel6",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/tunnel5",
+   "to": "d/chuenyu/tortureroom",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/tunnel3",
+   "to": "d/chuenyu/dungeon",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/tunnel3",
+   "to": "d/chuenyu/tunnel5",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/tunnel3",
+   "to": "d/chuenyu/tunnel2",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/tunnel1",
+   "to": "d/chuenyu/tunnel5",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/tunnel1",
+   "to": "d/chuenyu/tunnel2",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/gate_castle",
+   "to": "d/chuenyu/east_castle",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/gate_castle",
+   "to": "d/chuenyu/west_castle",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/gate_castle",
+   "to": "d/chuenyu/trap_castle",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/gate_castle",
+   "to": "d/chuenyu/high_b_mtn2",
+   "dir": "down"
+  },
+  {
+   "from": "d/chuenyu/east_blackge",
+   "to": "d/chuenyu/east_garden",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/east_blackge",
+   "to": "d/chuenyu/south_garden",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/east_blackge",
+   "to": "d/chuenyu/bedroom",
+   "dir": "westup"
+  },
+  {
+   "from": "d/chuenyu/east_garden",
+   "to": "d/chuenyu/east_blackge",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/west_garden",
+   "to": "d/chuenyu/west_blackge",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/bedroom",
+   "to": "d/chuenyu/yiantai",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/bedroom",
+   "to": "d/chuenyu/kitchen",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/bedroom",
+   "to": "d/chuenyu/west_blackge",
+   "dir": "westdown"
+  },
+  {
+   "from": "d/chuenyu/bedroom",
+   "to": "d/chuenyu/east_blackge",
+   "dir": "eastdown"
+  },
+  {
+   "from": "d/chuenyu/tunnel6",
+   "to": "d/chuenyu/tortureroom2",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/tunnel6",
+   "to": "d/chuenyu/tunnel5",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/kitchen",
+   "to": "d/chuenyu/bedroom",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/croad1",
+   "to": "d/village/road1",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/croad1",
+   "to": "d/chuenyu/croad2",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/foot_b_mtn",
+   "to": "d/chuenyu/base_b_m",
+   "dir": "down"
+  },
+  {
+   "from": "d/chuenyu/foot_b_mtn",
+   "to": "d/chuenyu/high_b_mtn",
+   "dir": "up"
+  },
+  {
+   "from": "d/chuenyu/high_b_mtn2",
+   "to": "d/chuenyu/base_b_m",
+   "dir": "down"
+  },
+  {
+   "from": "d/chuenyu/high_b_mtn2",
+   "to": "d/chuenyu/gate_castle",
+   "dir": "up"
+  },
+  {
+   "from": "d/chuenyu/high_b_mtn2",
+   "to": "d/chuenyu/rope_bridge",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/north_garden",
+   "to": "d/chuenyu/west_blackge",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/smallyard",
+   "to": "d/chuenyu/home",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/smallyard",
+   "to": "d/chuenyu/dustyroad3",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/littlegarden",
+   "to": "d/chuenyu/home",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/west_castle",
+   "to": "d/chuenyu/gate_castle",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/sunnyroad",
+   "to": "d/chuenyu/base_b_m",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/sunnyroad",
+   "to": "d/chuenyu/croad2",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/chuenyu/east_castle",
+   "to": "d/chuenyu/gate_castle",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/storage",
+   "to": "d/chuenyu/west_blackge",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/high_b_mtn",
+   "to": "d/chuenyu/gate_castle",
+   "dir": "up"
+  },
+  {
+   "from": "d/chuenyu/high_b_mtn",
+   "to": "d/chuenyu/rope_bridge",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/dungeon",
+   "to": "d/chuenyu/tunnel3",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/dungeon",
+   "to": "d/chuenyu/tunnel4",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/croad2",
+   "to": "d/chuenyu/sunnyroad",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/chuenyu/croad2",
+   "to": "d/chuenyu/croad1",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/center",
+   "to": "d/chuenyu/west_blackge",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/rope_bridge",
+   "to": "d/chuenyu/high_b_mtn",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/rope_bridge",
+   "to": "d/chuenyu/high_b_mtn2",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/south_garden",
+   "to": "d/chuenyu/east_blackge",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/tortureroom",
+   "to": "d/chuenyu/tunnel6",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/tortureroom",
+   "to": "d/chuenyu/tunnel4",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/tunnel4",
+   "to": "d/chuenyu/tunnel5",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/tunnel4",
+   "to": "d/chuenyu/tortureroom",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/tunnel4",
+   "to": "d/chuenyu/tortureroom2",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/tunnel4",
+   "to": "d/chuenyu/dungeon",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/tortureroom2",
+   "to": "d/chuenyu/tunnel6",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/tortureroom2",
+   "to": "d/chuenyu/tunnel4",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/west_blackge",
+   "to": "d/chuenyu/bedroom",
+   "dir": "eastup"
+  },
+  {
+   "from": "d/chuenyu/west_blackge",
+   "to": "d/chuenyu/center",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/west_blackge",
+   "to": "d/chuenyu/west_garden",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/west_blackge",
+   "to": "d/chuenyu/storage",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/west_blackge",
+   "to": "d/chuenyu/north_garden",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/trap_castle",
+   "to": "d/chuenyu/gate_castle",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/tunnel2",
+   "to": "d/chuenyu/tunnel6",
+   "dir": "east"
+  },
+  {
+   "from": "d/chuenyu/tunnel2",
+   "to": "d/chuenyu/tunnel3",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/tunnel2",
+   "to": "d/chuenyu/tunnel1",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/base_b_m",
+   "to": "d/chuenyu/sunnyroad",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/base_b_m",
+   "to": "d/chuenyu/foot_b_mtn",
+   "dir": "up"
+  },
+  {
+   "from": "d/chuenyu/home",
+   "to": "d/chuenyu/smallstorage",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/home",
+   "to": "d/chuenyu/littlegarden",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/home",
+   "to": "d/chuenyu/smallyard",
+   "dir": "west"
+  },
+  {
+   "from": "d/chuenyu/home",
+   "to": "d/chuenyu/dustyroad3",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/chuenyu/yiantai",
+   "to": "d/chuenyu/bedroom",
+   "dir": "south"
+  },
+  {
+   "from": "d/chuenyu/dustyroad3",
+   "to": "d/chuenyu/croad2",
+   "dir": "southwest"
+  },
+  {
+   "from": "d/chuenyu/dustyroad3",
+   "to": "d/chuenyu/home",
+   "dir": "northeast"
+  },
+  {
+   "from": "d/chuenyu/dustyroad3",
+   "to": "d/chuenyu/sunnyroad",
+   "dir": "north"
+  },
+  {
+   "from": "d/chuenyu/smallstorage",
+   "to": "d/chuenyu/home",
+   "dir": "north"
+  },
+  {
+   "from": "d/death/inn1",
+   "to": "d/death/road1",
+   "dir": "east"
+  },
+  {
+   "from": "d/death/road1",
+   "to": "d/death/road2",
+   "dir": "north"
+  },
+  {
+   "from": "d/death/road1",
+   "to": "d/death/gateway",
+   "dir": "south"
+  },
+  {
+   "from": "d/death/road1",
+   "to": "d/death/inn1",
+   "dir": "west"
+  },
+  {
+   "from": "d/death/road1",
+   "to": "d/death/inn2",
+   "dir": "east"
+  },
+  {
+   "from": "d/death/gateway",
+   "to": "d/death/road1",
+   "dir": "north"
+  },
+  {
+   "from": "d/death/gateway",
+   "to": "d/death/gate",
+   "dir": "south"
+  },
+  {
+   "from": "d/death/road2",
+   "to": "d/death/road3",
+   "dir": "north"
+  },
+  {
+   "from": "d/death/road2",
+   "to": "d/death/road1",
+   "dir": "south"
+  },
+  {
+   "from": "d/death/bridge1",
+   "to": "d/death/bridge",
+   "dir": "north"
+  },
+  {
+   "from": "d/death/road3",
+   "to": "d/death/road2",
+   "dir": "south"
+  },
+  {
+   "from": "d/death/bridge",
+   "to": "d/death/gate",
+   "dir": "north"
+  },
+  {
+   "from": "d/death/bridge",
+   "to": "d/death/bridge1",
+   "dir": "south"
+  },
+  {
+   "from": "d/death/inn2",
+   "to": "d/death/road1",
+   "dir": "west"
+  },
+  {
+   "from": "d/death/gate",
+   "to": "d/death/bridge",
+   "dir": "south"
+  },
+  {
+   "from": "d/death/gate",
+   "to": "d/death/gateway",
+   "dir": "north"
+  },
+  {
+   "from": "d/death/spath1",
+   "to": "d/death/gateway",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/trainroom",
+   "to": "d/temple/corridor4",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/ladder4",
+   "to": "d/temple/ladder3",
+   "dir": "eastup"
+  },
+  {
+   "from": "d/temple/ladder4",
+   "to": "d/temple/ladder5",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/temple/square",
+   "to": "d/temple/temple1",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/square",
+   "to": "d/temple/entrance",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/corridor7",
+   "to": "d/temple/corridor3",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/corridor7",
+   "to": "d/temple/corridor1",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/corridor7",
+   "to": "d/temple/inneryard",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/corridor7",
+   "to": "d/temple/restroom1",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/corridor1",
+   "to": "d/temple/temple1",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/corridor1",
+   "to": "d/temple/corridor7",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/broom2",
+   "to": "d/temple/broom1",
+   "dir": "down"
+  },
+  {
+   "from": "d/temple/ladder1",
+   "to": "d/temple/entrance",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/ladder1",
+   "to": "d/temple/ladder2",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/corridor3",
+   "to": "d/temple/road1",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/corridor3",
+   "to": "d/temple/corridor7",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/corridor3",
+   "to": "d/temple/corridor5",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/corridor3",
+   "to": "d/temple/restroom2",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/entrance",
+   "to": "d/temple/square",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/entrance",
+   "to": "d/temple/ladder1",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/road1",
+   "to": "d/temple/corridor3",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/road1",
+   "to": "d/temple/road2",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/temple/road2",
+   "to": "d/temple/road1",
+   "dir": "southeast"
+  },
+  {
+   "from": "d/temple/road2",
+   "to": "d/temple/book_room1",
+   "dir": "enter"
+  },
+  {
+   "from": "d/temple/ladder2",
+   "to": "d/temple/ladder1",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/ladder2",
+   "to": "d/temple/ladder3",
+   "dir": "southdown"
+  },
+  {
+   "from": "d/temple/corridor4",
+   "to": "d/temple/trainroom",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/corridor4",
+   "to": "d/temple/corridor6",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/corridor4",
+   "to": "d/temple/corridor5",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/restroom2",
+   "to": "d/temple/corridor3",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/temple2",
+   "to": "d/temple/corridor5",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/corridor2",
+   "to": "d/temple/corridor6",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/corridor2",
+   "to": "d/temple/temple1",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/book_room2",
+   "to": "d/temple/book_room1",
+   "dir": "down"
+  },
+  {
+   "from": "d/temple/ladder5",
+   "to": "d/temple/ladder4",
+   "dir": "northup"
+  },
+  {
+   "from": "d/temple/ladder5",
+   "to": "d/temple/sroad",
+   "dir": "westdown"
+  },
+  {
+   "from": "d/temple/inneryard",
+   "to": "d/temple/corridor5",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/inneryard",
+   "to": "d/temple/corridor6",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/inneryard",
+   "to": "d/temple/corridor7",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/broom1",
+   "to": "d/temple/broom2",
+   "dir": "up"
+  },
+  {
+   "from": "d/temple/broom1",
+   "to": "d/temple/road2",
+   "dir": "out"
+  },
+  {
+   "from": "d/temple/temple1",
+   "to": "d/temple/corridor2",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/temple1",
+   "to": "d/temple/square",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/temple1",
+   "to": "d/temple/corridor1",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/corridor6",
+   "to": "d/temple/corridor2",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/corridor6",
+   "to": "d/temple/corridor4",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/corridor6",
+   "to": "d/temple/inneryard",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/corridor5",
+   "to": "d/temple/corridor4",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/corridor5",
+   "to": "d/temple/corridor3",
+   "dir": "east"
+  },
+  {
+   "from": "d/temple/corridor5",
+   "to": "d/temple/inneryard",
+   "dir": "south"
+  },
+  {
+   "from": "d/temple/corridor5",
+   "to": "d/temple/temple2",
+   "dir": "north"
+  },
+  {
+   "from": "d/temple/book_room1",
+   "to": "d/temple/book_room2",
+   "dir": "up"
+  },
+  {
+   "from": "d/temple/book_room1",
+   "to": "d/temple/road2",
+   "dir": "out"
+  },
+  {
+   "from": "d/temple/ladder3",
+   "to": "d/temple/ladder2",
+   "dir": "northup"
+  },
+  {
+   "from": "d/temple/ladder3",
+   "to": "d/temple/ladder4",
+   "dir": "westdown"
+  },
+  {
+   "from": "d/temple/restroom1",
+   "to": "d/temple/corridor7",
+   "dir": "west"
+  },
+  {
+   "from": "d/temple/sroad",
+   "to": "d/temple/ladder5",
+   "dir": "eastup"
+  },
+  {
+   "from": "d/temple/sroad",
+   "to": "d/snow/eroad3",
+   "dir": "west"
+  },
+  {
+   "from": "d/graveyard/road1",
+   "to": "d/graveyard/grave1",
+   "dir": "northwest"
+  },
+  {
+   "from": "d/graveyard/grave1",
+   "to": "d/graveyard/road1",
+   "dir": "southeast"
+  },
+  {
+   "from": "u/cloud/woodboxy",
+   "to": "u/cloud/nwroad2",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/woodboxy",
+   "to": "u/cloud/god1",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/eroad2",
+   "to": "u/cloud/eroad1",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/eroad2",
+   "to": "u/cloud/park",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/eroad2",
+   "to": "u/cloud/biaoju",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/eroad2",
+   "to": "u/cloud/eroad3",
+   "dir": "northeast"
+  },
+  {
+   "from": "u/cloud/wroad1",
+   "to": "u/cloud/bookstore",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/wroad1",
+   "to": "u/cloud/wroad0",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/wroad1",
+   "to": "u/cloud/wroad2",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/rich",
+   "to": "u/cloud/m_house",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/rich",
+   "to": "u/cloud/eroad3",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/nwroad3",
+   "to": "u/cloud/nwroad2",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/nwroad3",
+   "to": "u/cloud/tearoom",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/nwroad3",
+   "to": "u/cloud/zaihuoy",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/nwroad3",
+   "to": "u/cloud/nroad1",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/wroad0",
+   "to": "d/latemoon/entrance",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/wroad0",
+   "to": "u/cloud/wroad1",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/wroad0",
+   "to": "u/cloud/marry_room",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/tearoom",
+   "to": "u/cloud/nwroad3",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/tearoom",
+   "to": "u/cloud/nwroad1",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/tearoom",
+   "to": "u/cloud/tea_corridor",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/tearoom",
+   "to": "u/cloud/tearoom2",
+   "dir": "up"
+  },
+  {
+   "from": "u/cloud/park",
+   "to": "u/cloud/eroad2",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/marry_room",
+   "to": "u/cloud/wroad0",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/wroad2",
+   "to": "u/cloud/wroad1",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/wroad2",
+   "to": "u/cloud/monky",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/wroad2",
+   "to": "u/cloud/cross",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/bookstore",
+   "to": "u/cloud/wroad1",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/monky",
+   "to": "u/cloud/wroad2",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/dukou",
+   "to": "u/cloud/sroad1",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/dukou",
+   "to": "u/cloud/sunhill/northriver",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/entrance",
+   "to": "u/cloud/dragonhill/sroad",
+   "dir": "northwest"
+  },
+  {
+   "from": "u/cloud/entrance",
+   "to": "u/cloud/nwroad1",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/eroad3",
+   "to": "u/cloud/rich",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/eroad3",
+   "to": "u/cloud/eroad2",
+   "dir": "southwest"
+  },
+  {
+   "from": "u/cloud/eroad3",
+   "to": "u/cloud/eroad4",
+   "dir": "southeast"
+  },
+  {
+   "from": "u/cloud/god1",
+   "to": "u/cloud/woodboxy",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/god1",
+   "to": "u/cloud/god2",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/nroad2",
+   "to": "u/cloud/zaihuoy",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/nroad2",
+   "to": "u/cloud/nroad1",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/nroad2",
+   "to": "u/cloud/cross",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/duchang2",
+   "to": "u/cloud/duchang",
+   "dir": "down"
+  },
+  {
+   "from": "u/cloud/sroad1",
+   "to": "u/cloud/cross",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/sroad1",
+   "to": "u/cloud/dukou",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/zaihuoy",
+   "to": "u/cloud/nwroad3",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/zaihuoy",
+   "to": "u/cloud/nroad2",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/m_house",
+   "to": "u/cloud/rich",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/drugstore",
+   "to": "u/cloud/nroad1",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/tailory",
+   "to": "u/cloud/nwroad2",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/eroad1",
+   "to": "u/cloud/cross",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/eroad1",
+   "to": "u/cloud/jiyuan",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/eroad1",
+   "to": "u/cloud/duchang",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/eroad1",
+   "to": "u/cloud/eroad2",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/cross",
+   "to": "u/cloud/wroad2",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/cross",
+   "to": "u/cloud/nroad2",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/cross",
+   "to": "u/cloud/sroad1",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/cross",
+   "to": "u/cloud/eroad1",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/biaoju",
+   "to": "u/cloud/eroad2",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/tea_corridor",
+   "to": "u/cloud/tearoom",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/jiyuan2",
+   "to": "u/cloud/jiyuan",
+   "dir": "down"
+  },
+  {
+   "from": "u/cloud/weapony",
+   "to": "u/cloud/nroad1",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/butchery",
+   "to": "u/cloud/nwroad1",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/nwroad1",
+   "to": "u/cloud/butchery",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/nwroad1",
+   "to": "u/cloud/entrance",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/nwroad1",
+   "to": "u/cloud/nwroad2",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/nwroad1",
+   "to": "u/cloud/tearoom",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/nwroad2",
+   "to": "u/cloud/woodboxy",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/nwroad2",
+   "to": "u/cloud/nwroad1",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/nwroad2",
+   "to": "u/cloud/tailory",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/nwroad2",
+   "to": "u/cloud/nwroad3",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/duchang",
+   "to": "u/cloud/eroad1",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/duchang",
+   "to": "u/cloud/duchang2",
+   "dir": "up"
+  },
+  {
+   "from": "u/cloud/jiyuan",
+   "to": "u/cloud/eroad1",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/jiyuan",
+   "to": "u/cloud/jiyuan2",
+   "dir": "up"
+  },
+  {
+   "from": "u/cloud/eroad4",
+   "to": "u/cloud/eroad3",
+   "dir": "northwest"
+  },
+  {
+   "from": "u/cloud/nroad1",
+   "to": "u/cloud/nwroad3",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/nroad1",
+   "to": "u/cloud/drugstore",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/nroad1",
+   "to": "u/cloud/nroad2",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/nroad1",
+   "to": "u/cloud/weapony",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/god2",
+   "to": "u/cloud/god1",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/tearoom2",
+   "to": "u/cloud/tearoom",
+   "dir": "down"
+  },
+  {
+   "from": "u/cloud/sunhill/dukou",
+   "to": "u/cloud/sunhill/southriver",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/sunhill/dukou",
+   "to": "u/cloud/sunhill/road1",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/sunhill/road1",
+   "to": "u/cloud/sunhill/dukou",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/sunhill/road1",
+   "to": "u/cloud/sunhill/road2",
+   "dir": "southup"
+  },
+  {
+   "from": "u/cloud/sunhill/road1",
+   "to": "d/choyin/n_gate",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/sunhill/road2",
+   "to": "u/cloud/sunhill/road1",
+   "dir": "northdown"
+  },
+  {
+   "from": "u/cloud/sunhill/road2",
+   "to": "u/cloud/sunhill/road3",
+   "dir": "west"
+  },
+  {
+   "from": "u/cloud/sunhill/southriver",
+   "to": "u/cloud/sunhill/midriver",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/sunhill/southriver",
+   "to": "u/cloud/sunhill/dukou",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/sunhill/midriver",
+   "to": "u/cloud/sunhill/northriver",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/sunhill/midriver",
+   "to": "u/cloud/sunhill/southriver",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/sunhill/northriver",
+   "to": "u/cloud/dukou",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/sunhill/northriver",
+   "to": "u/cloud/sunhill/midriver",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/sunhill/road3",
+   "to": "u/cloud/sunhill/road2",
+   "dir": "east"
+  },
+  {
+   "from": "u/cloud/sunhill/road3",
+   "to": "u/cloud/sunhill/road4",
+   "dir": "south"
+  },
+  {
+   "from": "u/cloud/sunhill/road4",
+   "to": "u/cloud/sunhill/road3",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/sunhill/road4",
+   "to": "d/sanyen/sroad1",
+   "dir": "southwest"
+  },
+  {
+   "from": "u/cloud/dragonhill/shillfoot",
+   "to": "u/cloud/dragonhill/hummock",
+   "dir": "northup"
+  },
+  {
+   "from": "u/cloud/dragonhill/shillfoot",
+   "to": "u/cloud/dragonhill/sroad",
+   "dir": "southeast"
+  },
+  {
+   "from": "u/cloud/dragonhill/nroad",
+   "to": "d/snow/sroad1",
+   "dir": "north"
+  },
+  {
+   "from": "u/cloud/dragonhill/nroad",
+   "to": "u/cloud/dragonhill/nhillfoot",
+   "dir": "southeast"
+  },
+  {
+   "from": "u/cloud/dragonhill/nhillfoot",
+   "to": "u/cloud/dragonhill/nroad",
+   "dir": "northwest"
+  },
+  {
+   "from": "u/cloud/dragonhill/nhillfoot",
+   "to": "u/cloud/dragonhill/hummock",
+   "dir": "southup"
+  },
+  {
+   "from": "u/cloud/dragonhill/hummock",
+   "to": "u/cloud/dragonhill/nhillfoot",
+   "dir": "northdown"
+  },
+  {
+   "from": "u/cloud/dragonhill/hummock",
+   "to": "u/cloud/dragonhill/shillfoot",
+   "dir": "southdown"
+  },
+  {
+   "from": "u/cloud/dragonhill/sroad",
+   "to": "u/cloud/dragonhill/shillfoot",
+   "dir": "northwest"
+  },
+  {
+   "from": "u/cloud/dragonhill/sroad",
+   "to": "u/cloud/entrance",
+   "dir": "southeast"
+  }
+ ],
+ "room_npcs": {
+  "d/oldpine/lake": {
+   "d/oldpine/npc/serpent": 5
+  },
+  "d/oldpine/stone": {
+   "d/oldpine/npc/venomsnake": 1
+  },
+  "d/oldpine/epath3": {
+   "d/oldpine/npc/maniac": 1
+  },
+  "d/oldpine/keep3": {
+   "d/oldpine/npc/bandit_leader": 3,
+   "d/oldpine/npc/bandit_commander": 1
+  },
+  "d/oldpine/keep1": {
+   "d/oldpine/npc/bandit_guard": 4
+  },
+  "d/oldpine/pine1": {
+   "d/oldpine/npc/tall_bandit": 1,
+   "d/oldpine/npc/fat_bandit": 1
+  },
+  "d/oldpine/keep2": {
+   "d/oldpine/npc/bandit_guard": 2,
+   "d/oldpine/npc/bandit_leader": 1
+  },
+  "d/oldpine/pine7": {
+   "d/oldpine/npc/wolf_dog": 1
+  },
+  "d/oldpine/cave5": {
+   "d/oldpine/npc/skeleton": 1
+  },
+  "d/oldpine/passage": {
+   "d/oldpine/npc/maniac": 1
+  },
+  "d/oldpine/spath1": {
+   "d/oldpine/npc/bandit": 3
+  },
+  "d/oldpine/tree1": {
+   "d/oldpine/npc/spy": 1
+  },
+  "d/canyon/camp8": {
+   "d/canyon/npc/general": 1,
+   "d/canyon/npc/adviser": 1
+  },
+  "d/canyon/blackmarket": {
+   "d/canyon/npc/seller": 1
+  },
+  "d/canyon/camp5": {
+   "d/canyon/npc/leader1": 2
+  },
+  "d/canyon/camp7": {
+   "d/canyon/npc/vice_general": 1
+  },
+  "d/canyon/camp1": {
+   "d/canyon/npc/door_guard": 2
+  },
+  "d/canyon/camp6": {
+   "d/canyon/npc/captain": 1,
+   "d/canyon/npc/leader2": 1
+  },
+  "d/canyon/camp3": {
+   "d/canyon/npc/guard1": 2
+  },
+  "d/canyon/camp4": {
+   "d/canyon/npc/guard1": 2,
+   "d/canyon/npc/guard2": 1
+  },
+  "d/city/street9": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/northdoor": {
+   "d/city/npc/guard": 3
+  },
+  "d/city/street13": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/jiaowu": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/jiulou": {
+   "d/city/npc/waiter": 1,
+   "d/city/npc/boss": 1
+  },
+  "d/city/eastdoor2": {
+   "d/city/npc/guard": 3
+  },
+  "d/city/street8": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/street15": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/nroad2": {
+   "u/cp/chater2": 1
+  },
+  "d/city/jiulou_2": {
+   "d/city/npc/waiter": 1
+  },
+  "d/city/street17": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/southdoor": {
+   "d/city/npc/guard": 3
+  },
+  "d/city/street12": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/bridge": {
+   "d/city/npc/vendor": 1,
+   "d/city/npc/caker": 1,
+   "d/city/npc/dumpling_seller": 1
+  },
+  "d/city/biaoju": {
+   "d/city/npc/chen": 1
+  },
+  "d/city/westdoor2": {
+   "d/city/npc/guard": 3
+  },
+  "d/city/street14": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/eastdoor1": {
+   "d/city/npc/guard": 3
+  },
+  "d/city/boots": {
+   "d/city/npc/shoer": 1
+  },
+  "d/city/weapon": {
+   "d/city/npc/weaponor": 1
+  },
+  "d/city/cloth": {
+   "d/city/npc/clother": 1
+  },
+  "d/city/street10": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/westdoor1": {
+   "d/city/npc/guard": 3
+  },
+  "d/city/street11": {
+   "d/city/d/snow/npc/scavenger": 1
+  },
+  "d/city/street4": {
+   "d/city/npc/walker": 1,
+   "d/city/npc/trader": 1
+  },
+  "d/city/street2": {
+   "d/city/npc/walker": 2
+  },
+  "d/city/shangshu/huayuan": {
+   "d/city/shangshu/npc/gardener": 1
+  },
+  "d/city/shangshu/road1": {
+   "d/city/shangshu/npc/huyuan": 1
+  },
+  "d/city/shangshu/road2": {
+   "d/city/shangshu/npc/huyuan": 1,
+   "d/city/shangshu/npc/huyuan1": 1
+  },
+  "d/city/shangshu/neizhai": {
+   "d/city/shangshu/npc/qing_chen": 1
+  },
+  "d/city/shangshu/keting": {
+   "d/city/shangshu/npc/shangshu": 1
+  },
+  "d/city/shangshu/gate": {
+   "d/city/shangshu/npc/guard": 1
+  },
+  "d/city/shangshu/chufang": {
+   "d/city/shangshu/npc/maid": 1
+  },
+  "d/latemoon/entrance": {
+   "u/cloud/npc/lm_guard": 2
+  },
+  "d/latemoon/sroad5": {
+   "d/latemoon/npc/butterfly": 1
+  },
+  "d/latemoon/sroad4": {
+   "d/latemoon/npc/butterfly": 1
+  },
+  "d/latemoon/latemoon3": {
+   "d/latemoon/npc/yumay": 1
+  },
+  "d/latemoon/latebook": {
+   "d/latemoon/npc/girl": 1
+  },
+  "d/latemoon/miroom2": {
+   "d/latemoon/npc/shaowei": 1
+  },
+  "d/latemoon/latemoon2": {
+   "d/latemoon/npc/zauron": 1
+  },
+  "d/latemoon/latemoon6": {
+   "d/latemoon/npc/funlin": 1
+  },
+  "d/latemoon/latemoon1": {
+   "d/latemoon/npc/servant": 2,
+   "master": 1
+  },
+  "d/latemoon/bamboo4": {
+   "d/latemoon/obj/bamboo": 1
+  },
+  "d/latemoon/room/westroom": {
+   "d/latemoon/room/npc/servant": 1,
+   "d/latemoon/room/npc/annihi": 1
+  },
+  "d/latemoon/room/bathroom1": {
+   "d/latemoon/room/npc/shinyu": 1
+  },
+  "d/latemoon/room/flower1": {
+   "d/latemoon/room/npc/shaoin": 1
+  },
+  "d/latemoon/room/corridor7": {
+   "d/latemoon/room/npc/yuchoun": 1
+  },
+  "d/latemoon/room/lstudio": {
+   "d/latemoon/room/npc/old": 1,
+   "d/latemoon/room/npc/killer": 1
+  },
+  "d/latemoon/room/eastroom": {
+   "d/latemoon/room/npc/servant": 1,
+   "d/latemoon/room/npc/elon": 1
+  },
+  "d/latemoon/room/lcenter": {
+   "d/latemoon/room/npc/spring2": 1,
+   "d/latemoon/room/npc/yushou": 1
+  },
+  "d/latemoon/room/room4": {
+   "d/latemoon/npc/servant2": 1,
+   "d/latemoon/room/npc/spring1": 1
+  },
+  "d/latemoon/room/kitchen": {
+   "d/latemoon/room/npc/obj/fire": 1,
+   "d/latemoon/room/npc/fochin": 1
+  },
+  "d/latemoon/room/guest1": {
+   "d/latemoon/room/npc/guest": 1
+  },
+  "d/latemoon/room/eat2": {
+   "d/latemoon/obj/wine": 1,
+   "d/latemoon/obj/food": 1
+  },
+  "d/latemoon/room/eat1": {
+   "d/latemoon/obj/food2": 1,
+   "d/latemoon/obj/food3": 2
+  },
+  "d/latemoon/room/guest2": {
+   "d/latemoon/room/npc/tguest": 1
+  },
+  "d/latemoon/room/bathroom": {
+   "d/latemoon/room/npc/fireangel": 1,
+   "d/latemoon/room/npc/eton": 1
+  },
+  "d/latemoon/park/moon5": {
+   "d/latemoon/park/npc/flwgirl": 4
+  },
+  "d/latemoon/park/moroom": {
+   "d/latemoon/park/npc/girl_yu": 1,
+   "d/latemoon/park/npc/dodo1": 1
+  },
+  "d/latemoon/park/pavilion1": {
+   "d/latemoon/park/npc/shiren": 1
+  },
+  "d/latemoon/park/moon4": {
+   "d/latemoon/park/npc/bird": 2,
+   "d/latemoon/park/npc/maysan": 1
+  },
+  "d/latemoon/park/paroad2": {
+   "d/latemoon/park/npc/rabbit": 2
+  },
+  "d/latemoon/upstar/uproom": {
+   "d/latemoon/upstar/npc/statue": 1
+  },
+  "d/latemoon/upstar/uproom2": {
+   "d/latemoon/upstar/npc/shinfun": 1
+  },
+  "d/latemoon/upstar/uproom3": {
+   "d/latemoon/upstar/npc/huei": 1,
+   "d/latemoon/obj/cake": 1
+  },
+  "d/latemoon/upstar/uplook": {
+   "d/latemoon/upstar/npc/bird": 2
+  },
+  "d/goathill/mroad4": {
+   "d/goathill/npc/bandit": 3,
+   "d/goathill/npc/bandit_leader": 1
+  },
+  "d/goathill/cavern1": {
+   "d/goathill/npc/worm": 2
+  },
+  "d/goathill/cavern4": {
+   "d/goathill/npc/worm": 2,
+   "d/goathill/npc/big_worm": 1
+  },
+  "d/goathill/temple1": {
+   "d/goathill/npc/bandit_hwang": 1
+  },
+  "d/goathill/cavern3": {
+   "d/goathill/npc/big_worm": 2,
+   "d/goathill/npc/huge_worm": 2
+  },
+  "d/goathill/cavern2": {
+   "d/goathill/npc/fat_worm": 1,
+   "d/goathill/npc/worm": 3
+  },
+  "d/green/cavehall": {
+   "master": 1
+  },
+  "d/green/path2": {
+   "d/green/npc/kid2": 2
+  },
+  "d/green/station1": {
+   "d/green/npc/worker2": 2
+  },
+  "d/green/house4": {
+   "d/green/npc/oldman2": 1
+  },
+  "d/green/station0": {
+   "d/green/npc/worker2": 3
+  },
+  "d/green/shop0": {
+   "d/green/npc/shen": 1,
+   "d/green/npc/woman1": 1
+  },
+  "d/green/field1": {
+   "d/green/npc/kid1": 1
+  },
+  "d/green/path8": {
+   "d/green/npc/kid3": 2
+  },
+  "d/green/house0": {
+   "d/green/npc/woman1": 1,
+   "d/green/npc/woman2": 1
+  },
+  "d/green/house2": {
+   "d/green/npc/oldman": 1,
+   "d/green/npc/oldwoman": 1
+  },
+  "d/green/house1": {
+   "d/green/npc/worker1": 1
+  },
+  "d/green/cave0": {
+   "d/green/npc/kid4": 2
+  },
+  "d/snow/eroad2": {
+   "d/snow/npc/dog": 2
+  },
+  "d/snow/square": {
+   "d/snow/npc/trav_blade": 3
+  },
+  "d/snow/school2": {
+   "d/snow/npc/trainee": 6,
+   "d/snow/npc/fist_trainer": 1,
+   "d/snow/npc/dummy": 1
+  },
+  "d/snow/schoolhall": {
+   "master": 1
+  },
+  "d/snow/nyard": {
+   "d/snow/npc/girl": 1
+  },
+  "d/snow/sroad4": {
+   "d/snow/npc/crazy_dog": 1
+  },
+  "d/snow/postoffice": {
+   "d/snow/npc/post_officer": 1
+  },
+  "d/snow/secret_storage": {
+   "d/snow/obj/shield": 1
+  },
+  "d/snow/inn": {
+   "d/snow/npc/traveller": 2,
+   "d/snow/npc/waiter": 1,
+   "obj/money/coin": 99
+  },
+  "d/snow/mstreet2": {
+   "d/snow/npc/drunk": 1,
+   "d/snow/npc/scavenger": 1
+  },
+  "d/snow/temple": {
+   "obj/paper_seal": 2,
+   "d/snow/npc/keeper": 1,
+   "d/snow/obj/denotation": 1
+  },
+  "d/snow/school1": {
+   "d/snow/npc/guard": 1
+  },
+  "d/snow/smithy": {
+   "d/snow/npc/smith": 1
+  },
+  "d/snow/school": {
+   "d/snow/npc/teacher": 1
+  },
+  "d/snow/sroad2": {
+   "d/snow/npc/farmer": 2
+  },
+  "d/snow/inn_2f": {
+   "d/snow/npc/rat": 6
+  },
+  "d/snow/weapon_storage": {
+   "d/snow/npc/obj/bamboo_sword": 1
+  },
+  "d/snow/herbshop": {
+   "d/snow/npc/herbalist": 1,
+   "d/snow/npc/woodcutter": 1
+  },
+  "d/choyin/hotel1": {
+   "d/choyin/npc/boss": 1,
+   "d/choyin/npc/sergeant": 1
+  },
+  "d/choyin/e_gate": {
+   "d/choyin/npc/cityguard": 2,
+   "d/choyin/npc/ghost": 1
+  },
+  "d/choyin/s_street1": {
+   "d/choyin/npc/cucurbit_seller": 1,
+   "d/choyin/npc/dumpling_seller": 1
+  },
+  "d/choyin/s_gate": {
+   "d/choyin/npc/cityguard": 2
+  },
+  "d/choyin/rockyu": {
+   "d/choyin/npc/oldman": 1
+  },
+  "d/choyin/platform": {
+   "d/choyin/npc/lboy": 2
+  },
+  "d/choyin/entrance": {
+   "master": 1
+  },
+  "d/choyin/yamen_yard": {
+   "d/choyin/npc/magistra": 4
+  },
+  "d/choyin/lionroom": {
+   "d/choyin/npc/lion": 1
+  },
+  "d/choyin/bridge3": {
+   "d/choyin/npc/visitor": 4
+  },
+  "d/choyin/bridge1": {
+   "d/choyin/npc/visitor": 4
+  },
+  "d/choyin/hollow3": {
+   "d/choyin/obj/orchid": 1
+  },
+  "d/choyin/n_street1": {
+   "d/choyin/npc/cake_vendor": 1,
+   "master": 1
+  },
+  "d/choyin/yamen": {
+   "d/choyin/npc/judgeman": 1,
+   "d/choyin/npc/magistra": 2,
+   "d/choyin/npc/yamen_po": 8
+  },
+  "d/choyin/n_gate": {
+   "d/choyin/npc/cityguard": 2,
+   "d/choyin/npc/ghost": 1,
+   "obj/npc/garrison": 2
+  },
+  "d/choyin/bridge4": {
+   "d/choyin/npc/girl": 1,
+   "d/choyin/npc/maid": 2
+  },
+  "d/choyin/craneroom": {
+   "d/choyin/npc/crane": 4
+  },
+  "d/choyin/bridge2": {
+   "d/choyin/npc/scholar": 2
+  },
+  "d/choyin/hotel3": {
+   "d/choyin/npc/guard": 3
+  },
+  "d/choyin/hotel2": {
+   "d/choyin/npc/youngman": 1,
+   "d/choyin/npc/servant": 3
+  },
+  "d/choyin/halfhole": {
+   "d/choyin/obj/goldenrope": 1
+  },
+  "d/choyin/n_street3": {
+   "d/choyin/npc/dumpling_seller": 1
+  },
+  "d/choyin/cloudpool": {
+   "d/choyin/npc/serpent": 4
+  },
+  "d/choyin/dragon_temple": {
+   "d/choyin/npc/crone": 1
+  },
+  "d/choyin/court1": {
+   "d/choyin/npc/judge_gu": 4,
+   "d/choyin/npc/magistra": 2
+  },
+  "d/choyin/tomb1": {
+   "d/choyin/npc/shadow": 3
+  },
+  "d/choyin/altar": {
+   "d/choyin/obj/denotation": 1,
+   "d/choyin/npc/lady": 1
+  },
+  "d/choyin/stove": {
+   "d/choyin/obj/tablet": 5
+  },
+  "d/choyin/tomb3": {
+   "d/choyin/obj/chest": 1
+  },
+  "d/village/road2": {
+   "d/village/npc/trader1": 2
+  },
+  "d/village/melonguard": {
+   "d/village/npc/meloner": 3
+  },
+  "d/village/littlegarden": {
+   "d/village/npc/flowergirl": 5
+  },
+  "d/village/lakeside": {
+   "d/village/npc/fisher": 3
+  },
+  "d/village/fmhousback": {
+   "d/village/npc/woman1": 1
+  },
+  "d/village/lakebottom2": {
+   "d/village/npc/dragon": 6
+  },
+  "d/village/home": {
+   "d/village/npc/oldliu": 1
+  },
+  "d/village/smallstorage": {
+   "d/village/npc/rat": 6
+  },
+  "d/wiz/courthouse": {
+   "d/wiz/npc/judge": 1
+  },
+  "d/wiz/entrance": {
+   "d/wiz/npc/chpn": 1
+  },
+  "d/waterfog/sroad3": {
+   "d/waterfog/npc/guard": 2
+  },
+  "d/waterfog/east_2f": {
+   "d/waterfog/npc/elite_guard": 2
+  },
+  "d/waterfog/entrance": {
+   "d/waterfog/npc/guard": 2
+  },
+  "d/waterfog/west_2f": {
+   "d/waterfog/npc/elite_guard": 2
+  },
+  "d/waterfog/storage": {
+   "d/waterfog/npc/servant": 2
+  },
+  "d/waterfog/clifftop": {
+   "d/waterfog/npc/watcher": 1,
+   "d/waterfog/npc/celes_tiger": 1
+  },
+  "d/waterfog/forehall": {
+   "d/waterfog/npc/elder5": 1,
+   "d/waterfog/npc/elder6": 1,
+   "d/waterfog/npc/elder7": 1
+  },
+  "d/sanyen/back_temple": {
+   "d/sanyen/npc/little_bonze": 1
+  },
+  "d/sanyen/front_yard": {
+   "d/sanyen/npc/greeting": 2
+  },
+  "d/sanyen/road1": {
+   "d/sanyen/npc/monk": 1
+  },
+  "d/sanyen/road2": {
+   "d/sanyen/npc/bonze": 1
+  },
+  "d/sanyen/kitchen": {
+   "d/sanyen/npc/cook_bonze": 1
+  },
+  "d/sanyen/inner_yard": {
+   "d/sanyen/npc/cripple": 1
+  },
+  "d/sanyen/temple": {
+   "master": 1
+  },
+  "d/sanyen/tower": {
+   "d/sanyen/npc/work_bonze": 1
+  },
+  "d/sanyen/heal_room": {
+   "d/sanyen/npc/drug_bonze": 1
+  },
+  "d/sanyen/gate": {
+   "d/sanyen/npc/greeting": 2
+  },
+  "d/chuenyu/tunnel1": {
+   "d/chuenyu/npc/highrat": 1
+  },
+  "d/chuenyu/east_blackge": {
+   "d/chuenyu/npc/cleangirl": 1
+  },
+  "d/chuenyu/east_garden": {
+   "d/chuenyu/npc/wolfdog": 3
+  },
+  "d/chuenyu/west_garden": {
+   "d/chuenyu/npc/gardener": 1,
+   "d/chuenyu/npc/bee": 2
+  },
+  "d/chuenyu/kitchen": {
+   "d/chuenyu/obj/pigmeat": 3,
+   "d/chuenyu/obj/qiwine": 3,
+   "d/chuenyu/npc/cook": 1
+  },
+  "d/chuenyu/croad1": {
+   "u/cp/chater2": 1
+  },
+  "d/chuenyu/north_garden": {
+   "d/chuenyu/npc/smallgardener": 2
+  },
+  "d/chuenyu/smallyard": {
+   "d/chuenyu/npc/frog": 2,
+   "d/chuenyu/npc/ant": 2,
+   "d/chuenyu/npc/fly": 2
+  },
+  "d/chuenyu/littlegarden": {
+   "d/chuenyu/npc/flowergirl": 5
+  },
+  "d/chuenyu/sunnyroad": {
+   "d/chuenyu/npc/flower_seller": 1
+  },
+  "d/chuenyu/storage": {
+   "obj/longsword": 5
+  },
+  "d/chuenyu/dungeon": {
+   "d/chuenyu/npc/chuenyu": 1,
+   "d/chuenyu/xiaojuan2": 1
+  },
+  "d/chuenyu/rope_bridge": {
+   "d/chuenyu/npc/jiading3": 2
+  },
+  "d/chuenyu/south_garden": {
+   "d/chuenyu/npc/smallgardener": 2
+  },
+  "d/chuenyu/tortureroom": {
+   "d/chuenyu/npc/highrat": 2,
+   "d/chuenyu/npc/guard2": 2
+  },
+  "d/chuenyu/tortureroom2": {
+   "d/chuenyu/npc/highrat": 2,
+   "d/chuenyu/npc/guard2": 2
+  },
+  "d/chuenyu/west_blackge": {
+   "d/chuenyu/npc/guard": 2
+  },
+  "d/chuenyu/home": {
+   "d/chuenyu/npc/oldliu": 1
+  },
+  "d/chuenyu/yiantai": {
+   "d/chuenyu/npc/pigeon": 2
+  },
+  "d/chuenyu/smallstorage": {
+   "d/chuenyu/npc/rat": 6
+  },
+  "d/death/gateway": {
+   "d/death/npc/bgargoyle": 1
+  },
+  "d/death/bridge": {
+   "d/death/npc/hell_guard": 4
+  },
+  "d/death/gate": {
+   "d/death/npc/wgargoyle": 1
+  },
+  "d/temple/trainroom": {
+   "d/temple/npc/taoist": 1,
+   "d/temple/npc/taoist2": 1
+  },
+  "d/temple/ladder1": {
+   "d/temple/npc/little_taoist1": 1
+  },
+  "d/temple/ladder2": {
+   "d/temple/npc/guest": 1
+  },
+  "d/temple/inneryard": {
+   "d/temple/npc/little_taoist2": 1
+  },
+  "d/temple/temple1": {
+   "taolord": 1,
+   "d/temple/npc/trainer": 1,
+   "d/temple/npc/tfighter": 1
+  },
+  "d/temple/restroom1": {
+   "d/temple/npc/old_taoist": 1
+  },
+  "u/cloud/woodboxy": {
+   "u/cloud/npc/box_boss": 1,
+   "u/cloud/npc/box_waiter": 8
+  },
+  "u/cloud/rich": {
+   "u/cloud/npc/room_gua": 5
+  },
+  "u/cloud/nwroad3": {
+   "obj/npc/garrison": 2
+  },
+  "u/cloud/tearoom": {
+   "u/cloud/npc/tea_waiter": 1
+  },
+  "u/cloud/park": {
+   "u/cloud/npc/thief": 1
+  },
+  "u/cloud/marry_room": {
+   "u/cloud/npc/mei_po": 1
+  },
+  "u/cloud/monky": {
+   "u/cloud/npc/monk": 1,
+   "d/snow/npc/beggar": 2,
+   "obj/example/dumpling": 3
+  },
+  "u/cloud/dukou": {
+   "u/cloud/npc/boater": 1
+  },
+  "u/cloud/zaihuoy": {
+   "u/cloud/npc/seller": 1
+  },
+  "u/cloud/m_house": {
+   "u/cloud/npc/millinare": 1,
+   "u/cloud/npc/jiading": 2
+  },
+  "u/cloud/drugstore": {
+   "u/cloud/npc/doctor": 1
+  },
+  "u/cloud/tailory": {
+   "u/cloud/npc/tailor": 1
+  },
+  "u/cloud/biaoju": {
+   "u/cloud/npc/b_header": 1,
+   "u/cloud/npc/bfighter": 1
+  },
+  "u/cloud/jiyuan2": {
+   "u/cloud/npc/girl": 1
+  },
+  "u/cloud/weapony": {
+   "u/cloud/npc/weaponor": 1
+  },
+  "u/cloud/butchery": {
+   "u/cloud/npc/butcher": 1,
+   "u/cloud/npc/fly": 6
+  },
+  "u/cloud/duchang": {
+   "u/cloud/npc/judge": 1
+  },
+  "u/cloud/jiyuan": {
+   "u/cloud/npc/mother": 1
+  },
+  "u/cloud/eroad4": {
+   "u/cloud/npc/worker": 6
+  },
+  "u/cloud/god2": {
+   "u/cloud/npc/god": 1
+  },
+  "u/cloud/tearoom2": {
+   "u/cloud/npc/chess_player": 1
+  },
+  "u/cloud/dragonhill/hummock": {
+   "u/cloud/npc/gangster": 2
+  }
+ }
+}

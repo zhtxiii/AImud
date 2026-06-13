@@ -19,17 +19,33 @@ from nodes import (
     start_knowledge_update_bg, sync_knowledge_update,
     planner
 )
+from nodes.routine_exec import routine_exec
 
 
 def _route_after_planner(state: AgentState) -> str:
     """
     planner 之后的路由：
-    - 需要退出（非文本环境）→ END
-    - 已分配任务 → observe（进入执行循环）
+    - 需要退出（非文本环境/目标达成/致命）→ END
+    - routine:* 任务 → routine_exec
+    - 其余 → observe（LLM 执行循环）
     """
     if state.get("should_exit", False):
         return "end"
+    if state.get("exit_reason") in ("goal_reached", "fatal", "stop"):
+        return "end"
+    executor = state.get("current_task", {}).get("executor", "")
+    if executor.startswith("routine:"):
+        return "routine_exec"
     return "observe"
+
+
+def _route_after_routine(state: AgentState) -> str:
+    """routine_exec 之后：断线/停止/达标 → END，否则回 planner。"""
+    if state.get("should_reconnect") or state.get("should_stop"):
+        return "end"
+    if state.get("exit_reason") in ("reconnect", "stop", "goal_reached", "fatal"):
+        return "end"
+    return "planner"
 
 
 def _route_after_observe(state: AgentState) -> str:
@@ -102,16 +118,28 @@ def build_graph():
     graph.add_node("analyze", analyze)
     graph.add_node("act", act)
     graph.add_node("sync_kb", sync_knowledge_update)
+    graph.add_node("routine_exec", routine_exec)
 
     # 入口：规划者先制定任务
     graph.set_entry_point("planner")
 
-    # planner → observe 或 END
+    # planner → routine_exec / observe / END
     graph.add_conditional_edges(
         "planner",
         _route_after_planner,
         {
+            "routine_exec": "routine_exec",
             "observe": "observe",
+            "end": END,
+        },
+    )
+
+    # routine_exec → planner 或 END
+    graph.add_conditional_edges(
+        "routine_exec",
+        _route_after_routine,
+        {
+            "planner": "planner",
             "end": END,
         },
     )

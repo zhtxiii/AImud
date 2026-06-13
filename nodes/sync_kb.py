@@ -23,7 +23,7 @@ def sync_knowledge_update(state: AgentState) -> dict:
         return {"kb_update_future": None}
 
     try:
-        result = future.result(timeout=120)  # 最多等待 120 秒
+        result = future.result(timeout=30)  # 最多等待 30 秒
         kb = result.get("knowledge_base", state.get("knowledge_base", []))
         counter = result.get("kb_consolidation_counter", state.get("kb_consolidation_counter", 0))
         added_count = result.get("added_count", 0)
@@ -37,5 +37,8 @@ def sync_knowledge_update(state: AgentState) -> dict:
             "kb_update_future": None,
         }
     except Exception as e:
-        log_colored("知识管理", f"后台知识更新失败: {e}", Colors.RED)
+        import traceback
+        log_colored("知识管理",
+                    f"后台知识更新失败: {type(e).__name__}: {e}\n{traceback.format_exc(limit=3)}",
+                    Colors.RED)
         return {"kb_update_future": None}
