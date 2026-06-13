@@ -1,6 +1,0 @@
-
-需要引入反思者，进行skills提炼，比如登录和注册过程，常用命令
-知识库现在更像是垃圾堆  
-知识库管理的信息还需要减少
-knowledge manger should have a separate log file
-each task have a separate logfile

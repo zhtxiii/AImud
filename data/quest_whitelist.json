@@ -1,0 +1,2960 @@
+[
+ {
+  "target_cn": "乞丐",
+  "kill_id": "beggar",
+  "rooms": [
+   "u/cloud/monky"
+  ],
+  "exp_min": 100,
+  "exp_max": 100,
+  "dp_est": 50,
+  "ap_est": 50,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 200,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 25,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "李师师",
+  "kill_id": "girl",
+  "rooms": [
+   "u/cloud/jiyuan2"
+  ],
+  "exp_min": 10,
+  "exp_max": 10,
+  "dp_est": 5,
+  "ap_est": 5,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "宝官",
+  "kill_id": "judge",
+  "rooms": [
+   "u/cloud/duchang"
+  ],
+  "exp_min": 500,
+  "exp_max": 500,
+  "dp_est": 250,
+  "ap_est": 42166,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 24,
+    "pot_bonus": 16
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "知客僧",
+  "kill_id": "greeting bonze",
+  "rooms": [
+   "d/sanyen/front_yard",
+   "d/sanyen/gate"
+  ],
+  "exp_min": 2000,
+  "exp_max": 2000,
+  "dp_est": 23333,
+  "ap_est": 23333,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "裁缝",
+  "kill_id": "tailor",
+  "rooms": [
+   "u/cloud/tailory"
+  ],
+  "exp_min": 500,
+  "exp_max": 500,
+  "dp_est": 9500,
+  "ap_est": 9500,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 40
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "茶工",
+  "kill_id": "tea worker",
+  "rooms": [
+   "u/cloud/eroad4"
+  ],
+  "exp_min": 500,
+  "exp_max": 500,
+  "dp_est": 3166,
+  "ap_est": 833,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 28,
+    "pot_bonus": 18
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 38,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "疯狗",
+  "kill_id": "crazy dog",
+  "rooms": [
+   "d/snow/sroad4"
+  ],
+  "exp_min": 100,
+  "exp_max": 100,
+  "dp_est": 50,
+  "ap_est": 1225,
+  "armed": false,
+  "beast": true,
+  "aggressive": true,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 40,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "野狗",
+  "kill_id": "dog",
+  "rooms": [
+   "d/snow/eroad2"
+  ],
+  "exp_min": 0,
+  "exp_max": 0,
+  "dp_est": 1,
+  "ap_est": 333,
+  "armed": false,
+  "beast": true,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 40,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "杜宽",
+  "kill_id": "post officer",
+  "rooms": [
+   "d/snow/postoffice"
+  ],
+  "exp_min": 800,
+  "exp_max": 800,
+  "dp_est": 42466,
+  "ap_est": 22133,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 24,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "收破烂的",
+  "kill_id": "scavenger",
+  "rooms": [
+   "d/snow/mstreet2"
+  ],
+  "exp_min": 10,
+  "exp_max": 10,
+  "dp_est": 5,
+  "ap_est": 5,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 25,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "王铁匠",
+  "kill_id": "wang",
+  "rooms": [
+   "d/snow/smithy"
+  ],
+  "exp_min": 400,
+  "exp_max": 400,
+  "dp_est": 200,
+  "ap_est": 200,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "扫地僧",
+  "kill_id": "work bonze",
+  "rooms": [
+   "d/sanyen/tower"
+  ],
+  "exp_min": 200,
+  "exp_max": 200,
+  "dp_est": 533,
+  "ap_est": 5408,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 35,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "进香客",
+  "kill_id": "guest",
+  "rooms": [
+   "d/temple/ladder2"
+  ],
+  "exp_min": 600,
+  "exp_max": 600,
+  "dp_est": 300,
+  "ap_est": 300,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "魏无极",
+  "kill_id": "teacher",
+  "rooms": [
+   "d/snow/school"
+  ],
+  "exp_min": 0,
+  "exp_max": 0,
+  "dp_est": 1,
+  "ap_est": 1,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 40,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "武馆弟子",
+  "kill_id": "trainee",
+  "rooms": [
+   "d/snow/school2"
+  ],
+  "exp_min": 100,
+  "exp_max": 100,
+  "dp_est": 50,
+  "ap_est": 50,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "卖饼大叔",
+  "kill_id": "cake vendor",
+  "rooms": [
+   "d/city/bridge"
+  ],
+  "exp_min": 30,
+  "exp_max": 30,
+  "dp_est": 15,
+  "ap_est": 15,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 25
+   }
+  ]
+ },
+ {
+  "target_cn": "卖糖葫芦的",
+  "kill_id": "cucurbit chapman",
+  "rooms": [
+   "d/choyin/s_street1"
+  ],
+  "exp_min": 30,
+  "exp_max": 30,
+  "dp_est": 15,
+  "ap_est": 15,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 25
+   }
+  ]
+ },
+ {
+  "target_cn": "卖包子的",
+  "kill_id": "dumpling seller",
+  "rooms": [
+   "d/city/bridge"
+  ],
+  "exp_min": 30,
+  "exp_max": 30,
+  "dp_est": 15,
+  "ap_est": 15,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 25
+   }
+  ]
+ },
+ {
+  "target_cn": "家丁",
+  "kill_id": "servant",
+  "rooms": [
+   "d/choyin/hotel2"
+  ],
+  "exp_min": 500,
+  "exp_max": 500,
+  "dp_est": 833,
+  "ap_est": 833,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "岩蛭",
+  "kill_id": "rock leech",
+  "rooms": [
+   "d/goathill/cavern1",
+   "d/goathill/cavern4",
+   "d/goathill/cavern2"
+  ],
+  "exp_min": 1000,
+  "exp_max": 1000,
+  "dp_est": 3666,
+  "ap_est": 10000,
+  "armed": false,
+  "beast": true,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 50,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "金丝雀",
+  "kill_id": "sparrow",
+  "rooms": [
+   "d/latemoon/park/moon4"
+  ],
+  "exp_min": 1000,
+  "exp_max": 1000,
+  "dp_est": 22333,
+  "ap_est": 500,
+  "armed": false,
+  "beast": true,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "药僧",
+  "kill_id": "drug bonze",
+  "rooms": [
+   "d/sanyen/heal_room"
+  ],
+  "exp_min": 1800,
+  "exp_max": 1800,
+  "dp_est": 32175,
+  "ap_est": 57258,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 18
+   }
+  ]
+ },
+ {
+  "target_cn": "卧龙岗强盗",
+  "kill_id": "gangster",
+  "rooms": [
+   "u/cloud/dragonhill/hummock"
+  ],
+  "exp_min": 10000,
+  "exp_max": 10000,
+  "dp_est": 31333,
+  "ap_est": 343333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 35,
+    "pot_bonus": 35
+   }
+  ]
+ },
+ {
+  "target_cn": "郑屠夫",
+  "kill_id": "butcher",
+  "rooms": [
+   "u/cloud/butchery"
+  ],
+  "exp_min": 2500,
+  "exp_max": 2500,
+  "dp_est": 335833,
+  "ap_est": 335833,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "彩衣少女",
+  "kill_id": "girl",
+  "rooms": [
+   "d/latemoon/entrance"
+  ],
+  "exp_min": 1000,
+  "exp_max": 1000,
+  "dp_est": 22333,
+  "ap_est": 22333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 400,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 400,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 400,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "飞贼",
+  "kill_id": "thief",
+  "rooms": [
+   "u/cloud/park"
+  ],
+  "exp_min": 3000,
+  "exp_max": 3000,
+  "dp_est": 917666,
+  "ap_est": 12000,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 600,
+    "exp_bonus": 40,
+    "pot_bonus": 35
+   }
+  ]
+ },
+ {
+  "target_cn": "兵器贩子",
+  "kill_id": "weaponor",
+  "rooms": [
+   "u/cloud/weapony"
+  ],
+  "exp_min": 20000,
+  "exp_max": 20000,
+  "dp_est": 353333,
+  "ap_est": 353333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "刘安禄",
+  "kill_id": "liu anru",
+  "rooms": [
+   "d/snow/school1"
+  ],
+  "exp_min": 20000,
+  "exp_max": 20000,
+  "dp_est": 61666,
+  "ap_est": 463666,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "旅客",
+  "kill_id": "traveller",
+  "rooms": [
+   "d/snow/inn"
+  ],
+  "exp_min": 600,
+  "exp_max": 999,
+  "dp_est": 42266,
+  "ap_est": 21933,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 200,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 200,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 200,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 40
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 200,
+    "exp_bonus": 25,
+    "pot_bonus": 25
+   }
+  ]
+ },
+ {
+  "target_cn": "土匪爪牙",
+  "kill_id": "bandit minion",
+  "rooms": [
+   "d/goathill/mroad4"
+  ],
+  "exp_min": 6000,
+  "exp_max": 6000,
+  "dp_est": 120333,
+  "ap_est": 176666,
+  "armed": true,
+  "beast": false,
+  "aggressive": true,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 45,
+    "pot_bonus": 35
+   }
+  ]
+ },
+ {
+  "target_cn": "巨岩蛭",
+  "kill_id": "huge rock leech",
+  "rooms": [
+   "d/goathill/cavern3"
+  ],
+  "exp_min": 10000,
+  "exp_max": 10000,
+  "dp_est": 19000,
+  "ap_est": 82000,
+  "armed": false,
+  "beast": true,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 50,
+    "pot_bonus": 35
+   }
+  ]
+ },
+ {
+  "target_cn": "袭人",
+  "kill_id": "shi ren",
+  "rooms": [
+   "d/latemoon/park/pavilion1"
+  ],
+  "exp_min": 7000,
+  "exp_max": 7000,
+  "dp_est": 28333,
+  "ap_est": 28333,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 10,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 10,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "圆春",
+  "kill_id": "yuan chung",
+  "rooms": [
+   "d/latemoon/room/lcenter"
+  ],
+  "exp_min": 5000,
+  "exp_max": 5000,
+  "dp_est": 10208,
+  "ap_est": 10208,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 10,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 10,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 10,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 35,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "柳绘心",
+  "kill_id": "liuh wheixin",
+  "rooms": [
+   "d/snow/nyard"
+  ],
+  "exp_min": 1000,
+  "exp_max": 1000,
+  "dp_est": 42666,
+  "ap_est": 10000,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "老兵",
+  "kill_id": "guard",
+  "rooms": [
+   "d/canyon/camp4"
+  ],
+  "exp_min": 40000,
+  "exp_max": 40000,
+  "dp_est": 81666,
+  "ap_est": 61333,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "趟子手",
+  "kill_id": "bfighter",
+  "rooms": [
+   "u/cloud/biaoju"
+  ],
+  "exp_min": 10000,
+  "exp_max": 10000,
+  "dp_est": 19000,
+  "ap_est": 82000,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 540,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 540,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 600,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 540,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 50000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   }
+  ]
+ },
+ {
+  "target_cn": "后备兵",
+  "kill_id": "guard",
+  "rooms": [
+   "d/canyon/blackmarket"
+  ],
+  "exp_min": 50000,
+  "exp_max": 50000,
+  "dp_est": 25000,
+  "ap_est": 25000,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 480,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 480,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 480,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "书生",
+  "kill_id": "scholar",
+  "rooms": [
+   "d/choyin/bridge2"
+  ],
+  "exp_min": 10,
+  "exp_max": 10,
+  "dp_est": 5,
+  "ap_est": 5,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "船夫",
+  "kill_id": "boater",
+  "rooms": [
+   "u/cloud/dukou"
+  ],
+  "exp_min": 1500,
+  "exp_max": 1500,
+  "dp_est": 10500,
+  "ap_est": 334833,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 150,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 150,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 45,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 150,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "明心",
+  "kill_id": "ming-shin",
+  "rooms": [
+   "d/temple/trainroom"
+  ],
+  "exp_min": 5000,
+  "exp_max": 5000,
+  "dp_est": 7666,
+  "ap_est": 7666,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 35,
+    "pot_bonus": 35
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "跛僧人",
+  "kill_id": "cripple bonze",
+  "rooms": [
+   "d/sanyen/inner_yard"
+  ],
+  "exp_min": 4000,
+  "exp_max": 4000,
+  "dp_est": 13000,
+  "ap_est": 13000,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "仆役",
+  "kill_id": "servant",
+  "rooms": [
+   "d/waterfog/storage"
+  ],
+  "exp_min": 100,
+  "exp_max": 100,
+  "dp_est": 50,
+  "ap_est": 50,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 10000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "李信",
+  "kill_id": "vice general",
+  "rooms": [
+   "d/canyon/camp7"
+  ],
+  "exp_min": 400000,
+  "exp_max": 400000,
+  "dp_est": 472000,
+  "ap_est": 514333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 60,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "严廷殷",
+  "kill_id": "master general",
+  "rooms": [
+   "d/canyon/camp8"
+  ],
+  "exp_min": 900000,
+  "exp_max": 900000,
+  "dp_est": 972000,
+  "ap_est": 1070666,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 100,
+    "pot_bonus": 50
+   }
+  ]
+ },
+ {
+  "target_cn": "赫造基",
+  "kill_id": "adviser",
+  "rooms": [
+   "d/canyon/camp8"
+  ],
+  "exp_min": 300000,
+  "exp_max": 300000,
+  "dp_est": 355458,
+  "ap_est": 321333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 200,
+    "exp_bonus": 50,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 50000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 60000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 80000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "狼狗",
+  "kill_id": "wolf dog",
+  "rooms": [
+   "d/oldpine/pine7"
+  ],
+  "exp_min": 10000,
+  "exp_max": 10000,
+  "dp_est": 5000,
+  "ap_est": 40375,
+  "armed": false,
+  "beast": true,
+  "aggressive": true,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 80,
+    "pot_bonus": 40
+   }
+  ]
+ },
+ {
+  "target_cn": "常老大",
+  "kill_id": "boss tsang",
+  "rooms": [
+   "d/oldpine/keep3"
+  ],
+  "exp_min": 260000,
+  "exp_max": 260000,
+  "dp_est": 992333,
+  "ap_est": 2926666,
+  "armed": true,
+  "beast": false,
+  "aggressive": true,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 100,
+    "pot_bonus": 50
+   }
+  ]
+ },
+ {
+  "target_cn": "蓝雨梅",
+  "kill_id": "yu-may",
+  "rooms": [
+   "d/latemoon/latemoon3"
+  ],
+  "exp_min": 60000,
+  "exp_max": 60000,
+  "dp_est": 174333,
+  "ap_est": 303000,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 40,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "蓝筱薇",
+  "kill_id": "shao-wei",
+  "rooms": [
+   "d/latemoon/miroom2"
+  ],
+  "exp_min": 200000,
+  "exp_max": 200000,
+  "dp_est": 370666,
+  "ap_est": 314333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "土匪首领",
+  "kill_id": "bandit leader",
+  "rooms": [
+   "d/oldpine/keep3",
+   "d/oldpine/keep2"
+  ],
+  "exp_min": 50000,
+  "exp_max": 50000,
+  "dp_est": 626000,
+  "ap_est": 782333,
+  "armed": true,
+  "beast": false,
+  "aggressive": true,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 400,
+    "exp_bonus": 60,
+    "pot_bonus": 35
+   },
+   {
+    "tier": 13000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "疯老头子",
+  "kill_id": "mad bad ugly dirty oldman",
+  "rooms": [
+   "d/oldpine/epath3",
+   "d/oldpine/passage"
+  ],
+  "exp_min": 40000,
+  "exp_max": 40000,
+  "dp_est": 154333,
+  "ap_est": 210666,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 400,
+    "exp_bonus": 70,
+    "pot_bonus": 40
+   }
+  ]
+ },
+ {
+  "target_cn": "守城官兵",
+  "kill_id": "town guard",
+  "rooms": [
+   "d/choyin/e_gate",
+   "d/choyin/s_gate",
+   "d/choyin/n_gate"
+  ],
+  "exp_min": 100000,
+  "exp_max": 100000,
+  "dp_est": 1014666,
+  "ap_est": 1014666,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 60000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 80000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   }
+  ]
+ },
+ {
+  "target_cn": "莫欣芳",
+  "kill_id": "shinfun",
+  "rooms": [
+   "d/latemoon/upstar/uproom2"
+  ],
+  "exp_min": 200000,
+  "exp_max": 200000,
+  "dp_est": 314333,
+  "ap_est": 533333,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "邢千慧",
+  "kill_id": "huei",
+  "rooms": [
+   "d/latemoon/upstar/uproom3"
+  ],
+  "exp_min": 250000,
+  "exp_max": 250000,
+  "dp_est": 364333,
+  "ap_est": 583333,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "芙云",
+  "kill_id": "fuyun",
+  "rooms": [
+   "d/latemoon/room/guest1"
+  ],
+  "exp_min": 50000,
+  "exp_max": 50000,
+  "dp_est": 164333,
+  "ap_est": 383333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 60000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 80000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   }
+  ]
+ },
+ {
+  "target_cn": "梦玉楼",
+  "kill_id": "yu lou",
+  "rooms": [
+   "d/latemoon/room/guest2"
+  ],
+  "exp_min": 70000,
+  "exp_max": 70000,
+  "dp_est": 184333,
+  "ap_est": 184333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 60000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 80000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "武官",
+  "kill_id": "sergeant",
+  "rooms": [
+   "d/choyin/hotel1"
+  ],
+  "exp_min": 250000,
+  "exp_max": 250000,
+  "dp_est": 982333,
+  "ap_est": 1070125,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 80000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "县城官兵",
+  "kill_id": "town garrison",
+  "rooms": [
+   "d/choyin/n_gate",
+   "u/cloud/nwroad3"
+  ],
+  "exp_min": 100000,
+  "exp_max": 100000,
+  "dp_est": 1014666,
+  "ap_est": 1014666,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 100000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 80000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "鸨母",
+  "kill_id": "mother",
+  "rooms": [
+   "u/cloud/jiyuan"
+  ],
+  "exp_min": 10,
+  "exp_max": 10,
+  "dp_est": 5,
+  "ap_est": 333343,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 35,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 50,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "杂货贩",
+  "kill_id": "seller",
+  "rooms": [
+   "u/cloud/zaihuoy"
+  ],
+  "exp_min": 1000,
+  "exp_max": 1000,
+  "dp_est": 42666,
+  "ap_est": 73000,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 35,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "李火狮",
+  "kill_id": "trainer",
+  "rooms": [
+   "d/snow/school2"
+  ],
+  "exp_min": 3000,
+  "exp_max": 3000,
+  "dp_est": 12000,
+  "ap_est": 12000,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 45,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 28,
+    "pot_bonus": 26
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "贵公子",
+  "kill_id": "youngman",
+  "rooms": [
+   "d/choyin/hotel2"
+  ],
+  "exp_min": 2500,
+  "exp_max": 2500,
+  "dp_est": 23833,
+  "ap_est": 23833,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "玄真",
+  "kill_id": "xuan jen",
+  "rooms": [
+   "d/temple/ladder1"
+  ],
+  "exp_min": 1500,
+  "exp_max": 1500,
+  "dp_est": 2625,
+  "ap_est": 750,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 25,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "蝴蝶",
+  "kill_id": "butterfly",
+  "rooms": [
+   "d/latemoon/sroad5",
+   "d/latemoon/sroad4"
+  ],
+  "exp_min": 100,
+  "exp_max": 100,
+  "dp_est": 41766,
+  "ap_est": 50,
+  "armed": false,
+  "beast": true,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 45,
+    "pot_bonus": 35
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 36,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "芳绫",
+  "kill_id": "funlin",
+  "rooms": [
+   "d/latemoon/latemoon6"
+  ],
+  "exp_min": 2000,
+  "exp_max": 2000,
+  "dp_est": 11000,
+  "ap_est": 4666,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 1500,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 35,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "老队长",
+  "kill_id": "leader",
+  "rooms": [
+   "d/canyon/camp6"
+  ],
+  "exp_min": 80000,
+  "exp_max": 80000,
+  "dp_est": 152000,
+  "ap_est": 171541,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 17000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "弈者",
+  "kill_id": "chess player",
+  "rooms": [
+   "u/cloud/tearoom2"
+  ],
+  "exp_min": 500,
+  "exp_max": 500,
+  "dp_est": 171166,
+  "ap_est": 9500,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 24
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 35,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "化缘和尚",
+  "kill_id": "monk",
+  "rooms": [
+   "u/cloud/monky"
+  ],
+  "exp_min": 10000,
+  "exp_max": 10000,
+  "dp_est": 31333,
+  "ap_est": 180666,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 38,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "农夫",
+  "kill_id": "farmer",
+  "rooms": [
+   "d/snow/sroad2"
+  ],
+  "exp_min": 20,
+  "exp_max": 20,
+  "dp_est": 10,
+  "ap_est": 10,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 600,
+    "exp_bonus": 50,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 120,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "樵夫",
+  "kill_id": "woodcutter",
+  "rooms": [
+   "d/snow/herbshop"
+  ],
+  "exp_min": 140,
+  "exp_max": 140,
+  "dp_est": 70,
+  "ap_est": 70,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 2000,
+    "type": "杀",
+    "time": 600,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 25,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 25,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 120,
+    "exp_bonus": 15,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "大队长",
+  "kill_id": "captain",
+  "rooms": [
+   "d/canyon/camp6"
+  ],
+  "exp_min": 120000,
+  "exp_max": 120000,
+  "dp_est": 234333,
+  "ap_est": 234333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   },
+   {
+    "tier": 50000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 12
+   }
+  ]
+ },
+ {
+  "target_cn": "小队长",
+  "kill_id": "leader",
+  "rooms": [
+   "d/canyon/camp5"
+  ],
+  "exp_min": 80000,
+  "exp_max": 80000,
+  "dp_est": 152000,
+  "ap_est": 171541,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 50000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "小兵",
+  "kill_id": "guard",
+  "rooms": [
+   "d/canyon/camp1"
+  ],
+  "exp_min": 60000,
+  "exp_max": 60000,
+  "dp_est": 101666,
+  "ap_est": 101666,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   },
+   {
+    "tier": 50000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "僵尸护法",
+  "kill_id": "taoist tfighter",
+  "rooms": [
+   "d/temple/temple1"
+  ],
+  "exp_min": 50000,
+  "exp_max": 50000,
+  "dp_est": 782333,
+  "ap_est": 383333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 22000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 40000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 50000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 40,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "肥岩蛭",
+  "kill_id": "fat rock leech",
+  "rooms": [
+   "d/goathill/cavern2"
+  ],
+  "exp_min": 3000,
+  "exp_max": 3000,
+  "dp_est": 5666,
+  "ap_est": 24333,
+  "armed": false,
+  "beast": true,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 45,
+    "pot_bonus": 35
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "大岩蛭",
+  "kill_id": "big rock leech",
+  "rooms": [
+   "d/goathill/cavern4",
+   "d/goathill/cavern3"
+  ],
+  "exp_min": 4000,
+  "exp_max": 4000,
+  "dp_est": 13000,
+  "ap_est": 76000,
+  "armed": false,
+  "beast": true,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 45,
+    "pot_bonus": 35
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 40,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 30,
+    "pot_bonus": 25
+   }
+  ]
+ },
+ {
+  "target_cn": "昭仪",
+  "kill_id": "zauyi",
+  "rooms": [
+   "d/latemoon/latebook"
+  ],
+  "exp_min": 4000,
+  "exp_max": 4000,
+  "dp_est": 13000,
+  "ap_est": 13000,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 35,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 20
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 10
+   }
+  ]
+ },
+ {
+  "target_cn": "惜春",
+  "kill_id": "shi-chung",
+  "rooms": [
+   "d/latemoon/room/room4"
+  ],
+  "exp_min": 5000,
+  "exp_max": 5000,
+  "dp_est": 26333,
+  "ap_est": 26333,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 3000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 30,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 30,
+    "pot_bonus": 25
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 25,
+    "pot_bonus": 15
+   }
+  ]
+ },
+ {
+  "target_cn": "僵尸侍者",
+  "kill_id": "trainer",
+  "rooms": [
+   "d/temple/temple1"
+  ],
+  "exp_min": 14000,
+  "exp_max": 14000,
+  "dp_est": 590000,
+  "ap_est": 347333,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 40
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 35,
+    "pot_bonus": 30
+   }
+  ]
+ },
+ {
+  "target_cn": "清虚",
+  "kill_id": "ching-shiu",
+  "rooms": [
+   "d/temple/trainroom"
+  ],
+  "exp_min": 10000,
+  "exp_max": 10000,
+  "dp_est": 19000,
+  "ap_est": 19000,
+  "armed": false,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 5000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 40,
+    "pot_bonus": 30
+   },
+   {
+    "tier": 8000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 35,
+    "pot_bonus": 20
+   }
+  ]
+ },
+ {
+  "target_cn": "独眼头陀",
+  "kill_id": "one-eyed monk",
+  "rooms": [
+   "d/sanyen/road1"
+  ],
+  "exp_min": 60000,
+  "exp_max": 60000,
+  "dp_est": 1185000,
+  "ap_est": 974666,
+  "armed": true,
+  "beast": false,
+  "aggressive": false,
+  "quests": [
+   {
+    "tier": 50000,
+    "type": "杀",
+    "time": 500,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 60000,
+    "type": "杀",
+    "time": 300,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   },
+   {
+    "tier": 80000,
+    "type": "杀",
+    "time": 100,
+    "exp_bonus": 20,
+    "pot_bonus": 10
+   }
+  ]
+ }
+]

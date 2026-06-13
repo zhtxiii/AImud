@@ -1,0 +1,8288 @@
+{
+ "金银花蛇": [
+  {
+   "file": "d/oldpine/npc/venomsnake",
+   "cn": "金银花蛇",
+   "ids": [
+    "venomsnake",
+    "snake"
+   ],
+   "exp_min": 30000,
+   "exp_max": 30000,
+   "skills": {},
+   "dp_est": 15000,
+   "ap_est": 144333,
+   "armed": false,
+   "beast": true,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/stone",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "土匪首领": [
+  {
+   "file": "d/oldpine/npc/bandit_leader",
+   "cn": "土匪首领",
+   "ids": [
+    "bandit leader",
+    "chief",
+    "leader"
+   ],
+   "exp_min": 50000,
+   "exp_max": 50000,
+   "skills": {
+    "blade": 60,
+    "parry": 70,
+    "dodge": 70
+   },
+   "dp_est": 626000,
+   "ap_est": 782333,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/keep3",
+     "count": 3
+    },
+    {
+     "room": "d/oldpine/keep2",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/goathill/npc/bandit_leader",
+   "cn": "土匪首领",
+   "ids": [
+    "bandit leader",
+    "bandit",
+    "leader"
+   ],
+   "exp_min": 14000,
+   "exp_max": 14000,
+   "skills": {
+    "axe": 70,
+    "parry": 60,
+    "dodge": 70
+   },
+   "dp_est": 1139000,
+   "ap_est": 746333,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/goathill/mroad4",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "土匪喽罗": [
+  {
+   "file": "d/oldpine/npc/bandit_guard",
+   "cn": "土匪喽罗",
+   "ids": [
+    "bandit"
+   ],
+   "exp_min": 3600,
+   "exp_max": 3600,
+   "skills": {
+    "sword": 50,
+    "parry": 40,
+    "dodge": 40
+   },
+   "dp_est": 24933,
+   "ap_est": 45266,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/keep1",
+     "count": 4
+    },
+    {
+     "room": "d/oldpine/keep2",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "土匪": [
+  {
+   "file": "d/oldpine/npc/tall_bandit",
+   "cn": "土匪",
+   "ids": [
+    "bandit"
+   ],
+   "exp_min": 900,
+   "exp_max": 900,
+   "skills": {
+    "sword": 15,
+    "parry": 15,
+    "dodge": 10
+   },
+   "dp_est": 1233,
+   "ap_est": 2025,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/pine1",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/oldpine/npc/fat_bandit",
+   "cn": "土匪",
+   "ids": [
+    "bandit"
+   ],
+   "exp_min": 500,
+   "exp_max": 500,
+   "skills": {
+    "sword": 20,
+    "parry": 10,
+    "dodge": 10
+   },
+   "dp_est": 833,
+   "ap_est": 3166,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/pine1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "狼狗": [
+  {
+   "file": "d/oldpine/npc/wolf_dog",
+   "cn": "狼狗",
+   "ids": [
+    "wolf dog",
+    "dog"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {},
+   "dp_est": 5000,
+   "ap_est": 40375,
+   "armed": false,
+   "beast": true,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/pine7",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "黑冠巨蟒": [
+  {
+   "file": "d/oldpine/npc/serpent",
+   "cn": "黑冠巨蟒",
+   "ids": [
+    "serpent"
+   ],
+   "exp_min": 250000,
+   "exp_max": 250000,
+   "skills": {},
+   "dp_est": 420666,
+   "ap_est": 322000,
+   "armed": false,
+   "beast": true,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/lake",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "file": "d/choyin/npc/serpent",
+   "cn": "黑冠巨蟒",
+   "ids": [
+    "serpent"
+   ],
+   "exp_min": 500000,
+   "exp_max": 500000,
+   "skills": {},
+   "dp_est": 670666,
+   "ap_est": 572000,
+   "armed": false,
+   "beast": true,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/choyin/cloudpool",
+     "count": 4
+    }
+   ]
+  }
+ ],
+ "黑衣人": [
+  {
+   "file": "d/oldpine/npc/spy",
+   "cn": "黑衣人",
+   "ids": [
+    "spy"
+   ],
+   "exp_min": 6000,
+   "exp_max": 6000,
+   "skills": {
+    "throwing": 20,
+    "unarmed": 20,
+    "sword": 20,
+    "parry": 20,
+    "dodge": 40
+   },
+   "dp_est": 27333,
+   "ap_est": 8666,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/oldpine/tree1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "土匪老大": [
+  {
+   "file": "d/oldpine/npc/bandit_chief",
+   "cn": "土匪老大",
+   "ids": [
+    "bandit chief",
+    "chief"
+   ],
+   "exp_min": 6000,
+   "exp_max": 6000,
+   "skills": {
+    "blade": 60,
+    "parry": 50,
+    "dodge": 50
+   },
+   "dp_est": 176666,
+   "ap_est": 449666,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": []
+  }
+ ],
+ "土匪探哨": [
+  {
+   "file": "d/oldpine/npc/bandit",
+   "cn": "土匪探哨",
+   "ids": [
+    "bandit"
+   ],
+   "exp_min": 600,
+   "exp_max": 600,
+   "skills": {
+    "sword": 10,
+    "parry": 10,
+    "dodge": 10
+   },
+   "dp_est": 933,
+   "ap_est": 933,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/spath1",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "常老大": [
+  {
+   "file": "d/oldpine/npc/bandit_commander",
+   "cn": "常老大",
+   "ids": [
+    "boss tsang",
+    "boss",
+    "tsang"
+   ],
+   "exp_min": 260000,
+   "exp_max": 260000,
+   "skills": {
+    "force": 60,
+    "blade": 100,
+    "parry": 100,
+    "dodge": 70
+   },
+   "dp_est": 992333,
+   "ap_est": 2926666,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/oldpine/keep3",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "疯老头子": [
+  {
+   "file": "d/oldpine/npc/maniac",
+   "cn": "疯老头子",
+   "ids": [
+    "mad bad ugly dirty oldman",
+    "man",
+    "oldman"
+   ],
+   "exp_min": 40000,
+   "exp_max": 40000,
+   "skills": {
+    "unarmed": 50,
+    "dodge": 70,
+    "force": 100,
+    "spells": 50,
+    "necromancy": 70
+   },
+   "dp_est": 154333,
+   "ap_est": 210666,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/oldpine/epath3",
+     "count": 1
+    },
+    {
+     "room": "d/oldpine/passage",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "蝴蝶": [
+  {
+   "file": "d/oldpine/npc/butterfly",
+   "cn": "蝴蝶",
+   "ids": [
+    "butterfly"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 41766,
+   "ap_est": 50,
+   "armed": false,
+   "beast": true,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/latemoon/npc/butterfly",
+   "cn": "蝴蝶",
+   "ids": [
+    "butterfly"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 41766,
+   "ap_est": 50,
+   "armed": false,
+   "beast": true,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/sroad5",
+     "count": 1
+    },
+    {
+     "room": "d/latemoon/sroad4",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/chuenyu/npc/fly",
+   "cn": "蝴蝶",
+   "ids": [
+    "butterfly"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 250
+   },
+   "dp_est": 5208333,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/smallyard",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "小兵": [
+  {
+   "file": "d/canyon/npc/door_guard",
+   "cn": "小兵",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 60000,
+   "exp_max": 60000,
+   "skills": {
+    "blade": 50,
+    "unarmed": 40,
+    "parry": 60,
+    "dodge": 50
+   },
+   "dp_est": 101666,
+   "ap_est": 101666,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp1",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/canyon/npc/guard1",
+   "cn": "小兵",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 40000,
+   "exp_max": 40000,
+   "skills": {
+    "unarmed": 40,
+    "parry": 60,
+    "dodge": 50
+   },
+   "dp_est": 81666,
+   "ap_est": 61333,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp3",
+     "count": 2
+    },
+    {
+     "room": "d/canyon/camp4",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "严廷殷": [
+  {
+   "file": "d/canyon/npc/general",
+   "cn": "严廷殷",
+   "ids": [
+    "master general",
+    "master",
+    "general"
+   ],
+   "exp_min": 900000,
+   "exp_max": 900000,
+   "skills": {
+    "sword": 80,
+    "six-chaos-sword": 85,
+    "force": 80,
+    "celestial": 80,
+    "parry": 50,
+    "dodge": 60,
+    "pyrobat-steps": 60,
+    "unarmed": 80,
+    "celestrike": 85
+   },
+   "dp_est": 972000,
+   "ap_est": 1070666,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp8",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "老队长": [
+  {
+   "file": "d/canyon/npc/leader2",
+   "cn": "老队长",
+   "ids": [
+    "leader"
+   ],
+   "exp_min": 80000,
+   "exp_max": 80000,
+   "skills": {
+    "dodge": 60,
+    "blade": 60,
+    "parry": 60,
+    "force": 60,
+    "unarmed": 65
+   },
+   "dp_est": 152000,
+   "ap_est": 171541,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp6",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "小队长": [
+  {
+   "file": "d/canyon/npc/leader1",
+   "cn": "小队长",
+   "ids": [
+    "leader"
+   ],
+   "exp_min": 80000,
+   "exp_max": 80000,
+   "skills": {
+    "dodge": 60,
+    "sword": 60,
+    "parry": 60,
+    "force": 60,
+    "unarmed": 65
+   },
+   "dp_est": 152000,
+   "ap_est": 171541,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp5",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "后备兵": [
+  {
+   "file": "d/canyon/npc/seller",
+   "cn": "后备兵",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 50000,
+   "exp_max": 50000,
+   "skills": {},
+   "dp_est": 25000,
+   "ap_est": 25000,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/blackmarket",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "大队长": [
+  {
+   "file": "d/canyon/npc/captain",
+   "cn": "大队长",
+   "ids": [
+    "captain"
+   ],
+   "exp_min": 120000,
+   "exp_max": 120000,
+   "skills": {
+    "dodge": 70,
+    "sword": 70,
+    "parry": 70,
+    "force": 70,
+    "unarmed": 65
+   },
+   "dp_est": 234333,
+   "ap_est": 234333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp6",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "老兵": [
+  {
+   "file": "d/canyon/npc/guard2",
+   "cn": "老兵",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 40000,
+   "exp_max": 40000,
+   "skills": {
+    "unarmed": 40,
+    "parry": 60,
+    "dodge": 50
+   },
+   "dp_est": 81666,
+   "ap_est": 61333,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp4",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "李信": [
+  {
+   "file": "d/canyon/npc/vice_general",
+   "cn": "李信",
+   "ids": [
+    "vice general",
+    "general"
+   ],
+   "exp_min": 400000,
+   "exp_max": 400000,
+   "skills": {
+    "sword": 70,
+    "six-chaos-sword": 75,
+    "force": 80,
+    "celestial": 80,
+    "parry": 50,
+    "dodge": 60,
+    "pyrobat-steps": 60,
+    "unarmed": 70,
+    "celestrike": 75
+   },
+   "dp_est": 472000,
+   "ap_est": 514333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp7",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "赫造基": [
+  {
+   "file": "d/canyon/npc/adviser",
+   "cn": "赫造基",
+   "ids": [
+    "adviser"
+   ],
+   "exp_min": 300000,
+   "exp_max": 300000,
+   "skills": {
+    "literate": 60,
+    "magic": 60,
+    "force": 25,
+    "spells": 80,
+    "unarmed": 30,
+    "sword": 40,
+    "parry": 35,
+    "dodge": 40,
+    "taoism": 60,
+    "necromancy": 70,
+    "gouyee": 50
+   },
+   "dp_est": 355458,
+   "ap_est": 321333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/canyon/camp8",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "花匠": [
+  {
+   "file": "d/city/shangshu/npc/gardener",
+   "cn": "花匠",
+   "ids": [
+    "gardener"
+   ],
+   "exp_min": 500000,
+   "exp_max": 500000,
+   "skills": {
+    "literate": 100,
+    "magic": 40,
+    "force": 30,
+    "spells": 90,
+    "scratching": 90,
+    "unarmed": 30,
+    "sword": 40,
+    "parry": 40,
+    "dodge": 40,
+    "gouyee": 60,
+    "taoism": 90,
+    "necromancy": 90
+   },
+   "dp_est": 521333,
+   "ap_est": 521333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/shangshu/huayuan",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "庾清尘": [
+  {
+   "file": "d/city/shangshu/npc/qing_chen",
+   "cn": "庾清尘",
+   "ids": [
+    "qing_chen"
+   ],
+   "exp_min": 70000,
+   "exp_max": 70000,
+   "skills": {
+    "literate": 90,
+    "magic": 30,
+    "force": 50,
+    "spells": 70,
+    "scratching": 60,
+    "sword": 40,
+    "parry": 40,
+    "dodge": 60,
+    "stormdance": 60,
+    "gouyee": 60,
+    "necromancy": 60
+   },
+   "dp_est": 142000,
+   "ap_est": 91333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/shangshu/neizhai",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "门房": [
+  {
+   "file": "d/city/shangshu/npc/guard",
+   "cn": "门房",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {
+    "unarmed": 90,
+    "parry": 60,
+    "dodge": 90
+   },
+   "dp_est": 244000,
+   "ap_est": 244000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/shangshu/gate",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "丫鬟": [
+  {
+   "file": "d/city/shangshu/npc/maid",
+   "cn": "丫鬟",
+   "ids": [
+    "maid"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 500,
+   "ap_est": 500,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/shangshu/chufang",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/choyin/npc/maid",
+   "cn": "丫鬟",
+   "ids": [
+    "maid"
+   ],
+   "exp_min": 10,
+   "exp_max": 10,
+   "skills": {},
+   "dp_est": 5,
+   "ap_est": 5,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/bridge4",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "庾子建": [
+  {
+   "file": "d/city/shangshu/npc/shangshu",
+   "cn": "庾子建",
+   "ids": [
+    "yu shangshu",
+    "yu"
+   ],
+   "exp_min": 400000,
+   "exp_max": 400000,
+   "skills": {
+    "blade": 70,
+    "shortsong-blade": 105,
+    "force": 80,
+    "wu-shun": 80,
+    "parry": 50,
+    "dodge": 60,
+    "fall-steps": 60
+   },
+   "dp_est": 472000,
+   "ap_est": 514333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/shangshu/keting",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "卖艺壮汉": [
+  {
+   "file": "d/city/npc/vendor",
+   "cn": "卖艺壮汉",
+   "ids": [
+    "vendor man",
+    "man"
+   ],
+   "exp_min": 30000,
+   "exp_max": 30000,
+   "skills": {},
+   "dp_est": 15000,
+   "ap_est": 15000,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/bridge",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "陈天星": [
+  {
+   "file": "d/city/npc/chen",
+   "cn": "陈天星",
+   "ids": [
+    "master chen",
+    "master"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "force": 100,
+    "unarmed": 100,
+    "blade": 150,
+    "parry": 100,
+    "dodge": 80,
+    "celestial": 80,
+    "celestrike": 80,
+    "spring-blade": 150,
+    "pyrobat-steps": 70
+   },
+   "dp_est": 1170666,
+   "ap_est": 2125000,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/biaoju",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "钱掌柜": [
+  {
+   "file": "d/city/npc/boss",
+   "cn": "钱掌柜",
+   "ids": [
+    "boss qian",
+    "qian",
+    "boss"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 500,
+   "ap_est": 500,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/jiulou",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "店小二": [
+  {
+   "file": "d/city/npc/waiter",
+   "cn": "店小二",
+   "ids": [
+    "waiter"
+   ],
+   "exp_min": 5,
+   "exp_max": 5,
+   "skills": {},
+   "dp_est": 2,
+   "ap_est": 2,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/jiulou",
+     "count": 1
+    },
+    {
+     "room": "d/city/jiulou_2",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/snow/npc/waiter",
+   "cn": "店小二",
+   "ids": [
+    "waiter"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "dodge": 300
+   },
+   "dp_est": 9010000,
+   "ap_est": 5000,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/inn",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "行人": [
+  {
+   "file": "d/city/npc/walker",
+   "cn": "行人",
+   "ids": [
+    "walker"
+   ],
+   "exp_min": 30000,
+   "exp_max": 30000,
+   "skills": {
+    "unarmed": 40,
+    "spicyclaw": 20,
+    "parry": 40
+   },
+   "dp_est": 15000,
+   "ap_est": 51333,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/street4",
+     "count": 1
+    },
+    {
+     "room": "d/city/street2",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "李掌柜": [
+  {
+   "file": "d/city/npc/shoer",
+   "cn": "李掌柜",
+   "ids": [
+    "seller"
+   ],
+   "exp_min": 220000,
+   "exp_max": 220000,
+   "skills": {
+    "unarmed": 150,
+    "dodge": 120,
+    "sword": 120
+   },
+   "dp_est": 796000,
+   "ap_est": 1345000,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/boots",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "京师守城兵": [
+  {
+   "file": "d/city/npc/guard",
+   "cn": "京师守城兵",
+   "ids": [
+    "city guard",
+    "guard"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {
+    "unarmed": 90,
+    "sword": 90,
+    "parry": 90,
+    "dodge": 90,
+    "move": 100
+   },
+   "dp_est": 2044000,
+   "ap_est": 2044000,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/northdoor",
+     "count": 3
+    },
+    {
+     "room": "d/city/eastdoor2",
+     "count": 3
+    },
+    {
+     "room": "d/city/southdoor",
+     "count": 3
+    },
+    {
+     "room": "d/city/westdoor2",
+     "count": 3
+    },
+    {
+     "room": "d/city/eastdoor1",
+     "count": 3
+    },
+    {
+     "room": "d/city/westdoor1",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "file": "d/city/npc/guardbak",
+   "cn": "京师守城兵",
+   "ids": [
+    "city guard",
+    "guard"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {
+    "unarmed": 90,
+    "sword": 90,
+    "parry": 90,
+    "dodge": 90,
+    "move": 100
+   },
+   "dp_est": 2044000,
+   "ap_est": 2044000,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "黑你没商量": [
+  {
+   "file": "d/city/npc/microsof",
+   "cn": "黑你没商量",
+   "ids": [
+    "microsof"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {
+    "unarmed": 100,
+    "parry": 100,
+    "dodge": 100,
+    "force": 100,
+    "celestrike": 100,
+    "celestial": 100,
+    "fonxansword": 100,
+    "six-chaos-sword": 100,
+    "chaos-steps": 100,
+    "spells": 100,
+    "necromancy": 100
+   },
+   "dp_est": 433333,
+   "ap_est": 433333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "商人": [
+  {
+   "file": "d/city/npc/trader2",
+   "cn": "商人",
+   "ids": [
+    "trader"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 30,
+    "iron-cloth": 50,
+    "bloodystrike": 70
+   },
+   "dp_est": 2500,
+   "ap_est": 14000,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/city/npc/trader3",
+   "cn": "商人",
+   "ids": [
+    "trader"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "blade": 30,
+    "shortsong-blade": 10,
+    "fall-steps": 30,
+    "dodge": 100,
+    "parry": 20
+   },
+   "dp_est": 338333,
+   "ap_est": 14000,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/city/npc/trader",
+   "cn": "商人",
+   "ids": [
+    "trader"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 30,
+    "iron-cloth": 50,
+    "bloodystrike": 20
+   },
+   "dp_est": 2500,
+   "ap_est": 14000,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/street4",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/village/npc/trader1",
+   "cn": "商人",
+   "ids": [
+    "trader"
+   ],
+   "exp_min": 80000,
+   "exp_max": 80000,
+   "skills": {
+    "celestial": 80,
+    "celestrike": 80,
+    "unarmed": 80
+   },
+   "dp_est": 40000,
+   "ap_est": 250666,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/village/road2",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "卖包子的": [
+  {
+   "file": "d/city/npc/dumpling_seller",
+   "cn": "卖包子的",
+   "ids": [
+    "dumpling seller",
+    "seller"
+   ],
+   "exp_min": 30,
+   "exp_max": 30,
+   "skills": {},
+   "dp_est": 15,
+   "ap_est": 15,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/bridge",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/choyin/npc/dumpling_seller",
+   "cn": "卖包子的",
+   "ids": [
+    "dumpling seller",
+    "seller"
+   ],
+   "exp_min": 30,
+   "exp_max": 30,
+   "skills": {},
+   "dp_est": 15,
+   "ap_est": 15,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/s_street1",
+     "count": 1
+    },
+    {
+     "room": "d/choyin/n_street3",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "万晓生": [
+  {
+   "file": "d/city/npc/weaponor",
+   "cn": "万晓生",
+   "ids": [
+    "weaponor"
+   ],
+   "exp_min": 120000,
+   "exp_max": 120000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "sword": 100
+   },
+   "dp_est": 453333,
+   "ap_est": 453333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/weapon",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "老板娘": [
+  {
+   "file": "d/city/npc/clother",
+   "cn": "老板娘",
+   "ids": [
+    "woman"
+   ],
+   "exp_min": 300000,
+   "exp_max": 300000,
+   "skills": {
+    "dodge": 120,
+    "sword": 120,
+    "force": 120,
+    "fonxanforce": 100,
+    "fonxansword": 100,
+    "chaos-steps": 100
+   },
+   "dp_est": 876000,
+   "ap_est": 876000,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/cloth",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "卖饼大叔": [
+  {
+   "file": "d/city/npc/caker",
+   "cn": "卖饼大叔",
+   "ids": [
+    "cake vendor",
+    "vendor"
+   ],
+   "exp_min": 30,
+   "exp_max": 30,
+   "skills": {},
+   "dp_est": 15,
+   "ap_est": 15,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/city/bridge",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/choyin/npc/cake_vendor",
+   "cn": "卖饼大叔",
+   "ids": [
+    "cake vendor",
+    "vendor"
+   ],
+   "exp_min": 30,
+   "exp_max": 30,
+   "skills": {},
+   "dp_est": 15,
+   "ap_est": 15,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/n_street1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "圆春": [
+  {
+   "file": "d/latemoon/room/npc/spring2",
+   "cn": "圆春",
+   "ids": [
+    "yuan chung",
+    "yuan",
+    "chung"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 25,
+    "dodge": 25,
+    "stormdance": 5,
+    "tenderzhi": 5,
+    "force": 50
+   },
+   "dp_est": 10208,
+   "ap_est": 10208,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/lcenter",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "无名老妇": [
+  {
+   "file": "d/latemoon/room/npc/old",
+   "cn": "无名老妇",
+   "ids": [
+    "old"
+   ],
+   "exp_min": 500000,
+   "exp_max": 500000,
+   "skills": {
+    "dodge": 70,
+    "stormdance": 70,
+    "tenderzhi": 70,
+    "snowwhip": 60
+   },
+   "dp_est": 614333,
+   "ap_est": 250000,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/lstudio",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "杀手": [
+  {
+   "file": "d/latemoon/room/npc/killer",
+   "cn": "杀手",
+   "ids": [
+    "killer"
+   ],
+   "exp_min": 12000,
+   "exp_max": 12000,
+   "skills": {
+    "unarmed": 40,
+    "sword": 40,
+    "parry": 40,
+    "dodge": 20,
+    "move": 30,
+    "six-chaos-sword": 27,
+    "pyrobat-steps": 20
+   },
+   "dp_est": 255000,
+   "ap_est": 84000,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/lstudio",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "於兰天武": [
+  {
+   "file": "d/latemoon/room/npc/aaa",
+   "cn": "於兰天武",
+   "ids": [
+    "master champion",
+    "champion",
+    "master"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "force": 100,
+    "unarmed": 100,
+    "sword": 80,
+    "blade": 80,
+    "parry": 100,
+    "dodge": 80,
+    "throwing": 50,
+    "celestial": 100,
+    "celestrike": 100,
+    "spring-blade": 80,
+    "pyrobat-steps": 90
+   },
+   "dp_est": 1170666,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "daemon/class/fighter/champion",
+   "cn": "於兰天武",
+   "ids": [
+    "master champion",
+    "champion",
+    "master"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "force": 100,
+    "unarmed": 100,
+    "sword": 80,
+    "blade": 80,
+    "parry": 100,
+    "dodge": 80,
+    "throwing": 50,
+    "celestial": 100,
+    "celestrike": 100,
+    "spring-blade": 80,
+    "pyrobat-steps": 90
+   },
+   "dp_est": 1170666,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "娟姐": [
+  {
+   "file": "d/latemoon/room/npc/jane",
+   "cn": "娟姐",
+   "ids": [
+    "jane",
+    "jane"
+   ],
+   "exp_min": 5000000,
+   "exp_max": 5000000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "force": 100
+   },
+   "dp_est": 5333333,
+   "ap_est": 5333333,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "天龙": [
+  {
+   "file": "d/latemoon/room/npc/tenlon",
+   "cn": "天龙",
+   "ids": [
+    "tenlon"
+   ],
+   "exp_min": 5000000,
+   "exp_max": 5000000,
+   "skills": {
+    "unarmed": 20,
+    "dodge": 100,
+    "spring-blade": 100,
+    "blade": 100,
+    "force": 100
+   },
+   "dp_est": 5333333,
+   "ap_est": 5333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "金仪彤": [
+  {
+   "file": "d/latemoon/room/npc/eton",
+   "cn": "金仪彤",
+   "ids": [
+    "eton",
+    "zhin"
+   ],
+   "exp_min": 70000,
+   "exp_max": 70000,
+   "skills": {
+    "unarmed": 50,
+    "dodge": 40,
+    "stormdance": 50,
+    "tenderzhi": 50,
+    "force": 50
+   },
+   "dp_est": 91333,
+   "ap_est": 111666,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/bathroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "婢女": [
+  {
+   "file": "d/latemoon/room/npc/servant",
+   "cn": "婢女",
+   "ids": [
+    "girl",
+    "servant"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "unarmed": 40,
+    "dodge": 50,
+    "force": 50
+   },
+   "dp_est": 51666,
+   "ap_est": 31333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/westroom",
+     "count": 1
+    },
+    {
+     "room": "d/latemoon/room/eastroom",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/latemoon/npc/servant",
+   "cn": "婢女",
+   "ids": [
+    "girl",
+    "servant"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {
+    "unarmed": 5,
+    "dodge": 10,
+    "force": 50
+   },
+   "dp_est": 433,
+   "ap_est": 141,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/latemoon1",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/latemoon/npc/servant2",
+   "cn": "婢女",
+   "ids": [
+    "girl",
+    "servant"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {
+    "unarmed": 5,
+    "dodge": 20,
+    "force": 50
+   },
+   "dp_est": 3666,
+   "ap_est": 1041,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/room4",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "惜春": [
+  {
+   "file": "d/latemoon/room/npc/spring1",
+   "cn": "惜春",
+   "ids": [
+    "shi-chung",
+    "shi",
+    "chung"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 40,
+    "dodge": 40,
+    "stormdance": 5,
+    "tenderzhi": 10,
+    "force": 50
+   },
+   "dp_est": 26333,
+   "ap_est": 26333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/room4",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "凤凰": [
+  {
+   "file": "d/latemoon/room/npc/fireangel",
+   "cn": "凤凰",
+   "ids": [
+    "phoenix",
+    "fire"
+   ],
+   "exp_min": 50000000,
+   "exp_max": 50000000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "tenderzhi": 100,
+    "iceforce": 100,
+    "stormdance": 100,
+    "force": 100
+   },
+   "dp_est": 50333333,
+   "ap_est": 50333333,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/bathroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "虞琼衣": [
+  {
+   "file": "d/latemoon/room/npc/yuchoun",
+   "cn": "虞琼衣",
+   "ids": [
+    "chungyu",
+    "chung",
+    "yu"
+   ],
+   "exp_min": 40000,
+   "exp_max": 40000,
+   "skills": {
+    "unarmed": 70,
+    "dodge": 70,
+    "stormdance": 50,
+    "tenderzhi": 70,
+    "force": 100
+   },
+   "dp_est": 154333,
+   "ap_est": 154333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/corridor7",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "阮欣郁": [
+  {
+   "file": "d/latemoon/room/npc/shinyu",
+   "cn": "阮欣郁",
+   "ids": [
+    "shinyu",
+    "shin"
+   ],
+   "exp_min": 5000000,
+   "exp_max": 5000000,
+   "skills": {
+    "unarmed": 20,
+    "dodge": 100,
+    "spring-blade": 100,
+    "blade": 100,
+    "force": 100
+   },
+   "dp_est": 5333333,
+   "ap_est": 5333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/bathroom1",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/latemoon/npc/shinyu",
+   "cn": "阮欣郁",
+   "ids": [
+    "shinyu",
+    "shin"
+   ],
+   "exp_min": 5000000,
+   "exp_max": 5000000,
+   "skills": {
+    "unarmed": 20,
+    "dodge": 100,
+    "spring-blade": 100,
+    "blade": 100,
+    "force": 100
+   },
+   "dp_est": 5333333,
+   "ap_est": 5333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "曲馥琪": [
+  {
+   "file": "d/latemoon/room/npc/fochin",
+   "cn": "曲馥琪",
+   "ids": [
+    "fochin",
+    "chin"
+   ],
+   "exp_min": 99000,
+   "exp_max": 99000,
+   "skills": {
+    "unarmed": 50,
+    "dodge": 70,
+    "stormdance": 50,
+    "tenderzhi": 70,
+    "force": 50
+   },
+   "dp_est": 213333,
+   "ap_est": 140666,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/kitchen",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "凤姐": [
+  {
+   "file": "d/latemoon/room/npc/fong",
+   "cn": "凤姐",
+   "ids": [
+    "fong",
+    "fong"
+   ],
+   "exp_min": 5000000,
+   "exp_max": 5000000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "force": 100
+   },
+   "dp_est": 5333333,
+   "ap_est": 5333333,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "安妮儿": [
+  {
+   "file": "d/latemoon/room/npc/annihi",
+   "cn": "安妮儿",
+   "ids": [
+    "annihier"
+   ],
+   "exp_min": 5000000,
+   "exp_max": 5000000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "force": 100,
+    "parry": 100,
+    "pyrobat-steps": 100,
+    "snowshade-force": 100,
+    "snowshade-sword": 100,
+    "sword": 100
+   },
+   "dp_est": 5333333,
+   "ap_est": 5333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/westroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "苗郁淑": [
+  {
+   "file": "d/latemoon/room/npc/yushou",
+   "cn": "苗郁淑",
+   "ids": [
+    "yushou",
+    "yu",
+    "shou"
+   ],
+   "exp_min": 15000,
+   "exp_max": 15000,
+   "skills": {
+    "unarmed": 40,
+    "dodge": 40,
+    "stormdance": 50,
+    "tenderzhi": 60,
+    "force": 50
+   },
+   "dp_est": 36333,
+   "ap_est": 36333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/lcenter",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "龙韶吟": [
+  {
+   "file": "d/latemoon/room/npc/shaoin",
+   "cn": "龙韶吟",
+   "ids": [
+    "shaoin",
+    "shao"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {
+    "unarmed": 70,
+    "dodge": 50,
+    "stormdance": 50,
+    "tenderzhi": 50,
+    "force": 100
+   },
+   "dp_est": 61666,
+   "ap_est": 134333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/flower1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "梦玉楼": [
+  {
+   "file": "d/latemoon/room/npc/tguest",
+   "cn": "梦玉楼",
+   "ids": [
+    "yu lou",
+    "yulou",
+    "lou"
+   ],
+   "exp_min": 70000,
+   "exp_max": 70000,
+   "skills": {
+    "unarmed": 50,
+    "dodge": 70,
+    "sword": 70,
+    "snowshade-sword": 30,
+    "stormdance": 10,
+    "force": 100
+   },
+   "dp_est": 184333,
+   "ap_est": 184333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/guest2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "瑷伦": [
+  {
+   "file": "d/latemoon/room/npc/elon",
+   "cn": "瑷伦",
+   "ids": [
+    "eelon"
+   ],
+   "exp_min": 3000000,
+   "exp_max": 3000000,
+   "skills": {
+    "unarmed": 150,
+    "dodge": 150,
+    "sword": 120,
+    "force": 150,
+    "parry": 120,
+    "whip": 150,
+    "iceforce": 130,
+    "throwing": 150,
+    "stormdance": 130,
+    "tenderzhi": 130,
+    "snowwhip": 130
+   },
+   "dp_est": 4125000,
+   "ap_est": 4125000,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/eastroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "芙云": [
+  {
+   "file": "d/latemoon/room/npc/guest",
+   "cn": "芙云",
+   "ids": [
+    "fuyun"
+   ],
+   "exp_min": 50000,
+   "exp_max": 50000,
+   "skills": {
+    "unarmed": 50,
+    "dodge": 70,
+    "sword": 100,
+    "stormdance": 30,
+    "force": 100
+   },
+   "dp_est": 164333,
+   "ap_est": 383333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/room/guest1",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/latemoon/npc/fuyun",
+   "cn": "芙云",
+   "ids": [
+    "fuyun"
+   ],
+   "exp_min": 5000000,
+   "exp_max": 5000000,
+   "skills": {
+    "unarmed": 20,
+    "dodge": 100,
+    "spring-blade": 100,
+    "blade": 100,
+    "force": 100
+   },
+   "dp_est": 5333333,
+   "ap_est": 5333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/latemoon/npc/guest",
+   "cn": "芙云",
+   "ids": [
+    "fuyun"
+   ],
+   "exp_min": 50000,
+   "exp_max": 50000,
+   "skills": {
+    "unarmed": 20,
+    "force": 100
+   },
+   "dp_est": 25000,
+   "ap_est": 52666,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "美珊": [
+  {
+   "file": "d/latemoon/park/npc/maysan",
+   "cn": "美珊",
+   "ids": [
+    "maysan",
+    "may"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 40,
+    "dodge": 40,
+    "stormdance": 5,
+    "tenderzhi": 10,
+    "force": 50
+   },
+   "dp_est": 26333,
+   "ap_est": 26333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/park/moon4",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "金丝雀": [
+  {
+   "file": "d/latemoon/park/npc/bird",
+   "cn": "金丝雀",
+   "ids": [
+    "sparrow"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 22333,
+   "ap_est": 500,
+   "armed": false,
+   "beast": true,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/park/moon4",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/latemoon/upstar/npc/bird",
+   "cn": "金丝雀",
+   "ids": [
+    "sparrow"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 22333,
+   "ap_est": 500,
+   "armed": false,
+   "beast": true,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/upstar/uplook",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/latemoon/npc/bird",
+   "cn": "金丝雀",
+   "ids": [
+    "sparrow"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 334333,
+   "ap_est": 500,
+   "armed": false,
+   "beast": true,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "上官钰翎": [
+  {
+   "file": "d/latemoon/park/npc/girl_yu",
+   "cn": "上官钰翎",
+   "ids": [
+    "yulin",
+    "yu-girl"
+   ],
+   "exp_min": 80000,
+   "exp_max": 80000,
+   "skills": {
+    "unarmed": 20,
+    "dodge": 90,
+    "stormdance": 50,
+    "force": 100
+   },
+   "dp_est": 323000,
+   "ap_est": 82666,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/park/moroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "袭人": [
+  {
+   "file": "d/latemoon/park/npc/shiren",
+   "cn": "袭人",
+   "ids": [
+    "shi ren",
+    "shi ren",
+    "shi"
+   ],
+   "exp_min": 7000,
+   "exp_max": 7000,
+   "skills": {
+    "unarmed": 40,
+    "tenderzhi": 10,
+    "dodge": 40,
+    "force": 40
+   },
+   "dp_est": 28333,
+   "ap_est": 28333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/park/pavilion1",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/latemoon/npc/shiren",
+   "cn": "袭人",
+   "ids": [
+    "shi ren",
+    "shi ren",
+    "shi"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {
+    "unarmed": 10,
+    "dodge": 40,
+    "force": 40
+   },
+   "dp_est": 23333,
+   "ap_est": 2333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "小金鼠": [
+  {
+   "file": "d/latemoon/park/npc/dodo1",
+   "cn": "小金鼠",
+   "ids": [
+    "dodo"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 500,
+   "ap_est": 500,
+   "armed": false,
+   "beast": true,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/park/moroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "小白兔": [
+  {
+   "file": "d/latemoon/park/npc/rabbit",
+   "cn": "小白兔",
+   "ids": [
+    "rabbit"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 10000,
+   "ap_est": 500,
+   "armed": false,
+   "beast": true,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/park/paroad2",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "采花少女": [
+  {
+   "file": "d/latemoon/park/npc/flwgirl",
+   "cn": "采花少女",
+   "ids": [
+    "girl"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {
+    "parry": 30,
+    "dodge": 70,
+    "unarmed": 120,
+    "throwing": 150,
+    "stormdance": 45,
+    "force": 15
+   },
+   "dp_est": 134333,
+   "ap_est": 1145000,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/park/moon5",
+     "count": 4
+    }
+   ]
+  }
+ ],
+ "莫欣芳": [
+  {
+   "file": "d/latemoon/upstar/npc/shinfun",
+   "cn": "莫欣芳",
+   "ids": [
+    "shinfun",
+    "fun",
+    "girl"
+   ],
+   "exp_min": 200000,
+   "exp_max": 200000,
+   "skills": {
+    "unarmed": 50,
+    "dodge": 70,
+    "stormdance": 50,
+    "tenderzhi": 70,
+    "force": 50
+   },
+   "dp_est": 314333,
+   "ap_est": 533333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/upstar/uproom2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "人灵「区冥」": [
+  {
+   "file": "d/latemoon/upstar/npc/statue",
+   "cn": "人灵「区冥」",
+   "ids": [
+    "statue"
+   ],
+   "exp_min": 50000000,
+   "exp_max": 50000000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "tenderzhi": 100,
+    "iceforce": 100,
+    "stormdance": 100,
+    "force": 100
+   },
+   "dp_est": 50333333,
+   "ap_est": 50333333,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/upstar/uproom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "邢千慧": [
+  {
+   "file": "d/latemoon/upstar/npc/huei",
+   "cn": "邢千慧",
+   "ids": [
+    "huei",
+    "girl"
+   ],
+   "exp_min": 250000,
+   "exp_max": 250000,
+   "skills": {
+    "unarmed": 50,
+    "dodge": 70,
+    "stormdance": 50,
+    "tenderzhi": 70,
+    "force": 50
+   },
+   "dp_est": 364333,
+   "ap_est": 583333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/upstar/uproom3",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "蓝小蝶": [
+  {
+   "file": "d/latemoon/npc/shaode",
+   "cn": "蓝小蝶",
+   "ids": [
+    "shao-de"
+   ],
+   "exp_min": 60000,
+   "exp_max": 60000,
+   "skills": {
+    "unarmed": 60,
+    "dodge": 50,
+    "force": 50
+   },
+   "dp_est": 101666,
+   "ap_est": 132000,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "蓝雨梅": [
+  {
+   "file": "d/latemoon/npc/yumay",
+   "cn": "蓝雨梅",
+   "ids": [
+    "yu-may",
+    "yumay",
+    "may"
+   ],
+   "exp_min": 60000,
+   "exp_max": 60000,
+   "skills": {
+    "unarmed": 60,
+    "throwing": 90,
+    "dodge": 70,
+    "stormdance": 30,
+    "force": 50
+   },
+   "dp_est": 174333,
+   "ap_est": 303000,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/latemoon3",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "昭蓉": [
+  {
+   "file": "d/latemoon/npc/zauron",
+   "cn": "昭蓉",
+   "ids": [
+    "zauron",
+    "zau",
+    "ron"
+   ],
+   "exp_min": 200000,
+   "exp_max": 200000,
+   "skills": {
+    "unarmed": 70,
+    "dodge": 80,
+    "force": 70,
+    "sword": 70,
+    "stormdance": 50
+   },
+   "dp_est": 370666,
+   "ap_est": 314333,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/latemoon2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "大蟑螂": [
+  {
+   "file": "d/latemoon/npc/cockroach",
+   "cn": "大蟑螂",
+   "ids": [
+    "cockroach"
+   ],
+   "exp_min": 7000,
+   "exp_max": 7000,
+   "skills": {
+    "dodge": 100
+   },
+   "dp_est": 340333,
+   "ap_est": 3500,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/latemoon/npc/dodo",
+   "cn": "大蟑螂",
+   "ids": [
+    "cockroach"
+   ],
+   "exp_min": 7000,
+   "exp_max": 7000,
+   "skills": {
+    "dodge": 100
+   },
+   "dp_est": 340333,
+   "ap_est": 3500,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "昭仪": [
+  {
+   "file": "d/latemoon/npc/girl",
+   "cn": "昭仪",
+   "ids": [
+    "zauyi",
+    "joe"
+   ],
+   "exp_min": 4000,
+   "exp_max": 4000,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 30,
+    "blade": 10,
+    "spring-blade": 7,
+    "force": 50
+   },
+   "dp_est": 13000,
+   "ap_est": 13000,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/latebook",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "蓝筱薇": [
+  {
+   "file": "d/latemoon/npc/shaowei",
+   "cn": "蓝筱薇",
+   "ids": [
+    "shao-wei",
+    "shaowei",
+    "wei"
+   ],
+   "exp_min": 200000,
+   "exp_max": 200000,
+   "skills": {
+    "unarmed": 70,
+    "dodge": 80,
+    "force": 70,
+    "sword": 70,
+    "stormdance": 50
+   },
+   "dp_est": 370666,
+   "ap_est": 314333,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/miroom2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "芳绫": [
+  {
+   "file": "d/latemoon/npc/funlin",
+   "cn": "芳绫",
+   "ids": [
+    "funlin",
+    "fun",
+    "lin"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {
+    "unarmed": 20,
+    "whip": 20,
+    "dodge": 30,
+    "move": 30,
+    "stormdance": 20,
+    "force": 15
+   },
+   "dp_est": 11000,
+   "ap_est": 4666,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/latemoon6",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "颜慧如": [
+  {
+   "file": "d/latemoon/npc/sell",
+   "cn": "颜慧如",
+   "ids": [
+    "huei ru",
+    "huei",
+    "huei ru"
+   ],
+   "exp_min": 70000,
+   "exp_max": 70000,
+   "skills": {
+    "force": 10,
+    "dodge": 30,
+    "stormdance": 30,
+    "unarmed": 10
+   },
+   "dp_est": 79000,
+   "ap_est": 70333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/latemoon/npc/sell1",
+   "cn": "颜慧如",
+   "ids": [
+    "huei ru",
+    "huei",
+    "huei ru"
+   ],
+   "exp_min": 70000,
+   "exp_max": 70000,
+   "skills": {
+    "force": 10,
+    "dodge": 30,
+    "stormdance": 30,
+    "unarmed": 10
+   },
+   "dp_est": 79000,
+   "ap_est": 70333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "岩蛭": [
+  {
+   "file": "d/goathill/npc/worm",
+   "cn": "岩蛭",
+   "ids": [
+    "rock leech",
+    "leech"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 3666,
+   "ap_est": 10000,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/goathill/cavern1",
+     "count": 2
+    },
+    {
+     "room": "d/goathill/cavern4",
+     "count": 2
+    },
+    {
+     "room": "d/goathill/cavern2",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "银色岩蛭": [
+  {
+   "file": "d/goathill/npc/silver_worm",
+   "cn": "银色岩蛭",
+   "ids": [
+    "silver rock leech",
+    "leech"
+   ],
+   "exp_min": 400000,
+   "exp_max": 400000,
+   "skills": {},
+   "dp_est": 643000,
+   "ap_est": 643000,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "大岩蛭": [
+  {
+   "file": "d/goathill/npc/big_worm",
+   "cn": "大岩蛭",
+   "ids": [
+    "big rock leech",
+    "leech"
+   ],
+   "exp_min": 4000,
+   "exp_max": 4000,
+   "skills": {},
+   "dp_est": 13000,
+   "ap_est": 76000,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/goathill/cavern4",
+     "count": 1
+    },
+    {
+     "room": "d/goathill/cavern3",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "黄霸": [
+  {
+   "file": "d/goathill/npc/bandit_hwang",
+   "cn": "黄霸",
+   "ids": [
+    "hwang",
+    "bandit"
+   ],
+   "exp_min": 150000,
+   "exp_max": 150000,
+   "skills": {
+    "hammer": 90,
+    "parry": 80,
+    "dodge": 90,
+    "force": 60,
+    "serpentforce": 70
+   },
+   "dp_est": 2094000,
+   "ap_est": 2436333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/goathill/temple1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "土匪爪牙": [
+  {
+   "file": "d/goathill/npc/bandit",
+   "cn": "土匪爪牙",
+   "ids": [
+    "bandit minion",
+    "bandit",
+    "minion"
+   ],
+   "exp_min": 6000,
+   "exp_max": 6000,
+   "skills": {
+    "blade": 40,
+    "parry": 40,
+    "dodge": 40
+   },
+   "dp_est": 120333,
+   "ap_est": 176666,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/goathill/mroad4",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "巨岩蛭": [
+  {
+   "file": "d/goathill/npc/huge_worm",
+   "cn": "巨岩蛭",
+   "ids": [
+    "huge rock leech",
+    "leech"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {},
+   "dp_est": 19000,
+   "ap_est": 82000,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/goathill/cavern3",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "肥岩蛭": [
+  {
+   "file": "d/goathill/npc/fat_worm",
+   "cn": "肥岩蛭",
+   "ids": [
+    "fat rock leech",
+    "leech"
+   ],
+   "exp_min": 3000,
+   "exp_max": 3000,
+   "skills": {},
+   "dp_est": 5666,
+   "ap_est": 24333,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/goathill/cavern2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "小孩": [
+  {
+   "file": "d/green/npc/kid3",
+   "cn": "小孩",
+   "ids": [
+    "kid",
+    "child"
+   ],
+   "exp_min": 0,
+   "exp_max": 4,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/path8",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/green/npc/kid2",
+   "cn": "小孩",
+   "ids": [
+    "kid",
+    "child"
+   ],
+   "exp_min": 0,
+   "exp_max": 9,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/path2",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/green/npc/kid4",
+   "cn": "小孩",
+   "ids": [
+    "kid",
+    "child"
+   ],
+   "exp_min": 0,
+   "exp_max": 9,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/cave0",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "沈万年": [
+  {
+   "file": "d/green/npc/shen1",
+   "cn": "沈万年",
+   "ids": [
+    "shen wen-nien",
+    "shen"
+   ],
+   "exp_min": 30,
+   "exp_max": 30,
+   "skills": {},
+   "dp_est": 71,
+   "ap_est": 39,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/green/npc/shen",
+   "cn": "沈万年",
+   "ids": [
+    "shen wen-nien",
+    "shen"
+   ],
+   "exp_min": 30,
+   "exp_max": 30,
+   "skills": {},
+   "dp_est": 71,
+   "ap_est": 39,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/shop0",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/green/npc/s",
+   "cn": "沈万年",
+   "ids": [
+    "shen wen-nien",
+    "shen"
+   ],
+   "exp_min": 30,
+   "exp_max": 30,
+   "skills": {},
+   "dp_est": 71,
+   "ap_est": 39,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "妇人": [
+  {
+   "file": "d/green/npc/woman1",
+   "cn": "妇人",
+   "ids": [
+    "woman"
+   ],
+   "exp_min": 20,
+   "exp_max": 59,
+   "skills": {},
+   "dp_est": 353,
+   "ap_est": 10,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/shop0",
+     "count": 1
+    },
+    {
+     "room": "d/green/house0",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/green/npc/woman2",
+   "cn": "妇人",
+   "ids": [
+    "woman"
+   ],
+   "exp_min": 50,
+   "exp_max": 50,
+   "skills": {},
+   "dp_est": 59,
+   "ap_est": 25,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/house0",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/choyin/npc/lady",
+   "cn": "妇人",
+   "ids": [
+    "lady"
+   ],
+   "exp_min": 10,
+   "exp_max": 10,
+   "skills": {},
+   "dp_est": 5,
+   "ap_est": 5,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/altar",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "采石工": [
+  {
+   "file": "d/green/npc/worker2",
+   "cn": "采石工",
+   "ids": [
+    "worker"
+   ],
+   "exp_min": 100,
+   "exp_max": 139,
+   "skills": {},
+   "dp_est": 433,
+   "ap_est": 50,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/station1",
+     "count": 2
+    },
+    {
+     "room": "d/green/station0",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "测试用的小孩 - 不准杀!!!!": [
+  {
+   "file": "d/green/npc/kid5",
+   "cn": "测试用的小孩 - 不准杀!!!!",
+   "ids": [
+    "kid",
+    "child"
+   ],
+   "exp_min": 99999999,
+   "exp_max": 99999999,
+   "skills": {},
+   "dp_est": 433333332,
+   "ap_est": 433333332,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "老公公": [
+  {
+   "file": "d/green/npc/oldman",
+   "cn": "老公公",
+   "ids": [
+    "old man",
+    "oldman",
+    "man"
+   ],
+   "exp_min": 70,
+   "exp_max": 70,
+   "skills": {},
+   "dp_est": 35,
+   "ap_est": 35,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/house2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "工匠": [
+  {
+   "file": "d/green/npc/worker1",
+   "cn": "工匠",
+   "ids": [
+    "stone worker",
+    "worker"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 433,
+   "ap_est": 50,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/house1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "工匠的小孩": [
+  {
+   "file": "d/green/npc/kid1",
+   "cn": "工匠的小孩",
+   "ids": [
+    "kid",
+    "child"
+   ],
+   "exp_min": 10,
+   "exp_max": 10,
+   "skills": {},
+   "dp_est": 51,
+   "ap_est": 5,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/field1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "村长": [
+  {
+   "file": "d/green/npc/oldman2",
+   "cn": "村长",
+   "ids": [
+    "elder",
+    "oldman",
+    "man"
+   ],
+   "exp_min": 500,
+   "exp_max": 500,
+   "skills": {},
+   "dp_est": 250,
+   "ap_est": 250,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/house4",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "龙若法王": [
+  {
+   "file": "d/green/npc/master",
+   "cn": "龙若法王",
+   "ids": [
+    "master neon",
+    "master",
+    "neon"
+   ],
+   "exp_min": 3000000,
+   "exp_max": 3000000,
+   "skills": {
+    "unarmed": 80,
+    "force": 100,
+    "parry": 100,
+    "dodge": 100,
+    "literate": 120,
+    "perception": 100,
+    "spells": 150,
+    "magic": 150,
+    "staff": 100,
+    "tao-mystery": 100,
+    "magic-array": 100,
+    "jingang-staff": 120,
+    "wu-shun": 120
+   },
+   "dp_est": 3333333,
+   "ap_est": 3170666,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "daemon/class/lama/master",
+   "cn": "龙若法王",
+   "ids": [
+    "master lama",
+    "master",
+    "lama"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "staff": 100,
+    "unarmed": 80,
+    "force": 100,
+    "dodge": 30,
+    "literate": 60,
+    "chanting": 100,
+    "parry": 50,
+    "magic": 100,
+    "cloudstaff": 100,
+    "lotusforce": 100,
+    "buddhism": 100,
+    "essencemagic": 100
+   },
+   "dp_est": 1009000,
+   "ap_est": 1170666,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "老婆婆": [
+  {
+   "file": "d/green/npc/oldwoman",
+   "cn": "老婆婆",
+   "ids": [
+    "old woman",
+    "oldwoman",
+    "woman"
+   ],
+   "exp_min": 55,
+   "exp_max": 55,
+   "skills": {},
+   "dp_est": 27,
+   "ap_est": 27,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/green/house2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "蜘蛛": [
+  {
+   "file": "d/green/npc/spider",
+   "cn": "蜘蛛",
+   "ids": [
+    "spider"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 333,
+   "ap_est": 1125,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "疯狗": [
+  {
+   "file": "d/snow/npc/crazy_dog",
+   "cn": "疯狗",
+   "ids": [
+    "crazy dog",
+    "dog"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 50,
+   "ap_est": 1225,
+   "armed": false,
+   "beast": true,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/snow/sroad4",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "乞丐": [
+  {
+   "file": "d/snow/npc/beggar",
+   "cn": "乞丐",
+   "ids": [
+    "beggar"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 50,
+   "ap_est": 50,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/monky",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "u/cloud/npc/beggar",
+   "cn": "乞丐",
+   "ids": [
+    "beggar"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 50,
+   "ap_est": 50,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "杨掌柜": [
+  {
+   "file": "d/snow/npc/herbalist",
+   "cn": "杨掌柜",
+   "ids": [
+    "herbalist yang",
+    "yang"
+   ],
+   "exp_min": 1300,
+   "exp_max": 1300,
+   "skills": {
+    "literate": 70,
+    "dodge": 60,
+    "unarmed": 60
+   },
+   "dp_est": 73300,
+   "ap_est": 73300,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/herbshop",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "野狗": [
+  {
+   "file": "d/snow/npc/dog",
+   "cn": "野狗",
+   "ids": [
+    "dog"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 333,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/eroad2",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "obj/example/dog",
+   "cn": "野狗",
+   "ids": [
+    "dog"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 333,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "王铁匠": [
+  {
+   "file": "d/snow/npc/smith",
+   "cn": "王铁匠",
+   "ids": [
+    "wang",
+    "smith"
+   ],
+   "exp_min": 400,
+   "exp_max": 400,
+   "skills": {},
+   "dp_est": 200,
+   "ap_est": 200,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/smithy",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "杜宽": [
+  {
+   "file": "d/snow/npc/post_officer",
+   "cn": "杜宽",
+   "ids": [
+    "post officer",
+    "officer"
+   ],
+   "exp_min": 800,
+   "exp_max": 800,
+   "skills": {
+    "literate": 70,
+    "dodge": 50,
+    "unarmed": 40
+   },
+   "dp_est": 42466,
+   "ap_est": 22133,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/postoffice",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "李火狮": [
+  {
+   "file": "d/snow/npc/fist_trainer",
+   "cn": "李火狮",
+   "ids": [
+    "trainer",
+    "lee"
+   ],
+   "exp_min": 3000,
+   "exp_max": 3000,
+   "skills": {
+    "unarmed": 30,
+    "liuh-ken": 20,
+    "dodge": 30
+   },
+   "dp_est": 12000,
+   "ap_est": 12000,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/school2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "刘安禄": [
+  {
+   "file": "d/snow/npc/guard",
+   "cn": "刘安禄",
+   "ids": [
+    "liu anru",
+    "liu"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {
+    "blade": 40,
+    "parry": 40
+   },
+   "dp_est": 61666,
+   "ap_est": 463666,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/school1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "旅客": [
+  {
+   "file": "d/snow/npc/traveller",
+   "cn": "旅客",
+   "ids": [
+    "traveller"
+   ],
+   "exp_min": 600,
+   "exp_max": 999,
+   "skills": {
+    "dodge": 50,
+    "unarmed": 40
+   },
+   "dp_est": 42266,
+   "ap_est": 21933,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/inn",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/snow/npc/trav_blade",
+   "cn": "旅客",
+   "ids": [
+    "traveller"
+   ],
+   "exp_min": 600,
+   "exp_max": 999,
+   "skills": {
+    "dodge": 50,
+    "throwing": 30,
+    "unarmed": 40
+   },
+   "dp_est": 42266,
+   "ap_est": 21933,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/square",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "苦力": [
+  {
+   "file": "d/snow/npc/worker",
+   "cn": "苦力",
+   "ids": [
+    "worker"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "魏无极": [
+  {
+   "file": "d/snow/npc/teacher1",
+   "cn": "魏无极",
+   "ids": [
+    "teacher",
+    "wey"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "literate": 60
+   },
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/snow/npc/teacher",
+   "cn": "魏无极",
+   "ids": [
+    "teacher",
+    "wey"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "literate": 60
+   },
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/school",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "逄义": [
+  {
+   "file": "d/snow/npc/mercenary",
+   "cn": "逄义",
+   "ids": [
+    "pangyi"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "sword": 70,
+    "dodge": 70,
+    "unarmed": 80,
+    "move": 80,
+    "force": 65,
+    "fonxanforce": 80,
+    "fonxansword": 80,
+    "chaos-steps": 70,
+    "liuh-ken": 80,
+    "literate": 60
+   },
+   "dp_est": 114333,
+   "ap_est": 170666,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "修炼傀儡": [
+  {
+   "file": "d/snow/npc/dummy",
+   "cn": "修炼傀儡",
+   "ids": [
+    "training dummy",
+    "dummy"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 21433,
+   "ap_est": 72100,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/school2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "柳绘心": [
+  {
+   "file": "d/snow/npc/girl",
+   "cn": "柳绘心",
+   "ids": [
+    "liuh wheixin",
+    "liuh",
+    "wheixin"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {
+    "unarmed": 20,
+    "parry": 40,
+    "dodge": 50,
+    "sword": 30,
+    "force": 30,
+    "literate": 70,
+    "fonxanforce": 40,
+    "fonxansword": 40,
+    "liuh-ken": 40,
+    "chaos-steps": 70
+   },
+   "dp_est": 42666,
+   "ap_est": 10000,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/nyard",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "醉汉": [
+  {
+   "file": "d/snow/npc/drunk",
+   "cn": "醉汉",
+   "ids": [
+    "drunk",
+    "man",
+    "drunk man"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 50,
+   "ap_est": 50,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/mstreet2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "收破烂的": [
+  {
+   "file": "d/snow/npc/scavenger",
+   "cn": "收破烂的",
+   "ids": [
+    "scavenger"
+   ],
+   "exp_min": 10,
+   "exp_max": 10,
+   "skills": {},
+   "dp_est": 5,
+   "ap_est": 5,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/mstreet2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "武馆弟子": [
+  {
+   "file": "d/snow/npc/trainee",
+   "cn": "武馆弟子",
+   "ids": [
+    "trainee"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 50,
+   "ap_est": 50,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/school2",
+     "count": 6
+    }
+   ]
+  }
+ ],
+ "农夫": [
+  {
+   "file": "d/snow/npc/farmer",
+   "cn": "农夫",
+   "ids": [
+    "farmer"
+   ],
+   "exp_min": 20,
+   "exp_max": 20,
+   "skills": {},
+   "dp_est": 10,
+   "ap_est": 10,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/sroad2",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "老农夫": [
+  {
+   "file": "d/snow/npc/old_farmer",
+   "cn": "老农夫",
+   "ids": [
+    "old farmer",
+    "farmer"
+   ],
+   "exp_min": 20,
+   "exp_max": 20,
+   "skills": {},
+   "dp_est": 10,
+   "ap_est": 10,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "媒婆": [
+  {
+   "file": "d/snow/npc/proposer",
+   "cn": "媒婆",
+   "ids": [
+    "proposer"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "u/cloud/npc/mei_po",
+   "cn": "媒婆",
+   "ids": [
+    "mei_po"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "literate": 70,
+    "dodge": 500,
+    "unarmed": 300
+   },
+   "dp_est": 41676666,
+   "ap_est": 9010000,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/marry_room",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "老鼠": [
+  {
+   "file": "d/snow/npc/rat",
+   "cn": "老鼠",
+   "ids": [
+    "rat"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 120
+   },
+   "dp_est": 576000,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/inn_2f",
+     "count": 6
+    }
+   ]
+  }
+ ],
+ "安惜迩": [
+  {
+   "file": "d/snow/npc/annihir",
+   "cn": "安惜迩",
+   "ids": [
+    "annihir"
+   ],
+   "exp_min": 200000,
+   "exp_max": 200000,
+   "skills": {
+    "unarmed": 100,
+    "parry": 100,
+    "dodge": 100,
+    "force": 100,
+    "celestrike": 100,
+    "celestial": 100,
+    "fonxansword": 100,
+    "six-chaos-sword": 100,
+    "chaos-steps": 100,
+    "spells": 100,
+    "necromancy": 100
+   },
+   "dp_est": 533333,
+   "ap_est": 533333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "樵夫": [
+  {
+   "file": "d/snow/npc/woodcutter",
+   "cn": "樵夫",
+   "ids": [
+    "woodcutter"
+   ],
+   "exp_min": 140,
+   "exp_max": 140,
+   "skills": {},
+   "dp_est": 70,
+   "ap_est": 70,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/herbshop",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "庙祝": [
+  {
+   "file": "d/snow/npc/keeper",
+   "cn": "庙祝",
+   "ids": [
+    "keeper"
+   ],
+   "exp_min": 1,
+   "exp_max": 1,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/snow/temple",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "带刀侍卫": [
+  {
+   "file": "d/choyin/npc/magistra",
+   "cn": "带刀侍卫",
+   "ids": [
+    "magistrate waiter",
+    "waiter"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "blade": 120,
+    "parry": 80,
+    "dodge": 120,
+    "fall-steps": 120,
+    "shortsong-blade": 150
+   },
+   "dp_est": 1576000,
+   "ap_est": 1576000,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/yamen_yard",
+     "count": 4
+    },
+    {
+     "room": "d/choyin/yamen",
+     "count": 2
+    },
+    {
+     "room": "d/choyin/court1",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "汤掌柜": [
+  {
+   "file": "d/choyin/npc/boss",
+   "cn": "汤掌柜",
+   "ids": [
+    "boss tang",
+    "tang",
+    "boss"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {},
+   "dp_est": 500,
+   "ap_est": 500,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/hotel1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "书生": [
+  {
+   "file": "d/choyin/npc/scholar",
+   "cn": "书生",
+   "ids": [
+    "scholar"
+   ],
+   "exp_min": 10,
+   "exp_max": 10,
+   "skills": {},
+   "dp_est": 5,
+   "ap_est": 5,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/bridge2",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "游客": [
+  {
+   "file": "d/choyin/npc/visitor",
+   "cn": "游客",
+   "ids": [
+    "visitor"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "dodge": 90,
+    "unarmed": 76
+   },
+   "dp_est": 248000,
+   "ap_est": 151325,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/bridge3",
+     "count": 4
+    },
+    {
+     "room": "d/choyin/bridge1",
+     "count": 4
+    }
+   ]
+  }
+ ],
+ "酒楼守卫": [
+  {
+   "file": "d/choyin/npc/guard",
+   "cn": "酒楼守卫",
+   "ids": [
+    "hotel guard",
+    "guard"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {
+    "sword": 60,
+    "parry": 60,
+    "dodge": 70,
+    "force": 65
+   },
+   "dp_est": 832333,
+   "ap_est": 676000,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/hotel3",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "卖糖葫芦的": [
+  {
+   "file": "d/choyin/npc/cucurbit_seller",
+   "cn": "卖糖葫芦的",
+   "ids": [
+    "cucurbit chapman",
+    "chapman"
+   ],
+   "exp_min": 30,
+   "exp_max": 30,
+   "skills": {},
+   "dp_est": 15,
+   "ap_est": 15,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/s_street1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "家丁": [
+  {
+   "file": "d/choyin/npc/servant",
+   "cn": "家丁",
+   "ids": [
+    "servant"
+   ],
+   "exp_min": 500,
+   "exp_max": 500,
+   "skills": {
+    "dodge": 10,
+    "unarmed": 10,
+    "parry": 10
+   },
+   "dp_est": 833,
+   "ap_est": 833,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/hotel2",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "file": "u/cloud/npc/jiading",
+   "cn": "家丁",
+   "ids": [
+    "jiading"
+   ],
+   "exp_min": 40000,
+   "exp_max": 40000,
+   "skills": {
+    "dodge": 70,
+    "parry": 90,
+    "blade": 70,
+    "spring-blade": 40
+   },
+   "dp_est": 154333,
+   "ap_est": 154333,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/m_house",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "朦胧鬼影": [
+  {
+   "file": "d/choyin/npc/shadow",
+   "cn": "朦胧鬼影",
+   "ids": [
+    "shadow"
+   ],
+   "exp_min": 200000,
+   "exp_max": 200000,
+   "skills": {},
+   "dp_est": 314333,
+   "ap_est": 370666,
+   "armed": true,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/choyin/tomb1",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "护草神兽": [
+  {
+   "file": "d/choyin/npc/lion",
+   "cn": "护草神兽",
+   "ids": [
+    "guarder"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {},
+   "dp_est": 121333,
+   "ap_est": 109000,
+   "armed": false,
+   "beast": true,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/choyin/lionroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "乾瘪老太婆": [
+  {
+   "file": "d/choyin/npc/crone",
+   "cn": "乾瘪老太婆",
+   "ids": [
+    "crone"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/dragon_temple",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "紫衣童子": [
+  {
+   "file": "d/choyin/npc/lboy",
+   "cn": "紫衣童子",
+   "ids": [
+    "boy"
+   ],
+   "exp_min": 1200000,
+   "exp_max": 1200000,
+   "skills": {
+    "dodge": 150,
+    "unarmed": 150,
+    "mysterrier": 150,
+    "force": 15
+   },
+   "dp_est": 2325000,
+   "ap_est": 2325000,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/platform",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "北冥大鹏": [
+  {
+   "file": "d/choyin/npc/roc",
+   "cn": "北冥大鹏",
+   "ids": [
+    "roc"
+   ],
+   "exp_min": 70000,
+   "exp_max": 70000,
+   "skills": {},
+   "dp_est": 184333,
+   "ap_est": 240666,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "obj/example/roc",
+   "cn": "北冥大鹏",
+   "ids": [
+    "roc"
+   ],
+   "exp_min": 70000,
+   "exp_max": 70000,
+   "skills": {},
+   "dp_est": 184333,
+   "ap_est": 240666,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "守城官兵": [
+  {
+   "file": "d/choyin/npc/cityguard",
+   "cn": "守城官兵",
+   "ids": [
+    "town guard",
+    "guard"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {
+    "unarmed": 70,
+    "sword": 70,
+    "parry": 70,
+    "dodge": 70,
+    "move": 100
+   },
+   "dp_est": 1014666,
+   "ap_est": 1014666,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/e_gate",
+     "count": 2
+    },
+    {
+     "room": "d/choyin/s_gate",
+     "count": 2
+    },
+    {
+     "room": "d/choyin/n_gate",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/jail/cityguard",
+   "cn": "守城官兵",
+   "ids": [
+    "town guard",
+    "guard"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {
+    "unarmed": 70,
+    "sword": 70,
+    "parry": 70,
+    "dodge": 70,
+    "move": 100
+   },
+   "dp_est": 1014666,
+   "ap_est": 1014666,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "老者": [
+  {
+   "file": "d/choyin/npc/oldman",
+   "cn": "老者",
+   "ids": [
+    "old man",
+    "man",
+    "old"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "unarmed": 1,
+    "dodge": 150,
+    "force": 1,
+    "parry": 1
+   },
+   "dp_est": 1125000,
+   "ap_est": 0,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/rockyu",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/npc/oldman",
+   "cn": "老者",
+   "ids": [
+    "old man",
+    "man",
+    "old"
+   ],
+   "exp_min": 50000,
+   "exp_max": 50000,
+   "skills": {
+    "unarmed": 1,
+    "dodge": 1,
+    "force": 1,
+    "parry": 1
+   },
+   "dp_est": 94217,
+   "ap_est": 169303,
+   "armed": false,
+   "beast": false,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": []
+  }
+ ],
+ "官家小姐": [
+  {
+   "file": "d/choyin/npc/girl",
+   "cn": "官家小姐",
+   "ids": [
+    "girl"
+   ],
+   "exp_min": 10,
+   "exp_max": 10,
+   "skills": {},
+   "dp_est": 5,
+   "ap_est": 5,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/bridge4",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "仙鹤": [
+  {
+   "file": "d/choyin/npc/crane",
+   "cn": "仙鹤",
+   "ids": [
+    "crane"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "parry": 10,
+    "dodge": 150,
+    "move": 150
+   },
+   "dp_est": 2125000,
+   "ap_est": 500000,
+   "armed": false,
+   "beast": true,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/craneroom",
+     "count": 4
+    }
+   ]
+  }
+ ],
+ "贵公子": [
+  {
+   "file": "d/choyin/npc/youngman",
+   "cn": "贵公子",
+   "ids": [
+    "youngman"
+   ],
+   "exp_min": 2500,
+   "exp_max": 2500,
+   "skills": {
+    "dodge": 40,
+    "unarmed": 40,
+    "parry": 40,
+    "sword": 40
+   },
+   "dp_est": 23833,
+   "ap_est": 23833,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/hotel2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "衙役": [
+  {
+   "file": "d/choyin/npc/judge_gu",
+   "cn": "衙役",
+   "ids": [
+    "judge guard",
+    "guard"
+   ],
+   "exp_min": 8000,
+   "exp_max": 8000,
+   "skills": {
+    "staff": 40,
+    "unarmed": 40,
+    "dodge": 80,
+    "liuh-ken": 80,
+    "fall-steps": 80
+   },
+   "dp_est": 178666,
+   "ap_est": 29333,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/court1",
+     "count": 4
+    }
+   ]
+  }
+ ],
+ "程不平": [
+  {
+   "file": "d/choyin/npc/judgeman",
+   "cn": "程不平",
+   "ids": [
+    "county magistrate",
+    "magistrate"
+   ],
+   "exp_min": 5000000,
+   "exp_max": 5000000,
+   "skills": {
+    "buddhism": 90,
+    "unarmed": 100,
+    "literate": 100,
+    "parry": 100,
+    "dodge": 100,
+    "pyrobat-steps": 100,
+    "force": 100,
+    "spells": 100
+   },
+   "dp_est": 5333333,
+   "ap_est": 5333333,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/yamen",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "孤魂野鬼": [
+  {
+   "file": "d/choyin/npc/ghost",
+   "cn": "孤魂野鬼",
+   "ids": [
+    "wandering ghost",
+    "ghost"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/e_gate",
+     "count": 1
+    },
+    {
+     "room": "d/choyin/n_gate",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "obj/example/ghost",
+   "cn": "孤魂野鬼",
+   "ids": [
+    "wandering ghost",
+    "ghost"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 333,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "武官": [
+  {
+   "file": "d/choyin/npc/sergeant",
+   "cn": "武官",
+   "ids": [
+    "sergeant"
+   ],
+   "exp_min": 250000,
+   "exp_max": 250000,
+   "skills": {
+    "dodge": 70,
+    "unarmed": 60,
+    "parry": 70,
+    "sword": 75
+   },
+   "dp_est": 982333,
+   "ap_est": 1070125,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/hotel1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "采花妞": [
+  {
+   "file": "d/village/flowergirl",
+   "cn": "采花妞",
+   "ids": [
+    "little girl",
+    "girl"
+   ],
+   "exp_min": 700,
+   "exp_max": 700,
+   "skills": {
+    "unarmed": 10,
+    "parry": 25,
+    "dodge": 100,
+    "throwing": 50
+   },
+   "dp_est": 334033,
+   "ap_est": 42366,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "d/village/npc/flowergirl",
+   "cn": "采花妞",
+   "ids": [
+    "little girl",
+    "girl"
+   ],
+   "exp_min": 700,
+   "exp_max": 700,
+   "skills": {
+    "unarmed": 10,
+    "parry": 25,
+    "dodge": 100,
+    "throwing": 50
+   },
+   "dp_est": 334033,
+   "ap_est": 42366,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/village/littlegarden",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "file": "d/chuenyu/npc/flowergirl",
+   "cn": "采花妞",
+   "ids": [
+    "little girl",
+    "girl"
+   ],
+   "exp_min": 700,
+   "exp_max": 700,
+   "skills": {
+    "unarmed": 10,
+    "parry": 25,
+    "dodge": 100,
+    "throwing": 50
+   },
+   "dp_est": 334033,
+   "ap_est": 42366,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/littlegarden",
+     "count": 5
+    }
+   ]
+  }
+ ],
+ "农妇": [
+  {
+   "file": "d/village/npc/woman1",
+   "cn": "农妇",
+   "ids": [
+    "woman"
+   ],
+   "exp_min": 20,
+   "exp_max": 59,
+   "skills": {},
+   "dp_est": 353,
+   "ap_est": 10,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/village/fmhousback",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "刘老农": [
+  {
+   "file": "d/village/npc/oldliu",
+   "cn": "刘老农",
+   "ids": [
+    "liu"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "sword": 150,
+    "unarmed": 100,
+    "dodge": 120,
+    "parry": 120,
+    "liuh-ken": 70,
+    "six-chaos-sword": 150,
+    "pyrobat-steps": 80
+   },
+   "dp_est": 586000,
+   "ap_est": 1135000,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/village/home",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/chuenyu/npc/oldliu",
+   "cn": "刘老农",
+   "ids": [
+    "liu"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "sword": 150,
+    "unarmed": 100,
+    "dodge": 120,
+    "parry": 120,
+    "liuh-ken": 70,
+    "six-chaos-sword": 150,
+    "pyrobat-steps": 80
+   },
+   "dp_est": 586000,
+   "ap_est": 1135000,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/home",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "白鳞冰龙": [
+  {
+   "file": "d/village/npc/dragon",
+   "cn": "白鳞冰龙",
+   "ids": [
+    "icedragon",
+    "dragon"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {},
+   "dp_est": 1576000,
+   "ap_est": 1041666,
+   "armed": false,
+   "beast": true,
+   "attitude": "aggressive",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/village/lakebottom2",
+     "count": 6
+    }
+   ]
+  }
+ ],
+ "瓜农": [
+  {
+   "file": "d/village/npc/meloner",
+   "cn": "瓜农",
+   "ids": [
+    "meloner"
+   ],
+   "exp_min": 8000,
+   "exp_max": 8000,
+   "skills": {
+    "unarmed": 80,
+    "force": 60,
+    "dodge": 50,
+    "parry": 50,
+    "chaos-steps": 30,
+    "fonxansword": 30,
+    "fonxanforce": 30
+   },
+   "dp_est": 49666,
+   "ap_est": 178666,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/village/melonguard",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "大老鼠": [
+  {
+   "file": "d/village/npc/rat",
+   "cn": "大老鼠",
+   "ids": [
+    "rat"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 80
+   },
+   "dp_est": 170666,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/village/smallstorage",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "file": "d/chuenyu/npc/highrat",
+   "cn": "大老鼠",
+   "ids": [
+    "rat"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 50
+   },
+   "dp_est": 41666,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/tunnel1",
+     "count": 1
+    },
+    {
+     "room": "d/chuenyu/tortureroom",
+     "count": 2
+    },
+    {
+     "room": "d/chuenyu/tortureroom2",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "d/chuenyu/npc/rat",
+   "cn": "大老鼠",
+   "ids": [
+    "rat"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 80
+   },
+   "dp_est": 170666,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/smallstorage",
+     "count": 6
+    }
+   ]
+  }
+ ],
+ "渔夫": [
+  {
+   "file": "d/village/npc/fisher",
+   "cn": "渔夫",
+   "ids": [
+    "fisher"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {
+    "parry": 30,
+    "dodge": 70,
+    "unarmed": 120,
+    "throwing": 150,
+    "stormdance": 45,
+    "force": 15
+   },
+   "dp_est": 134333,
+   "ap_est": 1145000,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/village/lakeside",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "审判官": [
+  {
+   "file": "d/wiz/npc/judge",
+   "cn": "审判官",
+   "ids": [
+    "judge"
+   ],
+   "exp_min": 9000000,
+   "exp_max": 9000000,
+   "skills": {},
+   "dp_est": 4500000,
+   "ap_est": 11666666,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/wiz/courthouse",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "故事": [
+  {
+   "file": "d/wiz/npc/chpn",
+   "cn": "故事",
+   "ids": [
+    "chp"
+   ],
+   "exp_min": 200000,
+   "exp_max": 200000,
+   "skills": {
+    "unarmed": 100,
+    "parry": 100,
+    "dodge": 100,
+    "force": 100,
+    "celestrike": 100,
+    "celestial": 100,
+    "fonxansword": 100,
+    "six-chaos-sword": 100,
+    "chaos-steps": 100,
+    "spells": 100,
+    "necromancy": 100
+   },
+   "dp_est": 533333,
+   "ap_est": 533333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/wiz/entrance",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "小天邪虎": [
+  {
+   "file": "d/waterfog/npc/little_tiger",
+   "cn": "小天邪虎",
+   "ids": [
+    "little tiger",
+    "tiger"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {},
+   "dp_est": 1000,
+   "ap_est": 4666,
+   "armed": false,
+   "beast": true,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "水烟阁武士": [
+  {
+   "file": "d/waterfog/npc/guard",
+   "cn": "水烟阁武士",
+   "ids": [
+    "waterfog guard",
+    "guard"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {
+    "force": 50,
+    "unarmed": 60,
+    "parry": 50,
+    "dodge": 50,
+    "celestial": 50,
+    "celestrike": 50
+   },
+   "dp_est": 61666,
+   "ap_est": 92000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/waterfog/sroad3",
+     "count": 2
+    },
+    {
+     "room": "d/waterfog/entrance",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "仆役": [
+  {
+   "file": "d/waterfog/npc/servant",
+   "cn": "仆役",
+   "ids": [
+    "servant"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {},
+   "dp_est": 50,
+   "ap_est": 50,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/waterfog/storage",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "水烟阁司事": [
+  {
+   "file": "d/waterfog/npc/watcher",
+   "cn": "水烟阁司事",
+   "ids": [
+    "waterfog watcher",
+    "watcher"
+   ],
+   "exp_min": 60000,
+   "exp_max": 60000,
+   "skills": {
+    "force": 70,
+    "unarmed": 70,
+    "parry": 60,
+    "dodge": 65,
+    "celestial": 70,
+    "celestrike": 60
+   },
+   "dp_est": 151541,
+   "ap_est": 174333,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/waterfog/clifftop",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "水烟阁红衣武士": [
+  {
+   "file": "d/waterfog/npc/elite_guard",
+   "cn": "水烟阁红衣武士",
+   "ids": [
+    "waterfog elite guard",
+    "guard"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {
+    "force": 80,
+    "unarmed": 90,
+    "parry": 80,
+    "dodge": 80,
+    "celestial": 80,
+    "celestrike": 80,
+    "pyrobat-steps": 80
+   },
+   "dp_est": 270666,
+   "ap_est": 343000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/waterfog/east_2f",
+     "count": 2
+    },
+    {
+     "room": "d/waterfog/west_2f",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "天邪虎": [
+  {
+   "file": "d/waterfog/npc/celes_tiger",
+   "cn": "天邪虎",
+   "ids": [
+    "celestial tiger",
+    "tiger"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {},
+   "dp_est": 500000,
+   "ap_est": 1170666,
+   "armed": false,
+   "beast": true,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/waterfog/clifftop",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "陈坚石": [
+  {
+   "file": "d/waterfog/npc/elder6",
+   "cn": "陈坚石",
+   "ids": [
+    "chen jenxi",
+    "chen",
+    "jenxi"
+   ],
+   "exp_min": 360000,
+   "exp_max": 360000,
+   "skills": {
+    "force": 100,
+    "unarmed": 95,
+    "staff": 100,
+    "parry": 80,
+    "dodge": 95,
+    "celestial": 90,
+    "celestrike": 80
+   },
+   "dp_est": 645791,
+   "ap_est": 645791,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/waterfog/forehall",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "颜违": [
+  {
+   "file": "d/waterfog/npc/elder7",
+   "cn": "颜违",
+   "ids": [
+    "yen wei",
+    "yen",
+    "wei"
+   ],
+   "exp_min": 270000,
+   "exp_max": 270000,
+   "skills": {
+    "force": 100,
+    "unarmed": 80,
+    "parry": 80,
+    "dodge": 75,
+    "celestial": 90,
+    "celestrike": 80
+   },
+   "dp_est": 410625,
+   "ap_est": 440666,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/waterfog/forehall",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "南危水": [
+  {
+   "file": "d/waterfog/npc/elder5",
+   "cn": "南危水",
+   "ids": [
+    "nan weishuey",
+    "nan",
+    "weishuey"
+   ],
+   "exp_min": 800000,
+   "exp_max": 800000,
+   "skills": {
+    "force": 100,
+    "unarmed": 95,
+    "sword": 100,
+    "parry": 80,
+    "dodge": 95,
+    "celestial": 100,
+    "celestrike": 90,
+    "fonxansword": 100
+   },
+   "dp_est": 1085791,
+   "ap_est": 1133333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/waterfog/forehall",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "小沙弥": [
+  {
+   "file": "d/sanyen/npc/little_bonze",
+   "cn": "小沙弥",
+   "ids": [
+    "bonze"
+   ],
+   "exp_min": 800,
+   "exp_max": 800,
+   "skills": {
+    "force": 30,
+    "unarmed": 20,
+    "dodge": 25,
+    "buddhism": 50,
+    "lotusforce": 30
+   },
+   "dp_est": 6008,
+   "ap_est": 3466,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/sanyen/back_temple",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "知客僧": [
+  {
+   "file": "d/sanyen/npc/greeting",
+   "cn": "知客僧",
+   "ids": [
+    "greeting bonze",
+    "bonze"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {
+    "force": 40,
+    "unarmed": 40,
+    "dodge": 40
+   },
+   "dp_est": 23333,
+   "ap_est": 23333,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/sanyen/front_yard",
+     "count": 2
+    },
+    {
+     "room": "d/sanyen/gate",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "file": "u/cloud/npc/monk_waiter",
+   "cn": "知客僧",
+   "ids": [
+    "monk waiter",
+    "waiter"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "staff": 60,
+    "unarmed": 80,
+    "force": 60,
+    "dodge": 40,
+    "literate": 50,
+    "chanting": 30,
+    "parry": 60,
+    "magic": 30,
+    "cloudstaff": 20,
+    "lotusforce": 20,
+    "buddhism": 20,
+    "essencemagic": 20
+   },
+   "dp_est": 31333,
+   "ap_est": 180666,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "烧饭僧": [
+  {
+   "file": "d/sanyen/npc/cook_bonze",
+   "cn": "烧饭僧",
+   "ids": [
+    "cook bonze",
+    "bonze"
+   ],
+   "exp_min": 1100,
+   "exp_max": 1100,
+   "skills": {
+    "force": 40,
+    "unarmed": 40,
+    "blade": 45,
+    "dodge": 35,
+    "buddhism": 40,
+    "lotusforce": 50
+   },
+   "dp_est": 15391,
+   "ap_est": 31475,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/sanyen/kitchen",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "跛僧人": [
+  {
+   "file": "d/sanyen/npc/cripple",
+   "cn": "跛僧人",
+   "ids": [
+    "cripple bonze",
+    "bonze"
+   ],
+   "exp_min": 4000,
+   "exp_max": 4000,
+   "skills": {
+    "force": 90,
+    "unarmed": 30,
+    "dodge": 30,
+    "buddhism": 60,
+    "lotusforce": 90
+   },
+   "dp_est": 13000,
+   "ap_est": 13000,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/sanyen/inner_yard",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "扫地僧": [
+  {
+   "file": "d/sanyen/npc/work_bonze",
+   "cn": "扫地僧",
+   "ids": [
+    "work bonze",
+    "bonze"
+   ],
+   "exp_min": 200,
+   "exp_max": 200,
+   "skills": {
+    "force": 20,
+    "unarmed": 25,
+    "staff": 20,
+    "cloudstaff": 15,
+    "dodge": 10,
+    "lotusforce": 15
+   },
+   "dp_est": 533,
+   "ap_est": 5408,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/sanyen/tower",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "药僧": [
+  {
+   "file": "d/sanyen/npc/drug_bonze",
+   "cn": "药僧",
+   "ids": [
+    "drug bonze",
+    "bonze"
+   ],
+   "exp_min": 1800,
+   "exp_max": 1800,
+   "skills": {
+    "force": 50,
+    "unarmed": 55,
+    "dodge": 45,
+    "buddhism": 60,
+    "lotusforce": 58
+   },
+   "dp_est": 32175,
+   "ap_est": 57258,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/sanyen/heal_room",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "僧人": [
+  {
+   "file": "d/sanyen/npc/bonze",
+   "cn": "僧人",
+   "ids": [
+    "bonze"
+   ],
+   "exp_min": 6000,
+   "exp_max": 6000,
+   "skills": {
+    "force": 60,
+    "unarmed": 50,
+    "dodge": 60
+   },
+   "dp_est": 78000,
+   "ap_est": 47666,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/sanyen/road2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "独眼头陀": [
+  {
+   "file": "d/sanyen/npc/monk",
+   "cn": "独眼头陀",
+   "ids": [
+    "one-eyed monk",
+    "monk"
+   ],
+   "exp_min": 60000,
+   "exp_max": 60000,
+   "skills": {
+    "force": 90,
+    "unarmed": 80,
+    "dodge": 80,
+    "blade": 80,
+    "lotusforce": 90,
+    "move": 60
+   },
+   "dp_est": 1185000,
+   "ap_est": 974666,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/sanyen/road1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "小娟": [
+  {
+   "file": "d/chuenyu/xiaojuan2",
+   "cn": "小娟",
+   "ids": [
+    "xiao juan",
+    "juan"
+   ],
+   "exp_min": 1,
+   "exp_max": 1,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/dungeon",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "d/chuenyu/npc/xiaojuan",
+   "cn": "小娟",
+   "ids": [
+    "xiao juan",
+    "juan"
+   ],
+   "exp_min": 1,
+   "exp_max": 1,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 1,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "园工": [
+  {
+   "file": "d/chuenyu/npc/gardener",
+   "cn": "园工",
+   "ids": [
+    "gardener"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {
+    "literate": 10,
+    "magic": 50,
+    "force": 50,
+    "spells": 50,
+    "scratching": 30,
+    "unarmed": 30,
+    "sword": 30,
+    "parry": 30,
+    "dodge": 30,
+    "gouyee": 30,
+    "taoism": 30,
+    "necromancy": 30
+   },
+   "dp_est": 74000,
+   "ap_est": 11000,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/west_garden",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "女佣人": [
+  {
+   "file": "d/chuenyu/npc/cleangirl",
+   "cn": "女佣人",
+   "ids": [
+    "cleaning maid",
+    "maid"
+   ],
+   "exp_min": 700,
+   "exp_max": 700,
+   "skills": {
+    "unarmed": 10,
+    "parry": 25,
+    "dodge": 35,
+    "throwing": 20
+   },
+   "dp_est": 14991,
+   "ap_est": 3366,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/east_blackge",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "小园工": [
+  {
+   "file": "d/chuenyu/npc/smallgardener",
+   "cn": "小园工",
+   "ids": [
+    "young gardener",
+    "gardener"
+   ],
+   "exp_min": 500,
+   "exp_max": 500,
+   "skills": {
+    "sword": 30,
+    "parry": 30,
+    "dodge": 30
+   },
+   "dp_est": 9500,
+   "ap_est": 9500,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/north_garden",
+     "count": 2
+    },
+    {
+     "room": "d/chuenyu/south_garden",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "厨子": [
+  {
+   "file": "d/chuenyu/npc/cook",
+   "cn": "厨子",
+   "ids": [
+    "cook"
+   ],
+   "exp_min": 2500,
+   "exp_max": 2500,
+   "skills": {
+    "dagger": 100,
+    "parry": 100,
+    "dodge": 150
+   },
+   "dp_est": 1127500,
+   "ap_est": 335833,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/kitchen",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "青衣家丁": [
+  {
+   "file": "d/chuenyu/npc/jiading",
+   "cn": "青衣家丁",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {
+    "hammer": 40,
+    "dodge": 40,
+    "parry": 50
+   },
+   "dp_est": 23333,
+   "ap_est": 23333,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "护院": [
+  {
+   "file": "d/chuenyu/npc/guard",
+   "cn": "护院",
+   "ids": [
+    "castle guard",
+    "guard"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 20,
+    "sword": 30,
+    "parry": 70,
+    "dodge": 70,
+    "move": 100
+   },
+   "dp_est": 119333,
+   "ap_est": 14000,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/west_blackge",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "蜜蜂": [
+  {
+   "file": "d/chuenyu/npc/bee",
+   "cn": "蜜蜂",
+   "ids": [
+    "bee"
+   ],
+   "exp_min": 200,
+   "exp_max": 200,
+   "skills": {
+    "dodge": 50
+   },
+   "dp_est": 41866,
+   "ap_est": 100,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/west_garden",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "巨型犬": [
+  {
+   "file": "d/chuenyu/npc/wolfdog",
+   "cn": "巨型犬",
+   "ids": [
+    "wolf dog",
+    "dog"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {},
+   "dp_est": 10000,
+   "ap_est": 92000,
+   "armed": false,
+   "beast": true,
+   "attitude": "killer",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/chuenyu/east_garden",
+     "count": 3
+    }
+   ]
+  }
+ ],
+ "蓝衣家丁": [
+  {
+   "file": "d/chuenyu/npc/jiading2",
+   "cn": "蓝衣家丁",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {
+    "hammer": 50,
+    "dodge": 40,
+    "parry": 50
+   },
+   "dp_est": 23333,
+   "ap_est": 43666,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "蛐蛐": [
+  {
+   "file": "d/chuenyu/npc/frog",
+   "cn": "蛐蛐",
+   "ids": [
+    "insect"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 150
+   },
+   "dp_est": 1125000,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/smallyard",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "卖花姑娘": [
+  {
+   "file": "d/chuenyu/npc/flower_seller",
+   "cn": "卖花姑娘",
+   "ids": [
+    "flower seller",
+    "seller"
+   ],
+   "exp_min": 700,
+   "exp_max": 700,
+   "skills": {
+    "unarmed": 40,
+    "parry": 25,
+    "dodge": 150,
+    "throwing": 100
+   },
+   "dp_est": 1125700,
+   "ap_est": 334033,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/sunnyroad",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "狱卒": [
+  {
+   "file": "d/chuenyu/npc/guard2",
+   "cn": "狱卒",
+   "ids": [
+    "prison guard",
+    "guard"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 20,
+    "sword": 30,
+    "parry": 80,
+    "dodge": 80,
+    "move": 100
+   },
+   "dp_est": 175666,
+   "ap_est": 14000,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/tortureroom",
+     "count": 2
+    },
+    {
+     "room": "d/chuenyu/tortureroom2",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "淳于怀太": [
+  {
+   "file": "d/chuenyu/npc/chuenyu",
+   "cn": "淳于怀太",
+   "ids": [
+    "chunyu"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "unarmed": 60,
+    "whip": 30,
+    "dodge": 40,
+    "parry": 30,
+    "snowwhip": 80,
+    "liuh-ken": 20,
+    "pyrobat-steps": 100
+   },
+   "dp_est": 31333,
+   "ap_est": 82000,
+   "armed": true,
+   "beast": false,
+   "attitude": "killer",
+   "aggressive": true,
+   "rooms": [
+    {
+     "room": "d/chuenyu/dungeon",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "蚂蚁": [
+  {
+   "file": "d/chuenyu/npc/ant",
+   "cn": "蚂蚁",
+   "ids": [
+    "ant"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 200
+   },
+   "dp_est": 2666666,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/smallyard",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "信鸽": [
+  {
+   "file": "d/chuenyu/npc/pigeon",
+   "cn": "信鸽",
+   "ids": [
+    "pigeon"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 250
+   },
+   "dp_est": 5208333,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/yiantai",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "紫衣家丁": [
+  {
+   "file": "d/chuenyu/npc/jiading3",
+   "cn": "紫衣家丁",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {
+    "hammer": 60,
+    "dodge": 50,
+    "parry": 50
+   },
+   "dp_est": 43666,
+   "ap_est": 74000,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/chuenyu/rope_bridge",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "孙悟空": [
+  {
+   "file": "d/npc/sungoku",
+   "cn": "孙悟空",
+   "ids": [
+    "sun goku",
+    "sun",
+    "goku"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "unarmed": 1,
+    "dodge": 1,
+    "force": 1,
+    "parry": 1
+   },
+   "dp_est": 0,
+   "ap_est": 0,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "黑无常": [
+  {
+   "file": "d/death/npc/bgargoyle",
+   "cn": "黑无常",
+   "ids": [
+    "black gargoyle",
+    "gargoyle"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {
+    "dodge": 40,
+    "unarmed": 40
+   },
+   "dp_est": 41333,
+   "ap_est": 41333,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/death/gateway",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "白无常": [
+  {
+   "file": "d/death/npc/wgargoyle",
+   "cn": "白无常",
+   "ids": [
+    "white gargoyle",
+    "gargoyle"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {
+    "dodge": 40,
+    "unarmed": 40
+   },
+   "dp_est": 41333,
+   "ap_est": 41333,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/death/gate",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "清音": [
+  {
+   "file": "d/temple/npc/taoist_guard2",
+   "cn": "清音",
+   "ids": [
+    "ching-in",
+    "ching",
+    "in"
+   ],
+   "exp_min": 52000,
+   "exp_max": 52000,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 35,
+    "force": 30,
+    "gouyee": 50,
+    "parry": 35,
+    "spells": 75,
+    "necromancy": 80,
+    "magic": 35,
+    "taoism": 90
+   },
+   "dp_est": 66291,
+   "ap_est": 61000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "老道士": [
+  {
+   "file": "d/temple/npc/old_taoist",
+   "cn": "老道士",
+   "ids": [
+    "old taoist",
+    "taoist"
+   ],
+   "exp_min": 2500,
+   "exp_max": 2500,
+   "skills": {
+    "dodge": 10,
+    "parry": 15,
+    "whip": 25
+   },
+   "dp_est": 2833,
+   "ap_est": 7708,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/temple/restroom1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "玄真": [
+  {
+   "file": "d/temple/npc/little_taoist1",
+   "cn": "玄真",
+   "ids": [
+    "xuan jen",
+    "xuan",
+    "jen"
+   ],
+   "exp_min": 1500,
+   "exp_max": 1500,
+   "skills": {
+    "force": 20,
+    "spells": 15,
+    "staff": 20,
+    "dodge": 15,
+    "parry": 18
+   },
+   "dp_est": 2625,
+   "ap_est": 750,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/temple/ladder1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "明心": [
+  {
+   "file": "d/temple/npc/taoist2",
+   "cn": "明心",
+   "ids": [
+    "ming-shin",
+    "ming",
+    "shin"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 20,
+    "dodge": 20,
+    "force": 25,
+    "parry": 20,
+    "gouyee": 30,
+    "spells": 25,
+    "necromancy": 28,
+    "magic": 27,
+    "taoism": 30
+   },
+   "dp_est": 7666,
+   "ap_est": 7666,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/temple/trainroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "僵尸侍者": [
+  {
+   "file": "d/temple/npc/trainer",
+   "cn": "僵尸侍者",
+   "ids": [
+    "trainer"
+   ],
+   "exp_min": 14000,
+   "exp_max": 14000,
+   "skills": {
+    "literate": 10,
+    "magic": 60,
+    "force": 50,
+    "spells": 60,
+    "scratching": 20,
+    "unarmed": 100,
+    "sword": 100,
+    "parry": 80,
+    "dodge": 80,
+    "gouyee": 60,
+    "taoism": 60,
+    "necromancy": 60
+   },
+   "dp_est": 590000,
+   "ap_est": 347333,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/temple/temple1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "清玄": [
+  {
+   "file": "d/temple/npc/guard_taoist3",
+   "cn": "清玄",
+   "ids": [
+    "ching-shyuan",
+    "ching",
+    "shyuan"
+   ],
+   "exp_min": 50000,
+   "exp_max": 50000,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 35,
+    "force": 30,
+    "gouyee": 50,
+    "parry": 35,
+    "spells": 75,
+    "necromancy": 80,
+    "magic": 35,
+    "taoism": 90
+   },
+   "dp_est": 64291,
+   "ap_est": 59000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "清平": [
+  {
+   "file": "d/temple/npc/guard_taoist2",
+   "cn": "清平",
+   "ids": [
+    "ching-pin",
+    "ching",
+    "pin"
+   ],
+   "exp_min": 49000,
+   "exp_max": 49000,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 35,
+    "force": 30,
+    "gouyee": 50,
+    "parry": 35,
+    "spells": 75,
+    "necromancy": 80,
+    "magic": 35,
+    "taoism": 90
+   },
+   "dp_est": 63291,
+   "ap_est": 58000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "清灵": [
+  {
+   "file": "d/temple/npc/guard_taoist1",
+   "cn": "清灵",
+   "ids": [
+    "ching-lin",
+    "ching",
+    "lin"
+   ],
+   "exp_min": 50000,
+   "exp_max": 50000,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 35,
+    "force": 30,
+    "gouyee": 50,
+    "parry": 35,
+    "spells": 75,
+    "necromancy": 80,
+    "magic": 35,
+    "taoism": 90
+   },
+   "dp_est": 64291,
+   "ap_est": 59000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "清风": [
+  {
+   "file": "d/temple/npc/taoist_guard1",
+   "cn": "清风",
+   "ids": [
+    "ching-fong",
+    "ching",
+    "fong"
+   ],
+   "exp_min": 48000,
+   "exp_max": 48000,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 35,
+    "force": 30,
+    "gouyee": 50,
+    "parry": 35,
+    "spells": 75,
+    "necromancy": 80,
+    "magic": 35,
+    "taoism": 90
+   },
+   "dp_est": 62291,
+   "ap_est": 57000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "清云": [
+  {
+   "file": "d/temple/npc/taoist_guard3",
+   "cn": "清云",
+   "ids": [
+    "ching-yun",
+    "ching",
+    "yun"
+   ],
+   "exp_min": 51000,
+   "exp_max": 51000,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 35,
+    "force": 30,
+    "gouyee": 50,
+    "parry": 35,
+    "spells": 75,
+    "necromancy": 80,
+    "magic": 35,
+    "taoism": 90
+   },
+   "dp_est": 65291,
+   "ap_est": 60000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "僵尸护法": [
+  {
+   "file": "d/temple/npc/tfighter",
+   "cn": "僵尸护法",
+   "ids": [
+    "taoist tfighter",
+    "tfighter"
+   ],
+   "exp_min": 50000,
+   "exp_max": 50000,
+   "skills": {
+    "literate": 50,
+    "magic": 30,
+    "force": 30,
+    "spells": 60,
+    "unarmed": 50,
+    "sword": 100,
+    "parry": 100,
+    "dodge": 100,
+    "gouyee": 60,
+    "taoism": 70,
+    "necromancy": 60
+   },
+   "dp_est": 782333,
+   "ap_est": 383333,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/temple/temple1",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "玄和": [
+  {
+   "file": "d/temple/npc/little_taoist2",
+   "cn": "玄和",
+   "ids": [
+    "shyuan-her",
+    "shyuan",
+    "her"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {
+    "force": 20,
+    "spells": 15,
+    "unarmed": 20,
+    "dodge": 15,
+    "parry": 18
+   },
+   "dp_est": 2125,
+   "ap_est": 3666,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/temple/inneryard",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "清虚": [
+  {
+   "file": "d/temple/npc/taoist",
+   "cn": "清虚",
+   "ids": [
+    "ching-shiu",
+    "ching",
+    "shiu"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 30,
+    "force": 30,
+    "gouyee": 40,
+    "parry": 25,
+    "spells": 35,
+    "necromancy": 30,
+    "magic": 35,
+    "taoism": 40
+   },
+   "dp_est": 19000,
+   "ap_est": 19000,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/temple/trainroom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "进香客": [
+  {
+   "file": "d/temple/npc/guest",
+   "cn": "进香客",
+   "ids": [
+    "guest"
+   ],
+   "exp_min": 600,
+   "exp_max": 600,
+   "skills": {},
+   "dp_est": 300,
+   "ap_est": 300,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/temple/ladder2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "陈剑秋": [
+  {
+   "file": "u/cloud/npc/b_header",
+   "cn": "陈剑秋",
+   "ids": [
+    "master guardman",
+    "guardman",
+    "master"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 60,
+    "parry": 100,
+    "dodge": 60,
+    "blade": 100,
+    "force": 20,
+    "literate": 40,
+    "spring-blade": 120
+   },
+   "dp_est": 1072000,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/biaoju",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "朱鸿雪": [
+  {
+   "file": "u/cloud/npc/god",
+   "cn": "朱鸿雪",
+   "ids": [
+    "zhu hongxue",
+    "zhu hongxue",
+    "zhu"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "force": 100,
+    "pyrobat-steps": 100,
+    "snowshade-force": 100,
+    "snowshade-sword": 100,
+    "sword": 100
+   },
+   "dp_est": 1333333,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/god2",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "u/cloud/npc/goddd",
+   "cn": "朱鸿雪",
+   "ids": [
+    "zhu hongxue",
+    "zhu hongxue",
+    "zhu"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "force": 100,
+    "pyrobat-steps": 100,
+    "snowshade-force": 100,
+    "snowshade-sword": 100,
+    "sword": 100
+   },
+   "dp_est": 1333333,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "潘若秋": [
+  {
+   "file": "u/cloud/npc/book_seller",
+   "cn": "潘若秋",
+   "ids": [
+    "seller"
+   ],
+   "exp_min": 5000,
+   "exp_max": 5000,
+   "skills": {
+    "unarmed": 70,
+    "dodge": 50
+   },
+   "dp_est": 46666,
+   "ap_est": 119333,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "鸨母": [
+  {
+   "file": "u/cloud/npc/mother",
+   "cn": "鸨母",
+   "ids": [
+    "mother"
+   ],
+   "exp_min": 10,
+   "exp_max": 10,
+   "skills": {
+    "unarmed": 100,
+    "parry": 50
+   },
+   "dp_est": 5,
+   "ap_est": 333343,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/jiyuan",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "卧龙岗强盗": [
+  {
+   "file": "u/cloud/npc/gangster",
+   "cn": "卧龙岗强盗",
+   "ids": [
+    "gangster"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "unarmed": 100,
+    "blade": 40,
+    "dodge": 40,
+    "parry": 50
+   },
+   "dp_est": 31333,
+   "ap_est": 343333,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/dragonhill/hummock",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "船夫": [
+  {
+   "file": "u/cloud/npc/boater",
+   "cn": "船夫",
+   "ids": [
+    "boater"
+   ],
+   "exp_min": 1500,
+   "exp_max": 1500,
+   "skills": {
+    "unarmed": 100,
+    "parry": 50,
+    "dodge": 30
+   },
+   "dp_est": 10500,
+   "ap_est": 334833,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/dukou",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "裁缝": [
+  {
+   "file": "u/cloud/npc/tailor",
+   "cn": "裁缝",
+   "ids": [
+    "tailor"
+   ],
+   "exp_min": 500,
+   "exp_max": 500,
+   "skills": {
+    "sword": 30,
+    "parry": 30,
+    "dodge": 30
+   },
+   "dp_est": 9500,
+   "ap_est": 9500,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/tailory",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "苍蝇": [
+  {
+   "file": "u/cloud/npc/fly",
+   "cn": "苍蝇",
+   "ids": [
+    "fly"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "dodge": 100
+   },
+   "dp_est": 333333,
+   "ap_est": 1,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/butchery",
+     "count": 6
+    }
+   ]
+  }
+ ],
+ "保镖": [
+  {
+   "file": "u/cloud/npc/room_gua",
+   "cn": "保镖",
+   "ids": [
+    "guard"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "unarmed": 200,
+    "parry": 140,
+    "dodge": 220
+   },
+   "dp_est": 3559333,
+   "ap_est": 2676666,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/rich",
+     "count": 5
+    }
+   ]
+  }
+ ],
+ "弈者": [
+  {
+   "file": "u/cloud/npc/chess_player",
+   "cn": "弈者",
+   "ids": [
+    "chess player",
+    "player"
+   ],
+   "exp_min": 500,
+   "exp_max": 500,
+   "skills": {
+    "unarmed": 10,
+    "dodge": 80,
+    "throwing": 30
+   },
+   "dp_est": 171166,
+   "ap_est": 9500,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/tearoom2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "宝官": [
+  {
+   "file": "u/cloud/npc/judge",
+   "cn": "宝官",
+   "ids": [
+    "judge"
+   ],
+   "exp_min": 500,
+   "exp_max": 500,
+   "skills": {
+    "unarmed": 50,
+    "parry": 70
+   },
+   "dp_est": 250,
+   "ap_est": 42166,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/duchang",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "茶工": [
+  {
+   "file": "u/cloud/npc/worker",
+   "cn": "茶工",
+   "ids": [
+    "tea worker",
+    "worker"
+   ],
+   "exp_min": 500,
+   "exp_max": 500,
+   "skills": {
+    "unarmed": 10,
+    "parry": 20,
+    "dodge": 20,
+    "throwing": 10
+   },
+   "dp_est": 3166,
+   "ap_est": 833,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/eroad4",
+     "count": 6
+    }
+   ]
+  }
+ ],
+ "飞贼": [
+  {
+   "file": "u/cloud/npc/thief",
+   "cn": "飞贼",
+   "ids": [
+    "thief"
+   ],
+   "exp_min": 3000,
+   "exp_max": 3000,
+   "skills": {
+    "dodge": 140,
+    "parry": 100,
+    "unarmed": 30,
+    "move": 100,
+    "stealing": 70
+   },
+   "dp_est": 917666,
+   "ap_est": 12000,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/park",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "兵器贩子": [
+  {
+   "file": "u/cloud/npc/weaponor",
+   "cn": "兵器贩子",
+   "ids": [
+    "weaponor"
+   ],
+   "exp_min": 20000,
+   "exp_max": 20000,
+   "skills": {
+    "unarmed": 100,
+    "dodge": 100,
+    "sword": 60
+   },
+   "dp_est": 353333,
+   "ap_est": 353333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/weapony",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "郑屠夫": [
+  {
+   "file": "u/cloud/npc/teacher",
+   "cn": "郑屠夫",
+   "ids": [
+    "butcher",
+    "zheng"
+   ],
+   "exp_min": 2500,
+   "exp_max": 2500,
+   "skills": {
+    "unarmed": 100,
+    "parry": 80
+   },
+   "dp_est": 1250,
+   "ap_est": 335833,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": []
+  },
+  {
+   "file": "u/cloud/npc/butcher",
+   "cn": "郑屠夫",
+   "ids": [
+    "butcher",
+    "zheng"
+   ],
+   "exp_min": 2500,
+   "exp_max": 2500,
+   "skills": {
+    "unarmed": 100,
+    "parry": 100,
+    "dodge": 100
+   },
+   "dp_est": 335833,
+   "ap_est": 335833,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/butchery",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "李师师": [
+  {
+   "file": "u/cloud/npc/girl",
+   "cn": "李师师",
+   "ids": [
+    "girl"
+   ],
+   "exp_min": 10,
+   "exp_max": 10,
+   "skills": {
+    "literate": 100
+   },
+   "dp_est": 5,
+   "ap_est": 5,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/jiyuan2",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "趟子手": [
+  {
+   "file": "u/cloud/npc/bfighter",
+   "cn": "趟子手",
+   "ids": [
+    "bfighter"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "unarmed": 60,
+    "parry": 50,
+    "dodge": 30,
+    "blade": 50,
+    "force": 20,
+    "literate": 10,
+    "spring-blade": 40
+   },
+   "dp_est": 19000,
+   "ap_est": 82000,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/biaoju",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "杂货贩": [
+  {
+   "file": "u/cloud/npc/seller",
+   "cn": "杂货贩",
+   "ids": [
+    "seller"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {
+    "unarmed": 60,
+    "dodge": 50,
+    "throwing": 30
+   },
+   "dp_est": 42666,
+   "ap_est": 73000,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/zaihuoy",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "茶博士": [
+  {
+   "file": "u/cloud/npc/tea_waiter",
+   "cn": "茶博士",
+   "ids": [
+    "waiter"
+   ],
+   "exp_min": 5,
+   "exp_max": 5,
+   "skills": {},
+   "dp_est": 2,
+   "ap_est": 2,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/tearoom",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "护寺武僧": [
+  {
+   "file": "u/cloud/npc/monk_guard",
+   "cn": "护寺武僧",
+   "ids": [
+    "monk guard",
+    "guard"
+   ],
+   "exp_min": 6000,
+   "exp_max": 6000,
+   "skills": {
+    "staff": 50,
+    "unarmed": 100,
+    "force": 40,
+    "dodge": 40,
+    "literate": 10,
+    "chanting": 30,
+    "parry": 50
+   },
+   "dp_est": 27333,
+   "ap_est": 339333,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "张百万": [
+  {
+   "file": "u/cloud/npc/millinare",
+   "cn": "张百万",
+   "ids": [
+    "zhang"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "literate": 70,
+    "dodge": 300,
+    "unarmed": 200
+   },
+   "dp_est": 9010000,
+   "ap_est": 2676666,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/m_house",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "化缘和尚": [
+  {
+   "file": "u/cloud/npc/monk",
+   "cn": "化缘和尚",
+   "ids": [
+    "monk"
+   ],
+   "exp_min": 10000,
+   "exp_max": 10000,
+   "skills": {
+    "staff": 60,
+    "unarmed": 80,
+    "force": 60,
+    "dodge": 40,
+    "literate": 50,
+    "chanting": 30,
+    "parry": 60,
+    "cloudstaff": 20,
+    "lotusforce": 20
+   },
+   "dp_est": 31333,
+   "ap_est": 180666,
+   "armed": false,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/monky",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "伙计": [
+  {
+   "file": "u/cloud/npc/doctor",
+   "cn": "伙计",
+   "ids": [
+    "waiter"
+   ],
+   "exp_min": 100,
+   "exp_max": 100,
+   "skills": {
+    "unarmed": 30,
+    "parry": 10,
+    "dodge": 10
+   },
+   "dp_est": 433,
+   "ap_est": 9100,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/drugstore",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "file": "u/cloud/npc/box_waiter",
+   "cn": "伙计",
+   "ids": [
+    "waiter"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {
+    "unarmed": 60,
+    "parry": 60,
+    "dodge": 70
+   },
+   "dp_est": 115333,
+   "ap_est": 73000,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/woodboxy",
+     "count": 8
+    }
+   ]
+  }
+ ],
+ "彩衣少女": [
+  {
+   "file": "u/cloud/npc/lm_guard",
+   "cn": "彩衣少女",
+   "ids": [
+    "girl"
+   ],
+   "exp_min": 1000,
+   "exp_max": 1000,
+   "skills": {
+    "whip": 40,
+    "parry": 20,
+    "dodge": 40,
+    "stormdance": 40,
+    "snowwhip": 30
+   },
+   "dp_est": 22333,
+   "ap_est": 22333,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/latemoon/entrance",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "林三爷": [
+  {
+   "file": "u/cloud/npc/box_boss",
+   "cn": "林三爷",
+   "ids": [
+    "boxboss",
+    "lin"
+   ],
+   "exp_min": 2000,
+   "exp_max": 2000,
+   "skills": {
+    "unarmed": 60,
+    "parry": 60,
+    "dodge": 70
+   },
+   "dp_est": 116333,
+   "ap_est": 74000,
+   "armed": false,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "u/cloud/woodboxy",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "骆云舟": [
+  {
+   "file": "daemon/class/scholar/master",
+   "cn": "骆云舟",
+   "ids": [
+    "master scholar",
+    "master"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "dodge": 100,
+    "force": 80,
+    "instruments": 70,
+    "literate": 150,
+    "move": 100,
+    "music": 100,
+    "parry": 90,
+    "perception": 80,
+    "sword": 100,
+    "unarmed": 60,
+    "mysterrier": 120,
+    "mystforce": 100,
+    "mystsword": 100
+   },
+   "dp_est": 1333333,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "早川直义": [
+  {
+   "file": "daemon/class/ronin/master",
+   "cn": "早川直义",
+   "ids": [
+    "master ronin",
+    "ronin"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 30,
+    "staff": 50,
+    "sword": 100,
+    "throwing": 60,
+    "force": 60,
+    "parry": 100,
+    "dodge": 70,
+    "spicyclaw": 100,
+    "serpentforce": 100
+   },
+   "dp_est": 1114333,
+   "ap_est": 1333333,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "蓝止萍": [
+  {
+   "file": "daemon/class/dancer/master",
+   "cn": "蓝止萍",
+   "ids": [
+    "master dancer",
+    "master",
+    "dancer"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 40,
+    "sword": 70,
+    "throwing": 100,
+    "force": 30,
+    "parry": 70,
+    "dodge": 100,
+    "literate": 100,
+    "perception": 100,
+    "whip": 100,
+    "stormdance": 100,
+    "tenderzhi": 100,
+    "iceforce": 100,
+    "snowwhip": 90
+   },
+   "dp_est": 3666666,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "玄智和尚": [
+  {
+   "file": "daemon/class/bonze/master",
+   "cn": "玄智和尚",
+   "ids": [
+    "master bonze",
+    "master",
+    "bonze"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "staff": 100,
+    "unarmed": 80,
+    "force": 100,
+    "dodge": 30,
+    "literate": 60,
+    "chanting": 100,
+    "parry": 50,
+    "magic": 100,
+    "cloudstaff": 100,
+    "lotusforce": 100,
+    "buddhism": 100,
+    "essencemagic": 100
+   },
+   "dp_est": 1009000,
+   "ap_est": 1170666,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "金□": [
+  {
+   "file": "daemon/class/assassin/master",
+   "cn": "金□",
+   "ids": [
+    "mastress assassin",
+    "mastress",
+    "assassin"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 80,
+    "staff": 90,
+    "blade": 70,
+    "throwing": 60,
+    "force": 100,
+    "parry": 60,
+    "dodge": 100,
+    "perception": 80,
+    "stealing": 40,
+    "spicyclaw": 100,
+    "serpentforce": 100
+   },
+   "dp_est": 1333333,
+   "ap_est": 1170666,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "林忌": [
+  {
+   "file": "daemon/class/taoist/taolord",
+   "cn": "林忌",
+   "ids": [
+    "master taolord",
+    "master",
+    "taolord"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "literate": 70,
+    "magic": 40,
+    "force": 30,
+    "spells": 100,
+    "scratching": 100,
+    "unarmed": 30,
+    "sword": 40,
+    "parry": 40,
+    "dodge": 40,
+    "gouyee": 60,
+    "taoism": 100,
+    "necromancy": 100
+   },
+   "dp_est": 1072000,
+   "ap_est": 1021333,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "绝尘子": [
+  {
+   "file": "daemon/class/juechen/master",
+   "cn": "绝尘子",
+   "ids": [
+    "master outer",
+    "master",
+    "outer"
+   ],
+   "exp_min": 2000000,
+   "exp_max": 2000000,
+   "skills": {
+    "force": 120,
+    "dodge": 100,
+    "parry": 120,
+    "unarmed": 80,
+    "sword": 100,
+    "staff": 100,
+    "literate": 120,
+    "tao-mystery": 120,
+    "perception": 100,
+    "magic": 150,
+    "spells": 150,
+    "juechen-force": 120,
+    "magic-array": 120,
+    "jingang-staff": 100
+   },
+   "dp_est": 2333333,
+   "ap_est": 2333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "陆得财": [
+  {
+   "file": "daemon/class/beggar/master",
+   "cn": "陆得财",
+   "ids": [
+    "beggarhead",
+    "beggar"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 80,
+    "staff": 90,
+    "blade": 70,
+    "throwing": 60,
+    "force": 100,
+    "parry": 60,
+    "dodge": 100,
+    "perception": 80,
+    "stealing": 40,
+    "spicyclaw": 100,
+    "serpentforce": 100
+   },
+   "dp_est": 1333333,
+   "ap_est": 1170666,
+   "armed": false,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "逍遥子": [
+  {
+   "file": "daemon/class/ninja/master",
+   "cn": "逍遥子",
+   "ids": [
+    "master happyman",
+    "happyman",
+    "master"
+   ],
+   "exp_min": 2000000,
+   "exp_max": 2000000,
+   "skills": {
+    "unarmed": 150,
+    "parry": 120,
+    "dodge": 150,
+    "sword": 100,
+    "force": 150,
+    "literate": 150,
+    "wu-shun": 120,
+    "linbo-steps": 150,
+    "ts-fist": 120
+   },
+   "dp_est": 3125000,
+   "ap_est": 3125000,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "柳淳风": [
+  {
+   "file": "daemon/class/swordsman/master",
+   "cn": "柳淳风",
+   "ids": [
+    "master swordsman",
+    "swordsman",
+    "master"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 40,
+    "parry": 120,
+    "dodge": 80,
+    "sword": 150,
+    "force": 40,
+    "literate": 60,
+    "fonxanforce": 60,
+    "fonxansword": 150,
+    "liuh-ken": 60,
+    "chaos-steps": 100,
+    "spider-array": 85
+   },
+   "dp_est": 1170666,
+   "ap_est": 2125000,
+   "armed": true,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "潘军禅": [
+  {
+   "file": "daemon/class/fighter/executioner",
+   "cn": "潘军禅",
+   "ids": [
+    "master executioner",
+    "executioner",
+    "master"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "force": 100,
+    "unarmed": 100,
+    "sword": 100,
+    "parry": 100,
+    "dodge": 100,
+    "celestial": 100,
+    "celestrike": 100,
+    "pyrobat-steps": 100,
+    "six-chaos-sword": 100
+   },
+   "dp_est": 1333333,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "萧辟尘": [
+  {
+   "file": "daemon/class/fighter/master",
+   "cn": "萧辟尘",
+   "ids": [
+    "master fighter",
+    "master",
+    "fighter"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {
+    "unarmed": 100,
+    "sword": 60,
+    "blade": 40,
+    "throwing": 40,
+    "force": 100,
+    "parry": 60,
+    "dodge": 60,
+    "literate": 60,
+    "perception": 80,
+    "six-chaos-sword": 80,
+    "celestial": 100,
+    "celestrike": 100,
+    "stormdance": 50,
+    "pyrobat-steps": 50
+   },
+   "dp_est": 1072000,
+   "ap_est": 1333333,
+   "armed": true,
+   "beast": false,
+   "attitude": "peaceful",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "观想虫": [
+  {
+   "file": "obj/npc/mind_bug",
+   "cn": "观想虫",
+   "ids": [
+    "mind bug",
+    "bug"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 9000,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "观想兽": [
+  {
+   "file": "obj/npc/mind_beast",
+   "cn": "观想兽",
+   "ids": [
+    "mind beast",
+    "beast"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {},
+   "dp_est": 1,
+   "ap_est": 72000,
+   "armed": false,
+   "beast": true,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "僵尸": [
+  {
+   "file": "obj/npc/zombie",
+   "cn": "僵尸",
+   "ids": [
+    "zombie"
+   ],
+   "exp_min": 0,
+   "exp_max": 0,
+   "skills": {
+    "unarmed": 30,
+    "dodge": 30
+   },
+   "dp_est": 9000,
+   "ap_est": 9000,
+   "armed": false,
+   "beast": false,
+   "attitude": "",
+   "aggressive": false,
+   "rooms": []
+  }
+ ],
+ "县城官兵": [
+  {
+   "file": "obj/npc/garrison",
+   "cn": "县城官兵",
+   "ids": [
+    "town garrison",
+    "garrison"
+   ],
+   "exp_min": 100000,
+   "exp_max": 100000,
+   "skills": {
+    "unarmed": 70,
+    "sword": 70,
+    "parry": 70,
+    "dodge": 70,
+    "move": 100
+   },
+   "dp_est": 1014666,
+   "ap_est": 1014666,
+   "armed": true,
+   "beast": false,
+   "attitude": "heroism",
+   "aggressive": false,
+   "rooms": [
+    {
+     "room": "d/choyin/n_gate",
+     "count": 2
+    },
+    {
+     "room": "u/cloud/nwroad3",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "五爪金龙": [
+  {
+   "file": "obj/example/dragon",
+   "cn": "五爪金龙",
+   "ids": [
+    "dragon"
+   ],
+   "exp_min": 1000000,
+   "exp_max": 1000000,
+   "skills": {},
+   "dp_est": 1333333,
+   "ap_est": 1333333,
+   "armed": false,
+   "beast": true,
+   "attitude": "friendly",
+   "aggressive": false,
+   "rooms": []
+  }
+ ]
+}

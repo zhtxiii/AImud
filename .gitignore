@@ -2,3 +2,12 @@ apikey.txt
 __pycache__/
 *.log
 knowledge_bases/
+poloapi.txt
+data/credentials.json
+data/credentials.json.bak
+data/checkpoint.json
+data/checkpoint.json.bak
+claude.txt
+codex.txt
+mudinfo.txt
+logs/

@@ -34,7 +34,10 @@ class AgentState(TypedDict, total=False):
 
     # --- LLM 决策结果 ---
     analysis: str            # LLM 分析文本
+    action_type: str         # 动作类型：send / enter / wait
     payload: str             # 要发送的 Payload
+    expected_result: str     # 预期服务器响应
+    last_client_payload: str # 上一次实际发送给服务器的内容
 
     # --- 控制流 ---
     should_reconnect: bool   # 需要重连（连接断开）
@@ -52,3 +55,13 @@ class AgentState(TypedDict, total=False):
     # --- 反思与经验 ---
     experiences: list[dict]        # 反思后积累的经验列表
     skills: list[dict]             # 反思后积累的技能列表
+
+    # --- grind 模式（10万经验任务） ---
+    char_status: dict        # 角色状态 {id,name,exp,potential,gin/kee/sen(+max),food,water,
+                             #  force,money,location_node,skills:{},wounded,family,updated_at}
+    milestone: dict          # 当前里程碑 {id, params, started_at}
+    exp_history: list        # [[ts, exp], ...] 截尾保留最近500点
+    credentials: dict        # 角色凭据（运行时引用，持久化在 credentials.json）
+    escalation: dict         # 例程升级上下文 {routine, reason, detail, room, recent_output, attempts}
+    exit_reason: str         # none/reconnect/stop/fatal/goal_reached（统一退出语义）
+    counters: dict           # {deaths, quests_done, quests_skipped, reconnects, llm_failures}

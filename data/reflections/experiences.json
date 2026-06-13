@@ -1,1005 +1,1176 @@
 {
   "experiences": [
     {
-      "summary": "Successfully identified a text-based interactive environment from server output.",
-      "lesson": "By receiving and decoding the initial server data, it was found that readable text with coherent language and MUD-specific prompts (e.g., '您的英文名字：') indicates a text-based environment; no binary or garbled content was present, confirming text-based interaction.",
+      "summary": "从服务器初始输出判断环境类型",
+      "lesson": "当服务器输出包含中文、英文游戏名称、在线人数统计以及'您的英文名字：'等提示时，可确定该环境是文本交互的MUD。无需进一步交互即可识别。",
       "tags": [
-        "text-detection",
-        "MUD-environment",
-        "decoding"
+        "环境识别",
+        "文本MUD"
       ],
-      "id": "EXP-1771110645-0",
+      "id": "EXP-1780132118-0",
       "task_id": "P1-T1",
       "phase": 1,
-      "created_at": "2026-02-15T07:10:45.966928"
+      "created_at": "2026-05-30T17:08:38.456083"
     },
     {
-      "summary": "Successfully identified MUD environment using initial text clues without further interaction",
-      "lesson": "In text-based environments, initial server output such as welcome messages, game names, descriptions, and prompts often contains sufficient information to determine the environment type efficiently, avoiding unnecessary commands and saving time.",
+      "summary": "发送空命令无法触发服务器响应",
+      "lesson": "在未知文本交互环境中，简单发送空命令或回车可能不会得到任何输出。需要尝试发送常见的触发命令，如'hello'、'login'、'start'等，或者根据环境类型发送对应的初始化命令（如MUD中的'create'、'look'）。",
       "tags": [
-        "environment analysis",
-        "efficiency",
-        "text-based games"
+        "环境识别",
+        "初始化",
+        "调试"
       ],
-      "id": "EXP-1771110714-1",
+      "id": "EXP-1780132151-1",
       "task_id": "P1-T2",
       "phase": 1,
-      "created_at": "2026-02-15T07:11:54.677765"
+      "created_at": "2026-05-30T17:09:11.099286"
     },
     {
-      "summary": "English name input triggers a multi-step character creation confirmation process.",
-      "lesson": "In this MUD, entering an English name for a new character requires user confirmation before proceeding to additional steps such as Chinese name input and password setting, indicating a structured registration sequence.",
+      "summary": "空服务器输出时发送名字触发登录提示",
+      "lesson": "当服务器初始输出为空时，应主动发送一个英文名字（如'test'）来触发登录流程。这能有效判断账号是否存在或是否需要密码。",
       "tags": [
-        "registration",
-        "server_interaction"
+        "登录测试",
+        "空响应处理"
       ],
-      "id": "EXP-1771110838-2",
+      "id": "EXP-1780132185-2",
       "task_id": "P2-T1",
       "phase": 2,
-      "created_at": "2026-02-15T07:13:58.885247"
+      "created_at": "2026-05-30T17:09:45.051024"
     },
     {
-      "summary": "Server sequentially prompts for multiple inputs after name acceptance.",
-      "lesson": "The character creation process follows a predictable sequence: confirmation after English name, Chinese name input, and password setting, which must be addressed in order to complete registration.",
+      "summary": "角色已存在时无需创建",
+      "lesson": "在MUD环境中，如果已有角色且成功登录，则创建角色的任务自动完成，无需执行任何创建步骤。在任务开始前应先检查当前角色状态，避免重复操作。",
       "tags": [
-        "character_creation",
-        "step_sequence"
+        "MUD",
+        "角色创建",
+        "自动完成"
       ],
-      "id": "EXP-1771110838-3",
+      "id": "EXP-1780132201-4",
+      "task_id": "P2-T2",
+      "phase": 2,
+      "created_at": "2026-05-30T17:10:01.276196"
+    },
+    {
+      "summary": "使用look命令可获取当前位置的完整描述，包括出口和NPC/物品列表。",
+      "lesson": "look命令是MUD中最基本的环境探查命令，能显示房间描述、出口方向、可见NPC和物品。这为后续导航和交互提供基础信息。",
+      "tags": [
+        "环境探查",
+        "命令使用"
+      ],
+      "id": "EXP-1780132238-5",
+      "task_id": "P2-T3",
+      "phase": 2,
+      "created_at": "2026-05-30T17:10:38.007078"
+    },
+    {
+      "summary": "使用score命令可获取角色详细状态信息。",
+      "lesson": "score命令显示角色的等级、种族、年龄、精/气/神数值、攻击防御、经验、潜能等关键状态，是了解角色属性的标准方式。",
+      "tags": [
+        "状态查看",
+        "命令使用"
+      ],
+      "id": "EXP-1780132238-6",
+      "task_id": "P2-T3",
+      "phase": 2,
+      "created_at": "2026-05-30T17:10:38.007078"
+    },
+    {
+      "summary": "help cmds可列出游戏所有可用命令的分类列表。",
+      "lesson": "help命令提供帮助系统，help cmds列出所有常用指令，包括探险、战斗、沟通等分类，是新手熟悉游戏命令的重要入口。",
+      "tags": [
+        "帮助系统",
+        "命令列表"
+      ],
+      "id": "EXP-1780132238-7",
+      "task_id": "P2-T3",
+      "phase": 2,
+      "created_at": "2026-05-30T17:10:38.007078"
+    },
+    {
+      "summary": "id here可查看当前位置物品的准确英文名称。",
+      "lesson": "id here命令用于获取当前房间中所有物品的英文ID，便于后续精确操作（如get、give等），单独id命令则显示身上物品名称。",
+      "tags": [
+        "物品识别",
+        "命令使用"
+      ],
+      "id": "EXP-1780132238-8",
+      "task_id": "P2-T3",
+      "phase": 2,
+      "created_at": "2026-05-30T17:10:38.007078"
+    },
+    {
+      "summary": "处理MUD分页输出需要正确输入回车或q",
+      "lesson": "在文本MUD中，当命令输出较长时，服务器会以分页形式显示。此时需要发送空行（回车）翻页继续查看，或发送'q'退出分页返回到命令输入状态。如果忽略分页直接发送新命令，可能会导致命令被丢弃或仍处于分页模式，影响后续操作。",
+      "tags": [
+        "分页",
+        "输出处理",
+        "MUD"
+      ],
+      "id": "EXP-1780132321-9",
+      "task_id": "P3-T1",
+      "phase": 3,
+      "created_at": "2026-05-30T17:12:01.600336"
+    },
+    {
+      "summary": "多次重复相同命令但未退出分页是无效的",
+      "lesson": "代理多次重复'look sign'、'look traveller'等命令，但每次响应仍是分页提示，表明代理未能正确退出分页模式。在分页未处理完毕前，新命令不会被执行。必须先处理完分页（翻到底或退出）才能执行后续命令。",
+      "tags": [
+        "分页",
+        "命令执行",
+        "错误处理"
+      ],
+      "id": "EXP-1780132321-10",
+      "task_id": "P3-T1",
+      "phase": 3,
+      "created_at": "2026-05-30T17:12:01.600336"
+    },
+    {
+      "summary": "移动后立即使用look命令避免信息遗漏",
+      "lesson": "在执行go east或go up后，立即执行look命令可以获取完整的房间描述、出口和NPC列表，避免返回后再查找。同时应注意避免重复发送相同的命令，浪费尝试次数。",
+      "tags": [
+        "探索",
+        "命令效率",
+        "信息获取"
+      ],
+      "id": "EXP-1780132366-11",
+      "task_id": "P3-T2",
+      "phase": 3,
+      "created_at": "2026-05-30T17:12:46.649453"
+    },
+    {
+      "summary": "注意任务完成后适时终止操作",
+      "lesson": "在完成所有子目标（如探索两个方向并记录）后，无需继续执行冗余命令，应及时结束任务，减少不必要的交互。",
+      "tags": [
+        "任务管理",
+        "效率"
+      ],
+      "id": "EXP-1780132366-12",
+      "task_id": "P3-T2",
+      "phase": 3,
+      "created_at": "2026-05-30T17:12:46.649453"
+    },
+    {
+      "summary": "交易可能受多重条件限制，仅设置昵称不足",
+      "lesson": "在MUD中与NPC交易不仅需要足够的金钱，还需要满足特定条件（如声望、昵称设置、友好度等）。即使成功设置了昵称，NPC仍可能拒绝交易，需要进一步探索或提升关系。",
+      "tags": [
+        "交易",
+        "NPC交互",
+        "条件限制"
+      ],
+      "id": "EXP-1780132509-13",
+      "task_id": "P3-T3",
+      "phase": 3,
+      "created_at": "2026-05-30T17:15:09.962885"
+    },
+    {
+      "summary": "地面金钱数量有限，需要更多获取途径",
+      "lesson": "初始房间的地面铜钱数量有限，捡取后无法再生。要完成购买昂贵物品（如15文的包子），需要寻找其他赚钱途径，如完成其他任务、出售物品或探索其他区域获取更多金钱。",
+      "tags": [
+        "经济",
+        "资源管理",
+        "赚钱"
+      ],
+      "id": "EXP-1780132509-14",
+      "task_id": "P3-T3",
+      "phase": 3,
+      "created_at": "2026-05-30T17:15:09.962885"
+    },
+    {
+      "summary": "MUD服务器欢迎信息包含在线状态和登录提示",
+      "lesson": "在MUD环境中，首次连接时服务器自动输出包含游戏名称、运行时间、在线玩家数量以及登录提示（如'您的英文名字：'）的欢迎信息。智能体无需额外输入即可根据这些纯文本信息判断环境类型和当前服务器状态。",
+      "tags": [
+        "MUD",
+        "环境识别",
+        "欢迎信息"
+      ],
+      "id": "EXP-1780133191-15",
+      "task_id": "P1-T1",
+      "phase": 1,
+      "created_at": "2026-05-30T17:26:31.690974"
+    },
+    {
+      "summary": "MUD登录时发送空行无法触发响应，应直接发送英文名字",
+      "lesson": "在MUD环境中，如果服务器输出为空，不要持续发送空行或回车，这通常得不到有效回应。应该尝试发送一个常见的MUD命令如英文名字（如'testplayer'）来触发登录流程。服务器会询问是否创建新角色，从而确认环境类型。",
+      "tags": [
+        "MUD",
+        "登录",
+        "空响应处理"
+      ],
+      "id": "EXP-1780133226-16",
+      "task_id": "P1-T2",
+      "phase": 1,
+      "created_at": "2026-05-30T17:27:06.710156"
+    },
+    {
+      "summary": "角色创建流程中的中文名字提示是判别MUD环境的关键特征",
+      "lesson": "当输入英文名并确认创建后，服务器要求输入中文名字并附有游戏背景说明，这是文字MUD游戏（尤其东方背景MUD）的典型特征，可明确判断环境类型。",
+      "tags": [
+        "MUD",
+        "环境识别",
+        "角色创建"
+      ],
+      "id": "EXP-1780133226-17",
+      "task_id": "P1-T2",
+      "phase": 1,
+      "created_at": "2026-05-30T17:27:06.710156"
+    },
+    {
+      "summary": "仅凭服务器初始输出即可准确判断文本MUD环境",
+      "lesson": "在任务P1-T1中，无需发送任何命令，仅通过接收服务器初始输出的纯文本内容（包含ASCII艺术、中文、游戏名称、在线玩家数和提示输入名字）即可确定环境为基于文本的MUD。这表明对于环境类型判断任务，初始输出本身已包含足够信息，无需进一步交互。",
+      "tags": [
+        "环境识别",
+        "初始输出",
+        "MUD"
+      ],
+      "id": "EXP-1780133542-18",
+      "task_id": "P1-T1",
+      "phase": 1,
+      "created_at": "2026-05-30T17:32:22.815687"
+    },
+    {
+      "summary": "MUD登录状态下游戏内命令被忽略",
+      "lesson": "在MUD登录流程中（如输入密码阶段），发送'look'等游戏内命令不会产生房间描述，而是被系统忽略或提示需要先完成登录。应始终遵循提示进行身份验证或角色创建。",
+      "tags": [
+        "MUD",
+        "登录流程",
+        "命令优先级"
+      ],
+      "id": "EXP-1780133596-19",
+      "task_id": "P1-T2",
+      "phase": 1,
+      "created_at": "2026-05-30T17:33:16.815092"
+    },
+    {
+      "summary": "服务器输出为空时发送空行可触发响应",
+      "lesson": "当服务器输出为空且连接建立不久时，发送一个空行（回车）往往能触发服务器发送欢迎信息或提示符，是初始化会话的有效手段。",
+      "tags": [
+        "连接处理",
+        "触发响应"
+      ],
+      "id": "EXP-1780133596-20",
+      "task_id": "P1-T2",
+      "phase": 1,
+      "created_at": "2026-05-30T17:33:16.815092"
+    },
+    {
+      "summary": "MUD角色创建流程包括英文名确认、中文名输入等步骤",
+      "lesson": "典型MUD（如新东方故事Ⅱ）的新角色创建会先要求输入英文名，确认是否创建，然后要求输入中文名。通过观察这些步骤可以快速确认环境类型。",
+      "tags": [
+        "MUD",
+        "角色创建",
+        "环境识别"
+      ],
+      "id": "EXP-1780133596-21",
+      "task_id": "P1-T2",
+      "phase": 1,
+      "created_at": "2026-05-30T17:33:16.815092"
+    },
+    {
+      "summary": "MUD英文名必须符合纯字母且长度3-12的规则",
+      "lesson": "输入英文名时，如果包含数字或超出长度范围，服务器会拒绝并提示具体规则。应使用纯字母、长度在3到12之间的名字（如'newtest'），以避免重试。",
+      "tags": [
+        "命名规则",
+        "输入验证",
+        "角色创建"
+      ],
+      "id": "EXP-1780133694-22",
       "task_id": "P2-T1",
       "phase": 2,
-      "created_at": "2026-02-15T07:13:58.885247"
+      "created_at": "2026-05-30T17:34:54.383077"
     },
     {
-      "summary": "Character creation follows a linear sequence of server prompts after name acceptance.",
-      "lesson": "After the server accepts a name, it sequentially requests password confirmation, email address, and gender selection, with each correct input leading directly to the next step and ultimately game entry, demonstrating a predictable and structured registration flow.",
+      "summary": "登录时自动获取的房间描述可能满足任务信息需求，但任务明确要求执行look命令时仍需主动执行",
+      "lesson": "在执行指定命令的任务中，即使通过其他方式（如登录输出）获得了所需信息，也应严格按照指令主动执行命令，以确保符合任务要求并获取最新的、可能更完整的房间状态。本次任务中未执行look命令，虽然信息已获取，但存在未满足指令的风险。",
       "tags": [
-        "character_creation",
-        "server_prompts",
-        "progression_flow"
+        "任务执行",
+        "命令执行",
+        "登录信息"
       ],
-      "id": "EXP-1771110927-4",
+      "id": "EXP-1780133717-25",
       "task_id": "P2-T2",
       "phase": 2,
-      "created_at": "2026-02-15T07:15:27.400656"
+      "created_at": "2026-05-30T17:35:17.919063"
     },
     {
-      "summary": "Standard registration inputs are processed smoothly without errors when properly formatted.",
-      "lesson": "Using common formats for inputs like passwords and email addresses results in immediate acceptance and progression, indicating that the server has basic validation but does not require complex handling in this scenario.",
+      "summary": "从登录输出中可以提取房间的完整描述、出口、物品和NPC信息",
+      "lesson": "在MUD环境中，成功登录后服务器通常会发送当前房间的完整描述，包括房间名、描述、出口、物品和NPC。智能体可以依赖此信息完成任务，但需注意输出可能因分页而不完整，应结合后续命令。",
       "tags": [
-        "input_validation",
-        "error_avoidance",
-        "registration_efficiency"
+        "信息提取",
+        "登录",
+        "房间描述"
       ],
-      "id": "EXP-1771110927-5",
+      "id": "EXP-1780133717-26",
       "task_id": "P2-T2",
       "phase": 2,
-      "created_at": "2026-02-15T07:15:27.400656"
+      "created_at": "2026-05-30T17:35:17.919063"
     },
     {
-      "summary": "Help outputs in this MUD are paginated and require navigation.",
-      "lesson": "When using 'help' commands or other long outputs, the server presents paginated content with prompts like '== 未完继续 XX% ==', and users must send ENTER to continue, 'q' to leave, or 'b' to go back to previous pages, which is essential for reading complete information.",
+      "summary": "移动命令后自动显示房间描述",
+      "lesson": "在文本MUD中，执行方向移动命令（如east、south）成功后，服务器会自动输出新房间的完整描述，包括房间名称、描述文本、出口方向和可见NPC/物品，无需额外使用look命令。这可以简化探索流程，直接记录即可。",
       "tags": [
-        "pagination",
-        "help_system",
-        "output_format"
+        "移动",
+        "房间描述",
+        "自动输出"
       ],
-      "id": "EXP-1771111788-6",
+      "id": "EXP-1780133747-27",
       "task_id": "P2-T3",
       "phase": 2,
-      "created_at": "2026-02-15T07:29:48.264836"
+      "created_at": "2026-05-30T17:35:47.749336"
     },
     {
-      "summary": "Discovered the core health system based on '精', '气', '神' attributes.",
-      "lesson": "The game uses '精' (energy), '气' (vitality), and '神' (spirit) as fundamental health metrics, each with current, state, and maximum values that affect recovery, combat, and skills, learned through 'help health' command.",
+      "summary": "MUD角色创建时，英文名需符合格式（避免数字和过长，可能要求字母开头且长度适中），且不能与已有角色重名。",
+      "lesson": "在MUD环境中创建角色时，服务器会验证名称格式（如纯字母、长度限制）和唯一性。遇到格式错误，应使用仅包含字母的短名称；遇到名字已存在，应更换为不常见或随机的名字。记录失败模式有助于后续快速调整。",
       "tags": [
-        "game_mechanics",
-        "health",
-        "attributes"
+        "MUD",
+        "角色创建",
+        "错误处理",
+        "格式验证"
       ],
-      "id": "EXP-1771111788-7",
-      "task_id": "P2-T3",
+      "id": "EXP-1780133774-28",
+      "task_id": "P2-T4",
       "phase": 2,
-      "created_at": "2026-02-15T07:29:48.264836"
+      "created_at": "2026-05-30T17:36:14.976452"
     },
     {
-      "summary": "Commands like 'help' have hierarchical topics for detailed exploration.",
-      "lesson": "The 'help' command provides a list of sub-topics (e.g., 'cmds', 'setup', 'health', 'story'), and inputting 'help <topic>' yields specific information, allowing systematic learning of game functions and lore.",
+      "summary": "使用help命令查看游戏帮助时，输入help cmds即可获得完整的指令类别列表。",
+      "lesson": "在MUD中，输入help可以获取帮助主题，然后输入help cmds可以查看所有常用指令的分类，包括探险、战斗、沟通、武功、门派等。这些信息对了解游戏操作非常有帮助。",
       "tags": [
-        "command_hierarchy",
-        "exploration",
-        "help_topics"
+        "帮助系统",
+        "指令类别"
       ],
-      "id": "EXP-1771111788-8",
-      "task_id": "P2-T3",
-      "phase": 2,
-      "created_at": "2026-02-15T07:29:48.264836"
-    },
-    {
-      "summary": "Using 'look' before and after moving ensures accurate location tracking and exploration.",
-      "lesson": "The agent learned that to safely and effectively move to a new location, it should first execute 'look' to confirm the current location's exits, then use 'go [direction]' to move, and upon arrival, immediately use 'look' again to observe the new environment, exits, NPCs, and optional commands like 'id here' for entity names, enhancing map expansion.",
-      "tags": [
-        "exploration",
-        "command-sequence"
-      ],
-      "id": "EXP-1771112045-9",
+      "id": "EXP-1780133811-29",
       "task_id": "P3-T1",
       "phase": 3,
-      "created_at": "2026-02-15T07:34:05.160888"
+      "created_at": "2026-05-30T17:36:51.071962"
     },
     {
-      "summary": "Successful navigation with 'go' commands expands map knowledge by revealing new locations with multiple exits and NPCs.",
-      "lesson": "Moving from one location to another (e.g., 'go east' from 饮风客栈 to 广场) can unveil areas with various exits (e.g., south, north, east, west) and common NPCs like Travelers, demonstrating the dynamic nature of the environment without observed events in this instance.",
+      "summary": "MUD的输出可能包含分页提示，需要正确处理才能继续操作。",
+      "lesson": "当服务器输出显示“未完继续 95%”时，需要按回车键继续翻页，或者输入q退出分页模式。如果不处理分页，后续命令可能会被忽略或产生意外结果。例如，在分页状态下输入look命令，实际可能仍在处理帮助文档。",
       "tags": [
-        "navigation",
-        "mud-commands"
+        "分页处理",
+        "操作流程"
       ],
-      "id": "EXP-1771112045-10",
+      "id": "EXP-1780133811-30",
       "task_id": "P3-T1",
       "phase": 3,
-      "created_at": "2026-02-15T07:34:05.160888"
+      "created_at": "2026-05-30T17:36:51.071962"
     },
     {
-      "summary": "The 'say' command only displays player speech without triggering direct NPC responses.",
-      "lesson": "In this MUD environment, using 'say' with NPCs does not elicit immediate replies, indicating that NPC interaction may rely on other commands or specific conditions for meaningful dialogue.",
+      "summary": "score命令输出可能分页，需按回车继续",
+      "lesson": "在使用score命令时，如果输出过长，服务器会显示分页提示，需要发送空行（按回车）来查看剩余内容，否则无法看到完整信息。",
       "tags": [
-        "command_usage",
-        "NPC_interaction"
+        "分页处理",
+        "score命令"
       ],
-      "id": "EXP-1771112555-11",
+      "id": "EXP-1780133852-31",
       "task_id": "P3-T2",
       "phase": 3,
-      "created_at": "2026-02-15T07:42:35.334859"
+      "created_at": "2026-05-30T17:37:32.641191"
     },
     {
-      "summary": "NPC responses to 'ask' commands are limited to specific keywords or topics.",
-      "lesson": "NPCs have predefined dialogue triggers; topics outside this set result in standard negative responses like refusal or lack of knowledge, suggesting a scripted dialogue system.",
+      "summary": "hp命令可查看气血内力及食物饮水状态",
+      "lesson": "使用hp命令可以快速查看角色的精、气、神、内力、法力以及食物和饮水的当前值和上限，比score更简洁地聚焦于战斗和生存状态。",
       "tags": [
-        "dialogue_mechanics",
-        "keyword_dependence"
+        "hp命令",
+        "状态查看"
       ],
-      "id": "EXP-1771112555-12",
+      "id": "EXP-1780133852-32",
       "task_id": "P3-T2",
       "phase": 3,
-      "created_at": "2026-02-15T07:42:35.334859"
+      "created_at": "2026-05-30T17:37:32.641191"
     },
     {
-      "summary": "NPCs can initiate autonomous behaviors without player commands.",
-      "lesson": "NPCs, such as the waiter, may perform actions like welcoming players spontaneously, indicating dynamic events or environmental triggers that can provide context without direct interaction.",
+      "summary": "inventory命令显示负重百分比和装备标记",
+      "lesson": "使用inventory命令查看背包时，会显示总负重百分比，且已装备的物品前会标记“□”，方便区分装备和普通物品。",
       "tags": [
-        "NPC_behavior",
-        "event_triggers"
+        "inventory命令",
+        "背包管理"
       ],
-      "id": "EXP-1771112555-13",
+      "id": "EXP-1780133852-33",
       "task_id": "P3-T2",
       "phase": 3,
-      "created_at": "2026-02-15T07:42:35.334859"
+      "created_at": "2026-05-30T17:37:32.641191"
     },
     {
-      "summary": "Systematic testing of multiple dialogue topics helps identify NPC response patterns.",
-      "lesson": "By trying various topics with 'ask' commands based on environment descriptions, players can map out NPC knowledge limits and potential triggers, even if no immediate success is achieved.",
+      "summary": "与NPC交互时ask和give命令可能因机制限制失败",
+      "lesson": "在MUD中，即使NPC显示英文名，ask命令也可能因大小写、NPC ID识别问题或不支持该命令而失败。give命令可能仅限于玩家之间。需要尝试多种交互方式或接受任务无法完全完成。",
       "tags": [
-        "exploration",
-        "testing_methodology"
+        "NPC交互",
+        "命令限制",
+        "失败处理"
       ],
-      "id": "EXP-1771112555-14",
-      "task_id": "P3-T2",
-      "phase": 3,
-      "created_at": "2026-02-15T07:42:35.334859"
-    },
-    {
-      "summary": "Engaging in combat with low character stats can lead to immediate death and reset of attributes.",
-      "lesson": "Using the 'kill' command initiates combat, but if the character's health (精、气、神) is low, it results in death, which resets health to minimal levels (1/100), clears all inventory items, and moves the character to a respawn location like the temple. This highlights the risk of combat without adequate preparation.",
-      "tags": [
-        "combat",
-        "death",
-        "risk assessment"
-      ],
-      "id": "EXP-1771113271-15",
+      "id": "EXP-1780133932-34",
       "task_id": "P3-T3",
       "phase": 3,
-      "created_at": "2026-02-15T07:54:31.229292"
+      "created_at": "2026-05-30T17:38:52.240871"
     },
     {
-      "summary": "Items equipped with 'wear' command are lost upon character death, indicating no persistence.",
-      "lesson": "The 'wear [item]' command successfully equips items, as confirmed by system responses, but death removes all items from inventory, showing that equipped items do not survive death. This emphasizes the consequences of dying in the environment.",
+      "summary": "look命令不能直接查看所有对象",
+      "lesson": "look sign返回'你要看什麼？'，说明有些对象不能直接通过look查看，可能需要先确认对象是否可查看或使用其他指令。",
       "tags": [
-        "item usage",
-        "death consequences"
+        "look命令",
+        "对象识别",
+        "错误处理"
       ],
-      "id": "EXP-1771113271-16",
+      "id": "EXP-1780133932-35",
       "task_id": "P3-T3",
       "phase": 3,
-      "created_at": "2026-02-15T07:54:31.229292"
+      "created_at": "2026-05-30T17:38:52.240871"
     },
     {
-      "summary": "The 'use' command failed for the paper seal, indicating potential item usability limitations.",
-      "lesson": "When attempting to use an item with commands like 'use [item name]' and receiving a response of '什么？' or similar, it suggests the item may not support direct usage in this environment, or the command syntax might be incorrect. This highlights the need to explore alternative commands or verify item descriptions for usage instructions.",
+      "summary": "list命令可查看商人商品列表",
+      "lesson": "在客栈使用list命令成功显示出商品列表，包括名称和价格，这是与商人交互的标准方式。",
       "tags": [
-        "command_failure",
-        "item_interaction"
+        "list命令",
+        "商品查看",
+        "交易"
       ],
-      "id": "EXP-1771113570-17",
+      "id": "EXP-1780133932-36",
+      "task_id": "P3-T3",
+      "phase": 3,
+      "created_at": "2026-05-30T17:38:52.240871"
+    },
+    {
+      "summary": "MUD中方向可以是复合方向（如southeast）",
+      "lesson": "在MUD中，出口除了基本方向（north, south, east, west）外，还可能包含复合方向（如southeast, northwest等）。在探索时需要留意这些非基本方向，并尝试使用它们移动，因为它们可能通往不同的新区域。例如，从黄土路向southeast移动到达了卧龙岗北坡。",
+      "tags": [
+        "导航",
+        "方向",
+        "复合方向"
+      ],
+      "id": "EXP-1780133966-37",
+      "task_id": "P3-T4",
+      "phase": 3,
+      "created_at": "2026-05-30T17:39:26.394194"
+    },
+    {
+      "summary": "主动攻击的NPC会打断移动并进入战斗状态",
+      "lesson": "在MUD中，某些房间的NPC（如强盗）会主动攻击进入的玩家，导致自动进入战斗。此时虽然移动成功，但会触发战斗描述。后续操作（如look）仍然有效，但需注意安全。可以尝试逃跑或继续移动，战斗状态不阻止移动指令（只要未死亡）。",
+      "tags": [
+        "战斗",
+        "NPC",
+        "移动"
+      ],
+      "id": "EXP-1780134015-38",
       "task_id": "P4-T1",
       "phase": 4,
-      "created_at": "2026-02-15T07:59:30.941963"
+      "created_at": "2026-05-30T17:40:15.185907"
     },
     {
-      "summary": "Items can be reliably picked up and dropped using 'get' and 'drop' commands, with inventory verification.",
-      "lesson": "Standard item manipulation commands 'get [item name]' and 'drop [item name]' are effective for acquiring and discarding items. Using 'inventory' confirms item status, and responses like '你捡起一叠桃符纸' or '你丢下一叠桃符纸' indicate success, including descriptive details such as value ('不值钱').",
+      "summary": "战斗状态下仍可执行大部分命令",
+      "lesson": "即使处于战斗状态，仍然可以发送look、移动等指令。战斗描述不会阻塞后续动作，但可能会影响生存。本例中成功在战斗时发送look并获取房间信息，然后移动到了新房间。",
       "tags": [
-        "item_management",
-        "command_success"
+        "战斗",
+        "命令兼容"
       ],
-      "id": "EXP-1771113570-18",
+      "id": "EXP-1780134015-39",
       "task_id": "P4-T1",
       "phase": 4,
-      "created_at": "2026-02-15T07:59:30.941963"
+      "created_at": "2026-05-30T17:40:15.185907"
     },
     {
-      "summary": "Dropped items may persist or respawn in the environment, visible with the 'look' command.",
-      "lesson": "After discarding an item with 'drop', using 'look' might show the item still present in the location, suggesting that items can have static presence or respawn mechanisms, allowing for repeated interactions without permanent removal.",
+      "summary": "遇到未定义变量异常时，优先通过look和移动确保角色安全，而不是直接猜测异常原因",
+      "lesson": "在MUD环境中，当遇到代码层面的异常（如NameError）且无直接上下文时，无法直接修复。正确的做法是忽略异常，先确认角色当前位置和状态（使用look），然后移动到已知安全区域，确保无战斗和持续伤害。异常可能是其他例程的遗留问题，角色自身可通过探索恢复稳定。",
       "tags": [
-        "environment_persistence",
-        "item_behavior"
+        "异常处理",
+        "安全恢复",
+        "环境识别"
       ],
-      "id": "EXP-1771113570-19",
-      "task_id": "P4-T1",
-      "phase": 4,
-      "created_at": "2026-02-15T07:59:30.941963"
+      "id": "EXP-1781265409-40",
+      "task_id": "R-65355",
+      "phase": 1,
+      "created_at": "2026-06-12T19:56:49.302705"
     },
     {
-      "summary": "NPCs can actively prompt players for actions without prior interaction.",
-      "lesson": "In this MUD, NPCs like the temple keeper may initiate dialogue unprompted, providing hints or requests (e.g., asking for donations) that can trigger events or serve as quest clues. This indicates that players should pay attention to NPC speech for opportunities to advance interactions.",
+      "summary": "游戏中的出口描述可能不准确，需要实际移动测试验证。",
+      "lesson": "在MUD中，room描述列出的出口可能并不都存在，移动命令返回'什么？'表明该方向无效。因此，不能完全依赖文字描述，要主动测试每个方向以确认其可用性。这避免了后续尝试无效方向浪费时间，并确保导航准确。",
       "tags": [
-        "NPC interaction",
-        "dialogue prompt",
-        "quest initiation"
+        "MUD",
+        "导航",
+        "出口验证"
       ],
-      "id": "EXP-1771114465-20",
-      "task_id": "P4-T2",
-      "phase": 4,
-      "created_at": "2026-02-15T08:14:25.693765"
+      "id": "EXP-1781265441-41",
+      "task_id": "R-65415",
+      "phase": 1,
+      "created_at": "2026-06-12T19:57:21.910673"
     },
     {
-      "summary": "Donation interactions fail without required items or correct command syntax.",
-      "lesson": "Attempting to donate using commands like 'donate to denotation box' or 'give coin to keeper' without possessing the necessary item (e.g., coins) or with incorrect command format leads to failure responses (e.g., '什么？>'). Environment descriptions (e.g., '你可以把想捐的钱放进去') hint at actions but do not specify exact commands, requiring trial and error or item acquisition.",
+      "summary": "在阴间探索时向北移动会导致循环，需要记录已访问房间并探索所有出口。",
+      "lesson": "在阴间鬼门大道，向北移动会进入循环（'四周景色居然都没有变'），因此必须记录已访问的房间，避免重复移动。应优先探索所有出口（包括east/west），并注意NPC（黑无常、白无常）的提示，例如黑无常说'阳寿未尽'可能暗示有复活途径。",
       "tags": [
-        "item dependency",
-        "command syntax",
-        "interaction failure"
+        "阴间",
+        "循环路径",
+        "死亡状态"
       ],
-      "id": "EXP-1771114465-21",
-      "task_id": "P4-T2",
-      "phase": 4,
-      "created_at": "2026-02-15T08:14:25.693765"
+      "id": "EXP-1781282673-42",
+      "task_id": "R-82598",
+      "phase": 1,
+      "created_at": "2026-06-13T00:44:33.323553"
     },
     {
-      "summary": "Escape commands like 'flee' and 'run' did not trigger escape during combat.",
-      "lesson": "In this MUD, testing 'flee', 'run', and 'escape' commands during combat with a Traveler resulted in continued combat interactions (e.g., '你注视著旅客的行动...') without any escape effect or location change. This suggests that the escape mechanism may not be implemented or that these commands are invalid for fleeing, indicating limited combat options.",
+      "summary": "死亡后未能正确触发复活流程，需要与关键NPC交互或使用特定命令。",
+      "lesson": "处于幽灵状态时，简单移动和look不足以返回阳间。必须与黑无常或白无常交互（如ask黑无常 about 还阳、ask白无常 about 复活），或尝试特定命令如'reborn'、'return'、'复活'。日志中黑无常说'阳寿未尽'后没有后续动作，说明需要主动触发。",
       "tags": [
-        "combat",
-        "escape",
-        "command_effectiveness"
+        "复活",
+        "NPC交互",
+        "幽灵状态"
       ],
-      "id": "EXP-1771115217-22",
-      "task_id": "P4-T3",
-      "phase": 4,
-      "created_at": "2026-02-15T08:26:57.212317"
+      "id": "EXP-1781282673-43",
+      "task_id": "R-82598",
+      "phase": 1,
+      "created_at": "2026-06-13T00:44:33.323553"
     },
     {
-      "summary": "Using 'quit' during combat led to session disconnection and login loops.",
-      "lesson": "Inputting 'quit' while in combat caused the session to terminate, leading to a login interface or character creation prompts, such as '您的英文名字：' and '使用 [name] 这个名字将会创造一个新的人物'. This disruption required recovery steps to resume gameplay, highlighting that 'quit' can unpredictably affect session state in combat scenarios.",
+      "summary": "死亡后复活位置可能随机或跳跃，需要先look确认当前位置",
+      "lesson": "在阴间尝试移动无效时，可能是因为系统已自动完成复活并将角色传送至阳间某个房间。此时应使用look命令查看实际环境，而不是继续在阴间移动。日志中角色从鬼门大道2尝试west两次均返回'什么？'，随后look发现身在阳间水烟阁，说明复活已经发生但未察觉。",
       "tags": [
-        "session_management",
-        "quit_command",
-        "interruption"
+        "复活",
+        "位置确认",
+        "look命令"
       ],
-      "id": "EXP-1771115217-23",
-      "task_id": "P4-T3",
-      "phase": 4,
-      "created_at": "2026-02-15T08:26:57.212317"
+      "id": "EXP-1781292028-44",
+      "task_id": "R-91985",
+      "phase": 1,
+      "created_at": "2026-06-13T03:20:28.133105"
     },
     {
-      "summary": "Help command outputs are frequently paginated, requiring active navigation to read fully.",
-      "lesson": "When using 'help' commands, always monitor for pagination prompts (e.g., '== 未完继续 % ==') and send ENTER (empty string) repeatedly to read all pages before proceeding; failing to do so can lead to incomplete information and task delays.",
+      "summary": "无效移动（返回'什么？'）提示实际出口与记忆不符，应优先look检查",
+      "lesson": "当移动命令返回'什么？'时，表示该方向在当前房间不可用。此时不应重复尝试，而应立即使用look命令确认房间出口。日志中两次west均无效，浪费了尝试次数。",
       "tags": [
-        "help_system",
-        "pagination"
+        "无效移动",
+        "出口检查",
+        "错误处理"
       ],
-      "id": "EXP-1771116288-24",
-      "task_id": "P4-T4",
-      "phase": 4,
-      "created_at": "2026-02-15T08:44:48.385193"
+      "id": "EXP-1781292028-45",
+      "task_id": "R-91985",
+      "phase": 1,
+      "created_at": "2026-06-13T03:20:28.133105"
     },
     {
-      "summary": "Not all game mechanics topics have dedicated help files, as some commands return no information.",
-      "lesson": "If 'help <topic>' returns a response like '没有针对这项主题的说明文件', note that the topic may not be supported directly; try alternative related topics or in-game commands to infer the mechanics instead of repeatedly querying the same topic.",
+      "summary": "梯子断档时角色无法自行修复，需外部调整",
+      "lesson": "当所有可用的陪练NPC都被拉黑且经验很低时，角色无法通过正常探索找到新的练级目标，只能报告状态等待外部干预。",
       "tags": [
-        "help_system",
-        "topic_research"
+        "梯子断档",
+        "拉黑",
+        "外部干预"
       ],
-      "id": "EXP-1771116288-25",
-      "task_id": "P4-T4",
-      "phase": 4,
-      "created_at": "2026-02-15T08:44:48.385193"
+      "id": "EXP-1781292677-46",
+      "task_id": "R-92597",
+      "phase": 1,
+      "created_at": "2026-06-13T03:31:17.345693"
     },
     {
-      "summary": "Excessive retries on the same command without progression can cause task timeout.",
-      "lesson": "To avoid getting stuck, set a maximum attempt limit per command during exploration (e.g., 3-5 tries) and move on to other topics if no progress is made, ensuring efficient task management and preventing loops.",
+      "summary": "梯子断档时角色无法自行修复，需外部或更高层次系统干预",
+      "lesson": "当所有已知练级NPC都被拉黑且经验极低时，角色无法通过自身行动（如探索新区域）找到新陪练，因为这需要足够的实力或知识。此时应尽早识别断档状态并返回安全位置上报，避免无意义探索浪费资源。",
       "tags": [
-        "task_efficiency",
-        "timeout_management"
+        "梯子断档",
+        "异常处理",
+        "自学限制"
       ],
-      "id": "EXP-1771116288-26",
-      "task_id": "P4-T4",
-      "phase": 4,
-      "created_at": "2026-02-15T08:44:48.385193"
+      "id": "EXP-1781296283-47",
+      "task_id": "R-96255",
+      "phase": 1,
+      "created_at": "2026-06-13T04:31:23.212834"
     },
     {
-      "summary": "The 'donate' command was not recognized in this environment.",
-      "lesson": "When encountering unfamiliar commands like 'donate', first check their validity using 'help [command]'; if no help file exists (e.g., '没有针对这项主题的说明文件'), the command may be invalid, require specific parameters, or need alternative actions such as using 'put' for donations.",
+      "summary": "战斗中flee命令可能失灵，改用方向移动命令有时能脱离战斗",
+      "lesson": "在MUD中，当与主动攻击NPC战斗时，flee命令可能会持续返回'什么？'或无效，此时尝试向非当前房间的出口方向移动（如east/west/south/north）可能成功脱离战斗并进入新房间，即使移动命令在战斗中会延迟执行。",
       "tags": [
-        "command validity",
-        "help system"
+        "战斗",
+        "逃跑",
+        "移动",
+        "flee失效"
       ],
-      "id": "EXP-1771117325-27",
-      "task_id": "P5-T1",
-      "phase": 5,
-      "created_at": "2026-02-15T09:02:05.121732"
+      "id": "EXP-1781297328-45",
+      "task_id": "R-97234",
+      "phase": 1,
+      "created_at": "2026-06-13T04:48:48.279912"
     },
     {
-      "summary": "Donating items to a container requires the item to be in the character's inventory.",
-      "lesson": "Before executing commands like 'put [item] in [container]', always verify that the item is possessed by checking inventory or picking it up from the environment to avoid errors such as '你身上没有这样东西'.",
+      "summary": "杀死一个敌对NPC后，同房间内相同类型NPC可能不再攻击",
+      "lesson": "在晚月庄大厅，角色杀死了一个主动攻击的婢女后，再次进入该房间时，剩余的另一个婢女并未主动攻击，说明NPC的敌对行为可能因同伙死亡而改变，或存在仇恨系统。该经验可用于判断后续行动的安全性，避免无谓的战斗。",
       "tags": [
-        "inventory check",
-        "donation mechanics"
+        "NPC行为",
+        "战斗脱离",
+        "环境观察"
       ],
-      "id": "EXP-1771117325-28",
-      "task_id": "P5-T1",
-      "phase": 5,
-      "created_at": "2026-02-15T09:02:05.121732"
+      "id": "EXP-1781298275-46",
+      "task_id": "R-98175",
+      "phase": 1,
+      "created_at": "2026-06-13T05:04:35.896862"
     },
     {
-      "summary": "NPCs did not provide quest information through direct 'ask' or 'say' commands.",
-      "lesson": "Quest activation may rely on specific environmental interactions (e.g., donating items) rather than simple dialogue; when NPCs respond negatively (e.g., '无可奉告'), explore alternative actions like examining objects or using different commands.",
+      "summary": "梯子断档时应立即上报而非盲目探索",
+      "lesson": "当所有已知练级NPC均被黑名单或速率过低时，继续探索新方向是徒劳的（如在本例中角色在晚月庄内部来回移动未发现新出口），应尽早识别梯子断档并上报，以节省尝试次数和避免陷入危险。",
       "tags": [
-        "NPC interaction",
-        "quest triggers"
+        "梯子断档",
+        "任务管理",
+        "效率优化"
       ],
-      "id": "EXP-1771117325-29",
-      "task_id": "P5-T1",
-      "phase": 5,
-      "created_at": "2026-02-15T09:02:05.121732"
+      "id": "EXP-1781298275-47",
+      "task_id": "R-98175",
+      "phase": 1,
+      "created_at": "2026-06-13T05:04:35.896862"
     },
     {
-      "summary": "Donating paper seals to the donation box did not activate the quest.",
-      "lesson": "Not all items can trigger quest activation; specific items like coins might be required, indicating that quest mechanics may involve item specificity or hidden conditions.",
+      "summary": "面对主动攻击NPC时，移动方向命令可以脱离战斗，但NPC可能跟随，需要多次移动直到无战斗描述。",
+      "lesson": "在MUD中，如果遭遇主动攻击的NPC（如蝴蝶），使用移动命令（如east）可以离开当前房间，但NPC可能会跟随到新房间。此时战斗描述会继续出现，需要继续移动直到输出中不再出现战斗信息，并用look确认房间内无敌人。移动方向选择应优先考虑已知安全区域（如城镇），避免进入死胡同。无效方向（如west返回'什么？'）说明该出口不存在，应尝试其他方向。",
       "tags": [
-        "quest_failure",
-        "item_specificity"
+        "战斗脱离",
+        "NPC跟随",
+        "移动策略"
       ],
-      "id": "EXP-1771118574-30",
-      "task_id": "P5-T1",
-      "phase": 5,
-      "created_at": "2026-02-15T09:22:54.698422"
+      "id": "EXP-1781298605-48",
+      "task_id": "R-98549",
+      "phase": 1,
+      "created_at": "2026-06-13T05:10:05.663383"
     },
     {
-      "summary": "NPC queries about coins were consistently refused or unhelpful.",
-      "lesson": "Some NPCs may not possess or share information on certain topics, necessitating exploration of alternative sources or methods to find required items.",
+      "summary": "使用look命令确认安全状态是脱离战斗后的必要步骤。",
+      "lesson": "在移动后，即使没有战斗描述，也应主动使用look命令查看房间描述和NPC列表，确保房间内无主动攻击NPC。本例中在隧道使用look后确认无蝴蝶，才继续移动。这避免了误判而进入危险。",
       "tags": [
-        "npc_limitation",
-        "information_block"
+        "状态确认",
+        "安全性检查"
       ],
-      "id": "EXP-1771118574-31",
-      "task_id": "P5-T1",
-      "phase": 5,
-      "created_at": "2026-02-15T09:22:54.698422"
+      "id": "EXP-1781298605-49",
+      "task_id": "R-98549",
+      "phase": 1,
+      "created_at": "2026-06-13T05:10:05.663383"
     },
     {
-      "summary": "Examining items with 'look' provided detailed descriptions and confirmed usability.",
-      "lesson": "The 'look' command, when used on specific objects, reveals additional details that can aid in understanding item purposes and potential interactions in the environment.",
+      "summary": "检测到登录界面时不应输入名称或密码",
+      "lesson": "在MUD任务执行过程中，如果服务器输出显示登录界面（如'您的英文名字：'），说明连接已断开并回到登录状态。此时不应输入任何字符，因为可能破坏已有的会话或导致重复登录。应直接设置task_stuck=true，交由系统例程处理登录。",
       "tags": [
-        "command_effectiveness",
-        "exploration_detail"
+        "登录界面",
+        "stuck",
+        "连接断开"
       ],
-      "id": "EXP-1771118574-32",
-      "task_id": "P5-T1",
-      "phase": 5,
-      "created_at": "2026-02-15T09:22:54.698422"
+      "id": "EXP-1781313118-50",
+      "task_id": "R-13105",
+      "phase": 1,
+      "created_at": "2026-06-13T09:11:58.377994"
     },
     {
-      "summary": "Skill learning may not be available in all explored areas, requiring specific NPCs or conditions.",
-      "lesson": "The agent explored multiple locations like city god temple, loess trail, mountain path, forest clearing, and downhill path, but found no skill learning opportunities, indicating that skill acquisition might depend on discovering particular characters or places, possibly with prerequisites like items or time that were not met.",
+      "summary": "登录超时检测与处理",
+      "lesson": "在MUD中，登录过程有轮数限制（30轮），超时会导致任务异常。当服务器输出显示登录提示（如'您的英文名字：'）时，表明连接已断开或者卡在登录界面，此时不应输入任何内容，应立即设置task_stuck=true，等待系统例程处理。同时，需要监控轮数，如果接近上限仍未完成，应主动触发stuck机制，避免浪费资源。",
       "tags": [
-        "skill acquisition",
-        "exploration limitations"
+        "登录",
+        "超时",
+        "异常处理",
+        "轮数限制"
       ],
-      "id": "EXP-1771119760-33",
-      "task_id": "P5-T2",
-      "phase": 5,
-      "created_at": "2026-02-15T09:42:40.745615"
-    },
-    {
-      "summary": "Hostile NPCs can automatically initiate combat, disrupting exploration and task progression.",
-      "lesson": "During the search for skill learning, encounters with bandits triggered immediate combat, which consumed attempts and interfered with the agent's ability to explore further, highlighting the need for strategies to avoid or quickly resolve such combat to stay focused on objectives.",
-      "tags": [
-        "NPC aggression",
-        "task interruption"
-      ],
-      "id": "EXP-1771119760-34",
-      "task_id": "P5-T2",
-      "phase": 5,
-      "created_at": "2026-02-15T09:42:40.745615"
-    },
-    {
-      "summary": "Repeated movement between the same exits can lead to navigation loops without discovering new areas.",
-      "lesson": "The agent got stuck moving back and forth between locations like the downhill path and forest path, without finding new exits, emphasizing the importance of systematically mapping exits and trying untested directions to avoid circular navigation and enhance exploration efficiency.",
-      "tags": [
-        "navigation",
-        "stuck prevention"
-      ],
-      "id": "EXP-1771119760-35",
-      "task_id": "P5-T2",
-      "phase": 5,
-      "created_at": "2026-02-15T09:42:40.745615"
+      "id": "EXP-1781314745-51",
+      "task_id": "R-14734",
+      "phase": 1,
+      "created_at": "2026-06-13T09:39:05.177678"
     }
   ],
   "skills": [
     {
-      "name": "Check for Text-Based Environment",
-      "description": "Analyzes initial server data to determine if a socket connection provides a text-based interface, such as a MUD.",
-      "trigger": "After establishing a connection to a server or upon receiving the first data packet when the environment type is unknown.",
+      "name": "识别文本MUD环境",
+      "description": "通过分析服务器初始输出，判断是否为基于文本的MUD交互环境。",
+      "trigger": "当建立新连接并收到服务器第一条输出时，用于决定后续操作策略。",
       "steps": [
-        "Wait for and receive the initial output from the server.",
-        "Attempt to decode the received data using standard text encodings (e.g., UTF-8).",
-        "Inspect the decoded content for readability, including natural language characters, punctuation, and interactive prompts.",
-        "If decoding is successful and the content is coherent with text elements, classify as text-based; otherwise, if decoding fails or binary data is found, classify as non-text."
+        "接收服务器初始输出数据",
+        "尝试将数据解码为文本（如UTF-8）",
+        "检查文本中是否包含MUD典型特征：游戏名称、在线人数、'英文名字'等提示",
+        "若符合，则认定环境为text_mud"
       ],
-      "expected_outcome": "A clear determination of whether the environment is text-based, aiding in subsequent interaction strategies.",
+      "expected_outcome": "成功识别环境类型，并输出'text_mud'。",
       "tags": [
-        "environment-validation",
-        "diagnostic"
+        "环境识别",
+        "文本MUD"
       ],
-      "id": "SKILL-1771110645-0",
+      "id": "SKILL-1780132118-0",
       "source_task": "P1-T1",
-      "created_at": "2026-02-15T07:10:45.966928"
+      "created_at": "2026-05-30T17:08:38.456083"
     },
     {
-      "name": "Classify Interactive Environment Type",
-      "description": "Analyzes text output to classify the specific type of interactive environment (e.g., MUD, Linux shell, chat system) based on clues like names, descriptions, and prompts.",
-      "trigger": "After confirming the environment is text-based or when prompted to analyze the environment subtype (e.g., as part of a task like P1-T2).",
+      "name": "发送初始触发命令获取欢迎信息",
+      "description": "当服务器连接后没有返回任何欢迎信息或提示符时，尝试发送常见的触发命令来唤醒服务器响应。",
+      "trigger": "连接建立后，服务器输出为空或没有明显的提示符。",
       "steps": [
-        "Review the server's initial or recent output for key textual elements.",
-        "Identify specific markers such as game titles, background stories, command prompts, or interaction cues.",
-        "Compare identified markers with known characteristics of environment types (e.g., MUDs feature role-playing elements and login prompts; shells have command line interfaces).",
-        "Conclude the most likely environment type based on the best match."
+        "发送空命令（回车）查看是否有默认响应",
+        "如果无响应，发送'hello'、'login'、'start'、'look'等常见命令",
+        "如果仍无响应，尝试发送乱码或特殊字符观察错误信息"
       ],
-      "expected_outcome": "A classification of the environment type, such as 'MUD game', 'Linux shell', or 'chat system'.",
+      "expected_outcome": "服务器返回一个明确的响应，可能包括欢迎信息、提示符或错误信息，从而可以继续识别环境类型。",
       "tags": [
-        "environment identification",
-        "classification",
-        "analysis"
+        "环境识别",
+        "初始化"
       ],
-      "id": "SKILL-1771110714-1",
+      "id": "SKILL-1780132151-1",
       "source_task": "P1-T2",
-      "created_at": "2026-02-15T07:11:54.677765"
+      "created_at": "2026-05-30T17:09:11.099286"
     },
     {
-      "name": "Respond to Name Prompt",
-      "description": "Input an English name in response to server prompts to initiate character registration or login.",
-      "trigger": "When server outputs a prompt requesting English name input, such as '您的英文名字：' or similar.",
+      "name": "记录初始游戏状态",
+      "description": "登录后获取角色初始位置、状态信息和可用命令列表，为后续任务做准备。",
+      "trigger": "刚成功登录进入游戏，尚未进行任何操作时。",
       "steps": [
-        "Identify the server prompt for English name input.",
-        "Send a generic English name (e.g., 'player' or 'test').",
-        "Observe server's response for further instructions or confirmation."
+        "发送命令 look，获取当前位置描述（房间名、出口、NPC和物品）。",
+        "发送命令 score，获取角色详细状态（等级、精/气/神、经验、潜能等）。",
+        "发送命令 help cmds，获取游戏可用命令的完整列表。",
+        "将上述信息记录到日志中。"
       ],
-      "expected_outcome": "Server acknowledges the name and responds with next steps, such as confirmation prompt or additional information requests.",
+      "expected_outcome": "成功记录初始位置（如饮风客栈）、角色状态（平民、14岁、0经验等）和所有可用命令分类列表。",
       "tags": [
-        "initialization",
-        "input_response"
+        "初始化",
+        "环境探索",
+        "状态查看"
       ],
-      "id": "SKILL-1771110838-2",
-      "source_task": "P2-T1",
-      "created_at": "2026-02-15T07:13:58.885247"
-    },
-    {
-      "name": "Handle Creation Confirmation",
-      "description": "Confirm or deny the creation of a new character based on server prompt after name input.",
-      "trigger": "When server asks for confirmation to create a new character with the input name, e.g., '使用 [name] 这个名字将会创造一个新的人物，您确定吗(y/n)？'.",
-      "steps": [
-        "Read the server prompt to determine if creation is being confirmed.",
-        "If proceeding with creation, send 'y'.",
-        "If not proceeding, send 'n' or follow task-specific alternatives.",
-        "Wait for server's next output to see the effect."
-      ],
-      "expected_outcome": "Server proceeds to next step (e.g., Chinese name input) if confirmed, or returns to name input if denied.",
-      "tags": [
-        "confirmation",
-        "decision"
-      ],
-      "id": "SKILL-1771110838-3",
-      "source_task": "P2-T1",
-      "created_at": "2026-02-15T07:13:58.885247"
-    },
-    {
-      "name": "Input Registration Information",
-      "description": "Provide additional required information during character creation, such as Chinese name or password, in response to specific server prompts.",
-      "trigger": "When server prompts for specific registration information like '您的中文名字：' or '请设定您的密码：'.",
-      "steps": [
-        "Identify the type of information requested from the server prompt.",
-        "Send appropriate input based on the prompt (e.g., a Chinese name like '李逍遥', a password like 'test123').",
-        "Observe server's response to confirm acceptance and next steps."
-      ],
-      "expected_outcome": "Server accepts the input and moves to the next stage of registration or completion.",
-      "tags": [
-        "data_input",
-        "registration_flow"
-      ],
-      "id": "SKILL-1771110838-4",
-      "source_task": "P2-T1",
-      "created_at": "2026-02-15T07:13:58.885247"
-    },
-    {
-      "name": "Explore Game Help Topics",
-      "description": "Systematically navigates the help system to gather detailed information about game rules, commands, and background by exploring available topics.",
-      "trigger": "When logged into the game and needing to understand game mechanics, functionality, or background lore, or during initial environment exploration.",
-      "steps": [
-        "Input 'help' to see a list of available help topics (e.g., from output like 'cmds, rules, setup, health, story, theme').",
-        "Identify and select a topic of interest from the list.",
-        "Input 'help <topic>' (e.g., 'help health' or 'help rules') to retrieve detailed information on that topic.",
-        "If the output is paginated, use pagination navigation (send ENTER to continue, 'q' to quit, or 'b' to go back) to read all content."
-      ],
-      "expected_outcome": "Collected comprehensive help information about specific game aspects, enhancing understanding of game functions and rules.",
-      "tags": [
-        "help",
-        "exploration",
-        "information_gathering"
-      ],
-      "id": "SKILL-1771111788-5",
+      "id": "SKILL-1780132238-3",
       "source_task": "P2-T3",
-      "created_at": "2026-02-15T07:29:48.264836"
+      "created_at": "2026-05-30T17:10:38.007078"
     },
     {
-      "name": "Navigate Paginated Command Outputs",
-      "description": "Handles paginated outputs from commands to ensure complete reading of information without missing content.",
-      "trigger": "When a command response includes pagination indicators such as '== 未完继续 XX% ==' with navigation options (ENTER, q, b).",
+      "name": "处理MUD分页输出",
+      "description": "在文本MUD环境中，当命令输出过长被分页显示时，通过发送回车或'q'来查看完整内容或退出分页，从而继续后续操作。",
+      "trigger": "服务器输出包含“== 未完继续”或类似分页提示时",
       "steps": [
-        "Observe the command output for pagination prompts (e.g., '== 未完继续 37% == (ENTER 继续下一页，q 离开，b 前一页)').",
-        "If more information is needed, send ENTER (an empty string) to continue to the next page of output.",
-        "Optionally, send 'q' to quit pagination and return to command input, or 'b' to go back to a previous page if supported and necessary.",
-        "Repeat until all desired content is read or pagination is exited."
+        "识别到分页提示：\"== 未完继续 x% == (ENTER 继续下一页，q 离开，b 前一页)\"",
+        "如果需要继续查看全部内容，发送空行（直接按回车）翻页，重复直到输出结束（不再显示分页提示）",
+        "如果不需要看完全部内容，发送命令 'q' 直接退出分页模式，回到命令输入状态"
       ],
-      "expected_outcome": "Access to full command output, allowing complete recording and understanding of the information provided.",
+      "expected_outcome": "获取完整的命令输出，或退出分页模式能够接收新命令",
       "tags": [
-        "pagination",
-        "output_handling",
-        "navigation"
+        "分页",
+        "MUD",
+        "输出处理"
       ],
-      "id": "SKILL-1771111788-6",
-      "source_task": "P2-T3",
-      "created_at": "2026-02-15T07:29:48.264836"
-    },
-    {
-      "name": "Assess Character State",
-      "description": "Checks various aspects of the character's current status, including attributes, health, skills, and inventory, using specific commands.",
-      "trigger": "When evaluating the character's condition after actions, before making decisions, or during routine status checks in the game.",
-      "steps": [
-        "Use 'score' to view overall character attributes and basic health values (e.g., '精', '气', '神').",
-        "Use 'hp' to check detailed health points and status.",
-        "Use 'skills' to list learned abilities or skills.",
-        "Use 'inventory' to view items carried by the character."
-      ],
-      "expected_outcome": "A comprehensive overview of the character's current state, including health, skills, and possessions, aiding in gameplay decisions.",
-      "tags": [
-        "character_status",
-        "commands",
-        "status_check"
-      ],
-      "id": "SKILL-1771111788-7",
-      "source_task": "P2-T3",
-      "created_at": "2026-02-15T07:29:48.264836"
-    },
-    {
-      "name": "Navigate and Explore New Location",
-      "description": "Moves the character to a specified direction and collects comprehensive information about the new location for map expansion.",
-      "trigger": "When the task requires moving to a new area to explore or expand map knowledge, such as after confirming current location exits.",
-      "steps": [
-        "Use 'look' command to identify available exits and NPCs in the current location.",
-        "Execute 'go [direction]' command to move to the desired exit.",
-        "Upon arrival, use 'look' command to observe the new location's description, exits, and NPCs.",
-        "Optionally, use 'id here' command to list English names of entities in the new location.",
-        "Record the gathered information, including any dynamic events or time changes."
-      ],
-      "expected_outcome": "Character is successfully relocated to a new area with all relevant environmental details captured, enabling further exploration or task completion.",
-      "tags": [
-        "navigation",
-        "exploration"
-      ],
-      "id": "SKILL-1771112045-8",
+      "id": "SKILL-1780132321-4",
       "source_task": "P3-T1",
-      "created_at": "2026-02-15T07:34:05.160888"
+      "created_at": "2026-05-30T17:12:01.600336"
     },
     {
-      "name": "Test NPC Knowledge with 'ask'",
-      "description": "Use the 'ask' command to inquire about various topics with an NPC to explore their dialogue system and gather information.",
-      "trigger": "When encountering an NPC and wanting to test communication or gather information.",
+      "name": "使用look命令详细检查房间",
+      "description": "在文本MUD中，通过执行基础的'look'命令获取房间概览，然后对房间内可见的物品和NPC逐一执行'look <目标>'，以获取详细描述，完成对房间的全面探查。",
+      "trigger": "任务要求详细查看当前房间的描述、物品和NPC时",
       "steps": [
-        "1. Confirm the NPC's presence and name in the current location using 'look' or 'id here'.",
-        "2. Execute 'ask <npc_name> about <topic>' where topics are derived from environment descriptions or common themes.",
-        "3. Observe and record the NPC's response, noting patterns like refusal, lack of understanding, or no impression."
+        "执行基本命令 'look' 获取房间概览（描述、物品列表、NPC列表、出口等）",
+        "从概览或已有知识中识别出需要详细查看的物品和NPC（如招牌、门、硬币、旅客、店小二等）",
+        "对每个目标依次执行 'look <目标>' 命令（例如 'look sign', 'look door', 'look coin', 'look traveller', 'look waiter', 'look gem'）",
+        "每次执行后，如果遇到分页输出，按照“处理MUD分页输出”技能进行翻页或退出",
+        "记录每个目标的详细描述，直到所有目标查看完毕"
       ],
-      "expected_outcome": "NPC responds with messages indicating their knowledge or limitations, helping assess dialogue options.",
+      "expected_outcome": "获得当前房间中所有可查看的物品和NPC的详细描述信息",
       "tags": [
-        "dialogue_testing"
+        "look",
+        "房间探索",
+        "MUD"
       ],
-      "id": "SKILL-1771112555-9",
+      "id": "SKILL-1780132321-5",
+      "source_task": "P3-T1",
+      "created_at": "2026-05-30T17:12:01.600336"
+    },
+    {
+      "name": "导航探索相邻房间并记录信息",
+      "description": "从当前位置出发，按指定方向移动并记录目标房间的出口和可见内容，然后返回起点。",
+      "trigger": "当需要了解某个相邻房间的布局或NPC情况时，或任务要求探索特定方向时。",
+      "steps": [
+        "记录当前房间名称作为起点",
+        "向目标方向移动（如go east, go up）",
+        "立即执行look获取详细房间信息",
+        "从输出中提取所有出口（'这里明显的出口是...'）和所有NPC/物品列表（非玩家实体）",
+        "如需返回，执行与原方向相反的命令（如go west, go down）",
+        "记录结果到知识库或任务报告"
+      ],
+      "expected_outcome": "成功获取目标房间的出口和可见内容，并能返回原房间继续任务。",
+      "tags": [
+        "导航",
+        "探索",
+        "房间记录"
+      ],
+      "id": "SKILL-1780132366-6",
       "source_task": "P3-T2",
-      "created_at": "2026-02-15T07:42:35.334859"
+      "created_at": "2026-05-30T17:12:46.649453"
     },
     {
-      "name": "Initiate Speech with 'say'",
-      "description": "Employ the 'say' command to speak to NPCs for role-playing purposes, though direct responses are not typically triggered.",
-      "trigger": "When attempting to role-play or start a conversation with an NPC.",
+      "name": "积累交易资金",
+      "description": "系统化的方法积累资金以购买所需物品，包括搜索地面金钱、探索相邻房间、以及可能的赚钱任务。",
+      "trigger": "当需要购买物品但资金不足时，且地面金钱已捡完。",
       "steps": [
-        "1. Verify the NPC is present in the current location.",
-        "2. Use 'say <npc_name> <message>' to address the NPC with a message.",
-        "3. Check the output for any indirect responses or changes in the environment."
+        "1. 使用 'look' 命令检查当前房间和出口。",
+        "2. 使用 'get all coin' 尝试捡取所有可见铜钱。",
+        "3. 使用 'hp' 或 'i' 命令确认当前资金数额。",
+        "4. 如果资金仍不足，使用 'go <方向>' 探索相邻房间，检查是否有更多铜钱或其他可拾取物品。",
+        "5. 如果发现其他玩家或NPC，尝试 'ask <某人> about <话题>' 获取赚钱提示或任务。"
       ],
-      "expected_outcome": "Character's speech is displayed, but no direct NPC reply is observed; useful for testing communication mechanics.",
+      "expected_outcome": "获得额外资金或找到赚钱途径，使资金达到购买目标物品所需的数量。",
       "tags": [
-        "role_playing"
+        "资金",
+        "探索",
+        "任务"
       ],
-      "id": "SKILL-1771112555-10",
-      "source_task": "P3-T2",
-      "created_at": "2026-02-15T07:42:35.334859"
-    },
-    {
-      "name": "Extract Dialogue Keywords from Environment",
-      "description": "Analyze location descriptions to identify potential topics for NPC dialogue, aiding in systematic testing.",
-      "trigger": "Before or during NPC interaction to find relevant keywords for 'ask' commands.",
-      "steps": [
-        "1. Use the 'look' command to view the detailed description of the current location.",
-        "2. Identify mentioned objects (e.g., sign, door), NPCs (e.g., traveller), or themes (e.g., inn, owner).",
-        "3. Compile these as topics to test with 'ask' commands."
-      ],
-      "expected_outcome": "A list of keywords that might trigger NPC responses, improving the efficiency of dialogue exploration.",
-      "tags": [
-        "environment_analysis"
-      ],
-      "id": "SKILL-1771112555-11",
-      "source_task": "P3-T2",
-      "created_at": "2026-02-15T07:42:35.334859"
-    },
-    {
-      "name": "Adapt to Negative NPC Responses",
-      "description": "Respond to and analyze NPC rejections or lack of knowledge to adjust interaction strategies.",
-      "trigger": "When an NPC provides a negative response (e.g., refusal, not understanding) to an 'ask' command.",
-      "steps": [
-        "1. Note the specific response type (e.g., '无可奉告', '没听说过').",
-        "2. Try alternative topics based on context or move on to other NPCs or commands.",
-        "3. Consider if other conditions (e.g., items, previous events) might be required for successful interaction."
-      ],
-      "expected_outcome": "Adjusted approach for further interactions, such as switching topics or exploring other avenues, based on observed response patterns.",
-      "tags": [
-        "response_handling"
-      ],
-      "id": "SKILL-1771112555-12",
-      "source_task": "P3-T2",
-      "created_at": "2026-02-15T07:42:35.334859"
-    },
-    {
-      "name": "Equip Item for Stat Enhancement",
-      "description": "Use the 'wear' command to equip an item from inventory and verify its effects on character attributes.",
-      "trigger": "When you have an item in your inventory (e.g., cloth) and want to potentially improve character stats like defense by wearing it.",
-      "steps": [
-        "Check current inventory with the 'inventory' command to confirm the item is available.",
-        "Use the 'wear [item name]' command (e.g., 'wear cloth') to equip the item.",
-        "Verify the equipped status or any stat changes by using the 'score' command or re-checking inventory with 'inventory'."
-      ],
-      "expected_outcome": "The item is equipped, and character stats (e.g., defense) may show improvements in the 'score' output.",
-      "tags": [
-        "item management",
-        "stat improvement"
-      ],
-      "id": "SKILL-1771113271-13",
+      "id": "SKILL-1780132509-7",
       "source_task": "P3-T3",
-      "created_at": "2026-02-15T07:54:31.229292"
+      "created_at": "2026-05-30T17:15:09.962885"
     },
     {
-      "name": "Test Combat with NPC",
-      "description": "Initiate combat with an NPC using the 'kill' command to observe combat mechanics and attribute impacts.",
-      "trigger": "When you want to test the combat system or engage in a fight with an available NPC (e.g., 'traveller') in the area.",
+      "name": "通过创建角色流程确认MUD环境",
+      "description": "利用MUD游戏创建新角色时的提示信息（如中文名字要求、背景说明）来确认当前环境为文字MUD游戏。",
+      "trigger": "当已收到可能的MUD欢迎信息（如'请输入英文名字'），但需要进一步确认环境类型时。",
       "steps": [
-        "Locate an NPC in the current area by using the 'look' command or observing environment descriptions.",
-        "Use the 'kill [NPC name]' command (e.g., 'kill traveller') to start combat.",
-        "Monitor system responses for combat actions, dialogue, and damage descriptions.",
-        "After combat, check character status with the 'score' command to observe changes in attributes like health or experience."
+        "发送一个临时英文名字（如'testplayer'）",
+        "观察服务器是否询问是否创建新人物（如'使用testplayer这个名字将会创造一个新的人物，您确定吗(y/n)？'）",
+        "如果询问，回答'y'确认创建",
+        "观察服务器是否要求输入中文名字，并附带游戏背景描述（如'本mud是一个以古中国与东方为背景的世界'）",
+        "一旦收到中文名字提示，即可确认环境为文字MUD游戏"
       ],
-      "expected_outcome": "Combat is triggered, allowing observation of battle sequences and their effects on character state, including potential death.",
+      "expected_outcome": "确认当前环境为文字MUD游戏，并且了解该MUD的名称（如'新东方故事Ⅱ'）和背景风格。",
       "tags": [
-        "combat",
-        "testing"
+        "MUD",
+        "环境识别"
       ],
-      "id": "SKILL-1771113271-14",
+      "id": "SKILL-1780133226-8",
+      "source_task": "P1-T2",
+      "created_at": "2026-05-30T17:27:06.710156"
+    },
+    {
+      "name": "通过MUD角色创建流程确认环境",
+      "description": "在疑似MUD的环境下，利用角色创建流程中的独特提示（英文名确认、中文名输入）来确认环境类型。",
+      "trigger": "当需要判断当前交互环境是否为文字MUD游戏，且尚未登录时。",
+      "steps": [
+        "发送空行或回车获取欢迎信息（如果有）。",
+        "输入一个不存在的英文名（如'testplayer'）。",
+        "等待服务器询问是否创建新角色（'您确定吗(y/n)？'）。",
+        "回答'y'确认创建。",
+        "观察服务器是否要求输入中文名字或密码，若出现则确认为MUD角色创建流程。"
+      ],
+      "expected_outcome": "服务器出现中文名字输入提示，确认环境为MUD游戏；或者服务器拒绝创建（如名称已存在），但同样可判断为MUD登录系统。",
+      "tags": [
+        "MUD",
+        "环境识别",
+        "角色创建"
+      ],
+      "id": "SKILL-1780133596-9",
+      "source_task": "P1-T2",
+      "created_at": "2026-05-30T17:33:16.815092"
+    },
+    {
+      "name": "处理MUD登录中断并重新开始",
+      "description": "当MUD登录流程中发生错误（如密码错误）或连接中断时，通过重新发送英文名来重置登录对话。",
+      "trigger": "在MUD登录过程中出现错误提示（如'密码错误'）或输出意外重置到欢迎信息时。",
+      "steps": [
+        "忽略当前错误提示，直接输入一个新的或之前的英文名。",
+        "等待服务器响应（可能重复欢迎信息或直接进入名称确认）。",
+        "如果服务器重复欢迎信息，则继续输入英文名进入正常流程。"
+      ],
+      "expected_outcome": "服务器重新进入英文名输入或确认创建阶段，登录流程可从头开始。",
+      "tags": [
+        "MUD",
+        "登录",
+        "错误恢复"
+      ],
+      "id": "SKILL-1780133596-10",
+      "source_task": "P1-T2",
+      "created_at": "2026-05-30T17:33:16.815092"
+    },
+    {
+      "name": "处理MUD角色创建错误",
+      "description": "根据服务器返回的创建错误提示，调整输入参数，确保成功创建角色并进入游戏。",
+      "trigger": "在MUD环境中执行角色创建命令（如create <name> <password>）后收到错误响应，例如Name format error或Name already exists。",
+      "steps": [
+        "1. 解析错误信息，判断是格式错误还是名字冲突。",
+        "2. 若为格式错误，选择符合规范的名称：纯字母、长度3-12字符（具体根据错误提示调整），避免数字和特殊符号。",
+        "3. 若为名字冲突，选择随机且不太可能重复的名称（如添加数字或特定前缀，但需注意格式要求），或使用不同组合直到成功。",
+        "4. 重新发送create命令，重复步骤1-3直到收到成功登录的提示。"
+      ],
+      "expected_outcome": "成功创建角色，收到登录成功或进入游戏的提示，并记录最终有效的创建参数。",
+      "tags": [
+        "MUD",
+        "角色创建",
+        "错误处理",
+        "重试策略"
+      ],
+      "id": "SKILL-1780133775-12",
+      "source_task": "P2-T4",
+      "created_at": "2026-05-30T17:36:14.976452"
+    },
+    {
+      "name": "查询游戏帮助并记录指令类别",
+      "description": "通过help命令获取游戏帮助信息，特别是help cmds列出所有常用指令的类别，并处理分页输出。",
+      "trigger": "当需要了解游戏可用的基本指令分类或新手引导时。",
+      "steps": [
+        "输入help命令查看帮助主题列表。",
+        "从主题列表中选择cmds（或newbie/start）并输入help cmds。",
+        "如果输出有分页提示，按回车键继续翻页直到显示完整内容，或按q退出。",
+        "记录显示的指令类别（如探险用指令、战斗用指令等）及其包含的指令。"
+      ],
+      "expected_outcome": "获得游戏指令的完整分类列表，便于后续操作。",
+      "tags": [
+        "帮助",
+        "指令",
+        "新手"
+      ],
+      "id": "SKILL-1780133811-13",
+      "source_task": "P3-T1",
+      "created_at": "2026-05-30T17:36:51.071962"
+    },
+    {
+      "name": "查看角色全面状态",
+      "description": "通过组合使用score、hp、inventory命令，获取角色的完整属性、生存状态和背包信息。",
+      "trigger": "当需要了解角色当前等级、属性、气血内力、食物饮水或背包物品时。",
+      "steps": [
+        "输入score命令查看基本属性（等级、经验、潜能、精气血神等）",
+        "若输出分页，按回车继续查看完整内容",
+        "输入hp命令查看气血、内力、食物和饮水状态",
+        "输入inventory或i命令查看背包物品列表及负重"
+      ],
+      "expected_outcome": "获得角色的综合状态信息，包括等级、经验、潜能、精气血神数值、内力、食物饮水、背包物品及负重，便于后续决策。",
+      "tags": [
+        "状态查看",
+        "角色信息",
+        "命令组合"
+      ],
+      "id": "SKILL-1780133852-14",
+      "source_task": "P3-T2",
+      "created_at": "2026-05-30T17:37:32.641191"
+    },
+    {
+      "name": "使用list命令查看NPC商品",
+      "description": "在拥有商人NPC的房间内，通过list命令查看其出售的商品及价格。",
+      "trigger": "当房间内有商人NPC且需要了解可购买物品时。",
+      "steps": [
+        "确保所在房间有商人NPC（如店小二）。",
+        "输入'list'并回车。",
+        "读取服务器返回的商品列表，包括名称和价格。"
+      ],
+      "expected_outcome": "显示该商人出售的所有商品及其价格。",
+      "tags": [
+        "交易",
+        "商品信息"
+      ],
+      "id": "SKILL-1780133932-15",
       "source_task": "P3-T3",
-      "created_at": "2026-02-15T07:54:31.229292"
+      "created_at": "2026-05-30T17:38:52.240871"
     },
     {
-      "name": "Navigate After Character Death",
-      "description": "After character death and respawn, navigate back to a target location to continue activities.",
-      "trigger": "Upon respawning after death, typically in a designated location like the temple, and needing to return to a familiar area such as the square.",
+      "name": "拾取地上钱币",
+      "description": "通过get coin命令拾取地面上的一文钱硬币。",
+      "trigger": "当房间内存在一文钱(Coin)且角色需要增加资金时。",
       "steps": [
-        "Upon respawning, assess the current location using the 'look' command to identify exits and surroundings.",
-        "Use movement commands (e.g., 'go west') based on exit directions to travel towards the target location (e.g., the square).",
-        "Confirm arrival at the target location and check post-death status with 'score' and 'inventory' commands to evaluate recovery state."
+        "使用look命令确认房间内有一文钱(Coin)。",
+        "输入'get coin'并回车。",
+        "确认服务器返回'你捡起一些钱。'表示成功。"
       ],
-      "expected_outcome": "Character is successfully moved from the respawn point to the desired area, ready for further exploration or tasks.",
+      "expected_outcome": "角色成功拾取一文钱，背包或持有资金增加。",
       "tags": [
-        "navigation",
-        "death recovery"
+        "资金获取",
+        "拾取物品"
       ],
-      "id": "SKILL-1771113271-15",
+      "id": "SKILL-1780133932-16",
       "source_task": "P3-T3",
-      "created_at": "2026-02-15T07:54:31.229292"
+      "created_at": "2026-05-30T17:38:52.240871"
     },
     {
-      "name": "Pick Up Item from Environment",
-      "description": "Acquires an item from the current location by using the 'get' command and verifies it is in inventory.",
-      "trigger": "When an item is visible in the environment description (e.g., from 'look' output) and needs to be obtained for testing or use.",
+      "name": "测试NPC可交互性",
+      "description": "通过尝试ask和give命令判断NPC是否支持常见的交互操作，从而确定任务可行性。",
+      "trigger": "当需要与NPC交互但不确定其是否支持标准命令时。",
       "steps": [
-        "Identify the item name from the environment output (e.g., 'Paper seal')",
-        "Send command 'get [item name]'",
-        "Send command 'inventory' to confirm the item is in character's possession"
+        "使用look查看NPC名称（如店小二(Waiter)）。",
+        "尝试ask命令，如'ask waiter about sign'或'ask waiter sign'。",
+        "如果返回'这里没有这个人'或类似错误，尝试替换名称大小写或中文。",
+        "尝试give命令，如'give coin to waiter'。",
+        "根据返回信息判断NPC是否可交互：若提示只能送给玩家，则不可；若成功则有回应。"
       ],
-      "expected_outcome": "Item is successfully added to inventory, with a confirmation message like '你捡起一叠桃符纸' and inventory listing the item.",
+      "expected_outcome": "确定NPC是否支持ask或give命令，从而调整后续任务执行策略。",
       "tags": [
-        "item_acquisition"
+        "NPC交互",
+        "故障排除"
       ],
-      "id": "SKILL-1771113570-16",
+      "id": "SKILL-1780133932-17",
+      "source_task": "P3-T3",
+      "created_at": "2026-05-30T17:38:52.240871"
+    },
+    {
+      "name": "在遭遇主动攻击NPC时安全探索新房间",
+      "description": "当移动到新房间并遭遇主动攻击的NPC时，如何继续完成探索任务而不影响记录信息。",
+      "trigger": "移动指令后服务器输出显示进入战斗状态（有NPC攻击你的描述）",
+      "steps": [
+        "确认房间描述已显示（通常战斗描述后跟随房间名和描述）",
+        "立即发送look命令获取完整的房间信息",
+        "记录房间出口、NPC和物品",
+        "如有其他方向需求，可继续发送移动指令离开战斗区域"
+      ],
+      "expected_outcome": "在战斗状态下成功记录房间信息并继续探索，避免因战斗干扰而遗漏数据。",
+      "tags": [
+        "战斗",
+        "探索",
+        "生存"
+      ],
+      "id": "SKILL-1780134015-18",
       "source_task": "P4-T1",
-      "created_at": "2026-02-15T07:59:30.941963"
+      "created_at": "2026-05-30T17:40:15.185907"
     },
     {
-      "name": "Drop Item from Inventory",
-      "description": "Removes an item from character's inventory using the 'drop' command and verifies removal.",
-      "trigger": "When an item needs to be discarded, such as after testing or to free up inventory space.",
+      "name": "从狭窄室内区域撤离到开阔安全区域",
+      "description": "当角色困在仅有单向出口的室内房间（如民宅）且不确定位置时，通过顺序移动和look确认，逐步到达室外多出口道路，从而恢复安全稳定状态。",
+      "trigger": "角色位于仅有1-2个出口的室内房间，且需要回到已知安全区域（如城镇主路）",
       "steps": [
-        "Send command 'drop [item name]' based on inventory listing",
-        "Send command 'inventory' to confirm the item is no longer present"
+        "1. 使用look确认当前房间描述、出口和NPC",
+        "2. 沿唯一出口方向移动（如east）",
+        "3. 到达新房间后立即使用look获取详情",
+        "4. 持续沿主要道路方向（如south、north）移动，直到到达有多个出口且描述中包含‘石板路’、‘街道’等城镇特征的房间",
+        "5. 再次use look确认无战斗、无异常提示符，记录位置"
       ],
-      "expected_outcome": "Item is removed from inventory, with a success message like '你丢下一叠桃符纸' and possibly additional details (e.g., value description).",
+      "expected_outcome": "角色从室内房间移动到室外主要道路，恢复安全可继续探索的状态，位置明确。",
       "tags": [
-        "item_discard"
+        "导航",
+        "安全撤离",
+        "探索"
       ],
-      "id": "SKILL-1771113570-17",
-      "source_task": "P4-T1",
-      "created_at": "2026-02-15T07:59:30.941963"
+      "id": "SKILL-1781265409-19",
+      "source_task": "R-65355",
+      "created_at": "2026-06-12T19:56:49.302705"
     },
     {
-      "name": "Test Item Usability",
-      "description": "Attempts to use an item to check for interactive functions, handling cases where direct usage is not supported.",
-      "trigger": "When an item is in inventory and its potential usage or effects are unknown and need to be explored.",
+      "name": "验证房间出口有效性",
+      "description": "对当前房间描述中列出的每个出口方向进行实际移动测试，确认其是否真正可用，并记录有效出口。",
+      "trigger": "当角色在一个新房间且需要了解真实出口时，或者当房间描述与可移动方向不一致时。",
       "steps": [
-        "Send command 'use [item name]' (e.g., 'use paper' or 'use paper seal')",
-        "Observe server response; if it returns '什么？' or similar, note the failure",
-        "Optionally try alternative command formats or check for contextual usage in the environment if initial attempt fails"
+        "使用look命令获取当前房间的详细描述，注意出口列表。",
+        "对于列表中每个方向，依次发送移动命令（例如north, east, south, west）。",
+        "如果服务器返回新房间的描述，则出口有效；如果返回'什么？'或类似信息，则出口无效。",
+        "记录有效出口，用于后续导航规划。",
+        "如果移动到了新房间，根据需要决定是否返回原房间（例如使用返回命令或再次移动）。"
       ],
-      "expected_outcome": "Determines if the item can be used directly; if not, identifies it as likely non-usable or requiring specific conditions, aiding in future interaction strategies.",
+      "expected_outcome": "获得当前房间的实际有效出口列表，避免依赖可能不准确的描述，提高导航可靠性。",
       "tags": [
-        "item_testing"
+        "MUD",
+        "导航",
+        "出口验证"
       ],
-      "id": "SKILL-1771113570-18",
-      "source_task": "P4-T1",
-      "created_at": "2026-02-15T07:59:30.941963"
+      "id": "SKILL-1781265441-20",
+      "source_task": "R-65415",
+      "created_at": "2026-06-12T19:57:21.910673"
     },
     {
-      "name": "Respond to NPC Initiated Prompt",
-      "description": "Engage with NPCs that initiate dialogue by assessing their requests and taking appropriate actions, such as donating or acquiring items.",
-      "trigger": "When an NPC speaks unprompted in the environment, providing a message that suggests an action or request (e.g., '捐点香火钱积点阴德吧').",
+      "name": "死亡后恢复流程",
+      "description": "当角色处于幽灵状态（ghost=true）时，通过系统探索阴间和与关键NPC交互，返回阳间安全位置。",
+      "trigger": "角色状态中ghost为true，且不在阳间安全区域。",
       "steps": [
-        "Listen to the NPC's dialogue message from server output.",
-        "Analyze the message for implied actions or required items (e.g., donations need coins).",
-        "Check inventory using the 'inventory' command to see if required items are available.",
-        "If items are present, attempt appropriate commands based on context (e.g., 'give coin to keeper' or alternative donation commands).",
-        "If items are missing, note the requirement and plan to explore other locations to acquire them."
+        "使用look确认当前房间和出口，记录房间名称。",
+        "如果房间有黑无常或白无常，输入'ask 黑无常 about 还阳'或'ask 白无常 about 复活'，观察回应。",
+        "如果成功触发复活，等待提示后输入角色英文名或确认。",
+        "如果未触发，探索所有出口（优先east/west），记录新房间并避免重复进入已知循环路径（如鬼门大道向北会循环）。",
+        "在探索过程中，每进入新房间使用look并记录出口，确保不陷入循环。",
+        "如果找到通往阳间的出口（如'望乡台'、'奈何桥'），则移动过去。",
+        "最终到达阳间安全区域（如雪亭镇客栈或云镇广场），使用look确认状态正常。"
       ],
-      "expected_outcome": "Successfully interact with the NPC, potentially triggering events, state changes, or receiving further clues, or identify missing requirements for future attempts.",
+      "expected_outcome": "角色从幽灵状态复活，回到阳间安全位置，状态恢复为正常（ghost=false，血量正常）。",
       "tags": [
-        "NPC interaction",
-        "dialogue response"
+        "死亡",
+        "复苏",
+        "阴间导航"
       ],
-      "id": "SKILL-1771114465-19",
-      "source_task": "P4-T2",
-      "created_at": "2026-02-15T08:14:25.693765"
+      "id": "SKILL-1781282673-21",
+      "source_task": "R-82598",
+      "created_at": "2026-06-13T00:44:33.323553"
     },
     {
-      "name": "Test Combat Escape Mechanism",
-      "description": "Systematically checks if escape is possible during combat by querying help and attempting escape commands.",
-      "trigger": "When tasked to verify if fleeing from combat is supported in the game environment.",
+      "name": "从阴间复活后探索返回阳间安全区域",
+      "description": "在角色死亡并经历复活流程后，通过look确认实际位置，并使用有效出口移动至熟悉的安全地点（如雪亭镇或云镇）。",
+      "trigger": "角色刚从死亡状态恢复（exp不为0且可能位于陌生阳间房间）且需要恢复安全状态时。",
       "steps": [
-        "Use 'help flee' and 'help run' commands to check for in-game documentation on escape.",
-        "Initiate combat with an NPC using a command like 'kill npc' (e.g., 'kill traveller').",
-        "During active combat, input escape-related commands such as 'flee', 'run', and 'escape'.",
-        "Observe server responses for any indication of successful escape, such as location changes or cessation of combat messages."
+        "1. 使用look命令获取当前房间的详细描述和出口。",
+        "2. 若房间描述包含阴间特征（如鬼门、酆都），重复look或尝试与NPC交互触发复活；若描述为阳间正常房间，则进入下一步。",
+        "3. 观察出口，选择朝向已知安全区域的方向（如south、east等）移动。",
+        "4. 每进入新房间使用look确认环境，避免进入危险区域或战斗。",
+        "5. 移动到熟悉地点（如城镇广场、安全屋）后，确认无战斗且生命值正常，任务完成。"
       ],
-      "expected_outcome": "Determination of whether escape mechanisms are implemented based on whether commands trigger escape or continue combat interactions.",
+      "expected_outcome": "角色从死亡后的混乱状态中恢复，明确自身位置，并移动到安全的已知区域，可继续执行其他任务。",
       "tags": [
-        "combat",
-        "testing",
-        "escape"
+        "复活",
+        "导航",
+        "安全恢复"
       ],
-      "id": "SKILL-1771115217-20",
-      "source_task": "P4-T3",
-      "created_at": "2026-02-15T08:26:57.212317"
+      "id": "SKILL-1781292028-22",
+      "source_task": "R-91985",
+      "created_at": "2026-06-13T03:20:28.133105"
     },
     {
-      "name": "Handle Game Session Interruption",
-      "description": "Recovers from unexpected disconnections or login loops caused by commands like 'quit' or session timeouts.",
-      "trigger": "When server output indicates a login interface, character creation prompts, or disconnection messages (e.g., '您的英文名字：', '密码错误！', '您花在连线进入手续的时间太久了').",
+      "name": "识别并上报梯子断档状态",
+      "description": "当角色exp很低且所有已知NPC都被拉黑时，判断为梯子断档，停止探索并上报等待外部处理。",
+      "trigger": "角色发现所有已知练级NPC的rate均为0或negative，且exp低于阈值（如<500）",
       "steps": [
-        "Identify the current state by scanning output for keywords like '英文名字', '密码', or creation confirmations.",
-        "If in login, input a valid username (3-12 letters) and respond to password prompts if required.",
-        "If in character creation confirmation (e.g., '使用 [name] 这个名字将会创造一个新的人物，您确定吗(y/n)？'), respond 'n' to cancel and exit the flow.",
-        "Use commands like 'look' to confirm return to the game world or verify state after handling the interruption."
+        "1. 检查角色状态中的ladder_blacklist和target_rates，统计有效NPC数量。",
+        "2. 若所有NPC被拉黑或rate<=0，且exp较低，则判断为梯子断档。",
+        "3. 移动到安全已知区域（如雪亭镇或云镇）。",
+        "4. 在日志中记录断档原因，并将task_completed设为false，task_result说明状态。",
+        "5. 等待外部指令或调整（如拉黑重置、新NPC引导）。"
       ],
-      "expected_outcome": "Successful re-entry into the game environment or proper exit from interruption states, allowing continuation of tasks.",
+      "expected_outcome": "角色安全停驻，异常被明确定义，便于外部系统针对性修复。",
       "tags": [
-        "session_recovery",
-        "login",
-        "interruption"
+        "梯子断档",
+        "异常处理",
+        "自学限制"
       ],
-      "id": "SKILL-1771115217-21",
-      "source_task": "P4-T3",
-      "created_at": "2026-02-15T08:26:57.212317"
+      "id": "SKILL-1781296283-23",
+      "source_task": "R-96255",
+      "created_at": "2026-06-13T04:31:23.212834"
     },
     {
-      "name": "Complete Help Pagination Reading",
-      "description": "Reads all pages of a help command output by efficiently handling pagination prompts to capture the full text.",
-      "trigger": "When a help command response includes a pagination indicator, such as '== 未完继续 % ==' or similar prompts for continuing.",
+      "name": "战斗中通过方向移动逃离主动攻击NPC",
+      "description": "在无法通过flee命令成功脱离战斗时，使用方向移动命令（如east、west、south、north）尝试离开当前战斗房间。",
+      "trigger": "角色在战斗中，连续使用flee命令多次返回'什么？'或无效，且角色状态持续恶化。",
       "steps": [
-        "Send an empty string (simulating ENTER press) to proceed to the next page.",
-        "Wait for the server's output to update.",
-        "If the output still shows a pagination prompt, repeat step 1.",
-        "Once the pagination is complete (e.g., no more prompts or full text is displayed), aggregate and record the entire output for analysis."
+        "1. 确认当前房间的出口方向（通过之前look或记忆）。",
+        "2. 选择一个出口方向（避免最近可能返回战斗区的方向）。",
+        "3. 发送方向移动命令（如'east'），忽略战斗描述，等待服务器输出新房间描述。",
+        "4. 若新房间描述中出现，则表明成功脱离战斗；否则可尝试其他方向。"
       ],
-      "expected_outcome": "The complete help text for the command is retrieved without interruption, ready for further analysis.",
+      "expected_outcome": "角色移动到一个新房间，不再出现攻击描述，成功脱离战斗。",
       "tags": [
-        "help_system",
-        "pagination"
+        "战斗",
+        "逃跑",
+        "移动",
+        "技能"
       ],
-      "id": "SKILL-1771116288-22",
-      "source_task": "P4-T4",
-      "created_at": "2026-02-15T08:44:48.385193"
+      "id": "SKILL-1781297328-22",
+      "source_task": "R-97234",
+      "created_at": "2026-06-13T04:48:48.279912"
     },
     {
-      "name": "Systematic Help Topic Exploration",
-      "description": "Executes a sequence of help commands on a predefined list of topics to gather comprehensive game system information efficiently.",
-      "trigger": "When tasked with exploring game mechanics, such as for tasks involving quests, role development, or when initial environment exploration is needed.",
+      "name": "从主动攻击NPC战斗中脱离并导航到安全区域",
+      "description": "当被主动攻击NPC（如蝴蝶）缠住时，通过连续移动和确认来脱离战斗并到达安全房间。",
+      "trigger": "角色处于战斗中，且输出显示被NPC攻击，但可以移动时。",
       "steps": [
-        "Define a list of relevant help topics based on the task or common mechanics (e.g., 'quest', 'task', 'experience', 'skill', 'level', 'combat', 'advance', 'system').",
-        "For each topic in the list, send the command 'help <topic>'.",
-        "Apply the 'Complete Help Pagination Reading' skill if pagination occurs during the response.",
-        "Document each response: record the help text if available, or note if no help file is returned.",
-        "After covering all topics, compile the responses for analysis to identify patterns and information about game systems."
+        "使用方向命令（如east）移动到一个新房间",
+        "观察输出：如果继续收到战斗描述，说明NPC跟随，重复步骤1",
+        "当输出不再出现战斗描述时，使用look命令查看当前房间",
+        "确认房间内没有攻击性NPC且出口正常",
+        "若房间安全，则任务完成；否则继续移动至已知安全区域"
       ],
-      "expected_outcome": "A compiled set of help responses is collected, providing insights into available game mechanics and systems for further analysis.",
+      "expected_outcome": "角色成功脱离战斗，位于一个无敌人、有出口的正常房间，状态安全稳定。",
       "tags": [
-        "exploration",
-        "help_system"
+        "战斗脱离",
+        "导航",
+        "安全确认"
       ],
-      "id": "SKILL-1771116288-23",
-      "source_task": "P4-T4",
-      "created_at": "2026-02-15T08:44:48.385193"
+      "id": "SKILL-1781298605-23",
+      "source_task": "R-98549",
+      "created_at": "2026-06-13T05:10:05.663383"
     },
     {
-      "name": "Test Command Recognition",
-      "description": "Verifies if a command is valid in the current environment by checking the help system after an error response.",
-      "trigger": "After receiving an error response like '什么？' or when uncertain about a command's existence or format.",
+      "name": "识别并处理MUD登录界面",
+      "description": "当服务器输出包含登录提示符（如'您的英文名字：'）时，能够识别出连接已回到登录界面，并正确设置任务为stuck状态，避免错误操作。",
+      "trigger": "当接收到的服务器输出中包含'您的英文名字：'、'请输入密码：'等登录提示时触发。",
       "steps": [
-        "1. Execute the command (e.g., 'donate').",
-        "2. If the response indicates an error or misunderstanding, use 'help [command]' to check for documentation.",
-        "3. If 'help [command]' returns '没有针对这项主题的说明文件', note that the command is likely invalid or requires a different approach."
+        "检查服务器输出中是否包含'您的英文名字：'或其他登录提示字符串",
+        "确认当前角色状态中bootstrap_done是否为true（表示之前已登录过）",
+        "设置task_stuck=true，并在task_result中说明'连接处于登录界面'",
+        "停止所有输入，等待系统例程处理"
       ],
-      "expected_outcome": "Confirmation of command validity and identification of potential alternatives or correct usage.",
+      "expected_outcome": "任务被正确标记为stuck，避免智能体输入破坏已有登录状态，系统例程能够接管并恢复连接。",
       "tags": [
-        "command exploration"
+        "登录界面",
+        "stuck处理",
+        "连接管理"
       ],
-      "id": "SKILL-1771117325-24",
-      "source_task": "P5-T1",
-      "created_at": "2026-02-15T09:02:05.121732"
-    },
-    {
-      "name": "Attempt Donation to Trigger Quest",
-      "description": "Tries to activate a quest by donating items to a donation box, based on environmental hints from NPCs or descriptions.",
-      "trigger": "When in a location with a donation box and NPC hints about donations (e.g., '捐点香火钱积点阴德吧'), and the 'quest' command shows no active tasks.",
-      "steps": [
-        "1. Use 'look [donation box]' to confirm it accepts donations (e.g., '你可以把想捐的钱放进去').",
-        "2. Check inventory using 'i' or similar command to identify available items.",
-        "3. If no suitable items are in inventory, examine the environment for items (e.g., using 'look' to find coins or other objects).",
-        "4. Pick up any found items using 'get [item]'.",
-        "5. Use 'put [item] in [donation box]' to attempt donation.",
-        "6. After donation, use 'quest' to check if a task has been activated."
-      ],
-      "expected_outcome": "Quest activation or feedback indicating donation success, such as a change in task status.",
-      "tags": [
-        "quest activation",
-        "donation"
-      ],
-      "id": "SKILL-1771117325-25",
-      "source_task": "P5-T1",
-      "created_at": "2026-02-15T09:02:05.121732"
-    },
-    {
-      "name": "Ensure Item Possession Before Use",
-      "description": "Checks and ensures that required items are in inventory before executing commands that depend on them, such as 'put', 'give', or 'use'.",
-      "trigger": "Before using any command that specifies an item (e.g., 'put coin in box'), to prevent inventory-related errors.",
-      "steps": [
-        "1. Execute an inventory check command, such as 'inventory' or 'i'.",
-        "2. If the required item is not listed in inventory, attempt to pick it up from the environment using 'get [item]' or explore further to locate it.",
-        "3. Once the item is confirmed to be in inventory, proceed with the intended command."
-      ],
-      "expected_outcome": "Avoidance of errors like '你身上没有这样东西' and successful execution of the command.",
-      "tags": [
-        "inventory management"
-      ],
-      "id": "SKILL-1771117325-26",
-      "source_task": "P5-T1",
-      "created_at": "2026-02-15T09:02:05.121732"
-    },
-    {
-      "name": "Examine Specific Object",
-      "description": "Obtain a detailed description of an object by using the 'look' command with its name to gather clues about its function or relevance.",
-      "trigger": "When an object is visible in the environment and you need more information about its properties or purpose.",
-      "steps": [
-        "Identify the object name from the environment description.",
-        "Use the command 'look [object name]', e.g., 'look paper seal'."
-      ],
-      "expected_outcome": "A detailed description of the object is displayed, potentially revealing insights for interaction or quest progression.",
-      "tags": [
-        "exploration",
-        "item_analysis"
-      ],
-      "id": "SKILL-1771118574-27",
-      "source_task": "P5-T1",
-      "created_at": "2026-02-15T09:22:54.698422"
-    },
-    {
-      "name": "Execute Donation to Specified Container",
-      "description": "Donate an item from inventory to a container like a donation box using the 'put' command, and observe any resulting changes or feedback.",
-      "trigger": "When you have an item in inventory and are in a location with a container that accepts donations (e.g., a donation box).",
-      "steps": [
-        "Ensure the item is in your inventory by checking with 'i' or similar commands.",
-        "Use the command 'put [item] in [container]', e.g., 'put paper seal in box'.",
-        "Monitor the server response and use 'quest' or other commands to check for updates."
-      ],
-      "expected_outcome": "The item is transferred to the container, server confirms the action, and quest status or environment may change if conditions are met.",
-      "tags": [
-        "donation",
-        "item_transfer"
-      ],
-      "id": "SKILL-1771118574-28",
-      "source_task": "P5-T1",
-      "created_at": "2026-02-15T09:22:54.698422"
-    },
-    {
-      "name": "Verify Skill Learning Environment",
-      "description": "This skill involves checking if the current location has elements that could lead to skill learning, such as NPCs or interactive objects, by using observation and interaction commands.",
-      "trigger": "When arriving at a new location while tasked with learning a skill.",
-      "steps": [
-        "Use 'look' to see the full environment description and available exits.",
-        "Look for any NPCs, objects, or clues mentioned in the description that might relate to skill learning.",
-        "Use 'skills' command to confirm the current skill status as a baseline.",
-        "If NPCs are present, attempt interaction with commands like 'ask' or try 'learn' with relevant keywords."
-      ],
-      "expected_outcome": "Determine if the location is conducive to learning a skill or if further exploration is needed.",
-      "tags": [
-        "exploration",
-        "skill check"
-      ],
-      "id": "SKILL-1771119760-29",
-      "source_task": "P5-T2",
-      "created_at": "2026-02-15T09:42:40.745615"
+      "id": "SKILL-1781313118-24",
+      "source_task": "R-13105",
+      "created_at": "2026-06-13T09:11:58.377994"
     }
   ]
 }
